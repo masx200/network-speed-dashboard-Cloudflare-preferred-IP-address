@@ -41,7 +41,7 @@ class IPInfoFetcher {
 
       const data = JSON.parse(stdout);
 
-      this.ipinfo = {
+      this.ipinfo =Object.assign({},data, {
         ...this.ipinfo,
         ip: data.ip,
         asn: data.asn,
@@ -52,7 +52,7 @@ class IPInfoFetcher {
         continent_code: data.continent_code,
         continent: data.continent,
         source: "ipinfo.io",
-      };
+      });
 
       console.log(`✅ ipinfo.io 获取成功: ${data.ip} (${data.country})`);
       return true;
@@ -72,7 +72,7 @@ class IPInfoFetcher {
 
       const data = JSON.parse(stdout);
 
-      this.ipinfo = {
+      this.ipinfo = Object.assign({},data,{
         ...this.ipinfo,
         ip: data.ip,
         country: data.country,
@@ -84,7 +84,7 @@ class IPInfoFetcher {
         as_name: data.asn_org,
         user_agent: data.user_agent,
         source: this.ipinfo.source === "unknown" ? "ifconfig.co" : "combined",
-      };
+      });
 
       console.log(`✅ ifconfig.co 获取成功: ${data.ip} (${data.country})`);
       return true;
