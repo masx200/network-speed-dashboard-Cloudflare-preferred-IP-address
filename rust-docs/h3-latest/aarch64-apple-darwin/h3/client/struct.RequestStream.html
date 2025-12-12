@@ -1,0 +1,1611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="rustdoc" />
+    <meta
+      name="description"
+      content="Manage request bodies transfer, response and trailers."
+    />
+    <title>RequestStream in h3::client - Rust</title>
+    <script>
+      if (window.location.protocol !== "file:") {
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          "SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2"
+            .split(",")
+            .map(
+              (f) =>
+                `<link rel="preload" as="font" type="font/woff2"href="/-/rustdoc.static/${f}">`,
+            )
+            .join(""),
+        );
+      }
+    </script>
+    <link rel="stylesheet" href="/-/rustdoc.static/normalize-9960930a.css" />
+    <link rel="stylesheet" href="/-/rustdoc.static/rustdoc-ca0dd0c4.css" />
+    <meta
+      name="rustdoc-vars"
+      data-root-path="../../"
+      data-static-root-path="/-/rustdoc.static/"
+      data-current-crate="h3"
+      data-themes=""
+      data-resource-suffix="-20251103-1.93.0-nightly-20383c9f1"
+      data-rustdoc-version="1.93.0-nightly (20383c9f1 2025-11-03)"
+      data-channel="nightly"
+      data-search-js="search-5c29b3b5.js"
+      data-stringdex-js="stringdex-c3e638e9.js"
+      data-settings-js="settings-c38705f0.js"
+    />
+    <script src="/-/rustdoc.static/storage-e2aeef58.js"></script>
+    <script
+      defer
+      src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
+    ></script>
+    <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
+    <link
+      rel="alternate icon"
+      type="image/png"
+      href="/-/rustdoc.static/favicon-32x32-eab170b8.png"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/-/rustdoc.static/favicon-044be391.svg"
+    />
+  </head>
+  <body class="rustdoc struct">
+    <!--[if lte IE 11
+      ]><div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+      </div><!
+    [endif]--><rustdoc-topbar
+      ><h2><a href="#">RequestStream</a></h2></rustdoc-topbar
+    >
+    <nav class="sidebar">
+      <div class="sidebar-crate">
+        <h2>
+          <a href="../../h3/index.html">h3</a><span class="version">0.0.8</span>
+        </h2>
+      </div>
+      <div class="sidebar-elems">
+        <section id="rustdoc-toc">
+          <h2 class="location">
+            <a href="#">Request<wbr />Stream</a>
+          </h2>
+          <h3><a href="#">Sections</a></h3>
+          <ul class="block top-toc">
+            <li><a href="#examples" title="Examples">Examples</a></li>
+          </ul>
+          <h3><a href="#implementations">Methods</a></h3>
+          <ul class="block method">
+            <li><a href="#method.finish" title="finish">finish</a></li>
+            <li><a href="#method.id" title="id">id</a></li>
+            <li>
+              <a href="#method.poll_recv_data" title="poll_recv_data"
+                >poll_recv_data</a
+              >
+            </li>
+            <li>
+              <a href="#method.poll_recv_trailers" title="poll_recv_trailers"
+                >poll_recv_trailers</a
+              >
+            </li>
+            <li><a href="#method.recv_data" title="recv_data">recv_data</a></li>
+            <li>
+              <a href="#method.recv_response" title="recv_response"
+                >recv_response</a
+              >
+            </li>
+            <li>
+              <a href="#method.recv_trailers" title="recv_trailers"
+                >recv_trailers</a
+              >
+            </li>
+            <li><a href="#method.send_data" title="send_data">send_data</a></li>
+            <li>
+              <a href="#method.send_trailers" title="send_trailers"
+                >send_trailers</a
+              >
+            </li>
+            <li><a href="#method.split" title="split">split</a></li>
+            <li>
+              <a href="#method.stop_sending" title="stop_sending"
+                >stop_sending</a
+              >
+            </li>
+            <li>
+              <a href="#method.stop_stream" title="stop_stream">stop_stream</a>
+            </li>
+          </ul>
+          <h3>
+            <a href="#synthetic-implementations">Auto Trait Implementations</a>
+          </h3>
+          <ul class="block synthetic-implementation">
+            <li>
+              <a href="#impl-Freeze-for-RequestStream%3CS,+B%3E" title="!Freeze"
+                >!Freeze</a
+              >
+            </li>
+            <li>
+              <a
+                href="#impl-RefUnwindSafe-for-RequestStream%3CS,+B%3E"
+                title="!RefUnwindSafe"
+                >!RefUnwindSafe</a
+              >
+            </li>
+            <li>
+              <a
+                href="#impl-UnwindSafe-for-RequestStream%3CS,+B%3E"
+                title="!UnwindSafe"
+                >!UnwindSafe</a
+              >
+            </li>
+            <li>
+              <a href="#impl-Send-for-RequestStream%3CS,+B%3E" title="Send"
+                >Send</a
+              >
+            </li>
+            <li>
+              <a href="#impl-Sync-for-RequestStream%3CS,+B%3E" title="Sync"
+                >Sync</a
+              >
+            </li>
+            <li>
+              <a href="#impl-Unpin-for-RequestStream%3CS,+B%3E" title="Unpin"
+                >Unpin</a
+              >
+            </li>
+          </ul>
+          <h3>
+            <a href="#blanket-implementations">Blanket Implementations</a>
+          </h3>
+          <ul class="block blanket-implementation">
+            <li><a href="#impl-Any-for-T" title="Any">Any</a></li>
+            <li>
+              <a href="#impl-Borrow%3CT%3E-for-T" title="Borrow&#60;T&#62;"
+                >Borrow&#60;T&#62;</a
+              >
+            </li>
+            <li>
+              <a
+                href="#impl-BorrowMut%3CT%3E-for-T"
+                title="BorrowMut&#60;T&#62;"
+                >BorrowMut&#60;T&#62;</a
+              >
+            </li>
+            <li>
+              <a href="#impl-From%3CT%3E-for-T" title="From&#60;T&#62;"
+                >From&#60;T&#62;</a
+              >
+            </li>
+            <li>
+              <a href="#impl-Into%3CU%3E-for-T" title="Into&#60;U&#62;"
+                >Into&#60;U&#62;</a
+              >
+            </li>
+            <li>
+              <a href="#impl-TryFrom%3CU%3E-for-T" title="TryFrom&#60;U&#62;"
+                >TryFrom&#60;U&#62;</a
+              >
+            </li>
+            <li>
+              <a href="#impl-TryInto%3CU%3E-for-T" title="TryInto&#60;U&#62;"
+                >TryInto&#60;U&#62;</a
+              >
+            </li>
+          </ul>
+        </section>
+        <div id="rustdoc-modnav">
+          <h2>
+            <a href="index.html">In h3::<wbr />client</a>
+          </h2>
+        </div>
+      </div>
+    </nav>
+    <div class="sidebar-resizer" title="Drag to resize sidebar"></div>
+    <main>
+      <div class="width-limiter">
+        <section id="main-content" class="content">
+          <div class="main-heading">
+            <div class="rustdoc-breadcrumbs">
+              <a href="../index.html">h3</a>::<wbr /><a href="index.html"
+                >client</a
+              >
+            </div>
+            <h1>
+              Struct
+              <span class="struct">Request<wbr />Stream</span>&nbsp;<button
+                id="copy-path"
+                title="Copy item path to clipboard"
+              >
+                Copy item path
+              </button>
+            </h1>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/client/stream.rs.html#77-79"
+                >Source</a
+              >
+            </span>
+          </div>
+          <pre
+            class="rust item-decl"
+          ><code>pub struct RequestStream&lt;S, B&gt; { <span class="comment">/* private fields */</span> }</code></pre>
+          <details class="toggle top-doc" open>
+            <summary class="hideme"><span>Expand description</span></summary>
+            <div class="docblock">
+              <p>Manage request bodies transfer, response and trailers.</p>
+              <p>
+                Once a request has been sent via
+                <a
+                  href="struct.SendRequest.html#method.send_request"
+                  title="method h3::client::SendRequest::send_request"
+                  ><code>crate::client::SendRequest::send_request()</code></a
+                >, a response can be awaited by calling
+                <a
+                  href="struct.RequestStream.html#method.recv_response"
+                  title="method h3::client::RequestStream::recv_response"
+                  ><code>RequestStream::recv_response()</code></a
+                >. A body for this request can be sent with
+                <a
+                  href="struct.RequestStream.html#method.send_data"
+                  title="method h3::client::RequestStream::send_data"
+                  ><code>RequestStream::send_data()</code></a
+                >, then the request shall be completed by either sending
+                trailers with
+                <a
+                  href="struct.RequestStream.html#method.finish"
+                  title="method h3::client::RequestStream::finish"
+                  ><code>RequestStream::finish()</code></a
+                >.
+              </p>
+              <p>
+                After receiving the response’s headers, it’s body can be read by
+                <a
+                  href="struct.RequestStream.html#method.recv_data"
+                  title="method h3::client::RequestStream::recv_data"
+                  ><code>RequestStream::recv_data()</code></a
+                >
+                until it returns <code>None</code>. Then the trailers will
+                eventually be available via
+                <a
+                  href="struct.RequestStream.html#method.recv_trailers"
+                  title="method h3::client::RequestStream::recv_trailers"
+                  ><code>RequestStream::recv_trailers()</code></a
+                >.
+              </p>
+              <p>
+                TODO: If data is polled before the response has been received,
+                an error will be thrown.
+              </p>
+              <p>
+                TODO: If trailers are polled but the body hasn’t been fully
+                received, an UNEXPECT_FRAME error will be thrown
+              </p>
+              <p>
+                Whenever the client wants to cancel this request, it can call
+                <a
+                  href="struct.RequestStream.html#method.stop_sending"
+                  title="method h3::client::RequestStream::stop_sending"
+                  ><code>RequestStream::stop_sending()</code></a
+                >, which will put an end to any transfer concerning it.
+              </p>
+              <h2 id="examples">
+                <a class="doc-anchor" href="#examples">§</a>Examples
+              </h2>
+              <div class="example-wrap">
+                <pre class="rust rust-example-rendered">
+<code><span class="comment">// Prepare the HTTP request to send to the server
+</span><span class="kw">let </span>request = Request::get(<span class="string">"https://www.example.com/"</span>).body(())<span class="question-mark">?</span>;
+
+<span class="comment">// Receive the response
+</span><span class="kw">let </span>response = req_stream.recv_response().<span class="kw">await</span><span class="question-mark">?</span>;
+<span class="comment">// Receive the body
+</span><span class="kw">while let </span><span class="prelude-val">Some</span>(<span class="kw-2">mut </span>chunk) = req_stream.recv_data().<span class="kw">await</span><span class="question-mark">? </span>{
+    <span class="kw">let </span><span class="kw-2">mut </span>out = tokio::io::stdout();
+    out.write_all_buf(<span class="kw-2">&amp;mut </span>chunk).<span class="kw">await</span><span class="question-mark">?</span>;
+    out.flush().<span class="kw">await</span><span class="question-mark">?</span>;
+}</code></pre>
+              </div>
+            </div>
+          </details>
+          <h2 id="implementations" class="section-header">
+            Implementations<a href="#implementations" class="anchor">§</a>
+          </h2>
+          <div id="implementations-list">
+            <details class="toggle implementors-toggle" open>
+              <summary>
+                <section id="impl-RequestStream%3CS,+B%3E" class="impl">
+                  <a
+                    class="src rightside"
+                    href="../../src/h3/client/stream.rs.html#89-235"
+                    >Source</a
+                  ><a href="#impl-RequestStream%3CS,+B%3E" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;S, B&gt;
+                    <a
+                      class="struct"
+                      href="struct.RequestStream.html"
+                      title="struct h3::client::RequestStream"
+                      >RequestStream</a
+                    >&lt;S, B&gt;
+                    <div class="where">
+                      where S:
+                      <a
+                        class="trait"
+                        href="../quic/trait.RecvStream.html"
+                        title="trait h3::quic::RecvStream"
+                        >RecvStream</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.recv_response" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#99-185"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.recv_response" class="fn"
+                          >recv_response</a
+                        >(&amp;mut self) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="struct"
+                          href="https://docs.rs/http/1.1.0/aarch64-apple-darwin/http/response/struct.Response.html"
+                          title="struct http::response::Response"
+                          >Response</a
+                        >&lt;<a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
+                          >()</a
+                        >&gt;,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Receive the HTTP/3 response</p>
+                    <p>
+                      This should be called before trying to receive any data
+                      with
+                      <a href="#method.recv_data"><code>recv_data()</code></a
+                      >.
+                    </p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.recv_data" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#190-192"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.recv_data" class="fn">recv_data</a
+                        >(&amp;mut self) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
+                          title="enum core::option::Option"
+                          >Option</a
+                        >&lt;impl
+                        <a
+                          class="trait"
+                          href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html"
+                          title="trait bytes::buf::buf_impl::Buf"
+                          >Buf</a
+                        >&gt;,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Receive some of the request body.</p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.poll_recv_data" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#195-200"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn
+                        <a href="#method.poll_recv_data" class="fn"
+                          >poll_recv_data</a
+                        >( &amp;mut self, cx: &amp;mut
+                        <a
+                          class="struct"
+                          href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
+                          title="struct core::task::wake::Context"
+                          >Context</a
+                        >&lt;'_&gt;, ) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
+                          title="enum core::task::poll::Poll"
+                          >Poll</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
+                          title="enum core::option::Option"
+                          >Option</a
+                        >&lt;impl
+                        <a
+                          class="trait"
+                          href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html"
+                          title="trait bytes::buf::buf_impl::Buf"
+                          >Buf</a
+                        >&gt;,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Receive request body</p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.recv_trailers" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#204-206"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.recv_trailers" class="fn"
+                          >recv_trailers</a
+                        >(&amp;mut self) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
+                          title="enum core::option::Option"
+                          >Option</a
+                        >&lt;<a
+                          class="struct"
+                          href="https://docs.rs/http/1.1.0/aarch64-apple-darwin/http/header/map/struct.HeaderMap.html"
+                          title="struct http::header::map::HeaderMap"
+                          >HeaderMap</a
+                        >&gt;,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Receive an optional set of trailers for the response.</p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.poll_recv_trailers" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#210-221"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn
+                        <a href="#method.poll_recv_trailers" class="fn"
+                          >poll_recv_trailers</a
+                        >( &amp;mut self, cx: &amp;mut
+                        <a
+                          class="struct"
+                          href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
+                          title="struct core::task::wake::Context"
+                          >Context</a
+                        >&lt;'_&gt;, ) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
+                          title="enum core::task::poll::Poll"
+                          >Poll</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
+                          title="enum core::option::Option"
+                          >Option</a
+                        >&lt;<a
+                          class="struct"
+                          href="https://docs.rs/http/1.1.0/aarch64-apple-darwin/http/header/map/struct.HeaderMap.html"
+                          title="struct http::header::map::HeaderMap"
+                          >HeaderMap</a
+                        >&gt;,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>
+                      Poll receive an optional set of trailers for the response.
+                    </p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.stop_sending" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#225-229"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn
+                        <a href="#method.stop_sending" class="fn"
+                          >stop_sending</a
+                        >(&amp;mut self, error_code:
+                        <a
+                          class="struct"
+                          href="../error/struct.Code.html"
+                          title="struct h3::error::Code"
+                          >Code</a
+                        >)
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>
+                      Tell the peer to stop sending into the underlying QUIC
+                      stream
+                    </p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.id" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#232-234"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn <a href="#method.id" class="fn">id</a>(&amp;self)
+                        -&gt;
+                        <a
+                          class="struct"
+                          href="../quic/struct.StreamId.html"
+                          title="struct h3::quic::StreamId"
+                          >StreamId</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Returns the underlying stream id</p>
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle" open>
+              <summary>
+                <section id="impl-RequestStream%3CS,+B%3E-1" class="impl">
+                  <a
+                    class="src rightside"
+                    href="../../src/h3/client/stream.rs.html#237-278"
+                    >Source</a
+                  ><a href="#impl-RequestStream%3CS,+B%3E-1" class="anchor"
+                    >§</a
+                  >
+                  <h3 class="code-header">
+                    impl&lt;S, B&gt;
+                    <a
+                      class="struct"
+                      href="struct.RequestStream.html"
+                      title="struct h3::client::RequestStream"
+                      >RequestStream</a
+                    >&lt;S, B&gt;
+                    <div class="where">
+                      where S:
+                      <a
+                        class="trait"
+                        href="../quic/trait.SendStream.html"
+                        title="trait h3::quic::SendStream"
+                        >SendStream</a
+                      >&lt;B&gt;, B:
+                      <a
+                        class="trait"
+                        href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html"
+                        title="trait bytes::buf::buf_impl::Buf"
+                        >Buf</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.send_data" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#244-246"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.send_data" class="fn">send_data</a
+                        >(&amp;mut self, buf: B) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
+                          >()</a
+                        >,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Send some data on the request body.</p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.stop_stream" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#251-253"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn
+                        <a href="#method.stop_stream" class="fn">stop_stream</a
+                        >(&amp;mut self, error_code:
+                        <a
+                          class="struct"
+                          href="../error/struct.Code.html"
+                          title="struct h3::error::Code"
+                          >Code</a
+                        >)
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Stop a stream with an error code</p>
+                    <p>
+                      The code can be
+                      <a
+                        href="../error/struct.Code.html#associatedconstant.H3_NO_ERROR"
+                        title="associated constant h3::error::Code::H3_NO_ERROR"
+                        ><code>Code::H3_NO_ERROR</code></a
+                      >.
+                    </p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.send_trailers" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#259-261"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.send_trailers" class="fn"
+                          >send_trailers</a
+                        >( &amp;mut self, trailers:
+                        <a
+                          class="struct"
+                          href="https://docs.rs/http/1.1.0/aarch64-apple-darwin/http/header/map/struct.HeaderMap.html"
+                          title="struct http::header::map::HeaderMap"
+                          >HeaderMap</a
+                        >, ) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
+                          >()</a
+                        >,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Send a set of trailers to end the request.</p>
+                    <p>
+                      <a
+                        href="struct.RequestStream.html#method.finish"
+                        title="method h3::client::RequestStream::finish"
+                        ><code>RequestStream::finish()</code></a
+                      >
+                      must be called to finalize a request.
+                    </p>
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.finish" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#267-269"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub async fn
+                        <a href="#method.finish" class="fn">finish</a>(&amp;mut
+                        self) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;<a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
+                          >()</a
+                        >,
+                        <a
+                          class="enum"
+                          href="../error/enum.StreamError.html"
+                          title="enum h3::error::StreamError"
+                          >StreamError</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>End the request without trailers.</p>
+                    <p>
+                      <a
+                        href="struct.RequestStream.html#method.finish"
+                        title="method h3::client::RequestStream::finish"
+                        ><code>RequestStream::finish()</code></a
+                      >
+                      must be called to finalize a request.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle" open>
+              <summary>
+                <section id="impl-RequestStream%3CS,+B%3E-2" class="impl">
+                  <a
+                    class="src rightside"
+                    href="../../src/h3/client/stream.rs.html#280-295"
+                    >Source</a
+                  ><a href="#impl-RequestStream%3CS,+B%3E-2" class="anchor"
+                    >§</a
+                  >
+                  <h3 class="code-header">
+                    impl&lt;S, B&gt;
+                    <a
+                      class="struct"
+                      href="struct.RequestStream.html"
+                      title="struct h3::client::RequestStream"
+                      >RequestStream</a
+                    >&lt;S, B&gt;
+                    <div class="where">
+                      where S:
+                      <a
+                        class="trait"
+                        href="../quic/trait.BidiStream.html"
+                        title="trait h3::quic::BidiStream"
+                        >BidiStream</a
+                      >&lt;B&gt;, B:
+                      <a
+                        class="trait"
+                        href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html"
+                        title="trait bytes::buf::buf_impl::Buf"
+                        >Buf</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.split" class="method">
+                      <a
+                        class="src rightside"
+                        href="../../src/h3/client/stream.rs.html#286-294"
+                        >Source</a
+                      >
+                      <h4 class="code-header">
+                        pub fn <a href="#method.split" class="fn">split</a>(
+                        self, ) -&gt; (<a
+                          class="struct"
+                          href="struct.RequestStream.html"
+                          title="struct h3::client::RequestStream"
+                          >RequestStream</a
+                        >&lt;S::<a
+                          class="associatedtype"
+                          href="../quic/trait.BidiStream.html#associatedtype.SendStream"
+                          title="type h3::quic::BidiStream::SendStream"
+                          >SendStream</a
+                        >, B&gt;,
+                        <a
+                          class="struct"
+                          href="struct.RequestStream.html"
+                          title="struct h3::client::RequestStream"
+                          >RequestStream</a
+                        >&lt;S::<a
+                          class="associatedtype"
+                          href="../quic/trait.BidiStream.html#associatedtype.RecvStream"
+                          title="type h3::quic::BidiStream::RecvStream"
+                          >RecvStream</a
+                        >, B&gt;)
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>
+                      Split this stream into two halves that can be driven
+                      independently.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </details>
+          </div>
+          <h2 id="synthetic-implementations" class="section-header">
+            Auto Trait Implementations<a
+              href="#synthetic-implementations"
+              class="anchor"
+              >§</a
+            >
+          </h2>
+          <div id="synthetic-implementations-list">
+            <section id="impl-Freeze-for-RequestStream%3CS,+B%3E" class="impl">
+              <a href="#impl-Freeze-for-RequestStream%3CS,+B%3E" class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt; !<a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/marker/trait.Freeze.html"
+                  title="trait core::marker::Freeze"
+                  >Freeze</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+              </h3>
+            </section>
+            <section
+              id="impl-RefUnwindSafe-for-RequestStream%3CS,+B%3E"
+              class="impl"
+            >
+              <a
+                href="#impl-RefUnwindSafe-for-RequestStream%3CS,+B%3E"
+                class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt; !<a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/panic/unwind_safe/trait.RefUnwindSafe.html"
+                  title="trait core::panic::unwind_safe::RefUnwindSafe"
+                  >RefUnwindSafe</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+              </h3>
+            </section>
+            <section id="impl-Send-for-RequestStream%3CS,+B%3E" class="impl">
+              <a href="#impl-Send-for-RequestStream%3CS,+B%3E" class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt;
+                <a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html"
+                  title="trait core::marker::Send"
+                  >Send</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+                <div class="where">
+                  where S:
+                  <a
+                    class="trait"
+                    href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html"
+                    title="trait core::marker::Send"
+                    >Send</a
+                  >, B:
+                  <a
+                    class="trait"
+                    href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html"
+                    title="trait core::marker::Send"
+                    >Send</a
+                  >,
+                </div>
+              </h3>
+            </section>
+            <section id="impl-Sync-for-RequestStream%3CS,+B%3E" class="impl">
+              <a href="#impl-Sync-for-RequestStream%3CS,+B%3E" class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt;
+                <a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html"
+                  title="trait core::marker::Sync"
+                  >Sync</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+                <div class="where">
+                  where S:
+                  <a
+                    class="trait"
+                    href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html"
+                    title="trait core::marker::Sync"
+                    >Sync</a
+                  >, B:
+                  <a
+                    class="trait"
+                    href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html"
+                    title="trait core::marker::Sync"
+                    >Sync</a
+                  >,
+                </div>
+              </h3>
+            </section>
+            <section id="impl-Unpin-for-RequestStream%3CS,+B%3E" class="impl">
+              <a href="#impl-Unpin-for-RequestStream%3CS,+B%3E" class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt;
+                <a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/marker/trait.Unpin.html"
+                  title="trait core::marker::Unpin"
+                  >Unpin</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+              </h3>
+            </section>
+            <section
+              id="impl-UnwindSafe-for-RequestStream%3CS,+B%3E"
+              class="impl"
+            >
+              <a
+                href="#impl-UnwindSafe-for-RequestStream%3CS,+B%3E"
+                class="anchor"
+                >§</a
+              >
+              <h3 class="code-header">
+                impl&lt;S, B&gt; !<a
+                  class="trait"
+                  href="https://doc.rust-lang.org/nightly/core/panic/unwind_safe/trait.UnwindSafe.html"
+                  title="trait core::panic::unwind_safe::UnwindSafe"
+                  >UnwindSafe</a
+                >
+                for
+                <a
+                  class="struct"
+                  href="struct.RequestStream.html"
+                  title="struct h3::client::RequestStream"
+                  >RequestStream</a
+                >&lt;S, B&gt;
+              </h3>
+            </section>
+          </div>
+          <h2 id="blanket-implementations" class="section-header">
+            Blanket Implementations<a
+              href="#blanket-implementations"
+              class="anchor"
+              >§</a
+            >
+          </h2>
+          <div id="blanket-implementations-list">
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-Any-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/any.rs.html#138"
+                    >Source</a
+                  ><a href="#impl-Any-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html"
+                      title="trait core::any::Any"
+                      >Any</a
+                    >
+                    for T
+                    <div class="where">
+                      where T: 'static + ?<a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
+                        title="trait core::marker::Sized"
+                        >Sized</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.type_id" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/any.rs.html#139"
+                        >Source</a
+                      ><a href="#method.type_id" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html#tymethod.type_id"
+                          class="fn"
+                          >type_id</a
+                        >(&amp;self) -&gt;
+                        <a
+                          class="struct"
+                          href="https://doc.rust-lang.org/nightly/core/any/struct.TypeId.html"
+                          title="struct core::any::TypeId"
+                          >TypeId</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    Gets the <code>TypeId</code> of <code>self</code>.
+                    <a
+                      href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html#tymethod.type_id"
+                      >Read more</a
+                    >
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-Borrow%3CT%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/borrow.rs.html#212"
+                    >Source</a
+                  ><a href="#impl-Borrow%3CT%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html"
+                      title="trait core::borrow::Borrow"
+                      >Borrow</a
+                    >&lt;T&gt; for T
+                    <div class="where">
+                      where T: ?<a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
+                        title="trait core::marker::Sized"
+                        >Sized</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.borrow" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/borrow.rs.html#214"
+                        >Source</a
+                      ><a href="#method.borrow" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html#tymethod.borrow"
+                          class="fn"
+                          >borrow</a
+                        >(&amp;self) -&gt;
+                        <a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
+                          >&amp;T</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    Immutably borrows from an owned value.
+                    <a
+                      href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html#tymethod.borrow"
+                      >Read more</a
+                    >
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-BorrowMut%3CT%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/borrow.rs.html#221"
+                    >Source</a
+                  ><a href="#impl-BorrowMut%3CT%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html"
+                      title="trait core::borrow::BorrowMut"
+                      >BorrowMut</a
+                    >&lt;T&gt; for T
+                    <div class="where">
+                      where T: ?<a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
+                        title="trait core::marker::Sized"
+                        >Sized</a
+                      >,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.borrow_mut" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/borrow.rs.html#222"
+                        >Source</a
+                      ><a href="#method.borrow_mut" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html#tymethod.borrow_mut"
+                          class="fn"
+                          >borrow_mut</a
+                        >(&amp;mut self) -&gt;
+                        <a
+                          class="primitive"
+                          href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
+                          >&amp;mut T</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    Mutably borrows from an owned value.
+                    <a
+                      href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html#tymethod.borrow_mut"
+                      >Read more</a
+                    >
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-From%3CT%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#785"
+                    >Source</a
+                  ><a href="#impl-From%3CT%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
+                      title="trait core::convert::From"
+                      >From</a
+                    >&lt;T&gt; for T
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.from" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#788"
+                        >Source</a
+                      ><a href="#method.from" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html#tymethod.from"
+                          class="fn"
+                          >from</a
+                        >(t: T) -&gt; T
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Returns the argument unchanged.</p>
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-Into%3CU%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#767-769"
+                    >Source</a
+                  ><a href="#impl-Into%3CU%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T, U&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html"
+                      title="trait core::convert::Into"
+                      >Into</a
+                    >&lt;U&gt; for T
+                    <div class="where">
+                      where U:
+                      <a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
+                        title="trait core::convert::From"
+                        >From</a
+                      >&lt;T&gt;,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.into" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#777"
+                        >Source</a
+                      ><a href="#method.into" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html#tymethod.into"
+                          class="fn"
+                          >into</a
+                        >(self) -&gt; U
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    <p>Calls <code>U::from(self)</code>.</p>
+                    <p>
+                      That is, this conversion is whatever the implementation of
+                      <code
+                        ><a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
+                          title="trait core::convert::From"
+                          >From</a
+                        >&lt;T&gt; for U</code
+                      >
+                      chooses to do.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-TryFrom%3CU%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#827-829"
+                    >Source</a
+                  ><a href="#impl-TryFrom%3CU%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T, U&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
+                      title="trait core::convert::TryFrom"
+                      >TryFrom</a
+                    >&lt;U&gt; for T
+                    <div class="where">
+                      where U:
+                      <a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html"
+                        title="trait core::convert::Into"
+                        >Into</a
+                      >&lt;T&gt;,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle" open>
+                  <summary>
+                    <section
+                      id="associatedtype.Error-1"
+                      class="associatedtype trait-impl"
+                    >
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#831"
+                        >Source</a
+                      ><a href="#associatedtype.Error-1" class="anchor">§</a>
+                      <h4 class="code-header">
+                        type
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
+                          class="associatedtype"
+                          >Error</a
+                        >
+                        =
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/convert/enum.Infallible.html"
+                          title="enum core::convert::Infallible"
+                          >Infallible</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    The type returned in the event of a conversion error.
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.try_from" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#834"
+                        >Source</a
+                      ><a href="#method.try_from" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#tymethod.try_from"
+                          class="fn"
+                          >try_from</a
+                        >(value: U) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;T, &lt;T as
+                        <a
+                          class="trait"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
+                          title="trait core::convert::TryFrom"
+                          >TryFrom</a
+                        >&lt;U&gt;&gt;::<a
+                          class="associatedtype"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
+                          title="type core::convert::TryFrom::Error"
+                          >Error</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">Performs the conversion.</div>
+                </details>
+              </div>
+            </details>
+            <details class="toggle implementors-toggle">
+              <summary>
+                <section id="impl-TryInto%3CU%3E-for-T" class="impl">
+                  <a
+                    class="src rightside"
+                    href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#811-813"
+                    >Source</a
+                  ><a href="#impl-TryInto%3CU%3E-for-T" class="anchor">§</a>
+                  <h3 class="code-header">
+                    impl&lt;T, U&gt;
+                    <a
+                      class="trait"
+                      href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html"
+                      title="trait core::convert::TryInto"
+                      >TryInto</a
+                    >&lt;U&gt; for T
+                    <div class="where">
+                      where U:
+                      <a
+                        class="trait"
+                        href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
+                        title="trait core::convert::TryFrom"
+                        >TryFrom</a
+                      >&lt;T&gt;,
+                    </div>
+                  </h3>
+                </section>
+              </summary>
+              <div class="impl-items">
+                <details class="toggle" open>
+                  <summary>
+                    <section
+                      id="associatedtype.Error"
+                      class="associatedtype trait-impl"
+                    >
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#815"
+                        >Source</a
+                      ><a href="#associatedtype.Error" class="anchor">§</a>
+                      <h4 class="code-header">
+                        type
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html#associatedtype.Error"
+                          class="associatedtype"
+                          >Error</a
+                        >
+                        = &lt;U as
+                        <a
+                          class="trait"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
+                          title="trait core::convert::TryFrom"
+                          >TryFrom</a
+                        >&lt;T&gt;&gt;::<a
+                          class="associatedtype"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
+                          title="type core::convert::TryFrom::Error"
+                          >Error</a
+                        >
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">
+                    The type returned in the event of a conversion error.
+                  </div>
+                </details>
+                <details class="toggle method-toggle" open>
+                  <summary>
+                    <section id="method.try_into" class="method trait-impl">
+                      <a
+                        class="src rightside"
+                        href="https://doc.rust-lang.org/nightly/src/core/convert/mod.rs.html#818"
+                        >Source</a
+                      ><a href="#method.try_into" class="anchor">§</a>
+                      <h4 class="code-header">
+                        fn
+                        <a
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html#tymethod.try_into"
+                          class="fn"
+                          >try_into</a
+                        >(self) -&gt;
+                        <a
+                          class="enum"
+                          href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
+                          title="enum core::result::Result"
+                          >Result</a
+                        >&lt;U, &lt;U as
+                        <a
+                          class="trait"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
+                          title="trait core::convert::TryFrom"
+                          >TryFrom</a
+                        >&lt;T&gt;&gt;::<a
+                          class="associatedtype"
+                          href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
+                          title="type core::convert::TryFrom::Error"
+                          >Error</a
+                        >&gt;
+                      </h4>
+                    </section>
+                  </summary>
+                  <div class="docblock">Performs the conversion.</div>
+                </details>
+              </div>
+            </details>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

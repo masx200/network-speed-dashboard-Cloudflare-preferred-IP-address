@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="rustdoc" />
+    <meta
+      name="description"
+      content="Optional trait to allow “splitting” a bidirectional stream into two sides."
+    />
+    <title>BidiStream in h3::quic - Rust</title>
+    <script>
+      if (window.location.protocol !== "file:") {
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          "SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2"
+            .split(",")
+            .map(
+              (f) =>
+                `<link rel="preload" as="font" type="font/woff2"href="/-/rustdoc.static/${f}">`,
+            )
+            .join(""),
+        );
+      }
+    </script>
+    <link rel="stylesheet" href="/-/rustdoc.static/normalize-9960930a.css" />
+    <link rel="stylesheet" href="/-/rustdoc.static/rustdoc-ca0dd0c4.css" />
+    <meta
+      name="rustdoc-vars"
+      data-root-path="../../"
+      data-static-root-path="/-/rustdoc.static/"
+      data-current-crate="h3"
+      data-themes=""
+      data-resource-suffix="-20251103-1.93.0-nightly-20383c9f1"
+      data-rustdoc-version="1.93.0-nightly (20383c9f1 2025-11-03)"
+      data-channel="nightly"
+      data-search-js="search-5c29b3b5.js"
+      data-stringdex-js="stringdex-c3e638e9.js"
+      data-settings-js="settings-c38705f0.js"
+    />
+    <script src="/-/rustdoc.static/storage-e2aeef58.js"></script>
+    <script
+      defer
+      src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
+    ></script>
+    <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
+    <link
+      rel="alternate icon"
+      type="image/png"
+      href="/-/rustdoc.static/favicon-32x32-eab170b8.png"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/-/rustdoc.static/favicon-044be391.svg"
+    />
+  </head>
+  <body class="rustdoc trait">
+    <!--[if lte IE 11
+      ]><div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+      </div><!
+    [endif]--><rustdoc-topbar
+      ><h2><a href="#">BidiStream</a></h2></rustdoc-topbar
+    >
+    <nav class="sidebar">
+      <div class="sidebar-crate">
+        <h2>
+          <a href="../../h3/index.html">h3</a><span class="version">0.0.8</span>
+        </h2>
+      </div>
+      <div class="sidebar-elems">
+        <section id="rustdoc-toc">
+          <h2 class="location">
+            <a href="#">Bidi<wbr />Stream</a>
+          </h2>
+          <h3>
+            <a href="#required-associated-types">Required Associated Types</a>
+          </h3>
+          <ul class="block">
+            <li>
+              <a href="#associatedtype.RecvStream" title="RecvStream"
+                >RecvStream</a
+              >
+            </li>
+            <li>
+              <a href="#associatedtype.SendStream" title="SendStream"
+                >SendStream</a
+              >
+            </li>
+          </ul>
+          <h3><a href="#required-methods">Required Methods</a></h3>
+          <ul class="block">
+            <li><a href="#tymethod.split" title="split">split</a></li>
+          </ul>
+          <h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3>
+          <h3><a href="#implementors">Implementors</a></h3>
+        </section>
+        <div id="rustdoc-modnav">
+          <h2>
+            <a href="index.html">In h3::<wbr />quic</a>
+          </h2>
+        </div>
+      </div>
+    </nav>
+    <div class="sidebar-resizer" title="Drag to resize sidebar"></div>
+    <main>
+      <div class="width-limiter">
+        <section id="main-content" class="content">
+          <div class="main-heading">
+            <div class="rustdoc-breadcrumbs">
+              <a href="../index.html">h3</a>::<wbr /><a href="index.html"
+                >quic</a
+              >
+            </div>
+            <h1>
+              Trait <span class="trait">Bidi<wbr />Stream</span>&nbsp;<button
+                id="copy-path"
+                title="Copy item path to clipboard"
+              >
+                Copy item path
+              </button>
+            </h1>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/quic.rs.html#224-232"
+                >Source</a
+              >
+            </span>
+          </div>
+          <pre class="rust item-decl">
+<code>pub trait BidiStream&lt;B: <a class="trait" href="https://docs.rs/bytes/1.9.0/x86_64-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt;: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt; + <a class="trait" href="trait.RecvStream.html" title="trait h3::quic::RecvStream">RecvStream</a> {
+    type <a href="#associatedtype.SendStream" class="associatedtype">SendStream</a>: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt;;
+    type <a href="#associatedtype.RecvStream" class="associatedtype">RecvStream</a>: <a class="trait" href="trait.RecvStream.html" title="trait h3::quic::RecvStream">RecvStream</a>;
+
+    // Required method
+    fn <a href="#tymethod.split" class="fn">split</a>(self) -&gt; (Self::<a class="associatedtype" href="trait.BidiStream.html#associatedtype.SendStream" title="type h3::quic::BidiStream::SendStream">SendStream</a>, Self::<a class="associatedtype" href="trait.BidiStream.html#associatedtype.RecvStream" title="type h3::quic::BidiStream::RecvStream">RecvStream</a>);
+}</code></pre>
+          <details class="toggle top-doc" open>
+            <summary class="hideme"><span>Expand description</span></summary>
+            <div class="docblock">
+              <p>
+                Optional trait to allow “splitting” a bidirectional stream into
+                two sides.
+              </p>
+            </div>
+          </details>
+          <h2 id="required-associated-types" class="section-header">
+            Required Associated Types<a
+              href="#required-associated-types"
+              class="anchor"
+              >§</a
+            >
+          </h2>
+          <div class="methods">
+            <details class="toggle" open>
+              <summary>
+                <section id="associatedtype.SendStream" class="method">
+                  <a class="src rightside" href="../../src/h3/quic.rs.html#226"
+                    >Source</a
+                  >
+                  <h4 class="code-header">
+                    type
+                    <a href="#associatedtype.SendStream" class="associatedtype"
+                      >SendStream</a
+                    >:
+                    <a
+                      class="trait"
+                      href="trait.SendStream.html"
+                      title="trait h3::quic::SendStream"
+                      >SendStream</a
+                    >&lt;B&gt;
+                  </h4>
+                </section>
+              </summary>
+              <div class="docblock">
+                <p>The type for the send half.</p>
+              </div>
+            </details>
+            <details class="toggle" open>
+              <summary>
+                <section id="associatedtype.RecvStream" class="method">
+                  <a class="src rightside" href="../../src/h3/quic.rs.html#228"
+                    >Source</a
+                  >
+                  <h4 class="code-header">
+                    type
+                    <a href="#associatedtype.RecvStream" class="associatedtype"
+                      >RecvStream</a
+                    >:
+                    <a
+                      class="trait"
+                      href="trait.RecvStream.html"
+                      title="trait h3::quic::RecvStream"
+                      >RecvStream</a
+                    >
+                  </h4>
+                </section>
+              </summary>
+              <div class="docblock">
+                <p>The type for the receive half.</p>
+              </div>
+            </details>
+          </div>
+          <h2 id="required-methods" class="section-header">
+            Required Methods<a href="#required-methods" class="anchor">§</a>
+          </h2>
+          <div class="methods">
+            <details class="toggle method-toggle" open>
+              <summary>
+                <section id="tymethod.split" class="method">
+                  <a class="src rightside" href="../../src/h3/quic.rs.html#231"
+                    >Source</a
+                  >
+                  <h4 class="code-header">
+                    fn <a href="#tymethod.split" class="fn">split</a>(self)
+                    -&gt; (Self::<a
+                      class="associatedtype"
+                      href="trait.BidiStream.html#associatedtype.SendStream"
+                      title="type h3::quic::BidiStream::SendStream"
+                      >SendStream</a
+                    >, Self::<a
+                      class="associatedtype"
+                      href="trait.BidiStream.html#associatedtype.RecvStream"
+                      title="type h3::quic::BidiStream::RecvStream"
+                      >RecvStream</a
+                    >)
+                  </h4>
+                </section>
+              </summary>
+              <div class="docblock">
+                <p>Split this stream into two halves.</p>
+              </div>
+            </details>
+          </div>
+          <h2 id="dyn-compatibility" class="section-header">
+            Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a>
+          </h2>
+          <div class="dyn-compatibility-info">
+            <p>
+              This trait is <b>not</b>
+              <a
+                href="https://doc.rust-lang.org/nightly/reference/items/traits.html#dyn-compatibility"
+                >dyn compatible</a
+              >.
+            </p>
+            <p>
+              <i
+                >In older versions of Rust, dyn compatibility was called "object
+                safety", so this trait is not object safe.</i
+              >
+            </p>
+          </div>
+          <h2 id="implementors" class="section-header">
+            Implementors<a href="#implementors" class="anchor">§</a>
+          </h2>
+          <div id="implementors-list"></div>
+          <script
+            src="../../trait.impl/h3/quic/trait.BidiStream.js"
+            async
+          ></script>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="rustdoc" />
+    <meta
+      name="description"
+      content="This module provides methods to create a http/3 Server."
+    />
+    <title>h3::server - Rust</title>
+    <script>
+      if (window.location.protocol !== "file:") {
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          "SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2"
+            .split(",")
+            .map(
+              (f) =>
+                `<link rel="preload" as="font" type="font/woff2"href="/-/rustdoc.static/${f}">`,
+            )
+            .join(""),
+        );
+      }
+    </script>
+    <link rel="stylesheet" href="/-/rustdoc.static/normalize-9960930a.css" />
+    <link rel="stylesheet" href="/-/rustdoc.static/rustdoc-ca0dd0c4.css" />
+    <meta
+      name="rustdoc-vars"
+      data-root-path="../../"
+      data-static-root-path="/-/rustdoc.static/"
+      data-current-crate="h3"
+      data-themes=""
+      data-resource-suffix="-20251103-1.93.0-nightly-20383c9f1"
+      data-rustdoc-version="1.93.0-nightly (20383c9f1 2025-11-03)"
+      data-channel="nightly"
+      data-search-js="search-5c29b3b5.js"
+      data-stringdex-js="stringdex-c3e638e9.js"
+      data-settings-js="settings-c38705f0.js"
+    />
+    <script src="/-/rustdoc.static/storage-e2aeef58.js"></script>
+    <script
+      defer
+      src="../sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
+    ></script>
+    <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
+    <link
+      rel="alternate icon"
+      type="image/png"
+      href="/-/rustdoc.static/favicon-32x32-eab170b8.png"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/-/rustdoc.static/favicon-044be391.svg"
+    />
+  </head>
+  <body class="rustdoc mod">
+    <!--[if lte IE 11
+      ]><div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+      </div><!
+    [endif]--><rustdoc-topbar
+      ><h2><a href="#">Module server</a></h2></rustdoc-topbar
+    >
+    <nav class="sidebar">
+      <div class="sidebar-crate">
+        <h2>
+          <a href="../../h3/index.html">h3</a><span class="version">0.0.8</span>
+        </h2>
+      </div>
+      <div class="sidebar-elems">
+        <section id="rustdoc-toc">
+          <h2 class="location"><a href="#">Module server</a></h2>
+          <h3><a href="#">Sections</a></h3>
+          <ul class="block top-toc">
+            <li>
+              <a href="#examples" title="Examples">Examples</a>
+              <ul>
+                <li>
+                  <a href="#simple-example" title="Simple example"
+                    >Simple example</a
+                  >
+                </li>
+                <li>
+                  <a href="#file-server" title="File server">File server</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <h3><a href="#structs">Module Items</a></h3>
+          <ul class="block">
+            <li><a href="#structs" title="Structs">Structs</a></li>
+            <li><a href="#functions" title="Functions">Functions</a></li>
+          </ul>
+        </section>
+        <div id="rustdoc-modnav">
+          <h2 class="in-crate"><a href="../index.html">In crate h3</a></h2>
+        </div>
+      </div>
+    </nav>
+    <div class="sidebar-resizer" title="Drag to resize sidebar"></div>
+    <main>
+      <div class="width-limiter">
+        <section id="main-content" class="content">
+          <div class="main-heading">
+            <div class="rustdoc-breadcrumbs">
+              <a href="../index.html">h3</a>
+            </div>
+            <h1>
+              Module <span>server</span>&nbsp;<button
+                id="copy-path"
+                title="Copy item path to clipboard"
+              >
+                Copy item path
+              </button>
+            </h1>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/server/mod.rs.html#1-59"
+                >Source</a
+              >
+            </span>
+          </div>
+          <details class="toggle top-doc" open>
+            <summary class="hideme"><span>Expand description</span></summary>
+            <div class="docblock">
+              <p>This module provides methods to create a http/3 Server.</p>
+              <p>It allows to accept incoming requests, and send responses.</p>
+              <h2 id="examples">
+                <a class="doc-anchor" href="#examples">§</a>Examples
+              </h2>
+              <h3 id="simple-example">
+                <a class="doc-anchor" href="#simple-example">§</a>Simple example
+              </h3>
+              <div class="example-wrap">
+                <pre class="rust rust-example-rendered">
+<code><span class="kw">async fn </span>doc&lt;C&gt;(conn: C)
+<span class="kw">where
+</span>C: h3::quic::Connection&lt;bytes::Bytes&gt; + <span class="lifetime">'static</span>,
+&lt;C <span class="kw">as </span>h3::quic::OpenStreams&lt;bytes::Bytes&gt;&gt;::BidiStream: Send + <span class="lifetime">'static
+</span>{
+    <span class="kw">let </span><span class="kw-2">mut </span>server_builder = h3::server::builder();
+    <span class="comment">// Build the Connection
+    </span><span class="kw">let </span><span class="kw-2">mut </span>h3_conn = server_builder.build(conn).<span class="kw">await</span>.unwrap();
+    <span class="kw">loop </span>{
+        <span class="comment">// Accept incoming requests
+        </span><span class="kw">match </span>h3_conn.accept().<span class="kw">await </span>{
+            <span class="prelude-val">Ok</span>(<span class="prelude-val">Some</span>(resolver)) =&gt; {
+                <span class="comment">// spawn a new task to handle the request
+                </span>tokio::spawn(<span class="kw">async move </span>{
+                    <span class="comment">// get the request
+                    </span><span class="kw">let </span>(req, <span class="kw-2">mut </span>stream) = resolver.resolve_request().<span class="kw">await</span>.unwrap();
+                    <span class="comment">// build a http response
+                    </span><span class="kw">let </span>response = http::Response::builder().status(http::StatusCode::OK).body(()).unwrap();
+                    <span class="comment">// send the response to the wire
+                    </span>stream.send_response(response).<span class="kw">await</span>.unwrap();
+                    <span class="comment">// send some date
+                    </span>stream.send_data(bytes::Bytes::from(<span class="string">"test"</span>)).<span class="kw">await</span>.unwrap();
+                    <span class="comment">// finnish the stream
+                    </span>stream.finish().<span class="kw">await</span>.unwrap();
+                });
+            }
+            <span class="prelude-val">Ok</span>(<span class="prelude-val">None</span>) =&gt; {
+                <span class="comment">// break if no Request is accepted
+                </span><span class="kw">break</span>;
+            }
+            <span class="prelude-val">Err</span>(err) =&gt; {
+                <span class="kw">break</span>;
+            }
+        }
+    }
+}</code></pre>
+              </div>
+              <h3 id="file-server">
+                <a class="doc-anchor" href="#file-server">§</a>File server
+              </h3>
+              <p>
+                A ready-to-use example of a file server is available
+                <a
+                  href="https://github.com/hyperium/h3/blob/master/examples/server.rs"
+                  >here</a
+                >
+              </p>
+            </div>
+          </details>
+          <h2 id="structs" class="section-header">
+            Structs<a href="#structs" class="anchor">§</a>
+          </h2>
+          <dl class="item-table">
+            <dt>
+              <a
+                class="struct"
+                href="struct.Builder.html"
+                title="struct h3::server::Builder"
+                >Builder</a
+              >
+            </dt>
+            <dd>Builder of HTTP/3 server connections.</dd>
+            <dt>
+              <a
+                class="struct"
+                href="struct.Connection.html"
+                title="struct h3::server::Connection"
+                >Connection</a
+              >
+            </dt>
+            <dd>Server connection driver</dd>
+            <dt>
+              <a
+                class="struct"
+                href="struct.RequestResolver.html"
+                title="struct h3::server::RequestResolver"
+                >Request<wbr />Resolver</a
+              >
+            </dt>
+            <dd>
+              Helper struct to await the request headers and return a
+              <code>Request</code> object
+            </dd>
+            <dt>
+              <a
+                class="struct"
+                href="struct.RequestStream.html"
+                title="struct h3::server::RequestStream"
+                >Request<wbr />Stream</a
+              >
+            </dt>
+            <dd>
+              Manage request and response transfer for an incoming request
+            </dd>
+          </dl>
+          <h2 id="functions" class="section-header">
+            Functions<a href="#functions" class="anchor">§</a>
+          </h2>
+          <dl class="item-table">
+            <dt>
+              <a
+                class="fn"
+                href="fn.builder.html"
+                title="fn h3::server::builder"
+                >builder</a
+              >
+            </dt>
+            <dd>Create a builder of HTTP/3 server connections</dd>
+          </dl>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

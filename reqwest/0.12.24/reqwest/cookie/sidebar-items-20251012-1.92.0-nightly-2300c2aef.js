@@ -1,0 +1,4 @@
+window.SIDEBAR_ITEMS = {
+  struct: ["Cookie", "Jar"],
+  trait: ["CookieStore"],
+};

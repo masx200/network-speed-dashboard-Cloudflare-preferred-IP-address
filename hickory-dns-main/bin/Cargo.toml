@@ -1,0 +1,126 @@
+[package]
+name = "hickory-dns"
+
+# A short blurb about the package. This is not rendered in any format when
+# uploaded to crates.io (aka this is not markdown)
+description = """
+Hickory DNS is a safe and secure DNS server with DNSSEC support.
+ Eventually this could be a replacement for BIND9. The DNSSEC support allows
+ for live signing of all records, in it does not currently support
+ records signed offline. The server supports dynamic DNS with SIG0 authenticated
+ requests. Hickory DNS is based on the Tokio and Futures libraries, which means
+ it should be easily integrated into other software that also use those
+ libraries.
+"""
+
+documentation = "https://docs.rs/hickory-dns"
+readme = "README.md"
+
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+homepage.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+license.workspace = true
+
+[features]
+default = ["sqlite", "resolver", "rustls-platform-verifier"]
+
+# if enabled, the hickory-dns binary will print ascii-art on start, disable to reduce the binary size
+ascii-art = []
+
+blocklist = ["hickory-server/blocklist"]
+recursor = ["hickory-server/recursor"]
+# Recursive Resolution is Experimental!
+resolver = ["hickory-server/resolver"]
+sqlite = ["hickory-server/sqlite", "dep:rusqlite"]
+prometheus-metrics = ["metrics", "dep:http", "dep:hyper", "dep:hyper-util", "dep:metrics-exporter-prometheus", "dep:tokio-util"]
+metrics = ["hickory-server/metrics", "hickory-resolver/metrics", "dep:metrics", "dep:metrics-process"]
+
+tls-aws-lc-rs = ["hickory-server/tls-aws-lc-rs", "__tls"]
+https-aws-lc-rs = ["hickory-server/https-aws-lc-rs", "tls-aws-lc-rs", "__https"]
+quic-aws-lc-rs = ["hickory-server/quic-aws-lc-rs", "tls-aws-lc-rs", "__quic"]
+h3-aws-lc-rs = ["hickory-server/h3-aws-lc-rs", "quic-aws-lc-rs", "__h3"]
+
+tls-ring = ["hickory-server/tls-ring", "__tls"]
+https-ring = ["hickory-server/https-ring", "tls-ring", "__https"]
+quic-ring = ["hickory-server/quic-ring", "tls-ring", "__quic"]
+h3-ring = ["hickory-server/h3-ring", "quic-ring", "__h3"]
+
+__tls = ["dep:rustls"]
+__https = []
+__quic = []
+__h3 = []
+
+dnssec-aws-lc-rs = ["hickory-server/dnssec-aws-lc-rs", "dep:rustls-pki-types", "__dnssec"]
+dnssec-ring = ["hickory-server/dnssec-ring", "dep:rustls-pki-types", "__dnssec"]
+__dnssec = []
+
+webpki-roots = ["hickory-server/webpki-roots"]
+rustls-platform-verifier = ["hickory-server/rustls-platform-verifier"]
+
+[[bin]]
+name = "hickory-dns"
+path = "src/hickory-dns.rs"
+
+[dependencies]
+# clap features:
+# - `suggestions` for advanced help with error in cli
+# - `derive` for clap derive api
+# - `help` to generate --help
+cfg-if.workspace = true
+clap = { workspace = true, default-features = false, features = ["cargo", "derive", "help", "std", "suggestions"] }
+futures-util = { workspace = true, default-features = false, features = ["std"] }
+http = { workspace = true, optional = true }
+hyper = { workspace = true, features = ["server"], optional = true }
+hyper-util = { workspace = true, features = ["server-auto", "server-graceful", "tokio"], optional = true }
+ipnet = { workspace = true, features = ["serde"] }
+# rusqlite is actually only needed for test situations, but we need an optional dependency
+# here so we can disable it for MSRV tests (rusqlite only supports latest stable)
+rusqlite = { workspace = true, features = ["bundled", "time"], optional = true }
+socket2.workspace = true
+rustls = { workspace = true, optional = true }
+rustls-pki-types = { workspace = true, optional = true }
+serde = { workspace = true, features = ["derive"] }
+time.workspace = true
+tracing.workspace = true
+tracing-subscriber = { workspace = true, features = ["env-filter", "fmt", "std"] }
+tokio = { workspace = true, features = ["time", "rt", "signal"] }
+tokio-util = { workspace = true, optional = true }
+toml.workspace = true
+hex.workspace = true
+hickory-client.workspace = true
+hickory-proto.workspace = true
+hickory-server = { workspace = true, features = ["toml"] }
+hostname.workspace = true
+metrics = { workspace = true, optional = true }
+metrics-exporter-prometheus = { workspace = true, optional = true }
+metrics-process = { workspace = true, optional = true }
+
+[target.'cfg(unix)'.dependencies]
+libc.workspace = true
+
+[dev-dependencies]
+bytes.workspace = true
+futures-executor = { workspace = true, default-features = false, features = ["std"] }
+regex.workspace = true
+hickory-proto = { workspace = true, features = ["testing", "std"] }
+hickory-server = { workspace = true, features = ["testing"]}
+hickory-resolver.workspace = true
+test-support.workspace = true
+toml.workspace = true
+webpki-roots.workspace = true
+# metrics tests
+reqwest = { workspace = true, default-features = false }
+prometheus-parse = { workspace = true }
+
+[lints]
+workspace = true
+
+[package.metadata.cargo-all-features]
+skip_optional_dependencies = true
+max_combination_size = 2
+denylist = ["__tls", "__https", "__quic", "__h3", "__dnssec"]
