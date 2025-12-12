@@ -14,7 +14,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@fontsource/roboto": "5.2.7",
+    "@fontsource/roboto": "5.2.9",
     "@mdi/font": "7.4.47",
     "@mdi/js": "^7.4.47",
     "commander": "^14.0.2",
