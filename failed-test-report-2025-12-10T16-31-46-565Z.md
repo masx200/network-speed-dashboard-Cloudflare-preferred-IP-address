@@ -183,7 +183,7 @@ cloudflare | | 202 | zread.ai | 2606:4700:3032::ac43:ca4e | IPv6 | h2 | ✅ 成�
 ✅ 成功 | 74 | cloudflare | | 212 | cu.877774.xyz | 104.26.4.111 | IPv4 | h2 |
 ✅ 成功 | 74 | cloudflare | | 234 | time.is | 2606:4700:20::681a:d36 | IPv6 | h2
 | ✅ 成功 | 74 | cloudflare | | 281 | www.wto.org | 2a06:98c1:3102::6812:29be |
-IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 284 | bhr01erx45.inzjddnkdz.de5.net |
+IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 284 | yx-auto.pages.dev |
 104.21.73.250 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 437 | cmcc.877774.xyz
 | 104.16.148.5 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare |
 

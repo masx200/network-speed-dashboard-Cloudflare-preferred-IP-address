@@ -79,7 +79,7 @@ www.wto.org | 104.18.41.190 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 24 |
 fbi.gov | 2606:4700::6810:94f4 | IPv6 | h2 | ✅ 成功 | 76 | cloudflare | | 309 |
 cf.877771.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | h2 | ✅ 成功 | 76 |
 cloudflare | | 359 |
-6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa |
+yx-auto.pages.dev |
 2606:4700:3031::ac43:868b | IPv6 | h2 | ✅ 成功 | 76 | cloudflare | | 88 |
 local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6 | IPv6 | h2 |
 ✅ 成功 | 77 | cloudflare | | 124 | singapore.com | 2606:4700:20::ac43:4bc2 |
@@ -123,7 +123,7 @@ tasteatlas.com | 2606:4700::6811:2469 | IPv6 | h2 | ✅ 成功 | 79 | cloudflare
 | 253 | www.whatismyip.com | 104.26.13.23 | IPv4 | h2 | ✅ 成功 | 79 |
 cloudflare | | 267 | cu.877774.xyz | 104.26.4.111 | IPv4 | h2 | ✅ 成功 | 79 |
 cloudflare | | 279 | ip.sb | 2606:4700:20::ac43:4bac | IPv6 | h2 | ✅ 成功 | 79
-| cloudflare | | 284 | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org |
+| cloudflare | | 284 | yx-auto.pages.dev |
 2606:4700:3034::6815:9e6 | IPv6 | h2 | ✅ 成功 | 79 | cloudflare | | 380 |
 172.64.154.18 | 172.64.154.18 | IPv4 | h2 | ✅ 成功 | 79 | cloudflare | | 384 |
 cf.090227.xyz | 2606:4700:310c::ac42:2fb3 | IPv6 | h2 | ✅ 成功 | 79 |
