@@ -1222,7 +1222,7 @@
     },
     {
       "index": 448,
-      "host": "**********.**********.***.***",
+      "host": "yx-auto.pages.dev",
       "target_ip": "172.67.151.207",
       "ip_version": "IPv4",
       "protocol": "h3",
@@ -1287,7 +1287,7 @@
     },
     {
       "index": 368,
-      "host": "**********.**********.***.***",
+      "host": "yx-auto.pages.dev",
       "target_ip": "172.67.161.98",
       "ip_version": "IPv4",
       "protocol": "h3",

@@ -1199,7 +1199,7 @@
         },
         {
           "index": 233,
-          "host": "**********.**********.***.***",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3033::ac43:a162",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -1212,7 +1212,7 @@
         },
         {
           "index": 234,
-          "host": "**********.**********.***.***",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3034::6815:9e6",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -1771,7 +1771,7 @@
         },
         {
           "index": 359,
-          "host": "**********.********************.***.**",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3030::6815:e29",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -1784,7 +1784,7 @@
         },
         {
           "index": 360,
-          "host": "**********.********************.***.**",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3031::ac43:9db6",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -2031,7 +2031,7 @@
         },
         {
           "index": 410,
-          "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3031::ac43:868b",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -2044,7 +2044,7 @@
         },
         {
           "index": 411,
-          "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+          "host": "yx-auto.pages.dev",
           "target_ip": "2606:4700:3030::6815:63c",
           "ip_version": "IPv6",
           "protocol": "none",
@@ -3548,7 +3548,7 @@
     },
     {
       "index": 233,
-      "host": "**********.**********.***.***",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3033::ac43:a162",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -3561,7 +3561,7 @@
     },
     {
       "index": 234,
-      "host": "**********.**********.***.***",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3034::6815:9e6",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -4133,7 +4133,7 @@
     },
     {
       "index": 359,
-      "host": "**********.********************.***.**",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3030::6815:e29",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -4146,7 +4146,7 @@
     },
     {
       "index": 360,
-      "host": "**********.********************.***.**",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3031::ac43:9db6",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -4393,7 +4393,7 @@
     },
     {
       "index": 410,
-      "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3031::ac43:868b",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -4406,7 +4406,7 @@
     },
     {
       "index": 411,
-      "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3030::6815:63c",
       "ip_version": "IPv6",
       "protocol": "none",
@@ -5370,7 +5370,7 @@
     },
     {
       "index": 358,
-      "host": "**********.********************.***.**",
+      "host": "yx-auto.pages.dev",
       "target_ip": "104.21.14.41",
       "ip_version": "IPv4",
       "protocol": "h3",
@@ -5500,7 +5500,7 @@
     },
     {
       "index": 408,
-      "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+      "host": "yx-auto.pages.dev",
       "target_ip": "104.21.6.60",
       "ip_version": "IPv4",
       "protocol": "h3",
@@ -5669,7 +5669,7 @@
     },
     {
       "index": 357,
-      "host": "**********.********************.***.**",
+      "host": "yx-auto.pages.dev",
       "target_ip": "172.67.157.182",
       "ip_version": "IPv4",
       "protocol": "h3",

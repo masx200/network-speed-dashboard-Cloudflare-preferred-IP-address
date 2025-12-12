@@ -7,13 +7,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 for (
   const oldText of [
-    "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+    "yx-auto.pages.dev",`yx-auto.pages.dev`
   ]
 ) {
   // 配置要替换的文本
-  //const oldText = `**********.**********.***.***`;
+  //const oldText = `yx-auto.pages.dev`;
   const newText =
-    "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****";
+    "yx-auto.pages.dev";
 
   //.//replaceAll(/\d/g, "*")
   //.replaceAll(/\w/g, "*");

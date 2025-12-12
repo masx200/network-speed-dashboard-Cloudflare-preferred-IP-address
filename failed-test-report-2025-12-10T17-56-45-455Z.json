@@ -369,7 +369,7 @@
     },
     {
       "index": 359,
-      "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3031::ac43:868b",
       "ip_version": "IPv6",
       "protocol": "h2",
@@ -863,7 +863,7 @@
     },
     {
       "index": 284,
-      "host": "**********.**********.***.***",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3034::6815:9e6",
       "ip_version": "IPv6",
       "protocol": "h2",
@@ -902,7 +902,7 @@
     },
     {
       "index": 396,
-      "host": "**********.********************.***.**",
+      "host": "yx-auto.pages.dev",
       "target_ip": "2606:4700:3030::6815:e29",
       "ip_version": "IPv6",
       "protocol": "h2",

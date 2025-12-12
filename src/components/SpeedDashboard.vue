@@ -57,6 +57,15 @@
             </v-row>
             <v-row>
               <v-col cols="12" md="2">
+                <v-text-field
+                  v-model="filters.hostname"
+                  label="主机域名搜索"
+                  clearable
+                  prepend-inner-icon="mdi-magnify"
+                  @update:model-value="applyFilters"
+                ></v-text-field>
+              </v-col>
+              <v-col cols="12" md="2">
                 <v-select
                   v-model="filters.asName"
                   :items="asNameOptions"
@@ -177,6 +186,7 @@ export default {
 
     // 筛选条件
     const filters = ref({
+      hostname: "",
       country: null,
       asn: null,
       asName: null,
@@ -195,7 +205,7 @@ export default {
 
     // 表格头
     const headers = [
-      { title: "主机", key: "host", sortable: true },
+      { title: "主机域名", key: "host", sortable: true },
       { title: "目标IP", key: "target_ip", sortable: true },
       { title: "IP版本", key: "ip_version", sortable: true },
       { title: "协议", key: "protocol", sortable: true },
@@ -396,6 +406,15 @@ export default {
       console.log("Applying filters:", filters.value);
       console.log("Results before filtering:", results.length);
 
+      // 按主机域名搜索
+      if (filters.value.hostname && filters.value.hostname.trim()) {
+        const hostnameQuery = filters.value.hostname.trim().toLowerCase();
+        results = results.filter((r) =>
+          r.host && r.host.toLowerCase().includes(hostnameQuery)
+        );
+        console.log("After hostname filter:", results.length);
+      }
+
       // 按国家筛选
       if (filters.value.country) {
         results = results.filter((r) => r.country === filters.value.country);
@@ -481,6 +500,7 @@ export default {
     // 清除筛选
     const clearFilters = () => {
       filters.value = {
+        hostname: "",
         country: null,
         asn: null,
         asName: null,

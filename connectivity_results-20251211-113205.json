@@ -1144,7 +1144,7 @@
     "error_msg": null
   },
   {
-    "host": "**********.********************.***.**",
+    "host": "yx-auto.pages.dev",
     "target_ip": "104.21.14.41",
     "ip_version": "IPv4",
     "success": true,
@@ -1155,7 +1155,7 @@
     "error_msg": null
   },
   {
-    "host": "**********.********************.***.**",
+    "host": "yx-auto.pages.dev",
     "target_ip": "172.67.157.182",
     "ip_version": "IPv4",
     "success": true,
@@ -1166,7 +1166,7 @@
     "error_msg": null
   },
   {
-    "host": "**********.********************.***.**",
+    "host": "yx-auto.pages.dev",
     "target_ip": "2606:4700:3030::6815:e29",
     "ip_version": "IPv6",
     "success": true,
@@ -1177,7 +1177,7 @@
     "error_msg": null
   },
   {
-    "host": "**********.********************.***.**",
+    "host": "yx-auto.pages.dev",
     "target_ip": "2606:4700:3031::ac43:9db6",
     "ip_version": "IPv6",
     "success": true,
@@ -1529,7 +1529,7 @@
     "error_msg": null
   },
   {
-    "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+    "host": "yx-auto.pages.dev",
     "target_ip": "104.21.6.60",
     "ip_version": "IPv4",
     "success": true,
@@ -1540,7 +1540,7 @@
     "error_msg": null
   },
   {
-    "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+    "host": "yx-auto.pages.dev",
     "target_ip": "172.67.134.139",
     "ip_version": "IPv4",
     "success": true,
@@ -1551,7 +1551,7 @@
     "error_msg": null
   },
   {
-    "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+    "host": "yx-auto.pages.dev",
     "target_ip": "2606:4700:3031::ac43:868b",
     "ip_version": "IPv6",
     "success": true,
@@ -1562,7 +1562,7 @@
     "error_msg": null
   },
   {
-    "host": "********-****-****-****-************.*.*.*.*.*.*.*.*.*.*.*.*.***.****",
+    "host": "yx-auto.pages.dev",
     "target_ip": "2606:4700:3030::6815:63c",
     "ip_version": "IPv6",
     "success": true,
@@ -5016,7 +5016,7 @@
     "error_msg": null
   },
   {
-    "host": "**********.**********.***.***",
+    "host": "yx-auto.pages.dev",
     "target_ip": "",
     "ip_version": "",
     "success": false,
