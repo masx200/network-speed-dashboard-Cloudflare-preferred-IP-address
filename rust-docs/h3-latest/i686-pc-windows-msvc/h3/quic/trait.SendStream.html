@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -44,9 +44,10 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript
-      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
-    /></noscript>
+    <noscript><link
+        rel="stylesheet"
+        href="/-/rustdoc.static/noscript-263c88ec.css"
+      /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -65,8 +66,7 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-      ><h2><a href="#">SendStream</a></h2></rustdoc-topbar
-    >
+    ><h2><a href="#">SendStream</a></h2></rustdoc-topbar>
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -82,8 +82,7 @@
           <ul class="block">
             <li>
               <a href="#tymethod.poll_finish" title="poll_finish"
-                >poll_finish</a
-              >
+              >poll_finish</a>
             </li>
             <li>
               <a href="#tymethod.poll_ready" title="poll_ready">poll_ready</a>
@@ -111,8 +110,7 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-                >quic</a
-              >
+              >quic</a>
             </div>
             <h1>
               Trait <span class="trait">Send<wbr />Stream</span>&nbsp;<button
@@ -122,14 +120,15 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar
-            ><span class="sub-heading"
-              ><a class="src" href="../../src/h3/quic.rs.html#171-186"
-                >Source</a
-              >
+            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
+                class="src"
+                href="../../src/h3/quic.rs.html#171-186"
+              >Source</a>
             </span>
           </div>
-          <pre class="rust item-decl">
+          <pre
+            class="rust item-decl"
+          >
 <code>pub trait SendStream&lt;B: <a class="trait" href="https://docs.rs/bytes/1.9.0/i686-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt; {
     // Required methods
     fn <a href="#tymethod.poll_ready" class="fn">poll_ready</a>(
@@ -161,8 +160,7 @@
               <summary>
                 <section id="tymethod.poll_ready" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#173"
-                    >Source</a
-                  >
+                  >Source</a>
                   <h4 class="code-header">
                     fn <a href="#tymethod.poll_ready" class="fn">poll_ready</a>(
                     &amp;mut self, cx: &amp;mut
@@ -170,29 +168,24 @@
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                      >Context</a
-                    >&lt;'_&gt;, ) -&gt;
+                    >Context</a>&lt;'_&gt;, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                      >Poll</a
-                    >&lt;<a
+                    >Poll</a>&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                      >Result</a
-                    >&lt;<a
+                    >Result</a>&lt;<a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
-                      >()</a
-                    >,
+                    >()</a>,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                      >StreamErrorIncoming</a
-                    >&gt;&gt;
+                    >StreamErrorIncoming</a>&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -204,8 +197,7 @@
               <summary>
                 <section id="tymethod.send_data" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#176"
-                    >Source</a
-                  >
+                  >Source</a>
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.send_data" class="fn">send_data</a>&lt;T:
@@ -213,29 +205,25 @@
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html"
                       title="trait core::convert::Into"
-                      >Into</a
-                    >&lt;<a
+                    >Into</a>&lt;<a
                       class="struct"
                       href="struct.WriteBuf.html"
                       title="struct h3::quic::WriteBuf"
-                      >WriteBuf</a
-                    >&lt;B&gt;&gt;&gt;( &amp;mut self, data: T, ) -&gt;
+                    >WriteBuf</a>&lt;B&gt;&gt;&gt;( &amp;mut self, data: T, )
+                    -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                      >Result</a
-                    >&lt;<a
+                    >Result</a>&lt;<a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
-                      >()</a
-                    >,
+                    >()</a>,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                      >StreamErrorIncoming</a
-                    >&gt;
+                    >StreamErrorIncoming</a>&gt;
                   </h4>
                 </section>
               </summary>
@@ -247,8 +235,7 @@
               <summary>
                 <section id="tymethod.poll_finish" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#179"
-                    >Source</a
-                  >
+                  >Source</a>
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.poll_finish" class="fn">poll_finish</a>(
@@ -257,29 +244,24 @@
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                      >Context</a
-                    >&lt;'_&gt;, ) -&gt;
+                    >Context</a>&lt;'_&gt;, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                      >Poll</a
-                    >&lt;<a
+                    >Poll</a>&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                      >Result</a
-                    >&lt;<a
+                    >Result</a>&lt;<a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
-                      >()</a
-                    >,
+                    >()</a>,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                      >StreamErrorIncoming</a
-                    >&gt;&gt;
+                    >StreamErrorIncoming</a>&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -291,16 +273,14 @@
               <summary>
                 <section id="tymethod.reset" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#182"
-                    >Source</a
-                  >
+                  >Source</a>
                   <h4 class="code-header">
                     fn <a href="#tymethod.reset" class="fn">reset</a>(&amp;mut
                     self, reset_code:
                     <a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.u64.html"
-                      >u64</a
-                    >)
+                    >u64</a>)
                   </h4>
                 </section>
               </summary>
@@ -312,18 +292,16 @@
               <summary>
                 <section id="tymethod.send_id" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#185"
-                    >Source</a
-                  >
+                  >Source</a>
                   <h4 class="code-header">
                     fn
-                    <a href="#tymethod.send_id" class="fn">send_id</a
-                    >(&amp;self) -&gt;
+                    <a href="#tymethod.send_id" class="fn"
+                    >send_id</a>(&amp;self) -&gt;
                     <a
                       class="struct"
                       href="struct.StreamId.html"
                       title="struct h3::quic::StreamId"
-                      >StreamId</a
-                    >
+                    >StreamId</a>
                   </h4>
                 </section>
               </summary>
@@ -340,14 +318,11 @@
               This trait is <b>not</b>
               <a
                 href="https://doc.rust-lang.org/nightly/reference/items/traits.html#dyn-compatibility"
-                >dyn compatible</a
-              >.
+              >dyn compatible</a>.
             </p>
             <p>
-              <i
-                >In older versions of Rust, dyn compatibility was called "object
-                safety", so this trait is not object safe.</i
-              >
+              <i>In older versions of Rust, dyn compatibility was called "object
+                safety", so this trait is not object safe.</i>
             </p>
           </div>
           <h2 id="implementors" class="section-header">

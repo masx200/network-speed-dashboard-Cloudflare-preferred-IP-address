@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -41,9 +41,10 @@
       src="../sidebar-items-20251012-1.92.0-nightly-2300c2aef.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript
-      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
-    /></noscript>
+    <noscript><link
+        rel="stylesheet"
+        href="/-/rustdoc.static/noscript-263c88ec.css"
+      /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -62,13 +63,12 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-      ><h2><a href="#">Module blocking</a></h2></rustdoc-topbar
-    >
+    ><h2><a href="#">Module blocking</a></h2></rustdoc-topbar>
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
-          <a href="../../reqwest/index.html">reqwest</a
-          ><span class="version">0.12.24</span>
+          <a href="../../reqwest/index.html">reqwest</a><span class="version"
+          >0.12.24</span>
         </h2>
       </div>
       <div class="sidebar-elems">
@@ -79,15 +79,13 @@
             <li><a href="#optional" title="Optional">Optional</a></li>
             <li>
               <a href="#making-a-get-request" title="Making a GET request"
-                >Making a GET request</a
-              >
+              >Making a GET request</a>
             </li>
             <li>
               <a
                 href="#making-post-requests-or-setting-request-bodies"
                 title="Making POST requests (or setting request bodies)"
-                >Making POST requests (or setting request bodies)</a
-              >
+              >Making POST requests (or setting request bodies)</a>
               <ul>
                 <li><a href="#and-more" title="And More">And More</a></li>
               </ul>
@@ -121,24 +119,18 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar
-            ><span class="sub-heading"
-              ><a
+            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
                 class="src"
                 href="../../src/reqwest/blocking/mod.rs.html#1-108"
-                >Source</a
-              >
+              >Source</a>
             </span>
           </div>
-          <span class="item-info"
-            ><div class="stab portability">
+          <span class="item-info"><div class="stab portability">
               Available on
-              <strong
-                >non-WebAssembly and crate feature <code>blocking</code></strong
-              >
+              <strong>non-WebAssembly and crate feature <code
+                >blocking</code></strong>
               only.
-            </div></span
-          >
+            </div></span>
           <details class="toggle top-doc" open>
             <summary class="hideme"><span>Expand description</span></summary>
             <div class="docblock">
@@ -154,16 +146,16 @@
                 within an async runtime, or it will panic when attempting to
                 block. If calling directly from an async function, consider
                 using an async
-                <a href="../struct.Client.html" title="struct reqwest::Client"
-                  ><code>reqwest::Client</code></a
-                >
+                <a
+                  href="../struct.Client.html"
+                  title="struct reqwest::Client"
+                ><code>reqwest::Client</code></a>
                 instead. If the immediate context is only synchronous, but a
                 transitive caller is async, consider changing that caller to use
                 <a
                   href="https://docs.rs/tokio/1.47.1/x86_64-unknown-linux-gnu/tokio/task/blocking/fn.spawn_blocking.html"
                   title="fn tokio::task::blocking::spawn_blocking"
-                  ><code>tokio::task::spawn_blocking</code></a
-                >
+                ><code>tokio::task::spawn_blocking</code></a>
                 around the calls that need to block.
               </p>
               <h2 id="optional">
@@ -179,14 +171,15 @@
               </h2>
               <p>
                 For a single request, you can use the
-                <a href="fn.get.html" title="fn reqwest::blocking::get"
-                  ><code>get</code></a
-                >
+                <a href="fn.get.html" title="fn reqwest::blocking::get"><code
+                  >get</code></a>
                 shortcut method.
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code>
 <span class="kw">let </span>body = reqwest::blocking::get(<span class="string">"https://www.rust-lang.org"</span>)<span class="question-mark">?
     </span>.text()<span class="question-mark">?</span>;
@@ -198,8 +191,7 @@
                 <a
                   href="struct.Response.html"
                   title="struct reqwest::blocking::Response"
-                  ><code>Response</code></a
-                >
+                ><code>Response</code></a>
                 struct implements Rust’s <code>Read</code> trait, so many useful
                 standard library and third party crates will have convenience
                 methods that take a <code>Response</code> anywhere
@@ -211,16 +203,14 @@
                 <a
                   href="struct.Client.html"
                   title="struct reqwest::blocking::Client"
-                  ><code>Client</code></a
-                >
+                ><code>Client</code></a>
                 and reuse it, taking advantage of keep-alive connection pooling.
               </p>
               <h2 id="making-post-requests-or-setting-request-bodies">
                 <a
                   class="doc-anchor"
                   href="#making-post-requests-or-setting-request-bodies"
-                  >§</a
-                >Making POST requests (or setting request bodies)
+                >§</a>Making POST requests (or setting request bodies)
               </h2>
               <p>
                 There are several ways you can set the body of a request. The
@@ -228,16 +218,18 @@
                 <a
                   href="struct.RequestBuilder.html"
                   title="struct reqwest::blocking::RequestBuilder"
-                  ><code>RequestBuilder</code></a
-                >. This lets you set the exact raw bytes of what the body should
-                be. It accepts various types, including <code>String</code>,
+                ><code>RequestBuilder</code></a>. This lets you set the exact
+                raw bytes of what the body should be. It accepts various types,
+                including <code>String</code>,
                 <code>Vec&lt;u8&gt;</code>, and <code>File</code>. If you wish
                 to pass a custom Reader, you can use the
                 <code>reqwest::blocking::Body::new()</code> constructor.
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="kw">let </span>client = reqwest::blocking::Client::new();
 <span class="kw">let </span>res = client.post(<span class="string">"http://httpbin.org/post"</span>)
     .body(<span class="string">"the exact body that is sent"</span>)
@@ -262,12 +254,10 @@
                 class="mod"
                 href="multipart/index.html"
                 title="mod reqwest::blocking::multipart"
-                >multipart</a
-              ><wbr /><span
+              >multipart</a><wbr /><span
                 class="stab portability"
                 title="Available on crate feature `multipart` only"
-                ><code>multipart</code></span
-              >
+              ><code>multipart</code></span>
             </dt>
             <dd>multipart/form-data</dd>
           </dl>
@@ -280,8 +270,7 @@
                 class="struct"
                 href="struct.Body.html"
                 title="struct reqwest::blocking::Body"
-                >Body</a
-              >
+              >Body</a>
             </dt>
             <dd>The body of a <code>Request</code>.</dd>
             <dt>
@@ -289,8 +278,7 @@
                 class="struct"
                 href="struct.Client.html"
                 title="struct reqwest::blocking::Client"
-                >Client</a
-              >
+              >Client</a>
             </dt>
             <dd>A <code>Client</code> to make Requests with.</dd>
             <dt>
@@ -298,8 +286,7 @@
                 class="struct"
                 href="struct.ClientBuilder.html"
                 title="struct reqwest::blocking::ClientBuilder"
-                >Client<wbr />Builder</a
-              >
+              >Client<wbr />Builder</a>
             </dt>
             <dd>
               A <code>ClientBuilder</code> can be used to create a
@@ -310,8 +297,7 @@
                 class="struct"
                 href="struct.Request.html"
                 title="struct reqwest::blocking::Request"
-                >Request</a
-              >
+              >Request</a>
             </dt>
             <dd>
               A request which can be executed with
@@ -322,8 +308,7 @@
                 class="struct"
                 href="struct.RequestBuilder.html"
                 title="struct reqwest::blocking::RequestBuilder"
-                >Request<wbr />Builder</a
-              >
+              >Request<wbr />Builder</a>
             </dt>
             <dd>
               A builder to construct the properties of a <code>Request</code>.
@@ -333,8 +318,7 @@
                 class="struct"
                 href="struct.Response.html"
                 title="struct reqwest::blocking::Response"
-                >Response</a
-              >
+              >Response</a>
             </dt>
             <dd>A Response to a submitted <code>Request</code>.</dd>
           </dl>
@@ -344,8 +328,7 @@
           <dl class="item-table">
             <dt>
               <a class="fn" href="fn.get.html" title="fn reqwest::blocking::get"
-                >get</a
-              >
+              >get</a>
             </dt>
             <dd>
               Shortcut method to quickly make a <em>blocking</em>

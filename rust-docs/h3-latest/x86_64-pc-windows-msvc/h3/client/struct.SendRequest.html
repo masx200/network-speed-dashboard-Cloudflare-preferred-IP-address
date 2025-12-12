@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -41,9 +41,10 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript
-      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
-    /></noscript>
+    <noscript><link
+        rel="stylesheet"
+        href="/-/rustdoc.static/noscript-263c88ec.css"
+      /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -62,8 +63,7 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-      ><h2><a href="#">SendRequest</a></h2></rustdoc-topbar
-    >
+    ><h2><a href="#">SendRequest</a></h2></rustdoc-topbar>
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -84,15 +84,13 @@
                   <a
                     href="#sending-a-request-with-no-body"
                     title="Sending a request with no body"
-                    >Sending a request with no body</a
-                  >
+                  >Sending a request with no body</a>
                 </li>
                 <li>
                   <a
                     href="#sending-a-request-with-a-body-and-trailers"
                     title="Sending a request with a body and trailers"
-                    >Sending a request with a body and trailers</a
-                  >
+                  >Sending a request with a body and trailers</a>
                 </li>
               </ul>
             </li>
@@ -101,21 +99,18 @@
           <ul class="block method">
             <li>
               <a href="#method.send_request" title="send_request"
-                >send_request</a
-              >
+              >send_request</a>
             </li>
           </ul>
           <h3><a href="#trait-implementations">Trait Implementations</a></h3>
           <ul class="block trait-implementation">
             <li>
               <a href="#impl-Clone-for-SendRequest%3CT,+B%3E" title="Clone"
-                >Clone</a
-              >
+              >Clone</a>
             </li>
             <li>
               <a href="#impl-Drop-for-SendRequest%3CT,+B%3E" title="Drop"
-                >Drop</a
-              >
+              >Drop</a>
             </li>
           </ul>
           <h3>
@@ -126,35 +121,29 @@
               <a
                 href="#impl-RefUnwindSafe-for-SendRequest%3CT,+B%3E"
                 title="!RefUnwindSafe"
-                >!RefUnwindSafe</a
-              >
+              >!RefUnwindSafe</a>
             </li>
             <li>
               <a
                 href="#impl-UnwindSafe-for-SendRequest%3CT,+B%3E"
                 title="!UnwindSafe"
-                >!UnwindSafe</a
-              >
+              >!UnwindSafe</a>
             </li>
             <li>
               <a href="#impl-Freeze-for-SendRequest%3CT,+B%3E" title="Freeze"
-                >Freeze</a
-              >
+              >Freeze</a>
             </li>
             <li>
               <a href="#impl-Send-for-SendRequest%3CT,+B%3E" title="Send"
-                >Send</a
-              >
+              >Send</a>
             </li>
             <li>
               <a href="#impl-Sync-for-SendRequest%3CT,+B%3E" title="Sync"
-                >Sync</a
-              >
+              >Sync</a>
             </li>
             <li>
               <a href="#impl-Unpin-for-SendRequest%3CT,+B%3E" title="Unpin"
-                >Unpin</a
-              >
+              >Unpin</a>
             </li>
           </ul>
           <h3>
@@ -164,41 +153,34 @@
             <li><a href="#impl-Any-for-T" title="Any">Any</a></li>
             <li>
               <a href="#impl-Borrow%3CT%3E-for-T" title="Borrow&#60;T&#62;"
-                >Borrow&#60;T&#62;</a
-              >
+              >Borrow&#60;T&#62;</a>
             </li>
             <li>
               <a
                 href="#impl-BorrowMut%3CT%3E-for-T"
                 title="BorrowMut&#60;T&#62;"
-                >BorrowMut&#60;T&#62;</a
-              >
+              >BorrowMut&#60;T&#62;</a>
             </li>
             <li>
               <a href="#impl-CloneToUninit-for-T" title="CloneToUninit"
-                >CloneToUninit</a
-              >
+              >CloneToUninit</a>
             </li>
             <li>
               <a href="#impl-From%3CT%3E-for-T" title="From&#60;T&#62;"
-                >From&#60;T&#62;</a
-              >
+              >From&#60;T&#62;</a>
             </li>
             <li>
               <a href="#impl-Into%3CU%3E-for-T" title="Into&#60;U&#62;"
-                >Into&#60;U&#62;</a
-              >
+              >Into&#60;U&#62;</a>
             </li>
             <li><a href="#impl-ToOwned-for-T" title="ToOwned">ToOwned</a></li>
             <li>
               <a href="#impl-TryFrom%3CU%3E-for-T" title="TryFrom&#60;U&#62;"
-                >TryFrom&#60;U&#62;</a
-              >
+              >TryFrom&#60;U&#62;</a>
             </li>
             <li>
               <a href="#impl-TryInto%3CU%3E-for-T" title="TryInto&#60;U&#62;"
-                >TryInto&#60;U&#62;</a
-              >
+              >TryInto&#60;U&#62;</a>
             </li>
           </ul>
         </section>
@@ -216,8 +198,7 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-                >client</a
-              >
+              >client</a>
             </div>
             <h1>
               Struct <span class="struct">Send<wbr />Request</span>&nbsp;<button
@@ -227,16 +208,15 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar
-            ><span class="sub-heading"
-              ><a
+            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
                 class="src"
                 href="../../src/h3/client/connection.rs.html#109-121"
-                >Source</a
-              >
+              >Source</a>
             </span>
           </div>
-          <pre class="rust item-decl">
+          <pre
+            class="rust item-decl"
+          >
 <code>pub struct SendRequest&lt;T, B&gt;<div class="where">where
     T: <a class="trait" href="../quic/trait.OpenStreams.html" title="trait h3::quic::OpenStreams">OpenStreams</a>&lt;B&gt;,
     B: <a class="trait" href="https://docs.rs/bytes/1.9.0/x86_64-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>,</div>{ <span class="comment">/* private fields */</span> }</code></pre>
@@ -245,20 +225,17 @@
             <div class="docblock">
               <p>HTTP/3 request sender</p>
               <p>
-                <a href="struct.SendRequest.html#method.send_request"
-                  ><code>send_request()</code></a
-                >
+                <a href="struct.SendRequest.html#method.send_request"><code
+                  >send_request()</code></a>
                 initiates a new request and will resolve when it is ready to be
                 sent to the server. Then a
-                <a href="struct.RequestStream.html"
-                  ><code>RequestStream</code></a
-                >
+                <a href="struct.RequestStream.html"><code
+                  >RequestStream</code></a>
                 will be returned to send a request body (for POST, PUT methods)
                 and receive a response. After the whole body is sent, it is
                 necessary to call
-                <a href="struct.RequestStream.html#method.finish"
-                  ><code>RequestStream::finish()</code></a
-                >
+                <a href="struct.RequestStream.html#method.finish"><code
+                  >RequestStream::finish()</code></a>
                 to let the server know the request transfer is complete. This
                 includes the cases where no body is sent at all.
               </p>
@@ -277,11 +254,12 @@
               </h2>
               <h3 id="sending-a-request-with-no-body">
                 <a class="doc-anchor" href="#sending-a-request-with-no-body"
-                  >§</a
-                >Sending a request with no body
+                >§</a>Sending a request with no body
               </h3>
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="comment">// Prepare the HTTP request to send to the server
 </span><span class="kw">let </span>request = Request::get(<span class="string">"https://www.example.com/"</span>).body(())<span class="question-mark">?</span>;
 
@@ -297,11 +275,12 @@
                 <a
                   class="doc-anchor"
                   href="#sending-a-request-with-a-body-and-trailers"
-                  >§</a
-                >Sending a request with a body and trailers
+                >§</a>Sending a request with a body and trailers
               </h3>
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="comment">// Prepare the HTTP request to send to the server
 </span><span class="kw">let </span>request = Request::get(<span class="string">"https://www.example.com/"</span>).body(())<span class="question-mark">?</span>;
 
@@ -332,30 +311,29 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="../../src/h3/client/connection.rs.html#140-229"
-                    >Source</a
-                  ><a href="#impl-SendRequest%3CT,+B%3E" class="anchor">§</a>
+                  >Source</a><a
+                    href="#impl-SendRequest%3CT,+B%3E"
+                    class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, B&gt;
                     <a
                       class="struct"
                       href="struct.SendRequest.html"
                       title="struct h3::client::SendRequest"
-                      >SendRequest</a
-                    >&lt;T, B&gt;
+                    >SendRequest</a>&lt;T, B&gt;
                     <div class="where">
                       where T:
                       <a
                         class="trait"
                         href="../quic/trait.OpenStreams.html"
                         title="trait h3::quic::OpenStreams"
-                        >OpenStreams</a
-                      >&lt;B&gt;, B:
+                      >OpenStreams</a>&lt;B&gt;, B:
                       <a
                         class="trait"
                         href="https://docs.rs/bytes/1.9.0/x86_64-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html"
                         title="trait bytes::buf::buf_impl::Buf"
-                        >Buf</a
-                      >,
+                      >Buf</a>,
                     </div>
                   </h3>
                 </section>
@@ -367,45 +345,37 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="../../src/h3/client/connection.rs.html#147-228"
-                        >Source</a
-                      >
+                      >Source</a>
                       <h4 class="code-header">
                         pub async fn
                         <a href="#method.send_request" class="fn"
-                          >send_request</a
-                        >( &amp;mut self, req:
+                        >send_request</a>( &amp;mut self, req:
                         <a
                           class="struct"
                           href="https://docs.rs/http/1.1.0/x86_64-pc-windows-msvc/http/request/struct.Request.html"
                           title="struct http::request::Request"
-                          >Request</a
-                        >&lt;<a
+                        >Request</a>&lt;<a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.unit.html"
-                          >()</a
-                        >&gt;, ) -&gt;
+                        >()</a>&gt;, ) -&gt;
                         <a
                           class="enum"
                           href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                           title="enum core::result::Result"
-                          >Result</a
-                        >&lt;<a
+                        >Result</a>&lt;<a
                           class="struct"
                           href="struct.RequestStream.html"
                           title="struct h3::client::RequestStream"
-                          >RequestStream</a
-                        >&lt;T::<a
+                        >RequestStream</a>&lt;T::<a
                           class="associatedtype"
                           href="../quic/trait.OpenStreams.html#associatedtype.BidiStream"
                           title="type h3::quic::OpenStreams::BidiStream"
-                          >BidiStream</a
-                        >, B&gt;,
+                        >BidiStream</a>, B&gt;,
                         <a
                           class="enum"
                           href="../error/enum.StreamError.html"
                           title="enum h3::error::StreamError"
-                          >StreamError</a
-                        >&gt;
+                        >StreamError</a>&gt;
                       </h4>
                     </section>
                   </summary>
@@ -418,8 +388,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
           </div>
           <h2 id="trait-implementations" class="section-header">
             Trait Implementations<a href="#trait-implementations" class="anchor"
-              >§</a
-            >
+            >§</a>
           </h2>
           <div id="trait-implementations-list">
             <details class="toggle implementors-toggle" open>
@@ -428,47 +397,40 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="../../src/h3/client/connection.rs.html#231-249"
-                    >Source</a
-                  ><a
+                  >Source</a><a
                     href="#impl-Clone-for-SendRequest%3CT,+B%3E"
                     class="anchor"
-                    >§</a
-                  >
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, B&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html"
                       title="trait core::clone::Clone"
-                      >Clone</a
-                    >
+                    >Clone</a>
                     for
                     <a
                       class="struct"
                       href="struct.SendRequest.html"
                       title="struct h3::client::SendRequest"
-                      >SendRequest</a
-                    >&lt;T, B&gt;
+                    >SendRequest</a>&lt;T, B&gt;
                     <div class="where">
                       where T:
                       <a
                         class="trait"
                         href="../quic/trait.OpenStreams.html"
                         title="trait h3::quic::OpenStreams"
-                        >OpenStreams</a
-                      >&lt;B&gt; +
+                      >OpenStreams</a>&lt;B&gt; +
                       <a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html"
                         title="trait core::clone::Clone"
-                        >Clone</a
-                      >, B:
+                      >Clone</a>, B:
                       <a
                         class="trait"
                         href="https://docs.rs/bytes/1.9.0/x86_64-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html"
                         title="trait bytes::buf::buf_impl::Buf"
-                        >Buf</a
-                      >,
+                      >Buf</a>,
                     </div>
                   </h3>
                 </section>
@@ -480,15 +442,13 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="../../src/h3/client/connection.rs.html#236-248"
-                        >Source</a
-                      ><a href="#method.clone" class="anchor">§</a>
+                      >Source</a><a href="#method.clone" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone"
                           class="fn"
-                          >clone</a
-                        >(&amp;self) -&gt; Self
+                        >clone</a>(&amp;self) -&gt; Self
                       </h4>
                     </section>
                   </summary>
@@ -496,33 +456,30 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Returns a duplicate of the value.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
                 <details class="toggle method-toggle" open>
                   <summary>
                     <section id="method.clone_from" class="method trait-impl">
-                      <span class="rightside"
-                        ><span
+                      <span class="rightside"><span
                           class="since"
                           title="Stable since Rust version 1.0.0"
-                          >1.0.0</span
-                        >
+                        >1.0.0</span>
                         ·
                         <a
                           class="src"
                           href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\clone.rs.html#245-247"
-                          >Source</a
-                        ></span
-                      ><a href="#method.clone_from" class="anchor">§</a>
+                        >Source</a></span><a
+                        href="#method.clone_from"
+                        class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from"
                           class="fn"
-                          >clone_from</a
-                        >(&amp;mut self, source: &amp;Self)
+                        >clone_from</a>(&amp;mut self, source: &amp;Self)
                       </h4>
                     </section>
                   </summary>
@@ -530,8 +487,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Performs copy-assignment from <code>source</code>.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -542,39 +498,35 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="../../src/h3/client/connection.rs.html#251-268"
-                    >Source</a
-                  ><a href="#impl-Drop-for-SendRequest%3CT,+B%3E" class="anchor"
-                    >§</a
-                  >
+                  >Source</a><a
+                    href="#impl-Drop-for-SendRequest%3CT,+B%3E"
+                    class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, B&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html"
                       title="trait core::ops::drop::Drop"
-                      >Drop</a
-                    >
+                    >Drop</a>
                     for
                     <a
                       class="struct"
                       href="struct.SendRequest.html"
                       title="struct h3::client::SendRequest"
-                      >SendRequest</a
-                    >&lt;T, B&gt;
+                    >SendRequest</a>&lt;T, B&gt;
                     <div class="where">
                       where T:
                       <a
                         class="trait"
                         href="../quic/trait.OpenStreams.html"
                         title="trait h3::quic::OpenStreams"
-                        >OpenStreams</a
-                      >&lt;B&gt;, B:
+                      >OpenStreams</a>&lt;B&gt;, B:
                       <a
                         class="trait"
                         href="https://docs.rs/bytes/1.9.0/x86_64-pc-windows-msvc/bytes/buf/buf_impl/trait.Buf.html"
                         title="trait bytes::buf::buf_impl::Buf"
-                        >Buf</a
-                      >,
+                      >Buf</a>,
                     </div>
                   </h3>
                 </section>
@@ -586,15 +538,13 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="../../src/h3/client/connection.rs.html#256-267"
-                        >Source</a
-                      ><a href="#method.drop" class="anchor">§</a>
+                      >Source</a><a href="#method.drop" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html#tymethod.drop"
                           class="fn"
-                          >drop</a
-                        >(&amp;mut self)
+                        >drop</a>(&amp;mut self)
                       </h4>
                     </section>
                   </summary>
@@ -602,8 +552,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Executes the destructor for this type.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/ops/drop/trait.Drop.html#tymethod.drop"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -613,37 +562,32 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
             Auto Trait Implementations<a
               href="#synthetic-implementations"
               class="anchor"
-              >§</a
-            >
+            >§</a>
           </h2>
           <div id="synthetic-implementations-list">
             <section id="impl-Freeze-for-SendRequest%3CT,+B%3E" class="impl">
               <a href="#impl-Freeze-for-SendRequest%3CT,+B%3E" class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt;
                 <a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/marker/trait.Freeze.html"
                   title="trait core::marker::Freeze"
-                  >Freeze</a
-                >
+                >Freeze</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
                 <div class="where">
                   where T:
                   <a
                     class="trait"
                     href="https://doc.rust-lang.org/nightly/core/marker/trait.Freeze.html"
                     title="trait core::marker::Freeze"
-                    >Freeze</a
-                  >,
+                  >Freeze</a>,
                 </div>
               </h3>
             </section>
@@ -654,111 +598,96 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
               <a
                 href="#impl-RefUnwindSafe-for-SendRequest%3CT,+B%3E"
                 class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt; !<a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/panic/unwind_safe/trait.RefUnwindSafe.html"
                   title="trait core::panic::unwind_safe::RefUnwindSafe"
-                  >RefUnwindSafe</a
-                >
+                >RefUnwindSafe</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
               </h3>
             </section>
             <section id="impl-Send-for-SendRequest%3CT,+B%3E" class="impl">
               <a href="#impl-Send-for-SendRequest%3CT,+B%3E" class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt;
                 <a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html"
                   title="trait core::marker::Send"
-                  >Send</a
-                >
+                >Send</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
                 <div class="where">
                   where T:
                   <a
                     class="trait"
                     href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html"
                     title="trait core::marker::Send"
-                    >Send</a
-                  >,
+                  >Send</a>,
                 </div>
               </h3>
             </section>
             <section id="impl-Sync-for-SendRequest%3CT,+B%3E" class="impl">
               <a href="#impl-Sync-for-SendRequest%3CT,+B%3E" class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt;
                 <a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html"
                   title="trait core::marker::Sync"
-                  >Sync</a
-                >
+                >Sync</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
                 <div class="where">
                   where T:
                   <a
                     class="trait"
                     href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html"
                     title="trait core::marker::Sync"
-                    >Sync</a
-                  >,
+                  >Sync</a>,
                 </div>
               </h3>
             </section>
             <section id="impl-Unpin-for-SendRequest%3CT,+B%3E" class="impl">
               <a href="#impl-Unpin-for-SendRequest%3CT,+B%3E" class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt;
                 <a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/marker/trait.Unpin.html"
                   title="trait core::marker::Unpin"
-                  >Unpin</a
-                >
+                >Unpin</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
                 <div class="where">
                   where T:
                   <a
                     class="trait"
                     href="https://doc.rust-lang.org/nightly/core/marker/trait.Unpin.html"
                     title="trait core::marker::Unpin"
-                    >Unpin</a
-                  >,
+                  >Unpin</a>,
                 </div>
               </h3>
             </section>
@@ -769,22 +698,19 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
               <a
                 href="#impl-UnwindSafe-for-SendRequest%3CT,+B%3E"
                 class="anchor"
-                >§</a
-              >
+              >§</a>
               <h3 class="code-header">
                 impl&lt;T, B&gt; !<a
                   class="trait"
                   href="https://doc.rust-lang.org/nightly/core/panic/unwind_safe/trait.UnwindSafe.html"
                   title="trait core::panic::unwind_safe::UnwindSafe"
-                  >UnwindSafe</a
-                >
+                >UnwindSafe</a>
                 for
                 <a
                   class="struct"
                   href="struct.SendRequest.html"
                   title="struct h3::client::SendRequest"
-                  >SendRequest</a
-                >&lt;T, B&gt;
+                >SendRequest</a>&lt;T, B&gt;
               </h3>
             </section>
           </div>
@@ -792,8 +718,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
             Blanket Implementations<a
               href="#blanket-implementations"
               class="anchor"
-              >§</a
-            >
+            >§</a>
           </h2>
           <div id="blanket-implementations-list">
             <details class="toggle implementors-toggle">
@@ -802,24 +727,21 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\any.rs.html#138"
-                    >Source</a
-                  ><a href="#impl-Any-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-Any-for-T" class="anchor">§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html"
                       title="trait core::any::Any"
-                      >Any</a
-                    >
+                    >Any</a>
                     for T
                     <div class="where">
                       where T: 'static + ?<a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
                         title="trait core::marker::Sized"
-                        >Sized</a
-                      >,
+                      >Sized</a>,
                     </div>
                   </h3>
                 </section>
@@ -831,21 +753,18 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\any.rs.html#139"
-                        >Source</a
-                      ><a href="#method.type_id" class="anchor">§</a>
+                      >Source</a><a href="#method.type_id" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html#tymethod.type_id"
                           class="fn"
-                          >type_id</a
-                        >(&amp;self) -&gt;
+                        >type_id</a>(&amp;self) -&gt;
                         <a
                           class="struct"
                           href="https://doc.rust-lang.org/nightly/core/any/struct.TypeId.html"
                           title="struct core::any::TypeId"
-                          >TypeId</a
-                        >
+                        >TypeId</a>
                       </h4>
                     </section>
                   </summary>
@@ -853,8 +772,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Gets the <code>TypeId</code> of <code>self</code>.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/any/trait.Any.html#tymethod.type_id"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -865,23 +783,21 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\borrow.rs.html#212"
-                    >Source</a
-                  ><a href="#impl-Borrow%3CT%3E-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-Borrow%3CT%3E-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html"
                       title="trait core::borrow::Borrow"
-                      >Borrow</a
-                    >&lt;T&gt; for T
+                    >Borrow</a>&lt;T&gt; for T
                     <div class="where">
                       where T: ?<a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
                         title="trait core::marker::Sized"
-                        >Sized</a
-                      >,
+                      >Sized</a>,
                     </div>
                   </h3>
                 </section>
@@ -893,20 +809,17 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\borrow.rs.html#214"
-                        >Source</a
-                      ><a href="#method.borrow" class="anchor">§</a>
+                      >Source</a><a href="#method.borrow" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html#tymethod.borrow"
                           class="fn"
-                          >borrow</a
-                        >(&amp;self) -&gt;
+                        >borrow</a>(&amp;self) -&gt;
                         <a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
-                          >&amp;T</a
-                        >
+                        >&amp;T</a>
                       </h4>
                     </section>
                   </summary>
@@ -914,8 +827,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Immutably borrows from an owned value.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/borrow/trait.Borrow.html#tymethod.borrow"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -926,23 +838,23 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\borrow.rs.html#221"
-                    >Source</a
-                  ><a href="#impl-BorrowMut%3CT%3E-for-T" class="anchor">§</a>
+                  >Source</a><a
+                    href="#impl-BorrowMut%3CT%3E-for-T"
+                    class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html"
                       title="trait core::borrow::BorrowMut"
-                      >BorrowMut</a
-                    >&lt;T&gt; for T
+                    >BorrowMut</a>&lt;T&gt; for T
                     <div class="where">
                       where T: ?<a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html"
                         title="trait core::marker::Sized"
-                        >Sized</a
-                      >,
+                      >Sized</a>,
                     </div>
                   </h3>
                 </section>
@@ -954,20 +866,18 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\borrow.rs.html#222"
-                        >Source</a
-                      ><a href="#method.borrow_mut" class="anchor">§</a>
+                      >Source</a><a href="#method.borrow_mut" class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html#tymethod.borrow_mut"
                           class="fn"
-                          >borrow_mut</a
-                        >(&amp;mut self) -&gt;
+                        >borrow_mut</a>(&amp;mut self) -&gt;
                         <a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
-                          >&amp;mut T</a
-                        >
+                        >&amp;mut T</a>
                       </h4>
                     </section>
                   </summary>
@@ -975,8 +885,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Mutably borrows from an owned value.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/borrow/trait.BorrowMut.html#tymethod.borrow_mut"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -987,16 +896,15 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\clone.rs.html#515"
-                    >Source</a
-                  ><a href="#impl-CloneToUninit-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-CloneToUninit-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/clone/trait.CloneToUninit.html"
                       title="trait core::clone::CloneToUninit"
-                      >CloneToUninit</a
-                    >
+                    >CloneToUninit</a>
                     for T
                     <div class="where">
                       where T:
@@ -1004,8 +912,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html"
                         title="trait core::clone::Clone"
-                        >Clone</a
-                      >,
+                      >Clone</a>,
                     </div>
                   </h3>
                 </section>
@@ -1020,43 +927,37 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\clone.rs.html#517"
-                        >Source</a
-                      ><a href="#method.clone_to_uninit" class="anchor">§</a>
+                      >Source</a><a
+                        href="#method.clone_to_uninit"
+                        class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         unsafe fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/clone/trait.CloneToUninit.html#tymethod.clone_to_uninit"
                           class="fn"
-                          >clone_to_uninit</a
-                        >(&amp;self, dest:
+                        >clone_to_uninit</a>(&amp;self, dest:
                         <a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html"
-                          >*mut </a
-                        ><a
+                        >*mut
+                        </a><a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.u8.html"
-                          >u8</a
-                        >)
+                        >u8</a>)
                       </h4>
                     </section>
                   </summary>
-                  <span class="item-info"
-                    ><div class="stab unstable">
-                      <span class="emoji">🔬</span
-                      ><span
-                        >This is a nightly-only experimental API.
-                        (<code>clone_to_uninit</code>)</span
-                      >
-                    </div></span
-                  >
+                  <span class="item-info"><div class="stab unstable">
+                      <span class="emoji">🔬</span><span>This is a nightly-only
+                        experimental API. (<code>clone_to_uninit</code>)</span>
+                    </div></span>
                   <div class="docblock">
                     Performs copy-assignment from <code>self</code> to
                     <code>dest</code>.
                     <a
                       href="https://doc.rust-lang.org/nightly/core/clone/trait.CloneToUninit.html#tymethod.clone_to_uninit"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -1067,16 +968,15 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#785"
-                    >Source</a
-                  ><a href="#impl-From%3CT%3E-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-From%3CT%3E-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
                       title="trait core::convert::From"
-                      >From</a
-                    >&lt;T&gt; for T
+                    >From</a>&lt;T&gt; for T
                   </h3>
                 </section>
               </summary>
@@ -1087,15 +987,13 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#788"
-                        >Source</a
-                      ><a href="#method.from" class="anchor">§</a>
+                      >Source</a><a href="#method.from" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html#tymethod.from"
                           class="fn"
-                          >from</a
-                        >(t: T) -&gt; T
+                        >from</a>(t: T) -&gt; T
                       </h4>
                     </section>
                   </summary>
@@ -1111,24 +1009,22 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#767-769"
-                    >Source</a
-                  ><a href="#impl-Into%3CU%3E-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-Into%3CU%3E-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, U&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html"
                       title="trait core::convert::Into"
-                      >Into</a
-                    >&lt;U&gt; for T
+                    >Into</a>&lt;U&gt; for T
                     <div class="where">
                       where U:
                       <a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
                         title="trait core::convert::From"
-                        >From</a
-                      >&lt;T&gt;,
+                      >From</a>&lt;T&gt;,
                     </div>
                   </h3>
                 </section>
@@ -1140,15 +1036,13 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#777"
-                        >Source</a
-                      ><a href="#method.into" class="anchor">§</a>
+                      >Source</a><a href="#method.into" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html#tymethod.into"
                           class="fn"
-                          >into</a
-                        >(self) -&gt; U
+                        >into</a>(self) -&gt; U
                       </h4>
                     </section>
                   </summary>
@@ -1156,13 +1050,10 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     <p>Calls <code>U::from(self)</code>.</p>
                     <p>
                       That is, this conversion is whatever the implementation of
-                      <code
-                        ><a
+                      <code><a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html"
                           title="trait core::convert::From"
-                          >From</a
-                        >&lt;T&gt; for U</code
-                      >
+                        >From</a>&lt;T&gt; for U</code>
                       chooses to do.
                     </p>
                   </div>
@@ -1175,16 +1066,14 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/alloc/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\alloc\src\borrow.rs.html#85-87"
-                    >Source</a
-                  ><a href="#impl-ToOwned-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-ToOwned-for-T" class="anchor">§</a>
                   <h3 class="code-header">
                     impl&lt;T&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html"
                       title="trait alloc::borrow::ToOwned"
-                      >ToOwned</a
-                    >
+                    >ToOwned</a>
                     for T
                     <div class="where">
                       where T:
@@ -1192,8 +1081,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html"
                         title="trait core::clone::Clone"
-                        >Clone</a
-                      >,
+                      >Clone</a>,
                     </div>
                   </h3>
                 </section>
@@ -1208,15 +1096,14 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/alloc/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\alloc\src\borrow.rs.html#89"
-                        >Source</a
-                      ><a href="#associatedtype.Owned" class="anchor">§</a>
+                      >Source</a><a href="#associatedtype.Owned" class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         type
                         <a
                           href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html#associatedtype.Owned"
                           class="associatedtype"
-                          >Owned</a
-                        >
+                        >Owned</a>
                         = T
                       </h4>
                     </section>
@@ -1231,15 +1118,13 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/alloc/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\alloc\src\borrow.rs.html#90"
-                        >Source</a
-                      ><a href="#method.to_owned" class="anchor">§</a>
+                      >Source</a><a href="#method.to_owned" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html#tymethod.to_owned"
                           class="fn"
-                          >to_owned</a
-                        >(&amp;self) -&gt; T
+                        >to_owned</a>(&amp;self) -&gt; T
                       </h4>
                     </section>
                   </summary>
@@ -1247,8 +1132,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     Creates owned data from borrowed data, usually by cloning.
                     <a
                       href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html#tymethod.to_owned"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
                 <details class="toggle method-toggle" open>
@@ -1257,20 +1141,18 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/alloc/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\alloc\src\borrow.rs.html#94"
-                        >Source</a
-                      ><a href="#method.clone_into" class="anchor">§</a>
+                      >Source</a><a href="#method.clone_into" class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html#method.clone_into"
                           class="fn"
-                          >clone_into</a
-                        >(&amp;self, target:
+                        >clone_into</a>(&amp;self, target:
                         <a
                           class="primitive"
                           href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
-                          >&amp;mut T</a
-                        >)
+                        >&amp;mut T</a>)
                       </h4>
                     </section>
                   </summary>
@@ -1279,8 +1161,7 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                     cloning.
                     <a
                       href="https://doc.rust-lang.org/nightly/alloc/borrow/trait.ToOwned.html#method.clone_into"
-                      >Read more</a
-                    >
+                    >Read more</a>
                   </div>
                 </details>
               </div>
@@ -1291,24 +1172,22 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#827-829"
-                    >Source</a
-                  ><a href="#impl-TryFrom%3CU%3E-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-TryFrom%3CU%3E-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, U&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
                       title="trait core::convert::TryFrom"
-                      >TryFrom</a
-                    >&lt;U&gt; for T
+                    >TryFrom</a>&lt;U&gt; for T
                     <div class="where">
                       where U:
                       <a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html"
                         title="trait core::convert::Into"
-                        >Into</a
-                      >&lt;T&gt;,
+                      >Into</a>&lt;T&gt;,
                     </div>
                   </h3>
                 </section>
@@ -1323,22 +1202,22 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#831"
-                        >Source</a
-                      ><a href="#associatedtype.Error-1" class="anchor">§</a>
+                      >Source</a><a
+                        href="#associatedtype.Error-1"
+                        class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         type
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
                           class="associatedtype"
-                          >Error</a
-                        >
+                        >Error</a>
                         =
                         <a
                           class="enum"
                           href="https://doc.rust-lang.org/nightly/core/convert/enum.Infallible.html"
                           title="enum core::convert::Infallible"
-                          >Infallible</a
-                        >
+                        >Infallible</a>
                       </h4>
                     </section>
                   </summary>
@@ -1352,32 +1231,27 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#834"
-                        >Source</a
-                      ><a href="#method.try_from" class="anchor">§</a>
+                      >Source</a><a href="#method.try_from" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#tymethod.try_from"
                           class="fn"
-                          >try_from</a
-                        >(value: U) -&gt;
+                        >try_from</a>(value: U) -&gt;
                         <a
                           class="enum"
                           href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                           title="enum core::result::Result"
-                          >Result</a
-                        >&lt;T, &lt;T as
+                        >Result</a>&lt;T, &lt;T as
                         <a
                           class="trait"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
                           title="trait core::convert::TryFrom"
-                          >TryFrom</a
-                        >&lt;U&gt;&gt;::<a
+                        >TryFrom</a>&lt;U&gt;&gt;::<a
                           class="associatedtype"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
                           title="type core::convert::TryFrom::Error"
-                          >Error</a
-                        >&gt;
+                        >Error</a>&gt;
                       </h4>
                     </section>
                   </summary>
@@ -1391,24 +1265,22 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                   <a
                     class="src rightside"
                     href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#811-813"
-                    >Source</a
-                  ><a href="#impl-TryInto%3CU%3E-for-T" class="anchor">§</a>
+                  >Source</a><a href="#impl-TryInto%3CU%3E-for-T" class="anchor"
+                  >§</a>
                   <h3 class="code-header">
                     impl&lt;T, U&gt;
                     <a
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html"
                       title="trait core::convert::TryInto"
-                      >TryInto</a
-                    >&lt;U&gt; for T
+                    >TryInto</a>&lt;U&gt; for T
                     <div class="where">
                       where U:
                       <a
                         class="trait"
                         href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
                         title="trait core::convert::TryFrom"
-                        >TryFrom</a
-                      >&lt;T&gt;,
+                      >TryFrom</a>&lt;T&gt;,
                     </div>
                   </h3>
                 </section>
@@ -1423,27 +1295,24 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#815"
-                        >Source</a
-                      ><a href="#associatedtype.Error" class="anchor">§</a>
+                      >Source</a><a href="#associatedtype.Error" class="anchor"
+                      >§</a>
                       <h4 class="code-header">
                         type
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html#associatedtype.Error"
                           class="associatedtype"
-                          >Error</a
-                        >
+                        >Error</a>
                         = &lt;U as
                         <a
                           class="trait"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
                           title="trait core::convert::TryFrom"
-                          >TryFrom</a
-                        >&lt;T&gt;&gt;::<a
+                        >TryFrom</a>&lt;T&gt;&gt;::<a
                           class="associatedtype"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
                           title="type core::convert::TryFrom::Error"
-                          >Error</a
-                        >
+                        >Error</a>
                       </h4>
                     </section>
                   </summary>
@@ -1457,32 +1326,27 @@ trailers.insert(<span class="string">"trailer"</span>, <span class="string">"val
                       <a
                         class="src rightside"
                         href="https://doc.rust-lang.org/nightly/src/core/20383c9f1d84eb9b9c6668a1668ef68a81eae274\library\core\src\convert\mod.rs.html#818"
-                        >Source</a
-                      ><a href="#method.try_into" class="anchor">§</a>
+                      >Source</a><a href="#method.try_into" class="anchor">§</a>
                       <h4 class="code-header">
                         fn
                         <a
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryInto.html#tymethod.try_into"
                           class="fn"
-                          >try_into</a
-                        >(self) -&gt;
+                        >try_into</a>(self) -&gt;
                         <a
                           class="enum"
                           href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                           title="enum core::result::Result"
-                          >Result</a
-                        >&lt;U, &lt;U as
+                        >Result</a>&lt;U, &lt;U as
                         <a
                           class="trait"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html"
                           title="trait core::convert::TryFrom"
-                          >TryFrom</a
-                        >&lt;T&gt;&gt;::<a
+                        >TryFrom</a>&lt;T&gt;&gt;::<a
                           class="associatedtype"
                           href="https://doc.rust-lang.org/nightly/core/convert/trait.TryFrom.html#associatedtype.Error"
                           title="type core::convert::TryFrom::Error"
-                          >Error</a
-                        >&gt;
+                        >Error</a>&gt;
                       </h4>
                     </section>
                   </summary>
