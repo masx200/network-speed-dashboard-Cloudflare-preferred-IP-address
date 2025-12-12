@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fontsource/roboto':
-        specifier: 5.2.7
-        version: 5.2.7
+        specifier: 5.2.9
+        version: 5.2.9
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -732,8 +732,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/roboto@5.2.7':
-    resolution: {integrity: sha512-fca6Jtyxn6kPR51+TTTMCFm0FOhnKaLEYYiAQc8P/4iFCKoKGR0aX89QR4CfP+N64RPXJus64UxhJaVENnSM6Q==}
+  '@fontsource/roboto@5.2.9':
+    resolution: {integrity: sha512-ZTkyHiPk74B/aj8BZWbsxD5Yu+Lq+nR64eV4wirlrac2qXR7jYk2h6JlLYuOuoruTkGQWNw2fMuKNavw7/rg0w==}
 
   '@isaacs/balanced-match@4.0.1':
     resolution: {integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==}
@@ -3255,7 +3255,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
-  '@fontsource/roboto@5.2.7': {}
+  '@fontsource/roboto@5.2.9': {}
 
   '@isaacs/balanced-match@4.0.1': {}
 
