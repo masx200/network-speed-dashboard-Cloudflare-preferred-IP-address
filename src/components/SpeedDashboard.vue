@@ -176,41 +176,59 @@
                 </span>
                 <span v-else>-</span>
               </template>
+              <template v-slot:item.asn="{ item }">
+                <span v-if="item.asn">{{ item.asn }}</span>
+                <span v-else>-</span>
+              </template>
+              <template v-slot:item.country="{ item }">
+                <span v-if="item.country">{{ item.country }}</span>
+                <span v-else>-</span>
+              </template>
+              <template v-slot:item.asName="{ item }">
+                <span v-if="item.asName">{{ item.asName }}</span>
+                <span v-else>-</span>
+              </template>
+              <template v-slot:item.city="{ item }">
+                <span v-if="item.city">{{ item.city }}</span>
+                <span v-else>-</span>
+              </template>
             </v-data-table>
 
             <!-- 自定义分页控制 -->
             <v-row class="mt-4" justify="center">
-              <v-col cols="12" md="8">
+              <v-col cols="12" md="10">
                 <v-card>
                   <v-card-text>
                     <v-row align="center" justify="center">
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="6" md="1" class="text-center">
                         <v-btn
                           @click="goToFirstPage"
                           :disabled="currentPage === 1"
                           color="primary"
                           size="small"
+                          block
                         >
                           第一页
                         </v-btn>
                       </v-col>
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="6" md="1" class="text-center">
                         <v-btn
                           @click="currentPage = Math.max(1, currentPage - 1)"
                           :disabled="currentPage === 1"
                           color="primary"
                           size="small"
+                          block
                         >
                           上一页
                         </v-btn>
                       </v-col>
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="12" md="2" class="text-center d-flex align-center justify-center">
                         <span class="text-subtitle-1">
                           第 {{ currentPage }} 页，
                           共 {{ totalPages }} 页
                         </span>
                       </v-col>
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="6" md="1" class="text-center">
                         <v-text-field
                           v-model.number="jumpToPage"
                           label="跳转到页"
@@ -221,25 +239,38 @@
                           dense
                           hide-details
                           @keyup.enter="goToPage"
-                          style="max-width: 120px;"
+                          style="max-width: 100px;"
                         ></v-text-field>
                       </v-col>
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="6" md="1" class="text-center">
+                        <v-select
+                          v-model="itemsPerPage"
+                          :items="itemsPerPageOptions"
+                          label="每页显示"
+                          @update:model-value="updateItemsPerPage"
+                          style="max-width: 100px;"
+                          dense
+                          hide-details
+                        ></v-select>
+                      </v-col>
+                      <v-col cols="6" md="1" class="text-center">
                         <v-btn
                           @click="currentPage = Math.min(totalPages, currentPage + 1)"
                           :disabled="currentPage >= totalPages"
                           color="primary"
                           size="small"
+                          block
                         >
                           下一页
                         </v-btn>
                       </v-col>
-                      <v-col cols="12" md="2" class="text-center">
+                      <v-col cols="6" md="1" class="text-center">
                         <v-btn
                           @click="goToLastPage"
                           :disabled="currentPage >= totalPages"
                           color="primary"
                           size="small"
+                          block
                         >
                           最后一页
                         </v-btn>
@@ -271,6 +302,9 @@ export default {
     const currentPage = ref(1);
     const itemsPerPage = ref(10);
     const jumpToPage = ref(null);
+
+    // 每页显示条数选项
+    const itemsPerPageOptions = ref([5, 10, 20, 50, 100]);
 
     // 筛选条件
     const filters = ref({
@@ -304,7 +338,9 @@ export default {
       { title: "状态", key: "success", sortable: true },
       { title: "测试日期", key: "testDate", sortable: true },
       { title: "错误信息", key: "error_msg", sortable: false },
-      { title: "测试环境", key: "testEnvironment", sortable: false },
+      { title: "ASN", key: "asn", sortable: true },
+      { title: "国家", key: "country", sortable: true },
+      { title: "ISP", key: "asName", sortable: true },
       { title: "城市", key: "city", sortable: true },
     ];
 
@@ -388,6 +424,16 @@ export default {
     // 跳转到最后一页
     const goToLastPage = () => {
       currentPage.value = totalPages.value;
+    };
+
+    // 更新每页显示条数
+    const updateItemsPerPage = (newValue) => {
+      itemsPerPage.value = newValue;
+      // 重新计算当前页，确保不超出总页数
+      const newTotalPages = Math.ceil(filteredResults.value.length / newValue) || 1;
+      if (currentPage.value > newTotalPages) {
+        currentPage.value = newTotalPages;
+      }
     };
 
     // 获取延迟颜色
@@ -671,6 +717,7 @@ export default {
       statusOptions,
       currentPage,
       itemsPerPage,
+      itemsPerPageOptions,
       jumpToPage,
       totalPages,
       getLatencyColor,
@@ -681,6 +728,7 @@ export default {
       goToPage,
       goToFirstPage,
       goToLastPage,
+      updateItemsPerPage,
     };
   },
 };
