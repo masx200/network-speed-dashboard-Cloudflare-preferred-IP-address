@@ -140,8 +140,8 @@
 | 286  | otto.ns.cloudflare.com                                                | 2606:4700:58::a29f:2c87            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2c87]:443: connect: network is unreachable            |
 | 287  | otto.ns.cloudflare.com                                                | 2803:f800:50::6ca2:c387            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c387]:443: connect: network is unreachable            |
 | 288  | otto.ns.cloudflare.com                                                | 2a06:98c1:50::ac40:2387            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:2387]:443: connect: network is unreachable            |
-| 293  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                | 2606:4700:3033::ac43:a162          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable          |
-| 294  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                | 2606:4700:3034::6815:9e6           | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable           |
+| 293  | yx-auto.pages.dev                | 2606:4700:3033::ac43:a162          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable          |
+| 294  | yx-auto.pages.dev                | 2606:4700:3034::6815:9e6           | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable           |
 | 298  | moura.ns.cloudflare.com                                               | 2606:4700:58::a29f:2cd9            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2cd9]:443: connect: network is unreachable            |
 | 299  | moura.ns.cloudflare.com                                               | 2803:f800:50::6ca2:c3d9            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3d9]:443: connect: network is unreachable            |
 | 300  | moura.ns.cloudflare.com                                               | 2a06:98c1:50::ac40:23d9            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23d9]:443: connect: network is unreachable            |
@@ -165,8 +165,8 @@
 | 359  | pranab.ns.cloudflare.com                                              | 2a06:98c1:50::ac40:23c7            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23c7]:443: connect: network is unreachable            |
 | 368  | cf.090227.xyz                                                         | 2606:4700:310c::ac42:2c4d          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:310c::ac42:2c4d]:443: connect: network is unreachable          |
 | 369  | cf.090227.xyz                                                         | 2606:4700:310c::ac42:2fb3          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:310c::ac42:2fb3]:443: connect: network is unreachable          |
-| 372  | 6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa | 2606:4700:3031::ac43:868b          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3031::ac43:868b]:443: connect: network is unreachable          |
-| 373  | 6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa | 2606:4700:3030::6815:63c           | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3030::6815:63c]:443: connect: network is unreachable           |
+| 372  | yx-auto.pages.dev | 2606:4700:3031::ac43:868b          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3031::ac43:868b]:443: connect: network is unreachable          |
+| 373  | yx-auto.pages.dev | 2606:4700:3030::6815:63c           | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3030::6815:63c]:443: connect: network is unreachable           |
 | 377  | cf.0sm.com                                                            | 2606:4700:3032::6815:785           | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3032::6815:785]:443: connect: network is unreachable           |
 | 378  | cf.0sm.com                                                            | 2606:4700:3037::ac43:bb91          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3037::ac43:bb91]:443: connect: network is unreachable          |
 | 384  | ae8a9c24-83de.masx200.ddns-ip.net                                     | 2606:4700:3031::ac43:9db6          | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3031::ac43:9db6]:443: connect: network is unreachable          |
@@ -306,7 +306,7 @@ cloudflare | | 376 | cf.0sm.com | 172.67.187.145 | IPv4 | h3 | ✅ 成功 | 124 
 cloudflare | | 467 | cmcc.877774.xyz | 104.16.149.5 | IPv4 | h3 | ✅ 成功 | 124
 | cloudflare | | 90 | cloudflare-ip.mofashi.ltd | 104.21.72.233 | IPv4 | h3 | ✅
 成功 | 125 | cloudflare | | 371 |
-6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa |
+yx-auto.pages.dev |
 172.67.134.139 | IPv4 | h3 | ✅ 成功 | 125 | cloudflare | | 91 |
 cloudflare-ip.mofashi.ltd | 172.67.155.172 | IPv4 | h3 | ✅ 成功 | 127 |
 cloudflare | | 102 | ct.877774.xyz | 172.64.229.161 | IPv4 | h3 | ✅ 成功 | 127

@@ -111,7 +111,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 438  | www.wto.org                                                           | 2606:4700:4406::ac40:9242 | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 439  | www.wto.org                                                           | 2a06:98c1:3102::6812:29be | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 454  | japan.com                                                             | 2606:4700:20::681a:53c    | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
-| 15   | bhr01erx45.inzjddnkdz.de5.net                                         | 2606:4700:3034::ac43:97cf | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 15   | yx-auto.pages.dev                                         | 2606:4700:3034::ac43:97cf | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 62   | ipv4.ip.sb                                                            | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 73   | steamdb.info                                                          | 2606:4700:10::6814:22d4   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 79   | 104.18.37.13                                                          | 104.18.37.13              | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -120,7 +120,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 102  | www.4chan.org                                                         | 104.16.228.229            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 105  | icook.hk                                                              | 2606:4700:3031::6815:5ad2 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 116  | www.visa.cn                                                           | 162.159.152.2             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 141  | 6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa | 104.21.6.60               | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
+| 141  | yx-auto.pages.dev | 104.21.6.60               | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 178  | freeyx.cloudflare88.eu.org                                            | 141.101.120.112           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 212  | cloudflare-ip.mofashi.ltd                                             | 172.67.155.172            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 235  | cmcc.877774.xyz                                                       | 104.16.148.3              | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -132,13 +132,13 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 322  | whatismyipaddress.com                                                 | 104.19.223.79             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 330  | silkbook.com                                                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 344  | yx-auto.pages.dev                                                     | 2606:4700:310c::ac42:2f70 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 380  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                | 2606:4700:3034::6815:9e6  | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 380  | yx-auto.pages.dev                | 2606:4700:3034::6815:9e6  | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 400  | icook.tw                                                              | 2606:4700:10::ac42:9e73   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 405  | www.digitalocean.com                                                  | 104.19.174.68             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 409  | [2606:4700:83bd::7d8:2b47]                                            | 2606:4700:83bd::7d8:2b47  | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 436  | www.wto.org                                                           | 172.64.146.66             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 452  | japan.com                                                             | 104.26.4.60               | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 14   | bhr01erx45.inzjddnkdz.de5.net                                         | 2606:4700:3031::6815:49fa | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
+| 14   | yx-auto.pages.dev                                         | 2606:4700:3031::6815:49fa | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 18   | www.ipget.net                                                         | 2606:4700:3036::6815:fd4  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 58   | cf.0sm.com                                                            | 2606:4700:3032::6815:785  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 70   | ipinfo.in                                                             | 2606:4700:3037::ac43:c6cb | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -167,7 +167,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 355  | dnschecker.org                                                        | 2606:4700:20::681a:759    | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 359  | cf.877774.xyz                                                         | 2a06:98c1:3102::6812:29be | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 368  | [2606:4700:440b::3e6e:5f06]                                           | 2606:4700:440b::3e6e:5f06 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
-| 379  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                | 104.21.9.230              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
+| 379  | yx-auto.pages.dev                | 104.21.9.230              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 401  | icook.tw                                                              | 2606:4700:10::6814:1c4a   | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 
 ### 延迟分布分析

@@ -7,7 +7,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 for (
   const oldText of [
-    "yx-auto.pages.dev",`yx-auto.pages.dev`
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
+  "yx-auto.pages.dev",
   ]
 ) {
   // 配置要替换的文本
@@ -19,7 +28,7 @@ for (
   //.replaceAll(/\w/g, "*");
 
   // 支持的文件扩展名
-  const extensions = [".js", ".yml", ".json", ".txt", "*.md"];
+  const extensions = [".js", ".yml", ".json", ".txt", ".md"];
 
   // 递归遍历目录
   function walkDirectory(dir, callback) {

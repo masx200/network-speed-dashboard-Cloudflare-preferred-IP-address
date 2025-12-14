@@ -189,8 +189,8 @@
 | 440  | moura.ns.cloudflare.com                                                             | 2606:4700:58::a29f:2cd9              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2cd9]:443: connect: network is unreachable              |
 | 441  | moura.ns.cloudflare.com                                                             | 2803:f800:50::6ca2:c3d9              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3d9]:443: connect: network is unreachable              |
 | 442  | moura.ns.cloudflare.com                                                             | 2a06:98c1:50::ac40:23d9              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23d9]:443: connect: network is unreachable              |
-| 445  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                              | 2606:4700:3034::6815:9e6             | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable             |
-| 446  | 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org                              | 2606:4700:3033::ac43:a162            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable            |
+| 445  | yx-auto.pages.dev                              | 2606:4700:3034::6815:9e6             | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable             |
+| 446  | yx-auto.pages.dev                              | 2606:4700:3033::ac43:a162            | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable            |
 | 450  | huxley.ns.cloudflare.com                                                            | 2606:4700:58::a29f:2cbc              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2cbc]:443: connect: network is unreachable              |
 | 451  | huxley.ns.cloudflare.com                                                            | 2803:f800:50::6ca2:c3bc              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3bc]:443: connect: network is unreachable              |
 | 452  | huxley.ns.cloudflare.com                                                            | 2a06:98c1:50::ac40:23bc              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23bc]:443: connect: network is unreachable              |
@@ -263,7 +263,7 @@ IPv4 | h3 | ✅ 成功 | 47 | cloudflare | | 14 | julio.ns.cloudflare.com |
 172.64.35.209 | IPv4 | h3 | ✅ 成功 | 48 | cloudflare | | 226 | 172.64.49.165 |
 172.64.49.165 | IPv4 | h3 | ✅ 成功 | 48 | cloudflare | | 371 | fbi.gov |
 104.16.148.244 | IPv4 | h3 | ✅ 成功 | 48 | cloudflare | | 443 |
-04c6cf21-1294-4fae-8bf8-715bbc897b60.masx201.dpdns.org | 172.67.161.98 | IPv4 |
+yx-auto.pages.dev | 172.67.161.98 | IPv4 |
 h3 | ✅ 成功 | 48 | cloudflare | | 339 | ipv4.ip.sb | 104.26.13.31 | IPv4 | h3 |
 ✅ 成功 | 49 | cloudflare | | 430 | www.whatismyip.com | 104.26.12.23 | IPv4 |
 h3 | ✅ 成功 | 49 | cloudflare | | 87 | www.okcupid.com | 104.16.223.254 | IPv4

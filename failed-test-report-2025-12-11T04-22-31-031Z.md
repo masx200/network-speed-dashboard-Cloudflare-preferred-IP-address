@@ -77,7 +77,7 @@ icook.tw | 2606:4700:10::6814:1c4a | IPv6 | h2 | ✅ 成功 | 48 | cloudflare | 
 cloudflare | | 460 | ae8a9c24-83de.masx200.ddns-ip.net | 104.21.14.41 | IPv4 |
 h2 | ✅ 成功 | 48 | cloudflare | | 13 | ifconfig.co | 2606:4700:3037::6815:365b
 | IPv6 | h2 | ✅ 成功 | 49 | cloudflare | | 21 |
-6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa |
+yx-auto.pages.dev |
 2606:4700:3031::ac43:868b | IPv6 | h2 | ✅ 成功 | 49 | cloudflare | | 83 |
 www.csgo.com | 195.85.59.95 | IPv4 | h2 | ✅ 成功 | 49 | cloudflare | | 90 |
 www.ipget.net | 172.67.207.26 | IPv4 | h2 | ✅ 成功 | 49 | cloudflare | | 159 |
@@ -139,7 +139,7 @@ IPv4 | h2 | ✅ 成功 | 51 | cloudflare | | 404 | cf.090227.xyz |
 na.877774.xyz | 104.19.74.233 | IPv4 | h2 | ✅ 成功 | 51 | cloudflare | | 465 |
 ct.877774.xyz | 172.64.229.174 | IPv4 | h2 | ✅ 成功 | 51 | cloudflare | | 17 |
 www.wto.org | 2a06:98c1:3102::6812:29be | IPv6 | h2 | ✅ 成功 | 52 | cloudflare
-| | 20 | 6a507fac-b8e4-45be-b2f0-9310f72c7eca.b.3.b.f.0.7.4.0.1.0.0.2.ip6.arpa |
+| | 20 | yx-auto.pages.dev |
 172.67.134.139 | IPv4 | h2 | ✅ 成功 | 52 | cloudflare | | 76 |
 bowen.ns.cloudflare.com | 2803:f800:50::6ca2:c353 | IPv6 | h2 | ✅ 成功 | 52 |
 cloudflare | | 82 | local-aria2-webui.masx200.ddns-ip.net |
