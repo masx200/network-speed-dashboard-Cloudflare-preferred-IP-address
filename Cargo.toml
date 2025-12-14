@@ -39,7 +39,7 @@ rand = "0.9"
 hickory-proto = {version = "0.25.2",features = ["dnssec-ring"] }
 rustls = { version = "0.23.35", features = ["std", "ring"], default-features = false }
 webpki-roots = "1"
-ring = "=0.17.13"
+ring = "0.17.14"
 
 # 异步工具
 futures = "0.3"
@@ -56,9 +56,15 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
 
 # 添加安全版本的idna依赖
-idna = "=1.1.0"
+idna = "1.1.0"
 
 [patch.crates-io]
+
+# ring = { version = "0.17.14" }  # 或你需要的修复版本
+# idna = { version = "=1.1.0" }    # 修复安全漏洞的版本
 # 如果需要覆盖某些依赖版本，可以在这里添加
 # reqwest = { path = "./reqwest-master/reqwest-master" }
 
+# ring = "=0.17.13"
+
+# idna = "=1.1.0"
