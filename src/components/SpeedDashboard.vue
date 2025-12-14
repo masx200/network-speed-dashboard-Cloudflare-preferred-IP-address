@@ -76,6 +76,15 @@
               </v-col>
               <v-col cols="12" md="2">
                 <v-select
+                  v-model="filters.city"
+                  :items="cityOptions"
+                  label="城市"
+                  clearable
+                  @update:model-value="applyFilters"
+                ></v-select>
+              </v-col>
+              <v-col cols="12" md="2">
+                <v-select
                   v-model="filters.statusFilter"
                   :items="statusOptions"
                   label="测试状态"
@@ -90,7 +99,7 @@
                   @update:model-value="applyFilters"
                 ></v-date-input>
               </v-col>
-              <v-col cols="12" md="2">
+              <v-col cols="12" md="1">
                 <v-btn @click="clearFilters" color="primary" block
                   >清除筛选</v-btn
                 >
@@ -137,6 +146,10 @@
               :search="search"
               :sort-by="[{ key: 'latency_ms', order: 'asc' }]"
               :loading="loading"
+              :items-per-page="itemsPerPage"
+              v-model:page="currentPage"
+              :items-per-page-options="[]"
+              hide-default-footer
               class="elevation-1"
             >
               <template v-slot:item.success="{ item }">
@@ -164,6 +177,78 @@
                 <span v-else>-</span>
               </template>
             </v-data-table>
+
+            <!-- 自定义分页控制 -->
+            <v-row class="mt-4" justify="center">
+              <v-col cols="12" md="8">
+                <v-card>
+                  <v-card-text>
+                    <v-row align="center" justify="center">
+                      <v-col cols="12" md="2" class="text-center">
+                        <v-btn
+                          @click="goToFirstPage"
+                          :disabled="currentPage === 1"
+                          color="primary"
+                          size="small"
+                        >
+                          第一页
+                        </v-btn>
+                      </v-col>
+                      <v-col cols="12" md="2" class="text-center">
+                        <v-btn
+                          @click="currentPage = Math.max(1, currentPage - 1)"
+                          :disabled="currentPage === 1"
+                          color="primary"
+                          size="small"
+                        >
+                          上一页
+                        </v-btn>
+                      </v-col>
+                      <v-col cols="12" md="2" class="text-center">
+                        <span class="text-subtitle-1">
+                          第 {{ currentPage }} 页，
+                          共 {{ totalPages }} 页
+                        </span>
+                      </v-col>
+                      <v-col cols="12" md="2" class="text-center">
+                        <v-text-field
+                          v-model.number="jumpToPage"
+                          label="跳转到页"
+                          type="number"
+                          :min="1"
+                          :max="totalPages"
+                          outlined
+                          dense
+                          hide-details
+                          @keyup.enter="goToPage"
+                          style="max-width: 120px;"
+                        ></v-text-field>
+                      </v-col>
+                      <v-col cols="12" md="2" class="text-center">
+                        <v-btn
+                          @click="currentPage = Math.min(totalPages, currentPage + 1)"
+                          :disabled="currentPage >= totalPages"
+                          color="primary"
+                          size="small"
+                        >
+                          下一页
+                        </v-btn>
+                      </v-col>
+                      <v-col cols="12" md="2" class="text-center">
+                        <v-btn
+                          @click="goToLastPage"
+                          :disabled="currentPage >= totalPages"
+                          color="primary"
+                          size="small"
+                        >
+                          最后一页
+                        </v-btn>
+                      </v-col>
+                    </v-row>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-card>
       </v-container>
@@ -183,6 +268,9 @@ export default {
     const testReports = ref([]);
     const allResults = ref([]);
     const filteredResults = ref([]);
+    const currentPage = ref(1);
+    const itemsPerPage = ref(10);
+    const jumpToPage = ref(null);
 
     // 筛选条件
     const filters = ref({
@@ -190,6 +278,7 @@ export default {
       country: null,
       asn: null,
       asName: null,
+      city: null,
       ipVersion: null,
       protocol: null,
       testDate: null,
@@ -216,6 +305,7 @@ export default {
       { title: "测试日期", key: "testDate", sortable: true },
       { title: "错误信息", key: "error_msg", sortable: false },
       { title: "测试环境", key: "testEnvironment", sortable: false },
+      { title: "城市", key: "city", sortable: true },
     ];
 
     // 统计信息
@@ -223,9 +313,11 @@ export default {
       const totalTests = allResults.value.length;
       const successTests = allResults.value.filter((r) => r.success).length;
       const failedTests = totalTests - successTests;
+      // 只计算成功测试的平均延迟
+      const successTestResults = allResults.value.filter((r) => r.success);
       const avgLatency =
-        allResults.value.reduce((sum, r) => sum + (r.latency_ms || 0), 0) /
-          totalTests || 0;
+        successTestResults.reduce((sum, r) => sum + (r.latency_ms || 0), 0) /
+          successTestResults.length || 0;
 
       return [
         { title: "总测试数", value: totalTests, subtitle: "个" },
@@ -266,6 +358,37 @@ export default {
       ];
       return protocols;
     });
+
+    const cityOptions = computed(() => {
+      const cities = [
+        ...new Set(allResults.value.map((r) => r.city).filter(Boolean)),
+      ];
+      console.log("City options:", cities);
+      return cities;
+    });
+
+    // 计算总页数
+    const totalPages = computed(() => {
+      return Math.ceil(filteredResults.value.length / itemsPerPage.value) || 1;
+    });
+
+    // 跳转到指定页
+    const goToPage = () => {
+      if (jumpToPage.value && jumpToPage.value >= 1 && jumpToPage.value <= totalPages.value) {
+        currentPage.value = jumpToPage.value;
+        jumpToPage.value = null;
+      }
+    };
+
+    // 跳转到第一页
+    const goToFirstPage = () => {
+      currentPage.value = 1;
+    };
+
+    // 跳转到最后一页
+    const goToLastPage = () => {
+      currentPage.value = totalPages.value;
+    };
 
     // 获取延迟颜色
     const getLatencyColor = (latency) => {
@@ -329,6 +452,7 @@ export default {
                     country: report.test_environment?.ip_info?.country,
                     asn: report.test_environment?.ip_info?.asn,
                     asName: report.test_environment?.ip_info?.as_name,
+                    city: report.test_environment?.ip_info?.city,
                     generatedAt: report.report_info?.generated_at,
                   };
                   results.push(result);
@@ -344,6 +468,7 @@ export default {
                     country: report.test_environment?.ip_info?.country,
                     asn: report.test_environment?.ip_info?.asn,
                     asName: report.test_environment?.ip_info?.as_name,
+                    city: report.test_environment?.ip_info?.city,
                     generatedAt: report.report_info?.generated_at,
                   };
                   results.push(result);
@@ -433,6 +558,12 @@ export default {
         console.log("After AS Name filter:", results.length);
       }
 
+      // 按城市筛选
+      if (filters.value.city) {
+        results = results.filter((r) => r.city === filters.value.city);
+        console.log("After city filter:", results.length);
+      }
+
       // 按IP版本筛选
       if (filters.value.ipVersion) {
         results = results.filter(
@@ -504,11 +635,13 @@ export default {
         country: null,
         asn: null,
         asName: null,
+        city: null,
         ipVersion: null,
         protocol: null,
         testDate: null,
         statusFilter: "success",
       };
+      search.value = ""; // 清除搜索框
       filteredResults.value = [...allResults.value];
       applyFilters();
     };
@@ -533,13 +666,21 @@ export default {
       countryOptions,
       asnOptions,
       asNameOptions,
+      cityOptions,
       protocolOptions,
       statusOptions,
+      currentPage,
+      itemsPerPage,
+      jumpToPage,
+      totalPages,
       getLatencyColor,
       formatDate,
       applyFilters,
       clearFilters,
       refreshData,
+      goToPage,
+      goToFirstPage,
+      goToLastPage,
     };
   },
 };
