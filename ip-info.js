@@ -101,11 +101,11 @@ class IPInfoFetcher {
     try {
       console.log("正在从 ping0.cc 获取IP信息...");
       const { stdout } = await execAsync(
-        'curl -s -H "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" https://ping0.cc/geo -L'
+        'curl -s -H "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" https://ping0.cc/geo -L',
       );
 
       // ping0.cc 返回的是文本格式，需要解析
-      const lines = stdout.trim().split('\n');
+      const lines = stdout.trim().split("\n");
       if (lines.length >= 4) {
         const ip = lines[0].trim();
         const location = lines[1].trim();
@@ -147,7 +147,7 @@ class IPInfoFetcher {
     try {
       console.log("正在从 api.ip.sb 获取IP信息...");
       const { stdout } = await execAsync(
-        'curl -s https://api.ip.sb/geoip -H "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36"'
+        'curl -s https://api.ip.sb/geoip -H "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36"',
       );
 
       const data = JSON.parse(stdout);
@@ -266,13 +266,11 @@ class IPInfoFetcher {
 - **网络域名**: ${this.ipinfo.as_domain || "N/A"}`;
 
     if (this.ipinfo.continent) {
-      markdown +=
-        `\n- **大洲**: ${this.ipinfo.continent} (${this.ipinfo.continent_code})`;
+      markdown += `\n- **大洲**: ${this.ipinfo.continent} (${this.ipinfo.continent_code})`;
     }
 
     if (this.ipinfo.latitude && this.ipinfo.longitude) {
-      markdown +=
-        `\n- **地理坐标**: ${this.ipinfo.latitude}, ${this.ipinfo.longitude}`;
+      markdown += `\n- **地理坐标**: ${this.ipinfo.latitude}, ${this.ipinfo.longitude}`;
     }
 
     if (this.ipinfo.time_zone) {

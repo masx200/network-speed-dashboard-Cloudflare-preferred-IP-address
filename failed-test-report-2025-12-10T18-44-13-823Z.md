@@ -74,14 +74,13 @@ cloudflare | | 249 | xn--b6gac.eu.org | 2606:4700:3037::ac43:99fd | IPv6 | h2 |
 | h2 | ✅ 成功 | 52 | cloudflare | | 440 | trevor.ns.cloudflare.com |
 2606:4700:58::a29f:2c9a | IPv6 | h2 | ✅ 成功 | 52 | cloudflare | | 136 |
 ct.877774.xyz | 172.64.229.217 | IPv4 | h2 | ✅ 成功 | 53 | cloudflare | | 165 |
-yx-auto.pages.dev |
-2606:4700:3031::ac43:868b | IPv6 | h2 | ✅ 成功 | 53 | cloudflare | | 230 |
-cf.877771.xyz | 172.67.152.183 | IPv4 | h2 | ✅ 成功 | 53 | cloudflare | | 246 |
-104.17.142.12 | 104.17.142.12 | IPv4 | h2 | ✅ 成功 | 53 | cloudflare | | 250 |
-xn--b6gac.eu.org | 2606:4700:3035::6815:5a4e | IPv6 | h2 | ✅ 成功 | 53 |
-cloudflare | | 425 | palera.in | 2606:4700:3032::ac43:9d7a | IPv6 | h2 | ✅ 成功
-| 53 | cloudflare | | 121 | ae8a9c24-83de.masx200.ddns-ip.net | 172.67.157.182 |
-IPv4 | h2 | ✅ 成功 | 54 | cloudflare | | 223 |
+yx-auto.pages.dev | 2606:4700:3031::ac43:868b | IPv6 | h2 | ✅ 成功 | 53 |
+cloudflare | | 230 | cf.877771.xyz | 172.67.152.183 | IPv4 | h2 | ✅ 成功 | 53 |
+cloudflare | | 246 | 104.17.142.12 | 104.17.142.12 | IPv4 | h2 | ✅ 成功 | 53 |
+cloudflare | | 250 | xn--b6gac.eu.org | 2606:4700:3035::6815:5a4e | IPv6 | h2 |
+✅ 成功 | 53 | cloudflare | | 425 | palera.in | 2606:4700:3032::ac43:9d7a | IPv6
+| h2 | ✅ 成功 | 53 | cloudflare | | 121 | ae8a9c24-83de.masx200.ddns-ip.net |
+172.67.157.182 | IPv4 | h2 | ✅ 成功 | 54 | cloudflare | | 223 |
 local-aria2-webui.masx200.ddns-ip.net | 104.21.14.41 | IPv4 | h2 | ✅ 成功 | 54
 | cloudflare | | 298 | ipv4.ip.sb | 104.26.12.31 | IPv4 | h2 | ✅ 成功 | 54 |
 cloudflare | | 84 | tasteatlas.com | 2606:4700::6811:2569 | IPv6 | h2 | ✅ 成功
@@ -151,32 +150,32 @@ cloudflare | | 278 | abdullah.ns.cloudflare.com | 2a06:98c1:50::ac40:23cb | IPv6
 h2 | ✅ 成功 | 60 | cloudflare | | 340 | toy-people.com |
 2606:4700:20::ac43:4812 | IPv6 | h2 | ✅ 成功 | 60 | cloudflare | | 355 |
 cmcc.877774.xyz | 104.16.149.3 | IPv4 | h2 | ✅ 成功 | 60 | cloudflare | | 164 |
-yx-auto.pages.dev |
-2606:4700:3030::6815:63c | IPv6 | h2 | ✅ 成功 | 61 | cloudflare | | 225 |
-local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6 | IPv6 | h2 |
-✅ 成功 | 61 | cloudflare | | 255 | ip.sb | 2606:4700:20::681a:c1f | IPv6 | h2 |
-✅ 成功 | 61 | cloudflare | | 287 | cu.877774.xyz | 104.26.4.119 | IPv4 | h2 |
-✅ 成功 | 61 | cloudflare | | 360 | cmcc.877774.xyz | 104.16.149.8 | IPv4 | h2 |
-✅ 成功 | 61 | cloudflare | | 371 | 172.64.144.188 | 172.64.144.188 | IPv4 | h2
-| ✅ 成功 | 61 | cloudflare | | 378 | www.visa.com.hk | 104.18.20.69 | IPv4 | h2
-| ✅ 成功 | 61 | cloudflare | | 419 | rustam.ns.cloudflare.com |
-2803:f800:50::6ca2:c394 | IPv6 | h2 | ✅ 成功 | 61 | cloudflare | | 429 |
-www.okcupid.com | 104.17.48.63 | IPv4 | h2 | ✅ 成功 | 61 | cloudflare | | 434 |
-pranab.ns.cloudflare.com | 2606:4700:58::a29f:2cc7 | IPv6 | h2 | ✅ 成功 | 61 |
-cloudflare | | 452 | www.visa.cn | 162.159.152.2 | IPv4 | h2 | ✅ 成功 | 61 |
-cloudflare | | 483 | damien.ns.cloudflare.com | 2a06:98c1:50::ac40:23a8 | IPv6 |
-h2 | ✅ 成功 | 61 | cloudflare | | 77 | cloudflare-ip.mofashi.ltd |
-104.21.72.233 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 217 |
-bowen.ns.cloudflare.com | 172.64.35.83 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare |
-| 222 | 172.67.243.218 | 172.67.243.218 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare
-| | 224 | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182 | IPv4 | h2 |
-✅ 成功 | 62 | cloudflare | | 253 | ip.sb | 104.26.12.31 | IPv4 | h2 | ✅ 成功 |
-62 | cloudflare | | 302 | fbi.gov | 104.16.149.244 | IPv4 | h2 | ✅ 成功 | 62 |
-cloudflare | | 308 | 172.67.75.172 | 172.67.75.172 | IPv4 | h2 | ✅ 成功 | 62 |
-cloudflare | | 316 | eur.877774.xyz | 104.21.47.209 | IPv4 | h2 | ✅ 成功 | 62 |
-cloudflare | | 470 | whatismyipaddress.com | 104.19.223.79 | IPv4 | h2 | ✅ 成功
-| 62 | cloudflare | | 477 | icook.tw | 2606:4700:10::ac42:9e73 | IPv6 | h2 | ✅
-成功 | 62 | cloudflare |
+yx-auto.pages.dev | 2606:4700:3030::6815:63c | IPv6 | h2 | ✅ 成功 | 61 |
+cloudflare | | 225 | local-aria2-webui.masx200.ddns-ip.net |
+2606:4700:3031::ac43:9db6 | IPv6 | h2 | ✅ 成功 | 61 | cloudflare | | 255 |
+ip.sb | 2606:4700:20::681a:c1f | IPv6 | h2 | ✅ 成功 | 61 | cloudflare | | 287 |
+cu.877774.xyz | 104.26.4.119 | IPv4 | h2 | ✅ 成功 | 61 | cloudflare | | 360 |
+cmcc.877774.xyz | 104.16.149.8 | IPv4 | h2 | ✅ 成功 | 61 | cloudflare | | 371 |
+172.64.144.188 | 172.64.144.188 | IPv4 | h2 | ✅ 成功 | 61 | cloudflare | | 378
+| www.visa.com.hk | 104.18.20.69 | IPv4 | h2 | ✅ 成功 | 61 | cloudflare | | 419
+| rustam.ns.cloudflare.com | 2803:f800:50::6ca2:c394 | IPv6 | h2 | ✅ 成功 | 61
+| cloudflare | | 429 | www.okcupid.com | 104.17.48.63 | IPv4 | h2 | ✅ 成功 | 61
+| cloudflare | | 434 | pranab.ns.cloudflare.com | 2606:4700:58::a29f:2cc7 | IPv6
+| h2 | ✅ 成功 | 61 | cloudflare | | 452 | www.visa.cn | 162.159.152.2 | IPv4 |
+h2 | ✅ 成功 | 61 | cloudflare | | 483 | damien.ns.cloudflare.com |
+2a06:98c1:50::ac40:23a8 | IPv6 | h2 | ✅ 成功 | 61 | cloudflare | | 77 |
+cloudflare-ip.mofashi.ltd | 104.21.72.233 | IPv4 | h2 | ✅ 成功 | 62 |
+cloudflare | | 217 | bowen.ns.cloudflare.com | 172.64.35.83 | IPv4 | h2 | ✅
+成功 | 62 | cloudflare | | 222 | 172.67.243.218 | 172.67.243.218 | IPv4 | h2 |
+✅ 成功 | 62 | cloudflare | | 224 | local-aria2-webui.masx200.ddns-ip.net |
+172.67.157.182 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 253 | ip.sb |
+104.26.12.31 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 302 | fbi.gov |
+104.16.149.244 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 308 | 172.67.75.172 |
+172.67.75.172 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 316 | eur.877774.xyz |
+104.21.47.209 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare | | 470 |
+whatismyipaddress.com | 104.19.223.79 | IPv4 | h2 | ✅ 成功 | 62 | cloudflare |
+| 477 | icook.tw | 2606:4700:10::ac42:9e73 | IPv6 | h2 | ✅ 成功 | 62 |
+cloudflare |
 
 ### 延迟分布分析
 

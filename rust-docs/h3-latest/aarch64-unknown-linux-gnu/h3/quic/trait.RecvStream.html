@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -44,10 +44,9 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript><link
-        rel="stylesheet"
-        href="/-/rustdoc.static/noscript-263c88ec.css"
-      /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -66,7 +65,8 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-    ><h2><a href="#">RecvStream</a></h2></rustdoc-topbar>
+      ><h2><a href="#">RecvStream</a></h2></rustdoc-topbar
+    >
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -92,7 +92,8 @@
             <li><a href="#tymethod.recv_id" title="recv_id">recv_id</a></li>
             <li>
               <a href="#tymethod.stop_sending" title="stop_sending"
-              >stop_sending</a>
+                >stop_sending</a
+              >
             </li>
           </ul>
           <h3><a href="#implementors">Implementors</a></h3>
@@ -111,7 +112,8 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-              >quic</a>
+                >quic</a
+              >
             </div>
             <h1>
               Trait <span class="trait">Recv<wbr />Stream</span>&nbsp;<button
@@ -121,15 +123,14 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
-                class="src"
-                href="../../src/h3/quic.rs.html#203-221"
-              >Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/quic.rs.html#203-221"
+                >Source</a
+              >
             </span>
           </div>
-          <pre
-            class="rust item-decl"
-          >
+          <pre class="rust item-decl">
 <code>pub trait RecvStream {
     type <a href="#associatedtype.Buf" class="associatedtype">Buf</a>: <a class="trait" href="https://docs.rs/bytes/1.9.0/aarch64-unknown-linux-gnu/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>;
 
@@ -151,23 +152,26 @@
             Required Associated Types<a
               href="#required-associated-types"
               class="anchor"
-            >§</a>
+              >§</a
+            >
           </h2>
           <div class="methods">
             <details class="toggle" open>
               <summary>
                 <section id="associatedtype.Buf" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#205"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     type
-                    <a href="#associatedtype.Buf" class="associatedtype"
-                    >Buf</a>:
+                    <a href="#associatedtype.Buf" class="associatedtype">Buf</a
+                    >:
                     <a
                       class="trait"
                       href="https://docs.rs/bytes/1.9.0/aarch64-unknown-linux-gnu/bytes/buf/buf_impl/trait.Buf.html"
                       title="trait bytes::buf::buf_impl::Buf"
-                    >Buf</a>
+                      >Buf</a
+                    >
                   </h4>
                 </section>
               </summary>
@@ -188,7 +192,8 @@
                   <a
                     class="src rightside"
                     href="../../src/h3/quic.rs.html#211-214"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn <a href="#tymethod.poll_data" class="fn">poll_data</a>(
                     &amp;mut self, cx: &amp;mut
@@ -196,29 +201,35 @@
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                    >Context</a>&lt;'_&gt;, ) -&gt;
+                      >Context</a
+                    >&lt;'_&gt;, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                    >Poll</a>&lt;<a
+                      >Poll</a
+                    >&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                    >Result</a>&lt;<a
+                      >Result</a
+                    >&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
                       title="enum core::option::Option"
-                    >Option</a>&lt;Self::<a
+                      >Option</a
+                    >&lt;Self::<a
                       class="associatedtype"
                       href="trait.RecvStream.html#associatedtype.Buf"
                       title="type h3::quic::RecvStream::Buf"
-                    >Buf</a>&gt;,
+                      >Buf</a
+                    >&gt;,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                    >StreamErrorIncoming</a>&gt;&gt;
+                      >StreamErrorIncoming</a
+                    >&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -235,15 +246,17 @@
               <summary>
                 <section id="tymethod.stop_sending" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#217"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
-                    <a href="#tymethod.stop_sending" class="fn"
-                    >stop_sending</a>(&amp;mut self, error_code:
+                    <a href="#tymethod.stop_sending" class="fn">stop_sending</a
+                    >(&amp;mut self, error_code:
                     <a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.u64.html"
-                    >u64</a>)
+                      >u64</a
+                    >)
                   </h4>
                 </section>
               </summary>
@@ -255,16 +268,18 @@
               <summary>
                 <section id="tymethod.recv_id" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#220"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
-                    <a href="#tymethod.recv_id" class="fn"
-                    >recv_id</a>(&amp;self) -&gt;
+                    <a href="#tymethod.recv_id" class="fn">recv_id</a
+                    >(&amp;self) -&gt;
                     <a
                       class="struct"
                       href="struct.StreamId.html"
                       title="struct h3::quic::StreamId"
-                    >StreamId</a>
+                      >StreamId</a
+                    >
                   </h4>
                 </section>
               </summary>

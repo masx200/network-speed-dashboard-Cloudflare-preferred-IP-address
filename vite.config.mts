@@ -31,60 +31,60 @@ export default defineConfig({
     }),
     // PWA Configuration
     VitePWA({
-      registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'vite.svg'],
+      registerType: "autoUpdate",
+      includeAssets: ["favicon.ico", "vite.svg"],
       manifest: {
-        name: 'Network Speed Dashboard',
-        short_name: 'NetSpeed',
-        description: 'Cloudflare preferred IP address network speed dashboard',
-        theme_color: '#42b883',
-        background_color: '#ffffff',
-        display: 'standalone',
+        name: "Network Speed Dashboard",
+        short_name: "NetSpeed",
+        description: "Cloudflare preferred IP address network speed dashboard",
+        theme_color: "#42b883",
+        background_color: "#ffffff",
+        display: "standalone",
         icons: [
           {
-            src: 'pwa-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
+            src: "pwa-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
           },
           {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          }
-        ]
+            src: "pwa-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/api\./i,
-            handler: 'NetworkFirst',
+            handler: "NetworkFirst",
             options: {
-              cacheName: 'api-cache',
+              cacheName: "api-cache",
               expiration: {
                 maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365
-              }
-            }
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+            },
           },
           {
             urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
-            handler: 'CacheFirst',
+            handler: "CacheFirst",
             options: {
-              cacheName: 'images-cache',
+              cacheName: "images-cache",
               expiration: {
                 maxEntries: 60,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-              }
-            }
-          }
-        ]
-      }
-    })
+                maxAgeSeconds: 60 * 60 * 24 * 30,
+              },
+            },
+          },
+        ],
+      },
+    }),
   ],
   // Build configuration to remove console.log
   build: {
-    minify: 'terser',
+    minify: "terser",
     terserOptions: {
       compress: {
         drop_console: true,

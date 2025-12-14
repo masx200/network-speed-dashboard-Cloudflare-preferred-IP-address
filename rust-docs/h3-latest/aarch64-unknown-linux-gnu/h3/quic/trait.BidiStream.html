@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -44,10 +44,9 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript><link
-        rel="stylesheet"
-        href="/-/rustdoc.static/noscript-263c88ec.css"
-      /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -66,7 +65,8 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-    ><h2><a href="#">BidiStream</a></h2></rustdoc-topbar>
+      ><h2><a href="#">BidiStream</a></h2></rustdoc-topbar
+    >
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -84,11 +84,13 @@
           <ul class="block">
             <li>
               <a href="#associatedtype.RecvStream" title="RecvStream"
-              >RecvStream</a>
+                >RecvStream</a
+              >
             </li>
             <li>
               <a href="#associatedtype.SendStream" title="SendStream"
-              >SendStream</a>
+                >SendStream</a
+              >
             </li>
           </ul>
           <h3><a href="#required-methods">Required Methods</a></h3>
@@ -112,7 +114,8 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-              >quic</a>
+                >quic</a
+              >
             </div>
             <h1>
               Trait <span class="trait">Bidi<wbr />Stream</span>&nbsp;<button
@@ -122,15 +125,14 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
-                class="src"
-                href="../../src/h3/quic.rs.html#224-232"
-              >Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/quic.rs.html#224-232"
+                >Source</a
+              >
             </span>
           </div>
-          <pre
-            class="rust item-decl"
-          >
+          <pre class="rust item-decl">
 <code>pub trait BidiStream&lt;B: <a class="trait" href="https://docs.rs/bytes/1.9.0/aarch64-unknown-linux-gnu/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt;: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt; + <a class="trait" href="trait.RecvStream.html" title="trait h3::quic::RecvStream">RecvStream</a> {
     type <a href="#associatedtype.SendStream" class="associatedtype">SendStream</a>: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt;;
     type <a href="#associatedtype.RecvStream" class="associatedtype">RecvStream</a>: <a class="trait" href="trait.RecvStream.html" title="trait h3::quic::RecvStream">RecvStream</a>;
@@ -151,23 +153,27 @@
             Required Associated Types<a
               href="#required-associated-types"
               class="anchor"
-            >§</a>
+              >§</a
+            >
           </h2>
           <div class="methods">
             <details class="toggle" open>
               <summary>
                 <section id="associatedtype.SendStream" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#226"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     type
                     <a href="#associatedtype.SendStream" class="associatedtype"
-                    >SendStream</a>:
+                      >SendStream</a
+                    >:
                     <a
                       class="trait"
                       href="trait.SendStream.html"
                       title="trait h3::quic::SendStream"
-                    >SendStream</a>&lt;B&gt;
+                      >SendStream</a
+                    >&lt;B&gt;
                   </h4>
                 </section>
               </summary>
@@ -179,16 +185,19 @@
               <summary>
                 <section id="associatedtype.RecvStream" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#228"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     type
                     <a href="#associatedtype.RecvStream" class="associatedtype"
-                    >RecvStream</a>:
+                      >RecvStream</a
+                    >:
                     <a
                       class="trait"
                       href="trait.RecvStream.html"
                       title="trait h3::quic::RecvStream"
-                    >RecvStream</a>
+                      >RecvStream</a
+                    >
                   </h4>
                 </section>
               </summary>
@@ -205,18 +214,21 @@
               <summary>
                 <section id="tymethod.split" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#231"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn <a href="#tymethod.split" class="fn">split</a>(self)
                     -&gt; (Self::<a
                       class="associatedtype"
                       href="trait.BidiStream.html#associatedtype.SendStream"
                       title="type h3::quic::BidiStream::SendStream"
-                    >SendStream</a>, Self::<a
+                      >SendStream</a
+                    >, Self::<a
                       class="associatedtype"
                       href="trait.BidiStream.html#associatedtype.RecvStream"
                       title="type h3::quic::BidiStream::RecvStream"
-                    >RecvStream</a>)
+                      >RecvStream</a
+                    >)
                   </h4>
                 </section>
               </summary>
@@ -233,11 +245,14 @@
               This trait is <b>not</b>
               <a
                 href="https://doc.rust-lang.org/nightly/reference/items/traits.html#dyn-compatibility"
-              >dyn compatible</a>.
+                >dyn compatible</a
+              >.
             </p>
             <p>
-              <i>In older versions of Rust, dyn compatibility was called "object
-                safety", so this trait is not object safe.</i>
+              <i
+                >In older versions of Rust, dyn compatibility was called "object
+                safety", so this trait is not object safe.</i
+              >
             </p>
           </div>
           <h2 id="implementors" class="section-header">

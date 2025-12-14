@@ -120,9 +120,9 @@ exist already, and edit `.vscode/settings.json` as follows:
     "/path/to/hickory-dns/Cargo.toml",
     "/path/to/hickory-dns/conformance/Cargo.toml",
     "/path/to/hickory-dns/fuzz/Cargo.toml",
-    "/path/to/hickory-dns/tests/e2e-tests/Cargo.toml"
+    "/path/to/hickory-dns/tests/e2e-tests/Cargo.toml",
   ],
-  "rust-analyzer.cargo.features": "all"
+  "rust-analyzer.cargo.features": "all",
   // etc.
 }
 ```

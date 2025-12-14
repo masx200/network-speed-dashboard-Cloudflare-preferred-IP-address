@@ -1412,7 +1412,7 @@
     "timestamp": "2025-12-12T15:32:22.905Z",
     "ip_info": {
       "ip": "2a09:bac5:7494:96::f:375",
-      "ip_decimal": 5.587809466690676e+37,
+      "ip_decimal": 5.587809466690676e37,
       "country": "United States",
       "country_iso": "US",
       "country_eu": false,

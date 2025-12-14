@@ -1542,7 +1542,7 @@
     "timestamp": "2025-12-12T15:24:55.995Z",
     "ip_info": {
       "ip": "240e:38b:8b20:1200:6c97:1f15:bffd:8e32",
-      "ip_decimal": 4.792497190727705e+37,
+      "ip_decimal": 4.792497190727705e37,
       "country": "China",
       "country_iso": "CN",
       "country_eu": false,

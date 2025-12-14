@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -41,10 +41,9 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript><link
-        rel="stylesheet"
-        href="/-/rustdoc.static/noscript-263c88ec.css"
-      /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -63,7 +62,8 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-    ><h2><a href="#">OpenStreams</a></h2></rustdoc-topbar>
+      ><h2><a href="#">OpenStreams</a></h2></rustdoc-topbar
+    >
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -81,11 +81,13 @@
           <ul class="block">
             <li>
               <a href="#associatedtype.BidiStream" title="BidiStream"
-              >BidiStream</a>
+                >BidiStream</a
+              >
             </li>
             <li>
               <a href="#associatedtype.SendStream" title="SendStream"
-              >SendStream</a>
+                >SendStream</a
+              >
             </li>
           </ul>
           <h3><a href="#required-methods">Required Methods</a></h3>
@@ -93,11 +95,13 @@
             <li><a href="#tymethod.close" title="close">close</a></li>
             <li>
               <a href="#tymethod.poll_open_bidi" title="poll_open_bidi"
-              >poll_open_bidi</a>
+                >poll_open_bidi</a
+              >
             </li>
             <li>
               <a href="#tymethod.poll_open_send" title="poll_open_send"
-              >poll_open_send</a>
+                >poll_open_send</a
+              >
             </li>
           </ul>
           <h3><a href="#implementors">Implementors</a></h3>
@@ -116,7 +120,8 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-              >quic</a>
+                >quic</a
+              >
             </div>
             <h1>
               Trait <span class="trait">Open<wbr />Streams</span>&nbsp;<button
@@ -126,15 +131,14 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
-                class="src"
-                href="../../src/h3/quic.rs.html#148-168"
-              >Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/quic.rs.html#148-168"
+                >Source</a
+              >
             </span>
           </div>
-          <pre
-            class="rust item-decl"
-          >
+          <pre class="rust item-decl">
 <code>pub trait OpenStreams&lt;B: <a class="trait" href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt; {
     type <a href="#associatedtype.BidiStream" class="associatedtype">BidiStream</a>: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt; + <a class="trait" href="trait.RecvStream.html" title="trait h3::quic::RecvStream">RecvStream</a>;
     type <a href="#associatedtype.SendStream" class="associatedtype">SendStream</a>: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt;;
@@ -160,28 +164,33 @@
             Required Associated Types<a
               href="#required-associated-types"
               class="anchor"
-            >§</a>
+              >§</a
+            >
           </h2>
           <div class="methods">
             <details class="toggle" open>
               <summary>
                 <section id="associatedtype.BidiStream" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#150"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     type
                     <a href="#associatedtype.BidiStream" class="associatedtype"
-                    >BidiStream</a>:
+                      >BidiStream</a
+                    >:
                     <a
                       class="trait"
                       href="trait.SendStream.html"
                       title="trait h3::quic::SendStream"
-                    >SendStream</a>&lt;B&gt; +
+                      >SendStream</a
+                    >&lt;B&gt; +
                     <a
                       class="trait"
                       href="trait.RecvStream.html"
                       title="trait h3::quic::RecvStream"
-                    >RecvStream</a>
+                      >RecvStream</a
+                    >
                   </h4>
                 </section>
               </summary>
@@ -193,16 +202,19 @@
               <summary>
                 <section id="associatedtype.SendStream" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#152"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     type
                     <a href="#associatedtype.SendStream" class="associatedtype"
-                    >SendStream</a>:
+                      >SendStream</a
+                    >:
                     <a
                       class="trait"
                       href="trait.SendStream.html"
                       title="trait h3::quic::SendStream"
-                    >SendStream</a>&lt;B&gt;
+                      >SendStream</a
+                    >&lt;B&gt;
                   </h4>
                 </section>
               </summary>
@@ -221,34 +233,41 @@
                   <a
                     class="src rightside"
                     href="../../src/h3/quic.rs.html#155-158"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.poll_open_bidi" class="fn"
-                    >poll_open_bidi</a>( &amp;mut self, cx: &amp;mut
+                      >poll_open_bidi</a
+                    >( &amp;mut self, cx: &amp;mut
                     <a
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                    >Context</a>&lt;'_&gt;, ) -&gt;
+                      >Context</a
+                    >&lt;'_&gt;, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                    >Poll</a>&lt;<a
+                      >Poll</a
+                    >&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                    >Result</a>&lt;Self::<a
+                      >Result</a
+                    >&lt;Self::<a
                       class="associatedtype"
                       href="trait.OpenStreams.html#associatedtype.BidiStream"
                       title="type h3::quic::OpenStreams::BidiStream"
-                    >BidiStream</a>,
+                      >BidiStream</a
+                    >,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                    >StreamErrorIncoming</a>&gt;&gt;
+                      >StreamErrorIncoming</a
+                    >&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -262,34 +281,41 @@
                   <a
                     class="src rightside"
                     href="../../src/h3/quic.rs.html#161-164"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.poll_open_send" class="fn"
-                    >poll_open_send</a>( &amp;mut self, cx: &amp;mut
+                      >poll_open_send</a
+                    >( &amp;mut self, cx: &amp;mut
                     <a
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                    >Context</a>&lt;'_&gt;, ) -&gt;
+                      >Context</a
+                    >&lt;'_&gt;, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                    >Poll</a>&lt;<a
+                      >Poll</a
+                    >&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                    >Result</a>&lt;Self::<a
+                      >Result</a
+                    >&lt;Self::<a
                       class="associatedtype"
                       href="trait.OpenStreams.html#associatedtype.SendStream"
                       title="type h3::quic::OpenStreams::SendStream"
-                    >SendStream</a>,
+                      >SendStream</a
+                    >,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                    >StreamErrorIncoming</a>&gt;&gt;
+                      >StreamErrorIncoming</a
+                    >&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -303,7 +329,8 @@
               <summary>
                 <section id="tymethod.close" class="method">
                   <a class="src rightside" href="../../src/h3/quic.rs.html#167"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn <a href="#tymethod.close" class="fn">close</a>(&amp;mut
                     self, code:
@@ -311,10 +338,12 @@
                       class="struct"
                       href="../error/struct.Code.html"
                       title="struct h3::error::Code"
-                    >Code</a>, reason: &amp;[<a
+                      >Code</a
+                    >, reason: &amp;[<a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.u8.html"
-                    >u8</a>])
+                      >u8</a
+                    >])
                   </h4>
                 </section>
               </summary>

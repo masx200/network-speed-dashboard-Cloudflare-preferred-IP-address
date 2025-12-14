@@ -188,9 +188,8 @@ class TestReportGenerator {
       100
     ).toFixed(2);
 
-    this.statistics.avgLatency = validLatencyCount > 0
-      ? (totalLatency / validLatencyCount).toFixed(2)
-      : 0;
+    this.statistics.avgLatency =
+      validLatencyCount > 0 ? (totalLatency / validLatencyCount).toFixed(2) : 0;
 
     console.log(
       `分析完成: 失败 ${this.statistics.failed} 条，成功 ${this.statistics.success} 条`,
@@ -280,26 +279,26 @@ class TestReportGenerator {
         .sort(([, a], [, b]) => b.length - a.length) // 按测试数量降序排列
         .forEach(([errorType, tests]) => {
           report += `#### ${errorType} (${tests.length} 次测试)\n\n`;
-          report +=
-            `| 序号 | 主机/域名 | 目标IP | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息 |\n`;
-          report +=
-            `|------|-----------|--------|--------|------|--------|----------|--------|----------|\n`;
+          report += `| 序号 | 主机/域名 | 目标IP | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息 |\n`;
+          report += `|------|-----------|--------|--------|------|--------|----------|--------|----------|\n`;
 
           tests.forEach((test) => {
-            const host = test.host.length > 200
-              ? test.host.substring(0, 170) + "..."
-              : test.host;
-            const errorMsg = test.error_msg.length > 500
-              ? test.error_msg.substring(0, 470) + "..."
-              : test.error_msg;
-            const serverHeader = test.server_header.length > 150
-              ? test.server_header.substring(0, 120) + "..."
-              : test.server_header;
+            const host =
+              test.host.length > 200
+                ? test.host.substring(0, 170) + "..."
+                : test.host;
+            const errorMsg =
+              test.error_msg.length > 500
+                ? test.error_msg.substring(0, 470) + "..."
+                : test.error_msg;
+            const serverHeader =
+              test.server_header.length > 150
+                ? test.server_header.substring(0, 120) + "..."
+                : test.server_header;
 
-            report +=
-              `| ${test.index} | ${host} | ${test.target_ip} | ${test.ip_version} | ${test.protocol} | ${
-                test.status_code || "N/A"
-              } | ${test.latency_ms} | ${serverHeader} | ${errorMsg} |\n`;
+            report += `| ${test.index} | ${host} | ${test.target_ip} | ${test.ip_version} | ${test.protocol} | ${
+              test.status_code || "N/A"
+            } | ${test.latency_ms} | ${serverHeader} | ${errorMsg} |\n`;
           });
 
           report += `\n`;
@@ -352,16 +351,17 @@ class TestReportGenerator {
 `;
 
         topLatencyRecords.forEach((test) => {
-          const host = test.host.length > 200
-            ? test.host.substring(0, 170) + "..."
-            : test.host;
-          const serverHeader = test.server_header.length > 150
-            ? test.server_header.substring(0, 120) + "..."
-            : test.server_header;
+          const host =
+            test.host.length > 200
+              ? test.host.substring(0, 170) + "..."
+              : test.host;
+          const serverHeader =
+            test.server_header.length > 150
+              ? test.server_header.substring(0, 120) + "..."
+              : test.server_header;
           const status = test.success ? "✅ 成功" : "❌ 失败";
 
-          report +=
-            `| ${test.index} | ${host} | ${test.target_ip} | ${test.ip_version} | ${test.protocol} | ${status} | ${test.latency_ms} | ${serverHeader} |\n`;
+          report += `| ${test.index} | ${host} | ${test.target_ip} | ${test.ip_version} | ${test.protocol} | ${status} | ${test.latency_ms} | ${serverHeader} |\n`;
         });
 
         // 延迟分布统计
@@ -912,9 +912,10 @@ class TestReportGenerator {
       },
       latency_statistics: {
         average_latency_ms: parseFloat(this.statistics.avgLatency),
-        min_latency_ms: this.statistics.minLatency === Infinity
-          ? null
-          : this.statistics.minLatency,
+        min_latency_ms:
+          this.statistics.minLatency === Infinity
+            ? null
+            : this.statistics.minLatency,
         max_latency_ms: this.statistics.maxLatency,
         top_latency_count: topLatencyRecords.length,
         latency_ranges: this.getLatencyRanges(topLatencyRecords),
@@ -1080,9 +1081,10 @@ class TestReportGenerator {
         console.log("\n🚀 最佳延迟记录 (前5条):");
         topLatencyRecords.forEach((test, index) => {
           const status = test.success ? "✅" : "❌";
-          const host = test.host.length > 250
-            ? test.host.substring(0, 220) + "..."
-            : test.host;
+          const host =
+            test.host.length > 250
+              ? test.host.substring(0, 220) + "..."
+              : test.host;
           console.log(
             `  ${
               index + 1

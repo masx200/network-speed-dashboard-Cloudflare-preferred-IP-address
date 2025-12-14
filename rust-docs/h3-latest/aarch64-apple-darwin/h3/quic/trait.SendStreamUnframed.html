@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -44,10 +44,9 @@
       src="sidebar-items-20251103-1.93.0-nightly-20383c9f1.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript><link
-        rel="stylesheet"
-        href="/-/rustdoc.static/noscript-263c88ec.css"
-      /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -66,7 +65,8 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-    ><h2><a href="#">SendStreamUnframed</a></h2></rustdoc-topbar>
+      ><h2><a href="#">SendStreamUnframed</a></h2></rustdoc-topbar
+    >
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
@@ -101,27 +101,24 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">h3</a>::<wbr /><a href="index.html"
-              >quic</a>
+                >quic</a
+              >
             </div>
             <h1>
               Trait
-              <span class="trait"
-              >Send<wbr />Stream<wbr />Unframed</span>&nbsp;<button
-                id="copy-path"
-                title="Copy item path to clipboard"
-              >
+              <span class="trait">Send<wbr />Stream<wbr />Unframed</span
+              >&nbsp;<button id="copy-path" title="Copy item path to clipboard">
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
-                class="src"
-                href="../../src/h3/quic.rs.html#189-200"
-              >Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/h3/quic.rs.html#189-200"
+                >Source</a
+              >
             </span>
           </div>
-          <pre
-            class="rust item-decl"
-          >
+          <pre class="rust item-decl">
 <code>pub trait SendStreamUnframed&lt;B: <a class="trait" href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt;: <a class="trait" href="trait.SendStream.html" title="trait h3::quic::SendStream">SendStream</a>&lt;B&gt; {
     // Required method
     fn <a href="#tymethod.poll_send" class="fn">poll_send</a>&lt;D: <a class="trait" href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html" title="trait bytes::buf::buf_impl::Buf">Buf</a>&gt;(
@@ -137,7 +134,8 @@
                 Allows sending unframed pure bytes to a stream. Similar to
                 <a
                   href="https://docs.rs/tokio/latest/tokio/io/trait.AsyncWrite.html"
-                ><code>AsyncWrite</code></a>
+                  ><code>AsyncWrite</code></a
+                >
               </p>
             </div>
           </details>
@@ -151,7 +149,8 @@
                   <a
                     class="src rightside"
                     href="../../src/h3/quic.rs.html#195-199"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.poll_send" class="fn">poll_send</a>&lt;D:
@@ -159,33 +158,40 @@
                       class="trait"
                       href="https://docs.rs/bytes/1.9.0/aarch64-apple-darwin/bytes/buf/buf_impl/trait.Buf.html"
                       title="trait bytes::buf::buf_impl::Buf"
-                    >Buf</a>&gt;( &amp;mut self, cx: &amp;mut
+                      >Buf</a
+                    >&gt;( &amp;mut self, cx: &amp;mut
                     <a
                       class="struct"
                       href="https://doc.rust-lang.org/nightly/core/task/wake/struct.Context.html"
                       title="struct core::task::wake::Context"
-                    >Context</a>&lt;'_&gt;, buf:
+                      >Context</a
+                    >&lt;'_&gt;, buf:
                     <a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.reference.html"
-                    >&amp;mut D</a>, ) -&gt;
+                      >&amp;mut D</a
+                    >, ) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/task/poll/enum.Poll.html"
                       title="enum core::task::poll::Poll"
-                    >Poll</a>&lt;<a
+                      >Poll</a
+                    >&lt;<a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html"
                       title="enum core::result::Result"
-                    >Result</a>&lt;<a
+                      >Result</a
+                    >&lt;<a
                       class="primitive"
                       href="https://doc.rust-lang.org/nightly/std/primitive.usize.html"
-                    >usize</a>,
+                      >usize</a
+                    >,
                     <a
                       class="enum"
                       href="enum.StreamErrorIncoming.html"
                       title="enum h3::quic::StreamErrorIncoming"
-                    >StreamErrorIncoming</a>&gt;&gt;
+                      >StreamErrorIncoming</a
+                    >&gt;&gt;
                   </h4>
                 </section>
               </summary>
@@ -206,11 +212,14 @@
               This trait is <b>not</b>
               <a
                 href="https://doc.rust-lang.org/nightly/reference/items/traits.html#dyn-compatibility"
-              >dyn compatible</a>.
+                >dyn compatible</a
+              >.
             </p>
             <p>
-              <i>In older versions of Rust, dyn compatibility was called "object
-                safety", so this trait is not object safe.</i>
+              <i
+                >In older versions of Rust, dyn compatibility was called "object
+                safety", so this trait is not object safe.</i
+              >
             </p>
           </div>
           <h2 id="implementors" class="section-header">

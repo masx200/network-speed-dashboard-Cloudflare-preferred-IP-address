@@ -109,70 +109,68 @@ cloudflare | | 69 | cloudflare-ip.mofashi.ltd | 2606:4700:3037::ac43:9bac | IPv6
 2606:4700:3033::ac43:d17f | IPv6 | h2 | ✅ 成功 | 70 | cloudflare | | 386 |
 decker.ns.cloudflare.com | 2a06:98c1:50::ac40:239b | IPv6 | h2 | ✅ 成功 | 70 |
 cloudflare | | 430 | palera.in | 2606:4700:3035::6815:3a48 | IPv6 | h2 | ✅ 成功
-| 70 | cloudflare | | 463 |
-yx-auto.pages.dev |
-2606:4700:3033::ac43:a162 | IPv6 | h2 | ✅ 成功 | 70 | cloudflare | | 36 |
-dnschecker.org | 172.67.73.216 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 59 |
-ip.gs | 2606:4700:3035::ac43:a01c | IPv6 | h2 | ✅ 成功 | 71 | cloudflare | | 84
-| freeyx.cloudflare88.eu.org | 2606:4700:3009::83da:e4f:b8a5 | IPv6 | h2 | ✅
-成功 | 71 | cloudflare | | 91 | zread.ai | 104.21.76.240 | IPv4 | h2 | ✅ 成功 |
-71 | cloudflare | | 95 | saas.sin.fan | 162.159.36.5 | IPv4 | h2 | ✅ 成功 | 71
-| cloudflare | | 118 | na.877774.xyz | 104.18.38.235 | IPv4 | h2 | ✅ 成功 | 71
-| cloudflare | | 145 | iplocation.io | 172.67.70.100 | IPv4 | h2 | ✅ 成功 | 71
-| cloudflare | | 188 | cfip.xxxxxxxx.tk | 104.27.21.118 | IPv4 | h2 | ✅ 成功 |
-71 | cloudflare | | 257 | ip.sb | 2606:4700:20::681a:c1f | IPv6 | h2 | ✅ 成功 |
-71 | cloudflare | | 284 | cu.877774.xyz | 104.26.4.118 | IPv4 | h2 | ✅ 成功 |
-71 | cloudflare | | 291 | time.is | 172.67.68.157 | IPv4 | h2 | ✅ 成功 | 71 |
-cloudflare | | 303 | ipv4.ip.sb | 104.26.13.31 | IPv4 | h2 | ✅ 成功 | 71 |
-cloudflare | | 323 | eur.877774.xyz | 104.21.47.209 | IPv4 | h2 | ✅ 成功 | 71 |
-cloudflare | | 372 | toy-people.com | 2606:4700:20::681a:324 | IPv6 | h2 | ✅
-成功 | 71 | cloudflare | | 374 | toy-people.com | 2606:4700:20::ac43:4812 | IPv6
-| h2 | ✅ 成功 | 71 | cloudflare | | 427 | palera.in | 104.21.58.72 | IPv4 | h2
-| ✅ 成功 | 71 | cloudflare | | 461 |
-yx-auto.pages.dev | 172.67.161.98 | IPv4 |
-h2 | ✅ 成功 | 71 | cloudflare | | 10 | www.ipchicken.com | 104.26.7.112 | IPv4
-| h2 | ✅ 成功 | 72 | cloudflare | | 12 | www.wto.org | 104.18.41.190 | IPv4 |
-h2 | ✅ 成功 | 72 | cloudflare | | 37 | dnschecker.org | 2606:4700:20::681a:659
-| IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 44 | silkbook.com |
-2606:4700:20::681a:8a0 | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 47 |
-172.64.148.15 | 172.64.148.15 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 54 |
-172.64.229.249 | 172.64.229.249 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 68 |
-cloudflare-ip.mofashi.ltd | 172.67.155.172 | IPv4 | h2 | ✅ 成功 | 72 |
-cloudflare | | 70 | cloudflare-ip.mofashi.ltd | 2606:4700:3037::6815:48e9 | IPv6
-| h2 | ✅ 成功 | 72 | cloudflare | | 74 | asia.877774.xyz | 104.17.142.146 |
-IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 87 | www.udemy.com | 104.16.142.237 |
-IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 112 | cf.0sm.com | 104.21.7.133 | IPv4
-| h2 | ✅ 成功 | 72 | cloudflare | | 128 | steamdb.info |
-2606:4700:10::6814:22d4 | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 136 |
-ct.877774.xyz | 172.64.229.185 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 149 |
-[2606:4700:964f::6e2c:588e] | 2606:4700:964f::6e2c:588e | IPv6 | h2 | ✅ 成功 |
-72 | cloudflare | | 174 | www.digitalocean.com | 104.19.174.68 | IPv4 | h2 | ✅
-成功 | 72 | cloudflare | | 193 | cfip.xxxxxxxx.tk | 188.114.96.125 | IPv4 | h2 |
-✅ 成功 | 72 | cloudflare | | 199 | www.whatismyip.com | 2606:4700:20::681a:d17
-| IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 212 | yx-auto.pages.dev |
-2606:4700:310c::ac42:2f70 | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 237 |
-www.ipget.net | 2606:4700:3031::ac43:cf1a | IPv6 | h2 | ✅ 成功 | 72 |
-cloudflare | | 252 | ip.sb | 104.26.12.31 | IPv4 | h2 | ✅ 成功 | 72 |
-cloudflare | | 298 | fbi.gov | 104.16.149.244 | IPv4 | h2 | ✅ 成功 | 72 |
-cloudflare | | 324 | eur.877774.xyz | 104.21.26.150 | IPv4 | h2 | ✅ 成功 | 72 |
-cloudflare | | 442 | trevor.ns.cloudflare.com | 2a06:98c1:50::ac40:239a | IPv6 |
-h2 | ✅ 成功 | 72 | cloudflare | | 446 | wilson.ns.cloudflare.com |
-2606:4700:58::a29f:2c6e | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 473 |
-otto.ns.cloudflare.com | 2a06:98c1:50::ac40:2387 | IPv6 | h2 | ✅ 成功 | 72 |
-cloudflare | | 30 | cf.877774.xyz | 2606:4700:4406::ac40:9242 | IPv6 | h2 | ✅
-成功 | 73 | cloudflare | | 73 | asia.877774.xyz | 104.17.139.62 | IPv4 | h2 | ✅
-成功 | 73 | cloudflare | | 105 | ipinfo.in | 2606:4700:3037::ac43:c6cb | IPv6 |
-h2 | ✅ 成功 | 73 | cloudflare | | 148 | iplocation.io | 2606:4700:20::ac43:4664
-| IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 202 | japan.com | 104.26.4.60 | IPv4
-| h2 | ✅ 成功 | 73 | cloudflare | | 203 | japan.com | 104.26.5.60 | IPv4 | h2 |
-✅ 成功 | 73 | cloudflare | | 271 | [2606:4700:440f::53aa:4126] |
-2606:4700:440f::53aa:4126 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 273 |
-104.16.223.179 | 104.16.223.179 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 307
-| 104.17.68.85 | 104.17.68.85 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 335 |
-icook.hk | 2606:4700:3031::6815:5ad2 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare | |
-342 | singapore.com | 2606:4700:20::ac43:4bc2 | IPv6 | h2 | ✅ 成功 | 73 |
-cloudflare | | 366 | cmcc.877774.xyz | 104.16.148.12 | IPv4 | h2 | ✅ 成功 | 73
-| cloudflare |
+| 70 | cloudflare | | 463 | yx-auto.pages.dev | 2606:4700:3033::ac43:a162 | IPv6
+| h2 | ✅ 成功 | 70 | cloudflare | | 36 | dnschecker.org | 172.67.73.216 | IPv4
+| h2 | ✅ 成功 | 71 | cloudflare | | 59 | ip.gs | 2606:4700:3035::ac43:a01c |
+IPv6 | h2 | ✅ 成功 | 71 | cloudflare | | 84 | freeyx.cloudflare88.eu.org |
+2606:4700:3009::83da:e4f:b8a5 | IPv6 | h2 | ✅ 成功 | 71 | cloudflare | | 91 |
+zread.ai | 104.21.76.240 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 95 |
+saas.sin.fan | 162.159.36.5 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 118 |
+na.877774.xyz | 104.18.38.235 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 145 |
+iplocation.io | 172.67.70.100 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 188 |
+cfip.xxxxxxxx.tk | 104.27.21.118 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 257
+| ip.sb | 2606:4700:20::681a:c1f | IPv6 | h2 | ✅ 成功 | 71 | cloudflare | | 284
+| cu.877774.xyz | 104.26.4.118 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 291 |
+time.is | 172.67.68.157 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 303 |
+ipv4.ip.sb | 104.26.13.31 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 323 |
+eur.877774.xyz | 104.21.47.209 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 372 |
+toy-people.com | 2606:4700:20::681a:324 | IPv6 | h2 | ✅ 成功 | 71 | cloudflare
+| | 374 | toy-people.com | 2606:4700:20::ac43:4812 | IPv6 | h2 | ✅ 成功 | 71 |
+cloudflare | | 427 | palera.in | 104.21.58.72 | IPv4 | h2 | ✅ 成功 | 71 |
+cloudflare | | 461 | yx-auto.pages.dev | 172.67.161.98 | IPv4 | h2 | ✅ 成功 |
+71 | cloudflare | | 10 | www.ipchicken.com | 104.26.7.112 | IPv4 | h2 | ✅ 成功
+| 72 | cloudflare | | 12 | www.wto.org | 104.18.41.190 | IPv4 | h2 | ✅ 成功 |
+72 | cloudflare | | 37 | dnschecker.org | 2606:4700:20::681a:659 | IPv6 | h2 |
+✅ 成功 | 72 | cloudflare | | 44 | silkbook.com | 2606:4700:20::681a:8a0 | IPv6
+| h2 | ✅ 成功 | 72 | cloudflare | | 47 | 172.64.148.15 | 172.64.148.15 | IPv4 |
+h2 | ✅ 成功 | 72 | cloudflare | | 54 | 172.64.229.249 | 172.64.229.249 | IPv4 |
+h2 | ✅ 成功 | 72 | cloudflare | | 68 | cloudflare-ip.mofashi.ltd |
+172.67.155.172 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare | | 70 |
+cloudflare-ip.mofashi.ltd | 2606:4700:3037::6815:48e9 | IPv6 | h2 | ✅ 成功 | 72
+| cloudflare | | 74 | asia.877774.xyz | 104.17.142.146 | IPv4 | h2 | ✅ 成功 |
+72 | cloudflare | | 87 | www.udemy.com | 104.16.142.237 | IPv4 | h2 | ✅ 成功 |
+72 | cloudflare | | 112 | cf.0sm.com | 104.21.7.133 | IPv4 | h2 | ✅ 成功 | 72 |
+cloudflare | | 128 | steamdb.info | 2606:4700:10::6814:22d4 | IPv6 | h2 | ✅
+成功 | 72 | cloudflare | | 136 | ct.877774.xyz | 172.64.229.185 | IPv4 | h2 | ✅
+成功 | 72 | cloudflare | | 149 | [2606:4700:964f::6e2c:588e] |
+2606:4700:964f::6e2c:588e | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 174 |
+www.digitalocean.com | 104.19.174.68 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare | |
+193 | cfip.xxxxxxxx.tk | 188.114.96.125 | IPv4 | h2 | ✅ 成功 | 72 | cloudflare
+| | 199 | www.whatismyip.com | 2606:4700:20::681a:d17 | IPv6 | h2 | ✅ 成功 | 72
+| cloudflare | | 212 | yx-auto.pages.dev | 2606:4700:310c::ac42:2f70 | IPv6 | h2
+| ✅ 成功 | 72 | cloudflare | | 237 | www.ipget.net | 2606:4700:3031::ac43:cf1a
+| IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 252 | ip.sb | 104.26.12.31 | IPv4 |
+h2 | ✅ 成功 | 72 | cloudflare | | 298 | fbi.gov | 104.16.149.244 | IPv4 | h2 |
+✅ 成功 | 72 | cloudflare | | 324 | eur.877774.xyz | 104.21.26.150 | IPv4 | h2 |
+✅ 成功 | 72 | cloudflare | | 442 | trevor.ns.cloudflare.com |
+2a06:98c1:50::ac40:239a | IPv6 | h2 | ✅ 成功 | 72 | cloudflare | | 446 |
+wilson.ns.cloudflare.com | 2606:4700:58::a29f:2c6e | IPv6 | h2 | ✅ 成功 | 72 |
+cloudflare | | 473 | otto.ns.cloudflare.com | 2a06:98c1:50::ac40:2387 | IPv6 |
+h2 | ✅ 成功 | 72 | cloudflare | | 30 | cf.877774.xyz |
+2606:4700:4406::ac40:9242 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 73 |
+asia.877774.xyz | 104.17.139.62 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 105
+| ipinfo.in | 2606:4700:3037::ac43:c6cb | IPv6 | h2 | ✅ 成功 | 73 | cloudflare
+| | 148 | iplocation.io | 2606:4700:20::ac43:4664 | IPv6 | h2 | ✅ 成功 | 73 |
+cloudflare | | 202 | japan.com | 104.26.4.60 | IPv4 | h2 | ✅ 成功 | 73 |
+cloudflare | | 203 | japan.com | 104.26.5.60 | IPv4 | h2 | ✅ 成功 | 73 |
+cloudflare | | 271 | [2606:4700:440f::53aa:4126] | 2606:4700:440f::53aa:4126 |
+IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 273 | 104.16.223.179 | 104.16.223.179
+| IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 307 | 104.17.68.85 | 104.17.68.85 |
+IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 335 | icook.hk |
+2606:4700:3031::6815:5ad2 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 342 |
+singapore.com | 2606:4700:20::ac43:4bc2 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare
+| | 366 | cmcc.877774.xyz | 104.16.148.12 | IPv4 | h2 | ✅ 成功 | 73 |
+cloudflare |
 
 ### 延迟分布分析
 

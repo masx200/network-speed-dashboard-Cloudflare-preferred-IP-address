@@ -41,16 +41,16 @@
 
 #### 连接超时: 上下文超时 (8 次测试)
 
-| 序号 | 主机/域名                                              | 目标IP                    | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                              |
-| ---- | ------------------------------------------------------ | ------------------------- | ------- | ---- | ------ | -------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| 32   | cmcc.877774.xyz                                        | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 106  | comicabc.com                                           | 104.21.64.10              | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
-| 153  | icook.hk                                               | 104.21.90.210             | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
-| 155  | icook.hk                                               | 2606:4700:3037::ac43:a168 | IPv6    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
-| 177  | braden.ns.cloudflare.com                               | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 256  | uriah.ns.cloudflare.com                                | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 337  | yx-auto.pages.dev | 172.67.161.98             | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
-| 351  | www.7749tv.com                                         | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
+| 序号 | 主机/域名                | 目标IP                    | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                              |
+| ---- | ------------------------ | ------------------------- | ------- | ---- | ------ | -------- | ------ | ----------------------------------------------------------------------------------------------------- |
+| 32   | cmcc.877774.xyz          | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
+| 106  | comicabc.com             | 104.21.64.10              | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
+| 153  | icook.hk                 | 104.21.90.210             | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
+| 155  | icook.hk                 | 2606:4700:3037::ac43:a168 | IPv6    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
+| 177  | braden.ns.cloudflare.com | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
+| 256  | uriah.ns.cloudflare.com  | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
+| 337  | yx-auto.pages.dev        | 172.67.161.98             | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
+| 351  | www.7749tv.com           | Unknown                   | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
 
 #### 连接超时: I/O超时 (5 次测试)
 

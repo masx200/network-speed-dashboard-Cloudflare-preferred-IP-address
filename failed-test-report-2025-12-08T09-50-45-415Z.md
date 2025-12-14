@@ -202,8 +202,8 @@
 | 473  | moura.ns.cloudflare.com                                                             | 2606:4700:58::a29f:2cd9                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2cd9]:443: connect: network is unreachable                 |
 | 474  | moura.ns.cloudflare.com                                                             | 2803:f800:50::6ca2:c3d9                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3d9]:443: connect: network is unreachable                 |
 | 475  | moura.ns.cloudflare.com                                                             | 2a06:98c1:50::ac40:23d9                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23d9]:443: connect: network is unreachable                 |
-| 478  | yx-auto.pages.dev                              | 2606:4700:3033::ac43:a162               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable               |
-| 479  | yx-auto.pages.dev                              | 2606:4700:3034::6815:9e6                | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable                |
+| 478  | yx-auto.pages.dev                                                                   | 2606:4700:3033::ac43:a162               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable               |
+| 479  | yx-auto.pages.dev                                                                   | 2606:4700:3034::6815:9e6                | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable                |
 
 #### 连接超时: I/O超时 (10 次测试)
 
@@ -311,14 +311,13 @@ huxley.ns.cloudflare.com | 172.64.35.188 | IPv4 | h3 | ✅ 成功 | 79 | cloudfl
 cloudflare | | 231 | ip.sb | 172.67.75.172 | IPv4 | h3 | ✅ 成功 | 80 |
 cloudflare | | 249 | 172.64.159.6 | 172.64.159.6 | IPv4 | h3 | ✅ 成功 | 80 |
 cloudflare | | 399 | tasteatlas.com | 104.17.36.105 | IPv4 | h3 | ✅ 成功 | 80 |
-cloudflare | | 477 | yx-auto.pages.dev |
-172.67.161.98 | IPv4 | h3 | ✅ 成功 | 80 | cloudflare | | 17 | silkbook.com |
-104.26.9.160 | IPv4 | h3 | ✅ 成功 | 81 | cloudflare | | 63 |
-uriah.ns.cloudflare.com | 172.64.35.194 | IPv4 | h3 | ✅ 成功 | 81 | cloudflare
-| | 208 | cfip.1323123.xyz | 104.16.133.220 | IPv4 | h3 | ✅ 成功 | 81 |
-cloudflare | | 251 | singapore.com | 172.67.75.194 | IPv4 | h3 | ✅ 成功 | 81 |
-cloudflare | | 262 | ip.gs | 104.21.14.176 | IPv4 | h3 | ✅ 成功 | 81 |
-cloudflare | | 267 | japan.com | 104.26.5.60 | IPv4 | h3 | ✅ 成功 | 81 |
+cloudflare | | 477 | yx-auto.pages.dev | 172.67.161.98 | IPv4 | h3 | ✅ 成功 |
+80 | cloudflare | | 17 | silkbook.com | 104.26.9.160 | IPv4 | h3 | ✅ 成功 | 81
+| cloudflare | | 63 | uriah.ns.cloudflare.com | 172.64.35.194 | IPv4 | h3 | ✅
+成功 | 81 | cloudflare | | 208 | cfip.1323123.xyz | 104.16.133.220 | IPv4 | h3 |
+✅ 成功 | 81 | cloudflare | | 251 | singapore.com | 172.67.75.194 | IPv4 | h3 |
+✅ 成功 | 81 | cloudflare | | 262 | ip.gs | 104.21.14.176 | IPv4 | h3 | ✅ 成功
+| 81 | cloudflare | | 267 | japan.com | 104.26.5.60 | IPv4 | h3 | ✅ 成功 | 81 |
 cloudflare | | 300 | gamer.com.tw | 104.18.3.197 | IPv4 | h3 | ✅ 成功 | 81 |
 cloudflare | | 359 | cf.0sm.com | 104.21.7.133 | IPv4 | h3 | ✅ 成功 | 81 |
 cloudflare | | 364 | shopify.com | 23.227.38.33 | IPv4 | h3 | ✅ 成功 | 81 |

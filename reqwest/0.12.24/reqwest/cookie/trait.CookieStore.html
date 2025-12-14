@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -44,10 +44,9 @@
       src="sidebar-items-20251012-1.92.0-nightly-2300c2aef.js"
     ></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript><link
-        rel="stylesheet"
-        href="/-/rustdoc.static/noscript-263c88ec.css"
-      /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
+    /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -66,12 +65,13 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-    ><h2><a href="#">CookieStore</a></h2></rustdoc-topbar>
+      ><h2><a href="#">CookieStore</a></h2></rustdoc-topbar
+    >
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
-          <a href="../../reqwest/index.html">reqwest</a><span class="version"
-          >0.12.24</span>
+          <a href="../../reqwest/index.html">reqwest</a
+          ><span class="version">0.12.24</span>
         </h2>
       </div>
       <div class="sidebar-elems">
@@ -84,7 +84,8 @@
             <li><a href="#tymethod.cookies" title="cookies">cookies</a></li>
             <li>
               <a href="#tymethod.set_cookies" title="set_cookies"
-              >set_cookies</a>
+                >set_cookies</a
+              >
             </li>
           </ul>
           <h3><a href="#implementors">Implementors</a></h3>
@@ -103,7 +104,8 @@
           <div class="main-heading">
             <div class="rustdoc-breadcrumbs">
               <a href="../index.html">reqwest</a>::<wbr /><a href="index.html"
-              >cookie</a>
+                >cookie</a
+              >
             </div>
             <h1>
               Trait <span class="trait">Cookie<wbr />Store</span>&nbsp;<button
@@ -113,15 +115,14 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
-                class="src"
-                href="../../src/reqwest/cookie.rs.html#11-16"
-              >Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar
+            ><span class="sub-heading"
+              ><a class="src" href="../../src/reqwest/cookie.rs.html#11-16"
+                >Source</a
+              >
             </span>
           </div>
-          <pre
-            class="rust item-decl"
-          >
+          <pre class="rust item-decl">
 <code>pub trait CookieStore: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html" title="trait core::marker::Send">Send</a> + <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html" title="trait core::marker::Sync">Sync</a> {
     // Required methods
     fn <a href="#tymethod.set_cookies" class="fn">set_cookies</a>(
@@ -131,12 +132,15 @@
     );
 <span class="item-spacer"></span>    fn <a href="#tymethod.cookies" class="fn">cookies</a>(&amp;self, url: &amp;<a class="struct" href="../struct.Url.html" title="struct reqwest::Url">Url</a>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="../header/struct.HeaderValue.html" title="struct reqwest::header::HeaderValue">HeaderValue</a>&gt;;
 }</code></pre>
-          <span class="item-info"><div class="stab portability">
+          <span class="item-info"
+            ><div class="stab portability">
               Available on
-              <strong>non-WebAssembly and crate feature <code
-                >cookies</code></strong>
+              <strong
+                >non-WebAssembly and crate feature <code>cookies</code></strong
+              >
               only.
-            </div></span>
+            </div></span
+          >
           <details class="toggle top-doc" open>
             <summary class="hideme"><span>Expand description</span></summary>
             <div class="docblock">
@@ -155,7 +159,8 @@
                   <a
                     class="src rightside"
                     href="../../src/reqwest/cookie.rs.html#13"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
                     <a href="#tymethod.set_cookies" class="fn">set_cookies</a>(
@@ -164,15 +169,18 @@
                       class="trait"
                       href="https://doc.rust-lang.org/nightly/core/iter/traits/iterator/trait.Iterator.html"
                       title="trait core::iter::traits::iterator::Iterator"
-                    >Iterator</a>&lt;Item = &amp;<a
+                      >Iterator</a
+                    >&lt;Item = &amp;<a
                       class="struct"
                       href="../header/struct.HeaderValue.html"
                       title="struct reqwest::header::HeaderValue"
-                    >HeaderValue</a>&gt;, url: &amp;<a
+                      >HeaderValue</a
+                    >&gt;, url: &amp;<a
                       class="struct"
                       href="../struct.Url.html"
                       title="struct reqwest::Url"
-                    >Url</a>, )
+                      >Url</a
+                    >, )
                   </h4>
                 </section>
               </summary>
@@ -189,24 +197,28 @@
                   <a
                     class="src rightside"
                     href="../../src/reqwest/cookie.rs.html#15"
-                  >Source</a>
+                    >Source</a
+                  >
                   <h4 class="code-header">
                     fn
-                    <a href="#tymethod.cookies" class="fn"
-                    >cookies</a>(&amp;self, url: &amp;<a
+                    <a href="#tymethod.cookies" class="fn">cookies</a
+                    >(&amp;self, url: &amp;<a
                       class="struct"
                       href="../struct.Url.html"
                       title="struct reqwest::Url"
-                    >Url</a>) -&gt;
+                      >Url</a
+                    >) -&gt;
                     <a
                       class="enum"
                       href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html"
                       title="enum core::option::Option"
-                    >Option</a>&lt;<a
+                      >Option</a
+                    >&lt;<a
                       class="struct"
                       href="../header/struct.HeaderValue.html"
                       title="struct reqwest::header::HeaderValue"
-                    >HeaderValue</a>&gt;
+                      >HeaderValue</a
+                    >&gt;
                   </h4>
                 </section>
               </summary>
@@ -223,21 +235,23 @@
               <a
                 class="src rightside"
                 href="../../src/reqwest/cookie.rs.html#166-190"
-              >Source</a><a href="#impl-CookieStore-for-Jar" class="anchor"
-              >§</a>
+                >Source</a
+              ><a href="#impl-CookieStore-for-Jar" class="anchor">§</a>
               <h3 class="code-header">
                 impl
                 <a
                   class="trait"
                   href="trait.CookieStore.html"
                   title="trait reqwest::cookie::CookieStore"
-                >CookieStore</a>
+                  >CookieStore</a
+                >
                 for
                 <a
                   class="struct"
                   href="struct.Jar.html"
                   title="struct reqwest::cookie::Jar"
-                >Jar</a>
+                  >Jar</a
+                >
               </h3>
             </section>
           </div>

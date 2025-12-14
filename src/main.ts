@@ -19,14 +19,14 @@ import "unfonts.css";
 
 // PWA Service Worker Registration
 //@ts-ignore
-import { registerSW } from 'virtual:pwa-register'
+import { registerSW } from "virtual:pwa-register";
 
 registerSW({
   onOfflineReady() {
-    console.log('App ready to work offline');
+    console.log("App ready to work offline");
   },
   onNeedRefresh() {
-    if (confirm('New content available, reload?')) {
+    if (confirm("New content available, reload?")) {
       location.reload();
     }
   },
