@@ -3,7 +3,14 @@
     "build": "webpack",
     "serve": "webpack-dev-server"
   },
+  "dependencies": {
+    "json5": ">=1.0.2"
+  },
+  "overrides": {
+    "json5": ">=1.0.2"
+  },
   "devDependencies": {
+    "json5": ">=1.0.2",
     "@wasm-tool/wasm-pack-plugin": "1.0.1",
     "text-encoding": "^0.7.0",
     "html-webpack-plugin": "^3.2.0",
