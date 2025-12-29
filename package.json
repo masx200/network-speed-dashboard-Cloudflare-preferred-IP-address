@@ -4,7 +4,7 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "extract": "node ip-info.js && go run -v ./extract_hosts.go",
+    "extract": "node ip-info.js && node merge-cloudflare-ips.js",
     "check": "node ip-info.js && go run -v  host_connectivity_check.go -verbose  -dohip 104.21.95.9 --doh-url https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
     "start": "node ip-info.js && node generate-test-report.js",
     "dev": "vite",
