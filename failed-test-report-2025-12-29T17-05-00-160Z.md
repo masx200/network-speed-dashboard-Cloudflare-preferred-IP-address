@@ -1,0 +1,494 @@
+# HTTP/3 连接测试失败报告
+
+## 报告概要
+
+- **生成时间**: 2025/12/29 17:05:00
+- **数据来源**: connectivity_results-20251229-170459.json
+- **总测试数**: 495
+- **失败测试数**: 181
+- **成功测试数**: 314
+- **失败率**: 36.57%
+- **平均延迟**: 115.41ms
+- **最小延迟**: 45ms
+- **最大延迟**: 560ms
+
+## 🌐 当前测试环境信息
+
+- **获取时间**: 2025/12/29 17:05:00
+- **IP地址**: 135.232.225.16
+- **国家/地区**: 美国 (US)
+- **ASN**: 8075
+- **网络组织**: cloud
+- **网络域名**: microsoft.com
+- **大洲**: North America (NA)
+- **地理坐标**: 41.8835, -87.6305
+- **时区**: America/Chicago
+- **数据源**: combined
+
+---
+
+---
+
+## 失败测试详情
+
+### 📊 错误类型统计
+
+- **网络不可达: 网络不可达**: 178 次 (98.3%)
+- **连接超时: I/O超时**: 3 次 (1.7%)
+
+### 🔍 按错误类型分类的失败测试详情
+
+#### 网络不可达: 网络不可达 (178 次测试)
+
+| 序号 | 主机/域名 | 目标IP | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息 |
+|------|-----------|--------|--------|------|--------|----------|--------|----------|
+| 1 | [2606:4700:964f::6e2c:588e] | 2606:4700:964f::6e2c:588e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:964f::6e2c:588e]:443: connect: network is unreachable |
+| 2 | 2a06:98c1:3120:c39b:f77:4fc1:b18b:c12 | 2a06:98c1:3120:c39b:f77:4fc1:b18b:c12 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3120:c39b:f77:4fc1:b18b:c12]:443: connect: network is unreachable |
+| 7 | www.ipget.net | 2606:4700:3031::ac43:cf1a | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3031::ac43:cf1a]:443: connect: network is unreachable |
+| 8 | www.ipget.net | 2606:4700:3036::6815:fd4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3036::6815:fd4]:443: connect: network is unreachable |
+| 11 | comicabc.com | 2606:4700:3036::6815:400a | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3036::6815:400a]:443: connect: network is unreachable |
+| 12 | comicabc.com | 2606:4700:3030::ac43:ae15 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3030::ac43:ae15]:443: connect: network is unreachable |
+| 16 | dylan.ns.cloudflare.com | 2803:f800:50::6ca2:c3bb | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3bb]:443: connect: network is unreachable |
+| 17 | dylan.ns.cloudflare.com | 2a06:98c1:50::ac40:23bb | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23bb]:443: connect: network is unreachable |
+| 18 | dylan.ns.cloudflare.com | 2606:4700:58::a29f:2cbb | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cbb]:443: connect: network is unreachable |
+| 22 | trevor.ns.cloudflare.com | 2a06:98c1:50::ac40:239a | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:239a]:443: connect: network is unreachable |
+| 23 | trevor.ns.cloudflare.com | 2803:f800:50::6ca2:c39a | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c39a]:443: connect: network is unreachable |
+| 24 | trevor.ns.cloudflare.com | 2606:4700:58::a29f:2c9a | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c9a]:443: connect: network is unreachable |
+| 27 | www.pcmag.com | 2606:4700::6810:1476 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:1476]:443: connect: network is unreachable |
+| 28 | www.pcmag.com | 2606:4700::6810:1576 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:1576]:443: connect: network is unreachable |
+| 31 | steamdb.info | 2606:4700:10::6814:22d4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:10::6814:22d4]:443: connect: network is unreachable |
+| 32 | steamdb.info | 2606:4700:10::ac42:affa | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:10::ac42:affa]:443: connect: network is unreachable |
+| 35 | cf.0sm.com | 2606:4700:3032::6815:785 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3032::6815:785]:443: connect: network is unreachable |
+| 36 | cf.0sm.com | 2606:4700:3037::ac43:bb91 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::ac43:bb91]:443: connect: network is unreachable |
+| 57 | cloudflare.182682.xyz | 2606:4700:8ca0::3dc4:21a2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:8ca0::3dc4:21a2]:443: connect: network is unreachable |
+| 58 | cloudflare.182682.xyz | 2a06:98c1:3120::5692:61a4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3120::5692:61a4]:443: connect: network is unreachable |
+| 59 | cloudflare.182682.xyz | 2606:4700:e7::3151:47a9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:e7::3151:47a9]:443: connect: network is unreachable |
+| 60 | cloudflare.182682.xyz | 2606:4700:3032::818:669e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3032::818:669e]:443: connect: network is unreachable |
+| 61 | cloudflare.182682.xyz | 2606:4700:3035::1a4f:5642 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3035::1a4f:5642]:443: connect: network is unreachable |
+| 65 | iplocation.io | 2606:4700:20::681a:ade | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:ade]:443: connect: network is unreachable |
+| 66 | iplocation.io | 2606:4700:20::681a:bde | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:bde]:443: connect: network is unreachable |
+| 67 | iplocation.io | 2606:4700:20::ac43:4664 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4664]:443: connect: network is unreachable |
+| 70 | ipinfo.in | 2606:4700:3037::ac43:c6cb | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::ac43:c6cb]:443: connect: network is unreachable |
+| 71 | ipinfo.in | 2606:4700:3031::6815:1581 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3031::6815:1581]:443: connect: network is unreachable |
+| 72 | [2606:4700:9add::880:52fc] | 2606:4700:9add::880:52fc | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:9add::880:52fc]:443: connect: network is unreachable |
+| 106 | www.gov.ua | 2606:4700:3031::6815:1748 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3031::6815:1748]:443: connect: network is unreachable |
+| 107 | www.gov.ua | 2606:4700:3033::ac43:d17f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3033::ac43:d17f]:443: connect: network is unreachable |
+| 111 | huxley.ns.cloudflare.com | 2606:4700:58::a29f:2cbc | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cbc]:443: connect: network is unreachable |
+| 112 | huxley.ns.cloudflare.com | 2a06:98c1:50::ac40:23bc | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23bc]:443: connect: network is unreachable |
+| 113 | huxley.ns.cloudflare.com | 2803:f800:50::6ca2:c3bc | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3bc]:443: connect: network is unreachable |
+| 116 | icook.hk | 2606:4700:3031::6815:5ad2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3031::6815:5ad2]:443: connect: network is unreachable |
+| 117 | icook.hk | 2606:4700:3037::ac43:a168 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::ac43:a168]:443: connect: network is unreachable |
+| 118 | [2606:4700:8de6::5fa2:799e] | 2606:4700:8de6::5fa2:799e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:8de6::5fa2:799e]:443: connect: network is unreachable |
+| 124 | sullivan.ns.cloudflare.com | 2803:f800:50::6ca2:c3a1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3a1]:443: connect: network is unreachable |
+| 125 | sullivan.ns.cloudflare.com | 2606:4700:58::a29f:2ca1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ca1]:443: connect: network is unreachable |
+| 126 | sullivan.ns.cloudflare.com | 2a06:98c1:50::ac40:23a1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23a1]:443: connect: network is unreachable |
+| 130 | www.hugedomains.com | 2606:4700:20::ac43:46bf | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:46bf]:443: connect: network is unreachable |
+| 131 | www.hugedomains.com | 2606:4700:20::681a:725 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:725]:443: connect: network is unreachable |
+| 132 | www.hugedomains.com | 2606:4700:20::681a:625 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:625]:443: connect: network is unreachable |
+| 148 | cf.877771.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3033::ac43:98b7]:443: connect: network is unreachable |
+| 149 | cf.877771.xyz | 2606:4700:3033::6815:50b4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3033::6815:50b4]:443: connect: network is unreachable |
+| 152 | yx-auto.pages.dev | 2606:4700:310c::ac42:2c90 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:310c::ac42:2c90]:443: connect: network is unreachable |
+| 153 | yx-auto.pages.dev | 2606:4700:310c::ac42:2f70 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:310c::ac42:2f70]:443: connect: network is unreachable |
+| 157 | craig.ns.cloudflare.com | 2a06:98c1:50::ac40:23c0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23c0]:443: connect: network is unreachable |
+| 158 | craig.ns.cloudflare.com | 2606:4700:58::a29f:2cc0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cc0]:443: connect: network is unreachable |
+| 159 | craig.ns.cloudflare.com | 2803:f800:50::6ca2:c3c0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3c0]:443: connect: network is unreachable |
+| 163 | toy-people.com | 2606:4700:20::681a:324 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:324]:443: connect: network is unreachable |
+| 164 | toy-people.com | 2606:4700:20::ac43:4812 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4812]:443: connect: network is unreachable |
+| 165 | toy-people.com | 2606:4700:20::681a:224 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:224]:443: connect: network is unreachable |
+| 169 | pranab.ns.cloudflare.com | 2803:f800:50::6ca2:c3c7 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3c7]:443: connect: network is unreachable |
+| 170 | pranab.ns.cloudflare.com | 2a06:98c1:50::ac40:23c7 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23c7]:443: connect: network is unreachable |
+| 171 | pranab.ns.cloudflare.com | 2606:4700:58::a29f:2cc7 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cc7]:443: connect: network is unreachable |
+| 176 | kyree.ns.cloudflare.com | 2a06:98c1:50::ac40:23cf | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23cf]:443: connect: network is unreachable |
+| 177 | kyree.ns.cloudflare.com | 2803:f800:50::6ca2:c3cf | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3cf]:443: connect: network is unreachable |
+| 178 | kyree.ns.cloudflare.com | 2606:4700:58::a29f:2ccf | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ccf]:443: connect: network is unreachable |
+| 183 | cris.ns.cloudflare.com | 2606:4700:58::a29f:2cca | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cca]:443: connect: network is unreachable |
+| 184 | cris.ns.cloudflare.com | 2a06:98c1:50::ac40:23ca | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23ca]:443: connect: network is unreachable |
+| 185 | cris.ns.cloudflare.com | 2803:f800:50::6ca2:c3ca | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3ca]:443: connect: network is unreachable |
+| 187 | [2606:4700:440b::3e6e:5f06] | 2606:4700:440b::3e6e:5f06 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:440b::3e6e:5f06]:443: connect: network is unreachable |
+| 193 | tasteatlas.com | 2606:4700::6811:2469 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6811:2469]:443: connect: network is unreachable |
+| 194 | tasteatlas.com | 2606:4700::6811:2569 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6811:2569]:443: connect: network is unreachable |
+| 197 | www.udemy.com | 2606:4700::6810:8fed | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:8fed]:443: connect: network is unreachable |
+| 198 | www.udemy.com | 2606:4700::6810:8eed | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:8eed]:443: connect: network is unreachable |
+| 199 | [2606:4700:4403::7357:544f] | 2606:4700:4403::7357:544f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:4403::7357:544f]:443: connect: network is unreachable |
+| 203 | icook.tw | 2606:4700:10::6814:1c4a | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:10::6814:1c4a]:443: connect: network is unreachable |
+| 204 | icook.tw | 2606:4700:10::ac42:9e73 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:10::ac42:9e73]:443: connect: network is unreachable |
+| 205 | [2606:4700:4408::18c5:3304] | 2606:4700:4408::18c5:3304 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:4408::18c5:3304]:443: connect: network is unreachable |
+| 209 | damien.ns.cloudflare.com | 2606:4700:58::a29f:2ca8 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ca8]:443: connect: network is unreachable |
+| 210 | damien.ns.cloudflare.com | 2803:f800:50::6ca2:c3a8 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3a8]:443: connect: network is unreachable |
+| 211 | damien.ns.cloudflare.com | 2a06:98c1:50::ac40:23a8 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23a8]:443: connect: network is unreachable |
+| 216 | decker.ns.cloudflare.com | 2606:4700:58::a29f:2c9b | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c9b]:443: connect: network is unreachable |
+| 217 | decker.ns.cloudflare.com | 2803:f800:50::6ca2:c39b | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c39b]:443: connect: network is unreachable |
+| 218 | decker.ns.cloudflare.com | 2a06:98c1:50::ac40:239b | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:239b]:443: connect: network is unreachable |
+| 225 | [2606:4700:83be::11:74f] | 2606:4700:83be::11:74f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:83be::11:74f]:443: connect: network is unreachable |
+| 229 | www.digitalocean.com | 2606:4700::6813:ae44 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6813:ae44]:443: connect: network is unreachable |
+| 230 | www.digitalocean.com | 2606:4700::6813:ad44 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6813:ad44]:443: connect: network is unreachable |
+| 233 | [2606:4700:83bd::7d8:2b47] | 2606:4700:83bd::7d8:2b47 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:83bd::7d8:2b47]:443: connect: network is unreachable |
+| 238 | otto.ns.cloudflare.com | 2606:4700:58::a29f:2c87 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c87]:443: connect: network is unreachable |
+| 239 | otto.ns.cloudflare.com | 2803:f800:50::6ca2:c387 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c387]:443: connect: network is unreachable |
+| 240 | otto.ns.cloudflare.com | 2a06:98c1:50::ac40:2387 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:2387]:443: connect: network is unreachable |
+| 243 | ifconfig.co | 2606:4700:3037::6815:365b | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::6815:365b]:443: connect: network is unreachable |
+| 247 | lewis.ns.cloudflare.com | 2803:f800:50::6ca2:c39f | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c39f]:443: connect: network is unreachable |
+| 248 | lewis.ns.cloudflare.com | 2a06:98c1:50::ac40:239f | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:239f]:443: connect: network is unreachable |
+| 249 | lewis.ns.cloudflare.com | 2606:4700:58::a29f:2c9f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c9f]:443: connect: network is unreachable |
+| 253 | japan.com | 2606:4700:20::681a:53c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:53c]:443: connect: network is unreachable |
+| 254 | japan.com | 2606:4700:20::ac43:465c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:465c]:443: connect: network is unreachable |
+| 255 | japan.com | 2606:4700:20::681a:43c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:43c]:443: connect: network is unreachable |
+| 259 | www.wto.org | 2606:4700:4406::ac40:9242 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:4406::ac40:9242]:443: connect: network is unreachable |
+| 260 | www.wto.org | 2a06:98c1:3102::6812:29be | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3102::6812:29be]:443: connect: network is unreachable |
+| 270 | stock.hostmonit.com | 2606:4700:3037::6815:7c1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::6815:7c1]:443: connect: network is unreachable |
+| 271 | stock.hostmonit.com | 2606:4700:3033::ac43:bbfb | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3033::ac43:bbfb]:443: connect: network is unreachable |
+| 283 | abdullah.ns.cloudflare.com | 2606:4700:58::a29f:2ccb | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ccb]:443: connect: network is unreachable |
+| 284 | abdullah.ns.cloudflare.com | 2803:f800:50::6ca2:c3cb | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3cb]:443: connect: network is unreachable |
+| 285 | abdullah.ns.cloudflare.com | 2a06:98c1:50::ac40:23cb | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23cb]:443: connect: network is unreachable |
+| 312 | 2a06:98c1:3121:c6d4:4130:7992:df42:f04c | 2a06:98c1:3121:c6d4:4130:7992:df42:f04c | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:c6d4:4130:7992:df42:f04c]:443: connect: network is unreachable |
+| 313 | 2a06:98c1:3121:c6d4:af96:6677:59bf:faec | 2a06:98c1:3121:c6d4:af96:6677:59bf:faec | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:c6d4:af96:6677:59bf:faec]:443: connect: network is unreachable |
+| 316 | 2a06:98c1:3121:5d:1caa:56dd:a908:af7b | 2a06:98c1:3121:5d:1caa:56dd:a908:af7b | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:5d:1caa:56dd:a908:af7b]:443: connect: network is unreachable |
+| 317 | 2a06:98c1:3120:c39b:7522:c680:d288:d13c | 2a06:98c1:3120:c39b:7522:c680:d288:d13c | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3120:c39b:7522:c680:d288:d13c]:443: connect: network is unreachable |
+| 318 | 2a06:98c1:3121:c677:c614:1f96:d4bf:a723 | 2a06:98c1:3121:c677:c614:1f96:d4bf:a723 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:c677:c614:1f96:d4bf:a723]:443: connect: network is unreachable |
+| 319 | 2a06:98c1:3121:0:efde:82d1:8124:3fed | 2a06:98c1:3121:0:efde:82d1:8124:3fed | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:0:efde:82d1:8124:3fed]:443: connect: network is unreachable |
+| 320 | 2a06:98c1:3121:0:ef18:6ab0:b648:d756 | 2a06:98c1:3121:0:ef18:6ab0:b648:d756 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:0:ef18:6ab0:b648:d756]:443: connect: network is unreachable |
+| 321 | 2a06:98c1:3121:c677:c614:7606:cec1:f722 | 2a06:98c1:3121:c677:c614:7606:cec1:f722 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:c677:c614:7606:cec1:f722]:443: connect: network is unreachable |
+| 322 | 2a06:98c1:3121:cdc1:6b1b:cfe6:f0:eaa2 | 2a06:98c1:3121:cdc1:6b1b:cfe6:f0:eaa2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3121:cdc1:6b1b:cfe6:f0:eaa2]:443: connect: network is unreachable |
+| 328 | freeyx.cloudflare88.eu.org | 2606:4700:3010:bf:5dba:fabf:8068:e072 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3010:bf:5dba:fabf:8068:e072]:443: connect: network is unreachable |
+| 331 | zread.ai | 2606:4700:3032::ac43:ca4e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3032::ac43:ca4e]:443: connect: network is unreachable |
+| 332 | zread.ai | 2606:4700:3033::6815:4cf0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3033::6815:4cf0]:443: connect: network is unreachable |
+| 335 | cloudflare-ip.mofashi.ltd | 2606:4700:3037::6815:48e9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::6815:48e9]:443: connect: network is unreachable |
+| 336 | cloudflare-ip.mofashi.ltd | 2606:4700:3037::ac43:9bac | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::ac43:9bac]:443: connect: network is unreachable |
+| 341 | wilson.ns.cloudflare.com | 2a06:98c1:50::ac40:236e | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:236e]:443: connect: network is unreachable |
+| 342 | wilson.ns.cloudflare.com | 2803:f800:50::6ca2:c36e | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c36e]:443: connect: network is unreachable |
+| 343 | wilson.ns.cloudflare.com | 2606:4700:58::a29f:2c6e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c6e]:443: connect: network is unreachable |
+| 347 | www.whatismyip.com | 2606:4700:20::681a:d17 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:d17]:443: connect: network is unreachable |
+| 348 | www.whatismyip.com | 2606:4700:20::681a:c17 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:c17]:443: connect: network is unreachable |
+| 349 | www.whatismyip.com | 2606:4700:20::ac43:4581 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4581]:443: connect: network is unreachable |
+| 354 | bestcf.030101.xyz | 2606:4700:0:b21c:66ba:fef:2ef4:2658 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:0:b21c:66ba:fef:2ef4:2658]:443: connect: network is unreachable |
+| 355 | bestcf.030101.xyz | 2606:4700:0:26e6:9bb0:8293:779:dc27 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:0:26e6:9bb0:8293:779:dc27]:443: connect: network is unreachable |
+| 358 | cf.zhetengsha.eu.org | 2a06:98c1:3105::6812:230f | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3105::6812:230f]:443: connect: network is unreachable |
+| 359 | cf.zhetengsha.eu.org | 2606:4700:440a::ac40:98f1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:440a::ac40:98f1]:443: connect: network is unreachable |
+| 360 | [2606:4700:440f::53aa:4126] | 2606:4700:440f::53aa:4126 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:440f::53aa:4126]:443: connect: network is unreachable |
+| 367 | xn--b6gac.eu.org | 2606:4700:3035::6815:5a4e | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3035::6815:5a4e]:443: connect: network is unreachable |
+| 368 | xn--b6gac.eu.org | 2606:4700:3037::ac43:99fd | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3037::ac43:99fd]:443: connect: network is unreachable |
+| 369 | [2606:4700:4409::5b5b:7758] | 2606:4700:4409::5b5b:7758 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:4409::5b5b:7758]:443: connect: network is unreachable |
+| 373 | braden.ns.cloudflare.com | 2606:4700:58::a29f:2ca9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ca9]:443: connect: network is unreachable |
+| 374 | braden.ns.cloudflare.com | 2803:f800:50::6ca2:c3a9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3a9]:443: connect: network is unreachable |
+| 375 | braden.ns.cloudflare.com | 2a06:98c1:50::ac40:23a9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23a9]:443: connect: network is unreachable |
+| 379 | time.is | 2606:4700:20::681a:c36 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:c36]:443: connect: network is unreachable |
+| 380 | time.is | 2606:4700:20::681a:d36 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:d36]:443: connect: network is unreachable |
+| 381 | time.is | 2606:4700:20::ac43:449d | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:449d]:443: connect: network is unreachable |
+| 385 | moura.ns.cloudflare.com | 2606:4700:58::a29f:2cd9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cd9]:443: connect: network is unreachable |
+| 386 | moura.ns.cloudflare.com | 2803:f800:50::6ca2:c3d9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3d9]:443: connect: network is unreachable |
+| 387 | moura.ns.cloudflare.com | 2a06:98c1:50::ac40:23d9 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23d9]:443: connect: network is unreachable |
+| 396 | rustam.ns.cloudflare.com | 2606:4700:58::a29f:2c94 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c94]:443: connect: network is unreachable |
+| 397 | rustam.ns.cloudflare.com | 2a06:98c1:50::ac40:2394 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:2394]:443: connect: network is unreachable |
+| 398 | rustam.ns.cloudflare.com | 2803:f800:50::6ca2:c394 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c394]:443: connect: network is unreachable |
+| 401 | fbi.gov | 2606:4700::6810:94f4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:94f4]:443: connect: network is unreachable |
+| 402 | fbi.gov | 2606:4700::6810:95f4 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6810:95f4]:443: connect: network is unreachable |
+| 407 | bowen.ns.cloudflare.com | 2a06:98c1:50::ac40:2353 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:2353]:443: connect: network is unreachable |
+| 408 | bowen.ns.cloudflare.com | 2606:4700:58::a29f:2c53 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2c53]:443: connect: network is unreachable |
+| 409 | bowen.ns.cloudflare.com | 2803:f800:50::6ca2:c353 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c353]:443: connect: network is unreachable |
+| 413 | ip.gs | 2606:4700:3036::6815:eb0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3036::6815:eb0]:443: connect: network is unreachable |
+| 414 | ip.gs | 2606:4700:3035::ac43:a01c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3035::ac43:a01c]:443: connect: network is unreachable |
+| 418 | silkbook.com | 2606:4700:20::ac43:4bd0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable |
+| 419 | silkbook.com | 2606:4700:20::681a:8a0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable |
+| 420 | silkbook.com | 2606:4700:20::681a:9a0 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable |
+| 423 | whatismyipaddress.com | 2606:4700::6813:df4f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6813:df4f]:443: connect: network is unreachable |
+| 424 | whatismyipaddress.com | 2606:4700::6813:de4f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700::6813:de4f]:443: connect: network is unreachable |
+| 433 | singapore.com | 2606:4700:20::ac43:4bc2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4bc2]:443: connect: network is unreachable |
+| 434 | singapore.com | 2606:4700:20::681a:c8c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:c8c]:443: connect: network is unreachable |
+| 435 | singapore.com | 2606:4700:20::681a:d8c | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:d8c]:443: connect: network is unreachable |
+| 439 | cf.090227.xyz | 2a06:98c1:3101::ac40:919e | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3101::ac40:919e]:443: connect: network is unreachable |
+| 440 | cf.090227.xyz | 2a06:98c1:3108::6812:2a62 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3108::6812:2a62]:443: connect: network is unreachable |
+| 444 | benedict.ns.cloudflare.com | 2a06:98c1:50::ac40:23cd | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23cd]:443: connect: network is unreachable |
+| 445 | benedict.ns.cloudflare.com | 2803:f800:50::6ca2:c3cd | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3cd]:443: connect: network is unreachable |
+| 446 | benedict.ns.cloudflare.com | 2606:4700:58::a29f:2ccd | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2ccd]:443: connect: network is unreachable |
+| 453 | ip.sb | 2606:4700:20::681a:d1f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:d1f]:443: connect: network is unreachable |
+| 454 | ip.sb | 2606:4700:20::ac43:4bac | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:4bac]:443: connect: network is unreachable |
+| 455 | ip.sb | 2606:4700:20::681a:c1f | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:c1f]:443: connect: network is unreachable |
+| 461 | palera.in | 2606:4700:3035::6815:3a48 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3035::6815:3a48]:443: connect: network is unreachable |
+| 462 | palera.in | 2606:4700:3032::ac43:9d7a | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3032::ac43:9d7a]:443: connect: network is unreachable |
+| 466 | local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:3031::ac43:9db6]:443: connect: network is unreachable |
+| 470 | ashton.ns.cloudflare.com | 2803:f800:50::6ca2:c3ad | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3ad]:443: connect: network is unreachable |
+| 471 | ashton.ns.cloudflare.com | 2a06:98c1:50::ac40:23ad | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23ad]:443: connect: network is unreachable |
+| 472 | ashton.ns.cloudflare.com | 2606:4700:58::a29f:2cad | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cad]:443: connect: network is unreachable |
+| 476 | julio.ns.cloudflare.com | 2606:4700:58::a29f:2cd1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cd1]:443: connect: network is unreachable |
+| 477 | julio.ns.cloudflare.com | 2803:f800:50::6ca2:c3d1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3d1]:443: connect: network is unreachable |
+| 478 | julio.ns.cloudflare.com | 2a06:98c1:50::ac40:23d1 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23d1]:443: connect: network is unreachable |
+| 482 | dnschecker.org | 2606:4700:20::ac43:49d8 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::ac43:49d8]:443: connect: network is unreachable |
+| 483 | dnschecker.org | 2606:4700:20::681a:659 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:659]:443: connect: network is unreachable |
+| 484 | dnschecker.org | 2606:4700:20::681a:759 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:20::681a:759]:443: connect: network is unreachable |
+| 488 | uriah.ns.cloudflare.com | 2606:4700:58::a29f:2cc2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:58::a29f:2cc2]:443: connect: network is unreachable |
+| 489 | uriah.ns.cloudflare.com | 2a06:98c1:50::ac40:23c2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:50::ac40:23c2]:443: connect: network is unreachable |
+| 490 | uriah.ns.cloudflare.com | 2803:f800:50::6ca2:c3c2 | IPv6 | none | N/A | 0 | N/A | dial tcp [2803:f800:50::6ca2:c3c2]:443: connect: network is unreachable |
+| 493 | cf.877774.xyz | 2606:4700:4406::ac40:9242 | IPv6 | none | N/A | 0 | N/A | dial tcp [2606:4700:4406::ac40:9242]:443: connect: network is unreachable |
+| 494 | cf.877774.xyz | 2a06:98c1:3102::6812:29be | IPv6 | none | N/A | 0 | N/A | dial tcp [2a06:98c1:3102::6812:29be]:443: connect: network is unreachable |
+
+#### 连接超时: I/O超时 (3 次测试)
+
+| 序号 | 主机/域名 | 目标IP | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息 |
+|------|-----------|--------|--------|------|--------|----------|--------|----------|
+| 425 | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4 | none | N/A | 0 | N/A | dial tcp 198.41.212.130:443: i/o timeout |
+| 449 | 172.67.49.134 | 172.67.49.134 | IPv4 | none | N/A | 0 | N/A | dial tcp 172.67.49.134:443: i/o timeout |
+| 495 | 172.64.201.25 | 172.64.201.25 | IPv4 | none | N/A | 0 | N/A | dial tcp 172.64.201.25:443: i/o timeout |
+
+### 📈 错误分析总结
+
+#### 主错误类型分布
+
+- **网络不可达**: 178 次 (98.3%)
+- **连接超时**: 3 次 (1.7%)
+
+#### 错误模式分析
+
+**超时集中度分析**: 共有 3 次超时，主要集中在IP段 198.41（1 次），可能存在网络路由问题或目标服务器负载过高
+
+**协议协商分析**: 有 181 次失败是因为协议协商失败（protocol: none），说明无法与目标建立HTTP/3或其他现代协议连接
+
+**IP版本分析**: IPv4失败 3 次，IPv6失败 178 次，两种协议都存在问题
+
+**问题主机分析**: 以下主机出现多次失败：cloudflare.182682.xyz (5次), dylan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com (3次)，建议重点检查这些主机的网络状态和服务可用性
+
+
+
+---
+
+## 🚀 延迟最低的 200 条记录
+
+以下显示了延迟最低的测试记录，包括成功和失败的测试：
+
+| 序号 | 主机/域名 | 目标IP | IP版本 | 协议 | 状态 | 延迟(ms) | 服务器 |
+|------|-----------|--------|--------|------|------|----------|--------|
+| 314 | 104.16.65.1 | 104.16.65.1 | IPv4 | h3 | ✅ 成功 | 45 | cloudflare |
+| 442 | benedict.ns.cloudflare.com | 172.64.35.205 | IPv4 | h3 | ✅ 成功 | 48 | cloudflare |
+| 45 | ct.877774.xyz | 172.64.229.185 | IPv4 | h3 | ✅ 成功 | 50 | cloudflare |
+| 94 | cmcc.877774.xyz | 104.16.148.8 | IPv4 | h3 | ✅ 成功 | 50 | cloudflare |
+| 486 | uriah.ns.cloudflare.com | 172.64.35.194 | IPv4 | h3 | ✅ 成功 | 50 | cloudflare |
+| 363 | asia.877774.xyz | 104.17.139.62 | IPv4 | h3 | ✅ 成功 | 51 | cloudflare |
+| 448 | saas.sin.fan | 162.159.36.5 | IPv4 | h3 | ✅ 成功 | 51 | cloudflare |
+| 458 | www.glassdoor.com | 104.17.64.70 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare |
+| 297 | 104.19.148.121 | 104.19.148.121 | IPv4 | h3 | ✅ 成功 | 53 | cloudflare |
+| 226 | 104.26.13.31 | 104.26.13.31 | IPv4 | h3 | ✅ 成功 | 54 | cloudflare |
+| 76 | 104.18.254.88 | 104.18.254.88 | IPv4 | h3 | ✅ 成功 | 55 | cloudflare |
+| 143 | 172.67.243.218 | 172.67.243.218 | IPv4 | h3 | ✅ 成功 | 55 | cloudflare |
+| 311 | 104.18.189.153 | 104.18.189.153 | IPv4 | h3 | ✅ 成功 | 55 | cloudflare |
+| 366 | xn--b6gac.eu.org | 104.21.90.78 | IPv4 | h3 | ✅ 成功 | 55 | cloudflare |
+| 288 | 162.159.137.204 | 162.159.137.204 | IPv4 | h3 | ✅ 成功 | 56 | cloudflare |
+| 392 | 104.17.68.85 | 104.17.68.85 | IPv4 | h3 | ✅ 成功 | 56 | cloudflare |
+| 357 | cf.zhetengsha.eu.org | 172.64.144.82 | IPv4 | h3 | ✅ 成功 | 57 | cloudflare |
+| 278 | 172.64.229.7 | 172.64.229.7 | IPv4 | h3 | ✅ 成功 | 58 | cloudflare |
+| 329 | zread.ai | 172.67.202.78 | IPv4 | h3 | ✅ 成功 | 58 | cloudflare |
+| 256 | 172.67.181.209 | 172.67.181.209 | IPv4 | h3 | ✅ 成功 | 59 | cloudflare |
+| 68 | ipinfo.in | 104.21.21.129 | IPv4 | h3 | ✅ 成功 | 62 | cloudflare |
+| 390 | www.ipchicken.com | 104.26.7.112 | IPv4 | h3 | ✅ 成功 | 64 | cloudflare |
+| 246 | lewis.ns.cloudflare.com | 172.64.35.159 | IPv4 | h3 | ✅ 成功 | 65 | cloudflare |
+| 250 | japan.com | 104.26.5.60 | IPv4 | h3 | ✅ 成功 | 66 | cloudflare |
+| 378 | time.is | 104.26.12.54 | IPv4 | h3 | ✅ 成功 | 66 | cloudflare |
+| 136 | www.okcupid.com | 104.17.48.63 | IPv4 | h3 | ✅ 成功 | 68 | cloudflare |
+| 422 | whatismyipaddress.com | 104.19.222.79 | IPv4 | h3 | ✅ 成功 | 68 | cloudflare |
+| 39 | ct.877774.xyz | 172.64.229.236 | IPv4 | h3 | ✅ 成功 | 72 | cloudflare |
+| 400 | fbi.gov | 104.16.149.244 | IPv4 | h3 | ✅ 成功 | 72 | cloudflare |
+| 49 | ipv4.ip.sb | 104.26.12.31 | IPv4 | h3 | ✅ 成功 | 73 | cloudflare |
+| 99 | cmcc.877774.xyz | 104.16.148.244 | IPv4 | h3 | ✅ 成功 | 73 | cloudflare |
+| 303 | 104.19.154.200 | 104.19.154.200 | IPv4 | h3 | ✅ 成功 | 75 | cloudflare |
+| 123 | sullivan.ns.cloudflare.com | 172.64.35.161 | IPv4 | h3 | ✅ 成功 | 77 | cloudflare |
+| 172 | 162.159.24.131 | 162.159.24.131 | IPv4 | h3 | ✅ 成功 | 78 | cloudflare |
+| 73 | 172.67.110.232 | 172.67.110.232 | IPv4 | h3 | ✅ 成功 | 79 | cloudflare |
+| 279 | 172.64.52.127 | 172.64.52.127 | IPv4 | h3 | ✅ 成功 | 79 | cloudflare |
+| 289 | 162.159.128.253 | 162.159.128.253 | IPv4 | h3 | ✅ 成功 | 79 | cloudflare |
+| 258 | www.wto.org | 172.64.146.66 | IPv4 | h3 | ✅ 成功 | 80 | cloudflare |
+| 457 | www.glassdoor.com | 104.16.25.46 | IPv4 | h3 | ✅ 成功 | 80 | cloudflare |
+| 139 | www.visa.cn | 162.159.153.2 | IPv4 | h3 | ✅ 成功 | 81 | cloudflare |
+| 306 | 104.17.69.244 | 104.17.69.244 | IPv4 | h3 | ✅ 成功 | 81 | cloudflare |
+| 223 | cfip.1323123.xyz | 104.16.133.220 | IPv4 | h3 | ✅ 成功 | 82 | cloudflare |
+| 305 | 104.19.212.207 | 104.19.212.207 | IPv4 | h3 | ✅ 成功 | 82 | cloudflare |
+| 465 | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182 | IPv4 | h3 | ✅ 成功 | 83 | cloudflare |
+| 85 | cmcc.877774.xyz | 104.16.149.12 | IPv4 | h3 | ✅ 成功 | 84 | cloudflare |
+| 161 | toy-people.com | 172.67.72.18 | IPv4 | h3 | ✅ 成功 | 84 | cloudflare |
+| 75 | 103.160.204.59 | 103.160.204.59 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 105 | www.gov.ua | 172.67.209.127 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 190 | na.877774.xyz | 104.18.187.25 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 356 | cf.zhetengsha.eu.org | 104.18.43.174 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 365 | xn--b6gac.eu.org | 172.67.153.253 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 474 | julio.ns.cloudflare.com | 172.64.35.209 | IPv4 | h3 | ✅ 成功 | 85 | cloudflare |
+| 13 | dylan.ns.cloudflare.com | 108.162.195.187 | IPv4 | h3 | ✅ 成功 | 86 | cloudflare |
+| 287 | 162.159.61.183 | 162.159.61.183 | IPv4 | h3 | ✅ 成功 | 86 | cloudflare |
+| 290 | 104.26.3.162 | 104.26.3.162 | IPv4 | h3 | ✅ 成功 | 86 | cloudflare |
+| 151 | yx-auto.pages.dev | 172.66.47.112 | IPv4 | h3 | ✅ 成功 | 87 | cloudflare |
+| 40 | ct.877774.xyz | 172.64.229.161 | IPv4 | h3 | ✅ 成功 | 88 | cloudflare |
+| 147 | cf.877771.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 88 | cloudflare |
+| 295 | 198.41.208.224 | 198.41.208.224 | IPv4 | h3 | ✅ 成功 | 88 | cloudflare |
+| 93 | cmcc.877774.xyz | 104.16.148.7 | IPv4 | h3 | ✅ 成功 | 89 | cloudflare |
+| 102 | cmcc.877774.xyz | 104.16.149.3 | IPv4 | h3 | ✅ 成功 | 89 | cloudflare |
+| 231 | gamer.com.tw | 104.18.3.197 | IPv4 | h3 | ✅ 成功 | 89 | cloudflare |
+| 352 | bestcf.030101.xyz | 104.19.47.227 | IPv4 | h3 | ✅ 成功 | 89 | cloudflare |
+| 353 | bestcf.030101.xyz | 104.19.55.80 | IPv4 | h3 | ✅ 成功 | 89 | cloudflare |
+| 88 | cmcc.877774.xyz | 104.16.148.2 | IPv4 | h3 | ✅ 成功 | 90 | cloudflare |
+| 324 | 172.64.48.226 | 172.64.48.226 | IPv4 | h3 | ✅ 成功 | 90 | cloudflare |
+| 37 | 104.18.39.196 | 104.18.39.196 | IPv4 | h3 | ✅ 成功 | 91 | cloudflare |
+| 43 | ct.877774.xyz | 172.64.229.173 | IPv4 | h3 | ✅ 成功 | 91 | cloudflare |
+| 133 | 172.67.120.0 | 172.67.120.0 | IPv4 | h3 | ✅ 成功 | 91 | cloudflare |
+| 188 | na.877774.xyz | 104.19.74.233 | IPv4 | h3 | ✅ 成功 | 91 | cloudflare |
+| 53 | cloudflare.182682.xyz | 104.16.250.22 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 129 | www.hugedomains.com | 104.26.6.37 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 208 | damien.ns.cloudflare.com | 172.64.35.168 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 265 | eur.877774.xyz | 104.21.47.209 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 268 | stock.hostmonit.com | 104.21.7.193 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 275 | 162.159.58.65 | 162.159.58.65 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 294 | 104.18.166.129 | 104.18.166.129 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 377 | time.is | 104.26.13.54 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 395 | rustam.ns.cloudflare.com | 172.64.35.148 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 460 | palera.in | 188.114.97.3 | IPv4 | h3 | ✅ 成功 | 92 | cloudflare |
+| 26 | www.pcmag.com | 104.16.20.118 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 78 | cmcc.877774.xyz | 104.16.149.5 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 96 | cmcc.877774.xyz | 104.16.148.10 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 173 | kyree.ns.cloudflare.com | 108.162.195.207 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 276 | 162.159.140.85 | 162.159.140.85 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 300 | 104.18.151.172 | 104.18.151.172 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 410 | 162.159.36.104 | 162.159.36.104 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 441 | benedict.ns.cloudflare.com | 162.159.44.205 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 447 | saas.sin.fan | 162.159.36.20 | IPv4 | h3 | ✅ 成功 | 93 | cloudflare |
+| 84 | cmcc.877774.xyz | 104.16.149.11 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 137 | www.okcupid.com | 104.16.144.63 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 236 | otto.ns.cloudflare.com | 108.162.195.135 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 274 | 162.159.136.89 | 162.159.136.89 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 393 | rustam.ns.cloudflare.com | 108.162.195.148 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 428 | cfip.xxxxxxxx.tk | 188.114.96.125 | IPv4 | h3 | ✅ 成功 | 94 | cloudflare |
+| 34 | cf.0sm.com | 172.67.187.145 | IPv4 | h3 | ✅ 成功 | 95 | cloudflare |
+| 69 | ipinfo.in | 172.67.198.203 | IPv4 | h3 | ✅ 成功 | 95 | cloudflare |
+| 135 | www.okcupid.com | 104.16.239.254 | IPv4 | h3 | ✅ 成功 | 96 | cloudflare |
+| 286 | 104.26.5.134 | 104.26.5.134 | IPv4 | h3 | ✅ 成功 | 96 | cloudflare |
+| 302 | 104.17.139.37 | 104.17.139.37 | IPv4 | h3 | ✅ 成功 | 96 | cloudflare |
+| 451 | ip.sb | 104.26.13.31 | IPv4 | h3 | ✅ 成功 | 96 | cloudflare |
+| 145 | www.visa.com.sg | 104.18.12.229 | IPv4 | h3 | ✅ 成功 | 97 | cloudflare |
+| 292 | 104.18.81.19 | 104.18.81.19 | IPv4 | h3 | ✅ 成功 | 97 | cloudflare |
+| 308 | 104.17.167.134 | 104.17.167.134 | IPv4 | h3 | ✅ 成功 | 97 | cloudflare |
+| 20 | trevor.ns.cloudflare.com | 172.64.35.154 | IPv4 | h3 | ✅ 成功 | 98 | cloudflare |
+| 41 | ct.877774.xyz | 172.64.229.174 | IPv4 | h3 | ✅ 成功 | 98 | cloudflare |
+| 181 | cris.ns.cloudflare.com | 172.64.35.202 | IPv4 | h3 | ✅ 成功 | 98 | cloudflare |
+| 244 | lewis.ns.cloudflare.com | 108.162.195.159 | IPv4 | h3 | ✅ 成功 | 98 | cloudflare |
+| 304 | 104.19.220.22 | 104.19.220.22 | IPv4 | h3 | ✅ 成功 | 98 | cloudflare |
+| 38 | ct.877774.xyz | 172.64.229.195 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 77 | cmcc.877774.xyz | 104.16.149.4 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 87 | cmcc.877774.xyz | 104.16.148.1 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 101 | cmcc.877774.xyz | 104.16.149.2 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 252 | japan.com | 104.26.4.60 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 403 | 104.16.61.163 | 104.16.61.163 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 406 | bowen.ns.cloudflare.com | 172.64.35.83 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 416 | silkbook.com | 104.26.8.160 | IPv4 | h3 | ✅ 成功 | 99 | cloudflare |
+| 46 | 104.16.45.84 | 104.16.45.84 | IPv4 | h3 | ✅ 成功 | 100 | cloudflare |
+| 42 | ct.877774.xyz | 172.64.229.217 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 63 | iplocation.io | 172.67.70.100 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 83 | cmcc.877774.xyz | 104.16.149.10 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 91 | cmcc.877774.xyz | 104.16.148.5 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 98 | cmcc.877774.xyz | 104.16.148.12 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 166 | pranab.ns.cloudflare.com | 172.64.35.199 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 257 | www.wto.org | 104.18.41.190 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 281 | abdullah.ns.cloudflare.com | 172.64.35.203 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 315 | 104.16.105.166 | 104.16.105.166 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 426 | cfip.xxxxxxxx.tk | 104.16.232.223 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 437 | cf.090227.xyz | 104.18.35.15 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 456 | 104.18.42.26 | 104.18.42.26 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare |
+| 29 | steamdb.info | 104.20.34.212 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 114 | icook.hk | 188.114.97.3 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 119 | www.4chan.org | 104.16.229.229 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 142 | cu.877774.xyz | 104.18.42.54 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 160 | toy-people.com | 104.26.3.36 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 235 | otto.ns.cloudflare.com | 172.64.35.135 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 280 | abdullah.ns.cloudflare.com | 108.162.195.203 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 309 | 104.18.223.253 | 104.18.223.253 | IPv4 | h3 | ✅ 成功 | 102 | cloudflare |
+| 232 | gamer.com.tw | 104.18.2.197 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 339 | wilson.ns.cloudflare.com | 108.162.195.110 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 384 | moura.ns.cloudflare.com | 172.64.35.217 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 475 | julio.ns.cloudflare.com | 108.162.195.209 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 479 | dnschecker.org | 104.26.7.89 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 491 | cf.877774.xyz | 104.18.41.190 | IPv4 | h3 | ✅ 成功 | 103 | cloudflare |
+| 51 | 104.18.37.13 | 104.18.37.13 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 64 | iplocation.io | 104.26.10.222 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 206 | damien.ns.cloudflare.com | 162.159.44.168 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 267 | 172.64.82.114 | 172.64.82.114 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 272 | 198.41.194.162 | 198.41.194.162 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 350 | 104.17.79.11 | 104.17.79.11 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 389 | www.ipchicken.com | 104.26.6.112 | IPv4 | h3 | ✅ 成功 | 104 | cloudflare |
+| 3 | 172.67.106.26 | 172.67.106.26 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 4 | 172.64.154.18 | 172.64.154.18 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 55 | cloudflare.182682.xyz | 104.18.185.26 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 127 | www.hugedomains.com | 172.67.70.191 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 202 | icook.tw | 172.66.158.115 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 215 | decker.ns.cloudflare.com | 172.64.35.155 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 222 | 104.18.37.40 | 104.18.37.40 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 415 | silkbook.com | 104.26.9.160 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 429 | cfip.xxxxxxxx.tk | 190.93.244.201 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 467 | ashton.ns.cloudflare.com | 162.159.44.173 | IPv4 | h3 | ✅ 成功 | 105 | cloudflare |
+| 128 | www.hugedomains.com | 104.26.7.37 | IPv4 | h3 | ✅ 成功 | 106 | cloudflare |
+| 179 | 104.18.14.76 | 104.18.14.76 | IPv4 | h3 | ✅ 成功 | 106 | cloudflare |
+| 430 | singapore.com | 172.67.75.194 | IPv4 | h3 | ✅ 成功 | 106 | cloudflare |
+| 110 | huxley.ns.cloudflare.com | 172.64.35.188 | IPv4 | h3 | ✅ 成功 | 107 | cloudflare |
+| 212 | 104.17.142.12 | 104.17.142.12 | IPv4 | h3 | ✅ 成功 | 107 | cloudflare |
+| 5 | www.ipget.net | 104.21.15.212 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 30 | steamdb.info | 172.66.175.250 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 44 | ct.877774.xyz | 172.64.229.44 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 162 | toy-people.com | 104.26.2.36 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 196 | www.udemy.com | 104.16.143.237 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 214 | decker.ns.cloudflare.com | 108.162.195.155 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 242 | ifconfig.co | 172.67.168.106 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 261 | 104.19.175.123 | 104.19.175.123 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 263 | 173.245.49.194 | 173.245.49.194 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 264 | eur.877774.xyz | 104.21.29.164 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 325 | 172.64.91.69 | 172.64.91.69 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 432 | singapore.com | 104.26.13.140 | IPv4 | h3 | ✅ 成功 | 108 | cloudflare |
+| 140 | www.visa.cn | 162.159.152.2 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 144 | www.visa.com.sg | 104.18.13.229 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 189 | na.877774.xyz | 104.18.38.235 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 224 | 172.64.35.24 | 172.64.35.24 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 334 | cloudflare-ip.mofashi.ltd | 172.67.155.172 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 399 | fbi.gov | 104.16.148.244 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 404 | bowen.ns.cloudflare.com | 108.162.195.83 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
+| 95 | cmcc.877774.xyz | 104.16.148.9 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare |
+| 146 | cf.877771.xyz | 172.67.152.183 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare |
+| 168 | pranab.ns.cloudflare.com | 108.162.195.199 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare |
+| 191 | tasteatlas.com | 104.17.37.105 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare |
+| 219 | 172.67.79.211 | 172.67.79.211 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare |
+| 54 | cloudflare.182682.xyz | 104.17.25.173 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 56 | cloudflare.182682.xyz | 104.21.224.5 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 266 | eur.877774.xyz | 104.21.26.150 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 277 | 198.41.208.15 | 198.41.208.15 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 326 | freeyx.cloudflare88.eu.org | 141.101.121.80 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 327 | freeyx.cloudflare88.eu.org | 141.101.121.137 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 337 | www.7749tv.com | 104.19.133.4 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 412 | ip.gs | 172.67.160.28 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 464 | www.visa.com.hk | 104.18.21.69 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+| 469 | ashton.ns.cloudflare.com | 108.162.195.173 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare |
+
+### 延迟分布分析
+
+- **超快 (<50ms)**: 2 条记录
+- **快 (50-100ms)**: 115 条记录
+- **正常 (100-200ms)**: 83 条记录
+- **慢 (200-500ms)**: 0 条记录
+- **很慢 (>500ms)**: 0 条记录
+
+
+---
+
+## 详细分析
+
+### 按IP版本统计
+- **IPv4 失败**: 3 次
+- **IPv6 失败**: 178 次
+
+### 按协议统计
+
+- **none**: 181 次失败
+
+
+---
+
+## 建议和后续操作
+
+1. **检查网络连接**: 确认网络连接稳定
+2. **验证DNS解析**: 检查DNS服务器是否正常工作
+3. **检查防火墙设置**: 确认防火墙没有阻止相关端口
+4. **联系服务提供商**: 如果失败率较高，可能需要联系网络服务提供商
+5. **重新运行测试**: 在网络条件改善后重新运行测试进行验证
+
+---
+
+*此报告由 HTTP/3 连接测试报告生成器自动生成*
