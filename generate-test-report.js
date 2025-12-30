@@ -56,7 +56,7 @@ function findLatestConnectivityResultsFile() {
 /**
  * 生成HTTP/3连接测试失败报告
  * 从connectivity_results.json中提取所有失败的测试结果并生成格式化报告
- * 新增功能：输出延迟最低的前200条记录
+ * 新增功能：输出延迟最低的前2000条记录
  */
 
 class TestReportGenerator {
@@ -68,7 +68,7 @@ class TestReportGenerator {
     this.ipInfo = null; // 存储IP信息
     this.ipFetcher = new IPInfoFetcher(); // IP信息获取器
     this.options = {
-      topLatencyCount: options.topLatencyCount || 200,
+      topLatencyCount: options.topLatencyCount || 2000,
       includeLatencySection: options.includeLatencySection !== false,
       includeIPInfo: options.includeIPInfo !== false,
       ...options,
@@ -286,7 +286,7 @@ class TestReportGenerator {
             `|------|-----------|--------|--------|------|--------|----------|--------|----------|\n`;
 
           tests.forEach((test) => {
-            const host = test.host.length > 200
+            const host = test.host.length > 2000
               ? test.host.substring(0, 170) + "..."
               : test.host;
             const errorMsg = test.error_msg.length > 500
@@ -352,7 +352,7 @@ class TestReportGenerator {
 `;
 
         topLatencyRecords.forEach((test) => {
-          const host = test.host.length > 200
+          const host = test.host.length > 2000
             ? test.host.substring(0, 170) + "..."
             : test.host;
           const serverHeader = test.server_header.length > 150
@@ -1114,7 +1114,7 @@ async function main() {
     .description("HTTP/3 连接测试报告生成器")
     .version("2.0.0")
     .option("-f, --file <path>", "测试结果文件路径", defaultFile)
-    .option("-c, --count <number>", "延迟最低的记录数量", "200")
+    .option("-c, --count <number>", "延迟最低的记录数量", "2000")
     .option("--no-latency-section", "不包含延迟最低记录部分")
     .option("--no-ip-info", "不包含IP地址信息")
     .option("-o, --output <format>", "输出格式 (markdown, json, both)", "both");
