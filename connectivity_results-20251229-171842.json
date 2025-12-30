@@ -749,17 +749,6 @@
   },
   {
     "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
     "target_ip": "104.16.232.223",
     "ip_version": "IPv4",
     "success": true,
@@ -1034,17 +1023,6 @@
     "error_msg": null
   },
   {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
     "host": "craig.ns.cloudflare.com",
     "target_ip": "108.162.195.192",
     "ip_version": "IPv4",
@@ -1142,28 +1120,6 @@
     "latency_ms": 1570,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.hugedomains.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
-  },
-  {
-    "host": "www.ipget.net",
-    "target_ip": "172.67.207.26",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "www.ipget.net",
@@ -1329,17 +1285,6 @@
     "latency_ms": 1385,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cloudflare.182682.xyz",
-    "target_ip": "2606:4700:e7::3151:47a9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:e7::3151:47a9]:443: i/o timeout"
   },
   {
     "host": "cloudflare.182682.xyz",
@@ -1703,17 +1648,6 @@
     "latency_ms": 733,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "decker.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
   },
   {
     "host": "[2606:4700:4409::5b5b:7758]",
@@ -2374,17 +2308,6 @@
     "latency_ms": 422,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "shopify.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
   },
   {
     "host": "otto.ns.cloudflare.com",
@@ -3069,28 +2992,6 @@
     "error_msg": null
   },
   {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 3.0.50.69:443: i/o timeout"
-  },
-  {
-    "host": "stock.hostmonit.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
-  },
-  {
     "host": "172.64.151.55",
     "target_ip": "172.64.151.55",
     "ip_version": "IPv4",
@@ -3133,17 +3034,6 @@
     "latency_ms": 522,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
   },
   {
     "host": "cf.090227.xyz",
@@ -3507,17 +3397,6 @@
     "latency_ms": 562,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
   },
   {
     "host": "rustam.ns.cloudflare.com",
@@ -3925,17 +3804,6 @@
     "latency_ms": 1525,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "ip.sb",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
   },
   {
     "host": "singapore.com",
@@ -4477,28 +4345,6 @@
     "error_msg": null
   },
   {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "www.visa.com.hk",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
-  },
-  {
     "host": "icook.tw",
     "target_ip": "2606:4700:10::ac42:9e73",
     "ip_version": "IPv6",
@@ -4519,17 +4365,6 @@
     "latency_ms": 1078,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.udemy.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
   },
   {
     "host": "gamer.com.tw",

@@ -1089,28 +1089,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
-  },
-  {
     "host": "104.17.68.85",
     "target_ip": "104.17.68.85",
     "ip_version": "IPv4",
@@ -3806,17 +3784,6 @@
     "error_msg": null
   },
   {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
     "host": "172.64.154.18",
     "target_ip": "172.64.154.18",
     "ip_version": "IPv4",
@@ -4004,17 +3971,6 @@
     "error_msg": null
   },
   {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
     "host": "na.877774.xyz",
     "target_ip": "104.18.38.235",
     "ip_version": "IPv4",
@@ -4156,17 +4112,6 @@
     "latency_ms": 254,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",
@@ -4796,17 +4741,6 @@
     "error_msg": null
   },
   {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": read tcp 192.168.31.168:64372-\u003e3.0.50.69:443: wsarecv: An existing connection was forcibly closed by the remote host."
-  },
-  {
     "host": "cmcc.877774.xyz",
     "target_ip": "104.16.148.8",
     "ip_version": "IPv4",
@@ -5091,17 +5025,6 @@
     "latency_ms": 380,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
   },
   {
     "host": "ct.877774.xyz",

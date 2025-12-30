@@ -1,27 +1,5 @@
 [
   {
-    "host": "[2606:4700:440b::3e6e:5f06]",
-    "target_ip": "2606:4700:440b::3e6e:5f06",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:440b::3e6e:5f06]:443: connect: network is unreachable"
-  },
-  {
-    "host": "[2606:4700:83be::11:74f]",
-    "target_ip": "2606:4700:83be::11:74f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:83be::11:74f]:443: connect: network is unreachable"
-  },
-  {
     "host": "172.64.156.195",
     "target_ip": "172.64.156.195",
     "ip_version": "IPv4",
@@ -99,28 +77,6 @@
     "error_msg": null
   },
   {
-    "host": "www.ipget.net",
-    "target_ip": "2606:4700:3036::6815:fd4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3036::6815:fd4]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.ipget.net",
-    "target_ip": "2606:4700:3031::ac43:cf1a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::ac43:cf1a]:443: connect: network is unreachable"
-  },
-  {
     "host": "www.wto.org",
     "target_ip": "104.18.41.190",
     "ip_version": "IPv4",
@@ -141,28 +97,6 @@
     "latency_ms": 172,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.wto.org",
-    "target_ip": "2606:4700:4406::ac40:9242",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4406::ac40:9242]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.wto.org",
-    "target_ip": "2a06:98c1:3102::6812:29be",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:3102::6812:29be]:443: connect: network is unreachable"
   },
   {
     "host": "www.csgo.com",
@@ -220,39 +154,6 @@
     "error_msg": null
   },
   {
-    "host": "ashton.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cad",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cad]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ashton.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3ad",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3ad]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ashton.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23ad",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23ad]:443: connect: network is unreachable"
-  },
-  {
     "host": "ip.sb",
     "target_ip": "104.26.12.31",
     "ip_version": "IPv4",
@@ -286,39 +187,6 @@
     "error_msg": null
   },
   {
-    "host": "ip.sb",
-    "target_ip": "2606:4700:20::681a:d1f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:d1f]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ip.sb",
-    "target_ip": "2606:4700:20::ac43:4bac",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4bac]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ip.sb",
-    "target_ip": "2606:4700:20::681a:c1f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:c1f]:443: connect: network is unreachable"
-  },
-  {
     "host": "103.160.204.59",
     "target_ip": "103.160.204.59",
     "ip_version": "IPv4",
@@ -350,28 +218,6 @@
     "latency_ms": 115,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "local-aria2-webui.masx200.ddns-ip.net",
-    "target_ip": "2606:4700:3030::6815:e29",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3030::6815:e29]:443: connect: network is unreachable"
-  },
-  {
-    "host": "local-aria2-webui.masx200.ddns-ip.net",
-    "target_ip": "2606:4700:3031::ac43:9db6",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::ac43:9db6]:443: connect: network is unreachable"
   },
   {
     "host": "104.26.6.112",
@@ -429,39 +275,6 @@
     "error_msg": null
   },
   {
-    "host": "braden.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ca9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ca9]:443: connect: network is unreachable"
-  },
-  {
-    "host": "braden.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3a9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3a9]:443: connect: network is unreachable"
-  },
-  {
-    "host": "braden.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23a9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23a9]:443: connect: network is unreachable"
-  },
-  {
     "host": "dylan.ns.cloudflare.com",
     "target_ip": "108.162.195.187",
     "ip_version": "IPv4",
@@ -495,39 +308,6 @@
     "error_msg": null
   },
   {
-    "host": "dylan.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cbb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cbb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "dylan.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3bb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3bb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "dylan.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23bb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23bb]:443: connect: network is unreachable"
-  },
-  {
     "host": "104.17.142.12",
     "target_ip": "104.17.142.12",
     "ip_version": "IPv4",
@@ -548,17 +328,6 @@
     "latency_ms": 170,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:440f::53aa:4126]",
-    "target_ip": "2606:4700:440f::53aa:4126",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:440f::53aa:4126]:443: connect: network is unreachable"
   },
   {
     "host": "abdullah.ns.cloudflare.com",
@@ -594,39 +363,6 @@
     "error_msg": null
   },
   {
-    "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ccb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ccb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3cb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3cb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23cb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23cb]:443: connect: network is unreachable"
-  },
-  {
     "host": "time.is",
     "target_ip": "104.26.12.54",
     "ip_version": "IPv4",
@@ -660,39 +396,6 @@
     "error_msg": null
   },
   {
-    "host": "time.is",
-    "target_ip": "2606:4700:20::681a:d36",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:d36]:443: connect: network is unreachable"
-  },
-  {
-    "host": "time.is",
-    "target_ip": "2606:4700:20::681a:c36",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:c36]:443: connect: network is unreachable"
-  },
-  {
-    "host": "time.is",
-    "target_ip": "2606:4700:20::ac43:449d",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:449d]:443: connect: network is unreachable"
-  },
-  {
     "host": "xn--b6gac.eu.org",
     "target_ip": "172.67.153.253",
     "ip_version": "IPv4",
@@ -713,28 +416,6 @@
     "latency_ms": 120,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "xn--b6gac.eu.org",
-    "target_ip": "2606:4700:3037::ac43:99fd",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::ac43:99fd]:443: connect: network is unreachable"
-  },
-  {
-    "host": "xn--b6gac.eu.org",
-    "target_ip": "2606:4700:3035::6815:5a4e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3035::6815:5a4e]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.49.165",
@@ -770,17 +451,6 @@
     "error_msg": null
   },
   {
-    "host": "[2606:4700:8de6::5fa2:799e]",
-    "target_ip": "2606:4700:8de6::5fa2:799e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:8de6::5fa2:799e]:443: connect: network is unreachable"
-  },
-  {
     "host": "fbi.gov",
     "target_ip": "104.16.148.244",
     "ip_version": "IPv4",
@@ -801,28 +471,6 @@
     "latency_ms": 116,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "fbi.gov",
-    "target_ip": "2606:4700::6810:94f4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:94f4]:443: connect: network is unreachable"
-  },
-  {
-    "host": "fbi.gov",
-    "target_ip": "2606:4700::6810:95f4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:95f4]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.146.16",
@@ -867,39 +515,6 @@
     "latency_ms": 134,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "sullivan.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ca1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ca1]:443: connect: network is unreachable"
-  },
-  {
-    "host": "sullivan.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3a1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3a1]:443: connect: network is unreachable"
-  },
-  {
-    "host": "sullivan.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23a1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23a1]:443: connect: network is unreachable"
   },
   {
     "host": "ipv4.ip.sb",
@@ -957,28 +572,6 @@
     "error_msg": null
   },
   {
-    "host": "www.gov.ua",
-    "target_ip": "2606:4700:3031::6815:1748",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::6815:1748]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.gov.ua",
-    "target_ip": "2606:4700:3033::ac43:d17f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::ac43:d17f]:443: connect: network is unreachable"
-  },
-  {
     "host": "benedict.ns.cloudflare.com",
     "target_ip": "108.162.195.205",
     "ip_version": "IPv4",
@@ -1012,39 +605,6 @@
     "error_msg": null
   },
   {
-    "host": "benedict.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ccd",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ccd]:443: connect: network is unreachable"
-  },
-  {
-    "host": "benedict.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3cd",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3cd]:443: connect: network is unreachable"
-  },
-  {
-    "host": "benedict.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23cd",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23cd]:443: connect: network is unreachable"
-  },
-  {
     "host": "104.18.39.196",
     "target_ip": "104.18.39.196",
     "ip_version": "IPv4",
@@ -1076,28 +636,6 @@
     "latency_ms": 121,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.877771.xyz",
-    "target_ip": "2606:4700:3033::6815:50b4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::6815:50b4]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cf.877771.xyz",
-    "target_ip": "2606:4700:3033::ac43:98b7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::ac43:98b7]:443: connect: network is unreachable"
   },
   {
     "host": "172.67.79.211",
@@ -1164,39 +702,6 @@
     "latency_ms": 168,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "singapore.com",
-    "target_ip": "2606:4700:20::ac43:4bc2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4bc2]:443: connect: network is unreachable"
-  },
-  {
-    "host": "singapore.com",
-    "target_ip": "2606:4700:20::681a:d8c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:d8c]:443: connect: network is unreachable"
-  },
-  {
-    "host": "singapore.com",
-    "target_ip": "2606:4700:20::681a:c8c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:c8c]:443: connect: network is unreachable"
   },
   {
     "host": "shopify.com",
@@ -1364,39 +869,6 @@
     "error_msg": null
   },
   {
-    "host": "craig.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cc0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cc0]:443: connect: network is unreachable"
-  },
-  {
-    "host": "craig.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3c0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3c0]:443: connect: network is unreachable"
-  },
-  {
-    "host": "craig.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23c0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23c0]:443: connect: network is unreachable"
-  },
-  {
     "host": "172.64.159.6",
     "target_ip": "172.64.159.6",
     "ip_version": "IPv4",
@@ -1441,39 +913,6 @@
     "error_msg": null
   },
   {
-    "host": "toy-people.com",
-    "target_ip": "2606:4700:20::681a:224",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:224]:443: connect: network is unreachable"
-  },
-  {
-    "host": "toy-people.com",
-    "target_ip": "2606:4700:20::ac43:4812",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4812]:443: connect: network is unreachable"
-  },
-  {
-    "host": "toy-people.com",
-    "target_ip": "2606:4700:20::681a:324",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:324]:443: connect: network is unreachable"
-  },
-  {
     "host": "162.159.38.89",
     "target_ip": "162.159.38.89",
     "ip_version": "IPv4",
@@ -1516,39 +955,6 @@
     "latency_ms": 121,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "decker.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c9b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c9b]:443: connect: network is unreachable"
-  },
-  {
-    "host": "decker.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c39b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c39b]:443: connect: network is unreachable"
-  },
-  {
-    "host": "decker.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:239b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:239b]:443: connect: network is unreachable"
   },
   {
     "host": "www.glassdoor.com",
@@ -1604,39 +1010,6 @@
     "latency_ms": 185,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "uriah.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cc2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cc2]:443: connect: network is unreachable"
-  },
-  {
-    "host": "uriah.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3c2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3c2]:443: connect: network is unreachable"
-  },
-  {
-    "host": "uriah.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23c2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23c2]:443: connect: network is unreachable"
   },
   {
     "host": "eur.877774.xyz",
@@ -1749,39 +1122,6 @@
     "error_msg": null
   },
   {
-    "host": "moura.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cd9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cd9]:443: connect: network is unreachable"
-  },
-  {
-    "host": "moura.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3d9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3d9]:443: connect: network is unreachable"
-  },
-  {
-    "host": "moura.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23d9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23d9]:443: connect: network is unreachable"
-  },
-  {
     "host": "julio.ns.cloudflare.com",
     "target_ip": "108.162.195.209",
     "ip_version": "IPv4",
@@ -1815,39 +1155,6 @@
     "error_msg": null
   },
   {
-    "host": "julio.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cd1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cd1]:443: connect: network is unreachable"
-  },
-  {
-    "host": "julio.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3d1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3d1]:443: connect: network is unreachable"
-  },
-  {
-    "host": "julio.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23d1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23d1]:443: connect: network is unreachable"
-  },
-  {
     "host": "kyree.ns.cloudflare.com",
     "target_ip": "108.162.195.207",
     "ip_version": "IPv4",
@@ -1879,39 +1186,6 @@
     "latency_ms": 107,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "kyree.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ccf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ccf]:443: connect: network is unreachable"
-  },
-  {
-    "host": "kyree.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3cf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3cf]:443: connect: network is unreachable"
-  },
-  {
-    "host": "kyree.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23cf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23cf]:443: connect: network is unreachable"
   },
   {
     "host": "172.67.110.232",
@@ -1956,39 +1230,6 @@
     "latency_ms": 111,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c94",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c94]:443: connect: network is unreachable"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c394",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c394]:443: connect: network is unreachable"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:2394",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:2394]:443: connect: network is unreachable"
   },
   {
     "host": "104.26.13.31",
@@ -2046,39 +1287,6 @@
     "error_msg": null
   },
   {
-    "host": "wilson.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c6e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c6e]:443: connect: network is unreachable"
-  },
-  {
-    "host": "wilson.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c36e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c36e]:443: connect: network is unreachable"
-  },
-  {
-    "host": "wilson.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:236e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:236e]:443: connect: network is unreachable"
-  },
-  {
     "host": "pranab.ns.cloudflare.com",
     "target_ip": "108.162.195.199",
     "ip_version": "IPv4",
@@ -2112,39 +1320,6 @@
     "error_msg": null
   },
   {
-    "host": "pranab.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cc7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cc7]:443: connect: network is unreachable"
-  },
-  {
-    "host": "pranab.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3c7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3c7]:443: connect: network is unreachable"
-  },
-  {
-    "host": "pranab.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23c7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23c7]:443: connect: network is unreachable"
-  },
-  {
     "host": "icook.hk",
     "target_ip": "104.21.90.210",
     "ip_version": "IPv4",
@@ -2167,28 +1342,6 @@
     "error_msg": null
   },
   {
-    "host": "icook.hk",
-    "target_ip": "2606:4700:3037::ac43:a168",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::ac43:a168]:443: connect: network is unreachable"
-  },
-  {
-    "host": "icook.hk",
-    "target_ip": "2606:4700:3031::6815:5ad2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::6815:5ad2]:443: connect: network is unreachable"
-  },
-  {
     "host": "palera.in",
     "target_ip": "172.67.157.122",
     "ip_version": "IPv4",
@@ -2209,28 +1362,6 @@
     "latency_ms": 139,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "palera.in",
-    "target_ip": "2606:4700:3032::ac43:9d7a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3032::ac43:9d7a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "palera.in",
-    "target_ip": "2606:4700:3035::6815:3a48",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3035::6815:3a48]:443: connect: network is unreachable"
   },
   {
     "host": "cris.ns.cloudflare.com",
@@ -2264,39 +1395,6 @@
     "latency_ms": 84,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cca",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cca]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3ca",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3ca]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23ca",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23ca]:443: connect: network is unreachable"
   },
   {
     "host": "www.okcupid.com",
@@ -2387,39 +1485,6 @@
     "error_msg": null
   },
   {
-    "host": "otto.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c87",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c87]:443: connect: network is unreachable"
-  },
-  {
-    "host": "otto.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c387",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c387]:443: connect: network is unreachable"
-  },
-  {
-    "host": "otto.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:2387",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:2387]:443: connect: network is unreachable"
-  },
-  {
     "host": "trevor.ns.cloudflare.com",
     "target_ip": "108.162.195.154",
     "ip_version": "IPv4",
@@ -2453,39 +1518,6 @@
     "error_msg": null
   },
   {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c9a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c9a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c39a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c39a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:239a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:239a]:443: connect: network is unreachable"
-  },
-  {
     "host": "whatismyipaddress.com",
     "target_ip": "104.19.223.79",
     "ip_version": "IPv4",
@@ -2508,28 +1540,6 @@
     "error_msg": null
   },
   {
-    "host": "whatismyipaddress.com",
-    "target_ip": "2606:4700::6813:df4f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6813:df4f]:443: connect: network is unreachable"
-  },
-  {
-    "host": "whatismyipaddress.com",
-    "target_ip": "2606:4700::6813:de4f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6813:de4f]:443: connect: network is unreachable"
-  },
-  {
     "host": "yx-auto.pages.dev",
     "target_ip": "172.67.161.98",
     "ip_version": "IPv4",
@@ -2550,28 +1560,6 @@
     "latency_ms": 132,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3033::ac43:a162",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::ac43:a162]:443: connect: network is unreachable"
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3034::6815:9e6",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3034::6815:9e6]:443: connect: network is unreachable"
   },
   {
     "host": "162.159.133.85",
@@ -2605,28 +1593,6 @@
     "latency_ms": 160,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "icook.tw",
-    "target_ip": "2606:4700:10::6814:1c4a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:10::6814:1c4a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "icook.tw",
-    "target_ip": "2606:4700:10::ac42:9e73",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:10::ac42:9e73]:443: connect: network is unreachable"
   },
   {
     "host": "104.18.78.214",
@@ -2673,39 +1639,6 @@
     "error_msg": null
   },
   {
-    "host": "damien.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ca8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2ca8]:443: connect: network is unreachable"
-  },
-  {
-    "host": "damien.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3a8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3a8]:443: connect: network is unreachable"
-  },
-  {
-    "host": "damien.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23a8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23a8]:443: connect: network is unreachable"
-  },
-  {
     "host": "172.64.35.24",
     "target_ip": "172.64.35.24",
     "ip_version": "IPv4",
@@ -2750,28 +1683,6 @@
     "error_msg": null
   },
   {
-    "host": "bestcf.030101.xyz",
-    "target_ip": "2606:4700:0:c55a:62a8:85ff:cd2c:c647",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:0:c55a:62a8:85ff:cd2c:c647]:443: connect: network is unreachable"
-  },
-  {
-    "host": "bestcf.030101.xyz",
-    "target_ip": "2606:4700:0:cd:9b2d:c8ba:6717:5f84",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:0:cd:9b2d:c8ba:6717:5f84]:443: connect: network is unreachable"
-  },
-  {
     "host": "silkbook.com",
     "target_ip": "104.26.9.160",
     "ip_version": "IPv4",
@@ -2803,39 +1714,6 @@
     "latency_ms": 105,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "silkbook.com",
-    "target_ip": "2606:4700:20::681a:9a0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable"
-  },
-  {
-    "host": "silkbook.com",
-    "target_ip": "2606:4700:20::ac43:4bd0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable"
-  },
-  {
-    "host": "silkbook.com",
-    "target_ip": "2606:4700:20::681a:8a0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable"
   },
   {
     "host": "www.visa.cn",
@@ -2882,28 +1760,6 @@
     "error_msg": null
   },
   {
-    "host": "www.pcmag.com",
-    "target_ip": "2606:4700::6810:1476",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:1476]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.pcmag.com",
-    "target_ip": "2606:4700::6810:1576",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:1576]:443: connect: network is unreachable"
-  },
-  {
     "host": "dnschecker.org",
     "target_ip": "104.26.6.89",
     "ip_version": "IPv4",
@@ -2937,39 +1793,6 @@
     "error_msg": null
   },
   {
-    "host": "dnschecker.org",
-    "target_ip": "2606:4700:20::ac43:49d8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:49d8]:443: connect: network is unreachable"
-  },
-  {
-    "host": "dnschecker.org",
-    "target_ip": "2606:4700:20::681a:659",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:659]:443: connect: network is unreachable"
-  },
-  {
-    "host": "dnschecker.org",
-    "target_ip": "2606:4700:20::681a:759",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:759]:443: connect: network is unreachable"
-  },
-  {
     "host": "saas.sin.fan",
     "target_ip": "162.159.36.20",
     "ip_version": "IPv4",
@@ -3001,28 +1824,6 @@
     "latency_ms": 184,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:4409::5b5b:7758]",
-    "target_ip": "2606:4700:4409::5b5b:7758",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4409::5b5b:7758]:443: connect: network is unreachable"
-  },
-  {
-    "host": "[2606:4700:4408::18c5:3304]",
-    "target_ip": "2606:4700:4408::18c5:3304",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4408::18c5:3304]:443: connect: network is unreachable"
   },
   {
     "host": "www.ipchicken.com",
@@ -3091,28 +1892,6 @@
     "error_msg": null
   },
   {
-    "host": "cf.877774.xyz",
-    "target_ip": "2606:4700:4406::ac40:9242",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4406::ac40:9242]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cf.877774.xyz",
-    "target_ip": "2a06:98c1:3102::6812:29be",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:3102::6812:29be]:443: connect: network is unreachable"
-  },
-  {
     "host": "gamer.com.tw",
     "target_ip": "104.18.3.197",
     "ip_version": "IPv4",
@@ -3157,28 +1936,6 @@
     "error_msg": null
   },
   {
-    "host": "ip.gs",
-    "target_ip": "2606:4700:3035::ac43:a01c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3035::ac43:a01c]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ip.gs",
-    "target_ip": "2606:4700:3036::6815:eb0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3036::6815:eb0]:443: connect: network is unreachable"
-  },
-  {
     "host": "172.67.181.209",
     "target_ip": "172.67.181.209",
     "ip_version": "IPv4",
@@ -3199,17 +1956,6 @@
     "latency_ms": 133,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:4403::7357:544f]",
-    "target_ip": "2606:4700:4403::7357:544f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4403::7357:544f]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.38.15",
@@ -3276,28 +2022,6 @@
     "latency_ms": 134,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.090227.xyz",
-    "target_ip": "2a06:98c1:3101::ac40:919e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:3101::ac40:919e]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cf.090227.xyz",
-    "target_ip": "2a06:98c1:3108::6812:2a62",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:3108::6812:2a62]:443: connect: network is unreachable"
   },
   {
     "host": "104.18.42.26",
@@ -3377,28 +2101,6 @@
     "error_msg": null
   },
   {
-    "host": "cloudflare-ip.mofashi.ltd",
-    "target_ip": "2606:4700:3037::6815:48e9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::6815:48e9]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cloudflare-ip.mofashi.ltd",
-    "target_ip": "2606:4700:3037::ac43:9bac",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::ac43:9bac]:443: connect: network is unreachable"
-  },
-  {
     "host": "tasteatlas.com",
     "target_ip": "104.17.37.105",
     "ip_version": "IPv4",
@@ -3419,28 +2121,6 @@
     "latency_ms": 172,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "tasteatlas.com",
-    "target_ip": "2606:4700::6811:2569",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6811:2569]:443: connect: network is unreachable"
-  },
-  {
-    "host": "tasteatlas.com",
-    "target_ip": "2606:4700::6811:2469",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6811:2469]:443: connect: network is unreachable"
   },
   {
     "host": "www.visa.com.sg",
@@ -3476,28 +2156,6 @@
     "error_msg": null
   },
   {
-    "host": "freeyx.cloudflare88.eu.org",
-    "target_ip": "2606:4700:3009:aa59:4b67:100d:c792:9d91",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3009:aa59:4b67:100d:c792:9d91]:443: connect: network is unreachable"
-  },
-  {
-    "host": "[2606:4700:83bd::7d8:2b47]",
-    "target_ip": "2606:4700:83bd::7d8:2b47",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:83bd::7d8:2b47]:443: connect: network is unreachable"
-  },
-  {
     "host": "www.udemy.com",
     "target_ip": "104.16.142.237",
     "ip_version": "IPv4",
@@ -3520,28 +2178,6 @@
     "error_msg": null
   },
   {
-    "host": "www.udemy.com",
-    "target_ip": "2606:4700::6810:8fed",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:8fed]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.udemy.com",
-    "target_ip": "2606:4700::6810:8eed",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6810:8eed]:443: connect: network is unreachable"
-  },
-  {
     "host": "zread.ai",
     "target_ip": "104.21.76.240",
     "ip_version": "IPv4",
@@ -3562,28 +2198,6 @@
     "latency_ms": 190,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "zread.ai",
-    "target_ip": "2606:4700:3033::6815:4cf0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::6815:4cf0]:443: connect: network is unreachable"
-  },
-  {
-    "host": "zread.ai",
-    "target_ip": "2606:4700:3032::ac43:ca4e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3032::ac43:ca4e]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.40.9",
@@ -3641,39 +2255,6 @@
     "error_msg": null
   },
   {
-    "host": "ipinfo.in",
-    "target_ip": "2606:4700:3031::6815:1581",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::6815:1581]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ipinfo.in",
-    "target_ip": "2606:4700:3037::ac43:c6cb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::ac43:c6cb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
     "host": "stock.hostmonit.com",
     "target_ip": "104.21.7.193",
     "ip_version": "IPv4",
@@ -3694,28 +2275,6 @@
     "latency_ms": 117,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "stock.hostmonit.com",
-    "target_ip": "2606:4700:3033::ac43:bbfb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3033::ac43:bbfb]:443: connect: network is unreachable"
-  },
-  {
-    "host": "stock.hostmonit.com",
-    "target_ip": "2606:4700:3037::6815:7c1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::6815:7c1]:443: connect: network is unreachable"
   },
   {
     "host": "ct.877774.xyz",
@@ -3839,28 +2398,6 @@
     "error_msg": null
   },
   {
-    "host": "cf.zhetengsha.eu.org",
-    "target_ip": "2606:4700:440a::ac40:98f1",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:440a::ac40:98f1]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cf.zhetengsha.eu.org",
-    "target_ip": "2a06:98c1:3105::6812:230f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:3105::6812:230f]:443: connect: network is unreachable"
-  },
-  {
     "host": "198.62.62.4",
     "target_ip": "198.62.62.4",
     "ip_version": "IPv4",
@@ -3894,28 +2431,6 @@
     "error_msg": null
   },
   {
-    "host": "steamdb.info",
-    "target_ip": "2606:4700:10::6814:22d4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:10::6814:22d4]:443: connect: network is unreachable"
-  },
-  {
-    "host": "steamdb.info",
-    "target_ip": "2606:4700:10::ac42:affa",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:10::ac42:affa]:443: connect: network is unreachable"
-  },
-  {
     "host": "yx-auto.pages.dev",
     "target_ip": "172.67.157.182",
     "ip_version": "IPv4",
@@ -3938,28 +2453,6 @@
     "error_msg": null
   },
   {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3030::6815:e29",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3030::6815:e29]:443: connect: network is unreachable"
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3031::ac43:9db6",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::ac43:9db6]:443: connect: network is unreachable"
-  },
-  {
     "host": "cf.0sm.com",
     "target_ip": "104.21.7.133",
     "ip_version": "IPv4",
@@ -3980,28 +2473,6 @@
     "latency_ms": 101,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.0sm.com",
-    "target_ip": "2606:4700:3032::6815:785",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3032::6815:785]:443: connect: network is unreachable"
-  },
-  {
-    "host": "cf.0sm.com",
-    "target_ip": "2606:4700:3037::ac43:bb91",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::ac43:bb91]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.154.18",
@@ -4059,39 +2530,6 @@
     "error_msg": null
   },
   {
-    "host": "iplocation.io",
-    "target_ip": "2606:4700:20::681a:ade",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:ade]:443: connect: network is unreachable"
-  },
-  {
-    "host": "iplocation.io",
-    "target_ip": "2606:4700:20::681a:bde",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:bde]:443: connect: network is unreachable"
-  },
-  {
-    "host": "iplocation.io",
-    "target_ip": "2606:4700:20::ac43:4664",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4664]:443: connect: network is unreachable"
-  },
-  {
     "host": "www.4chan.org",
     "target_ip": "104.16.228.229",
     "ip_version": "IPv4",
@@ -4112,17 +2550,6 @@
     "latency_ms": 144,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:9add::880:52fc]",
-    "target_ip": "2606:4700:9add::880:52fc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:9add::880:52fc]:443: connect: network is unreachable"
   },
   {
     "host": "34.143.159.175",
@@ -4167,39 +2594,6 @@
     "latency_ms": 133,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "lewis.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c9f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c9f]:443: connect: network is unreachable"
-  },
-  {
-    "host": "lewis.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c39f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c39f]:443: connect: network is unreachable"
-  },
-  {
-    "host": "lewis.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:239f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:239f]:443: connect: network is unreachable"
   },
   {
     "host": "na.877774.xyz",
@@ -4255,28 +2649,6 @@
     "latency_ms": 156,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "ifconfig.co",
-    "target_ip": "2606:4700:3030::ac43:a86a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3030::ac43:a86a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "ifconfig.co",
-    "target_ip": "2606:4700:3037::6815:365b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3037::6815:365b]:443: connect: network is unreachable"
   },
   {
     "host": "162.159.36.104",
@@ -4345,39 +2717,6 @@
     "error_msg": null
   },
   {
-    "host": "huxley.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cbc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2cbc]:443: connect: network is unreachable"
-  },
-  {
-    "host": "huxley.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3bc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c3bc]:443: connect: network is unreachable"
-  },
-  {
-    "host": "huxley.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:23bc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:23bc]:443: connect: network is unreachable"
-  },
-  {
     "host": "www.7749tv.com",
     "target_ip": "172.67.198.170",
     "ip_version": "IPv4",
@@ -4398,17 +2737,6 @@
     "latency_ms": 149,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:964f::6e2c:588e]",
-    "target_ip": "2606:4700:964f::6e2c:588e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:964f::6e2c:588e]:443: connect: network is unreachable"
   },
   {
     "host": "www.hugedomains.com",
@@ -4444,39 +2772,6 @@
     "error_msg": null
   },
   {
-    "host": "www.hugedomains.com",
-    "target_ip": "2606:4700:20::681a:625",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:625]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.hugedomains.com",
-    "target_ip": "2606:4700:20::681a:725",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:725]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.hugedomains.com",
-    "target_ip": "2606:4700:20::ac43:46bf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:46bf]:443: connect: network is unreachable"
-  },
-  {
     "host": "yx-auto.pages.dev",
     "target_ip": "104.21.6.60",
     "ip_version": "IPv4",
@@ -4497,28 +2792,6 @@
     "latency_ms": 183,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3031::ac43:868b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::ac43:868b]:443: connect: network is unreachable"
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:3030::6815:63c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3030::6815:63c]:443: connect: network is unreachable"
   },
   {
     "host": "bowen.ns.cloudflare.com",
@@ -4554,39 +2827,6 @@
     "error_msg": null
   },
   {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2c53",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:58::a29f:2c53]:443: connect: network is unreachable"
-  },
-  {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c353",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2803:f800:50::6ca2:c353]:443: connect: network is unreachable"
-  },
-  {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:2353",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:2353]:443: connect: network is unreachable"
-  },
-  {
     "host": "www.digitalocean.com",
     "target_ip": "104.19.173.68",
     "ip_version": "IPv4",
@@ -4607,28 +2847,6 @@
     "latency_ms": 96,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.digitalocean.com",
-    "target_ip": "2606:4700::6813:ae44",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6813:ae44]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.digitalocean.com",
-    "target_ip": "2606:4700::6813:ad44",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6813:ad44]:443: connect: network is unreachable"
   },
   {
     "host": "www.whatismyip.com",
@@ -4664,39 +2882,6 @@
     "error_msg": null
   },
   {
-    "host": "www.whatismyip.com",
-    "target_ip": "2606:4700:20::681a:c17",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:c17]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.whatismyip.com",
-    "target_ip": "2606:4700:20::ac43:4581",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:4581]:443: connect: network is unreachable"
-  },
-  {
-    "host": "www.whatismyip.com",
-    "target_ip": "2606:4700:20::681a:d17",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:d17]:443: connect: network is unreachable"
-  },
-  {
     "host": "comicabc.com",
     "target_ip": "104.21.64.10",
     "ip_version": "IPv4",
@@ -4717,28 +2902,6 @@
     "latency_ms": 146,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "comicabc.com",
-    "target_ip": "2606:4700:3036::6815:400a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3036::6815:400a]:443: connect: network is unreachable"
-  },
-  {
-    "host": "comicabc.com",
-    "target_ip": "2606:4700:3030::ac43:ae15",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3030::ac43:ae15]:443: connect: network is unreachable"
   },
   {
     "host": "japan.com",
@@ -4774,39 +2937,6 @@
     "error_msg": null
   },
   {
-    "host": "japan.com",
-    "target_ip": "2606:4700:20::681a:43c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:43c]:443: connect: network is unreachable"
-  },
-  {
-    "host": "japan.com",
-    "target_ip": "2606:4700:20::681a:53c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:53c]:443: connect: network is unreachable"
-  },
-  {
-    "host": "japan.com",
-    "target_ip": "2606:4700:20::ac43:465c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::ac43:465c]:443: connect: network is unreachable"
-  },
-  {
     "host": "yx-auto.pages.dev",
     "target_ip": "172.66.44.144",
     "ip_version": "IPv4",
@@ -4827,28 +2957,6 @@
     "latency_ms": 118,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:310c::ac42:2c90",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:310c::ac42:2c90]:443: connect: network is unreachable"
-  },
-  {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "2606:4700:310c::ac42:2f70",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:310c::ac42:2f70]:443: connect: network is unreachable"
   },
   {
     "host": "172.64.157.120",
@@ -5159,17 +3267,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
     "host": "3.0.50.69",
     "target_ip": "3.0.50.69",
     "ip_version": "IPv4",
@@ -5179,50 +3276,6 @@
     "latency_ms": 452,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "cfip.xxxxxxxx.tk",
@@ -5278,16 +3331,5 @@
     "latency_ms": 116,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
   }
 ]

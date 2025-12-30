@@ -151,6 +151,7 @@ jobs:
             npm run start
           fi
 
+      - run: npm run clean
       - name: Check for changes
         id: verify-changed-files
         run: |

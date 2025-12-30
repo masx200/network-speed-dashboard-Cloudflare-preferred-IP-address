@@ -25,60 +25,7 @@
       "连接超时: I/O超时": 4
     },
     "grouped_tests": {
-      "连接超时: I/O超时": [
-        {
-          "index": 32,
-          "host": "trevor.ns.cloudflare.com",
-          "target_ip": "108.162.195.154",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 108.162.195.154:443: i/o timeout",
-          "timestamp": "2025-12-14T14:51:32.327Z",
-          "success": false
-        },
-        {
-          "index": 91,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "198.41.212.130",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-          "timestamp": "2025-12-14T14:51:32.327Z",
-          "success": false
-        },
-        {
-          "index": 270,
-          "host": "172.64.201.25",
-          "target_ip": "172.64.201.25",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-          "timestamp": "2025-12-14T14:51:32.328Z",
-          "success": false
-        },
-        {
-          "index": 331,
-          "host": "kyree.ns.cloudflare.com",
-          "target_ip": "172.64.35.207",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.35.207:443: i/o timeout",
-          "timestamp": "2025-12-14T14:51:32.328Z",
-          "success": false
-        }
-      ]
+      "连接超时: I/O超时": []
     },
     "error_patterns": {
       "超时集中度分析": "共有 4 次超时，主要集中在IP段 172.64（2 次），可能存在网络路由问题或目标服务器负载过高",
@@ -104,60 +51,7 @@
       "连接超时: I/O超时": 4
     }
   },
-  "failed_tests": [
-    {
-      "index": 32,
-      "host": "trevor.ns.cloudflare.com",
-      "target_ip": "108.162.195.154",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 108.162.195.154:443: i/o timeout",
-      "timestamp": "2025-12-14T14:51:32.327Z",
-      "success": false
-    },
-    {
-      "index": 91,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "198.41.212.130",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-      "timestamp": "2025-12-14T14:51:32.327Z",
-      "success": false
-    },
-    {
-      "index": 270,
-      "host": "172.64.201.25",
-      "target_ip": "172.64.201.25",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-      "timestamp": "2025-12-14T14:51:32.328Z",
-      "success": false
-    },
-    {
-      "index": 331,
-      "host": "kyree.ns.cloudflare.com",
-      "target_ip": "172.64.35.207",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.35.207:443: i/o timeout",
-      "timestamp": "2025-12-14T14:51:32.328Z",
-      "success": false
-    }
-  ],
+  "failed_tests": [],
   "top_latency_records": [
     {
       "index": 126,

@@ -2120,8 +2120,8 @@ ServerFuture.
 
 - Generic record type lookup
 - reverse_lookup for IP to Name lookups
-- ipv4*lookup for looking up \_only* ipv4 (lookup_ip has options for dual-stack)
-- ipv6*lookup for looking up \_only* ipv6 (lookup_ip has options for dual-stack)
+- ipv4_lookup for looking up \_only_ ipv4 (lookup_ip has options for dual-stack)
+- ipv6_lookup for looking up \_only_ ipv6 (lookup_ip has options for dual-stack)
 - mx_lookup for querying mail exchanges
 - srv_lookup for service records and also a specialized form for ease of use
   lookup_service

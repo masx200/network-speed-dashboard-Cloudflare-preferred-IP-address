@@ -782,17 +782,6 @@
   },
   {
     "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
     "target_ip": "2606:4700:58::a29f:2c9a",
     "ip_version": "IPv6",
     "success": true,
@@ -1714,17 +1703,6 @@
     "latency_ms": 655,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
   },
   {
     "host": "www.4chan.org",
@@ -2762,17 +2740,6 @@
   },
   {
     "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "104.20.255.53",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.20.255.53:443: i/o timeout"
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
     "target_ip": "190.93.246.67",
     "ip_version": "IPv4",
     "success": true,
@@ -2803,17 +2770,6 @@
     "latency_ms": 421,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
   },
   {
     "host": "cfip.xxxxxxxx.tk",
@@ -3639,17 +3595,6 @@
     "latency_ms": 378,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
   },
   {
     "host": "172.67.106.26",
@@ -4774,17 +4719,6 @@
     "error_msg": null
   },
   {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
     "host": "gamer.com.tw",
     "target_ip": "104.18.3.197",
     "ip_version": "IPv4",
@@ -4904,17 +4838,6 @@
     "latency_ms": 1073,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 3.0.50.69:443: i/o timeout"
   },
   {
     "host": "stock.hostmonit.com",

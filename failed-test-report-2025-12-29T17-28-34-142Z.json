@@ -26,75 +26,8 @@
       "DNS解析错误: 其他DNS错误": 1
     },
     "grouped_tests": {
-      "连接超时: I/O超时": [
-        {
-          "index": 44,
-          "host": "wilson.ns.cloudflare.com",
-          "target_ip": "108.162.195.110",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 108.162.195.110:443: i/o timeout",
-          "timestamp": "2025-12-29T17:28:34.140Z",
-          "success": false
-        },
-        {
-          "index": 232,
-          "host": "dylan.ns.cloudflare.com",
-          "target_ip": "162.159.44.187",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 162.159.44.187:443: i/o timeout",
-          "timestamp": "2025-12-29T17:28:34.140Z",
-          "success": false
-        },
-        {
-          "index": 373,
-          "host": "172.64.201.25",
-          "target_ip": "172.64.201.25",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-          "timestamp": "2025-12-29T17:28:34.140Z",
-          "success": false
-        },
-        {
-          "index": 501,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "198.41.212.130",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-          "timestamp": "2025-12-29T17:28:34.141Z",
-          "success": false
-        }
-      ],
-      "DNS解析错误: 其他DNS错误": [
-        {
-          "index": 76,
-          "host": "168.138.165.174",
-          "target_ip": "168.138.165.174",
-          "ip_version": "IPv4",
-          "protocol": "h2",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": EOF",
-          "timestamp": "2025-12-29T17:28:34.140Z",
-          "success": false
-        }
-      ]
+      "连接超时: I/O超时": [],
+      "DNS解析错误: 其他DNS错误": []
     },
     "error_patterns": {
       "超时集中度分析": "共有 4 次超时，主要集中在IP段 108.162（1 次），可能存在网络路由问题或目标服务器负载过高",
@@ -126,73 +59,7 @@
       "DNS解析错误: 其他DNS错误": 1
     }
   },
-  "failed_tests": [
-    {
-      "index": 44,
-      "host": "wilson.ns.cloudflare.com",
-      "target_ip": "108.162.195.110",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 108.162.195.110:443: i/o timeout",
-      "timestamp": "2025-12-29T17:28:34.140Z",
-      "success": false
-    },
-    {
-      "index": 76,
-      "host": "168.138.165.174",
-      "target_ip": "168.138.165.174",
-      "ip_version": "IPv4",
-      "protocol": "h2",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": EOF",
-      "timestamp": "2025-12-29T17:28:34.140Z",
-      "success": false
-    },
-    {
-      "index": 232,
-      "host": "dylan.ns.cloudflare.com",
-      "target_ip": "162.159.44.187",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 162.159.44.187:443: i/o timeout",
-      "timestamp": "2025-12-29T17:28:34.140Z",
-      "success": false
-    },
-    {
-      "index": 373,
-      "host": "172.64.201.25",
-      "target_ip": "172.64.201.25",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-      "timestamp": "2025-12-29T17:28:34.140Z",
-      "success": false
-    },
-    {
-      "index": 501,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "198.41.212.130",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-      "timestamp": "2025-12-29T17:28:34.141Z",
-      "success": false
-    }
-  ],
+  "failed_tests": [],
   "top_latency_records": [
     {
       "index": 50,

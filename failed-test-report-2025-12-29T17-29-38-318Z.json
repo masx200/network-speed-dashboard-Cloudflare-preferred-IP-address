@@ -25,34 +25,7 @@
       "连接超时: I/O超时": 2
     },
     "grouped_tests": {
-      "连接超时: I/O超时": [
-        {
-          "index": 36,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "198.41.212.130",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-          "timestamp": "2025-12-29T17:29:38.316Z",
-          "success": false
-        },
-        {
-          "index": 374,
-          "host": "172.64.201.25",
-          "target_ip": "172.64.201.25",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-          "timestamp": "2025-12-29T17:29:38.316Z",
-          "success": false
-        }
-      ]
+      "连接超时: I/O超时": []
     },
     "error_patterns": {
       "超时集中度分析": "共有 2 次超时，主要集中在IP段 198.41（1 次），可能存在网络路由问题或目标服务器负载过高",
@@ -78,34 +51,7 @@
       "连接超时: I/O超时": 2
     }
   },
-  "failed_tests": [
-    {
-      "index": 36,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "198.41.212.130",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-      "timestamp": "2025-12-29T17:29:38.316Z",
-      "success": false
-    },
-    {
-      "index": 374,
-      "host": "172.64.201.25",
-      "target_ip": "172.64.201.25",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-      "timestamp": "2025-12-29T17:29:38.316Z",
-      "success": false
-    }
-  ],
+  "failed_tests": [],
   "top_latency_records": [
     {
       "index": 475,

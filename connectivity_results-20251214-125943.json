@@ -1287,17 +1287,6 @@
     "error_msg": null
   },
   {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
     "host": "www.udemy.com",
     "target_ip": "104.16.142.237",
     "ip_version": "IPv4",
@@ -2630,17 +2619,6 @@
   },
   {
     "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "162.159.44.203",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.44.203:443: i/o timeout"
-  },
-  {
-    "host": "abdullah.ns.cloudflare.com",
     "target_ip": "2a06:98c1:50::ac40:23cb",
     "ip_version": "IPv6",
     "success": true,
@@ -3158,17 +3136,6 @@
   },
   {
     "host": "huxley.ns.cloudflare.com",
-    "target_ip": "172.64.35.188",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.188:443: i/o timeout"
-  },
-  {
-    "host": "huxley.ns.cloudflare.com",
     "target_ip": "108.162.195.188",
     "ip_version": "IPv4",
     "success": true,
@@ -3664,17 +3631,6 @@
   },
   {
     "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
     "target_ip": "104.16.232.223",
     "ip_version": "IPv4",
     "success": true,
@@ -3939,17 +3895,6 @@
   },
   {
     "host": "pranab.ns.cloudflare.com",
-    "target_ip": "162.159.44.199",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.44.199:443: i/o timeout"
-  },
-  {
-    "host": "pranab.ns.cloudflare.com",
     "target_ip": "108.162.195.199",
     "ip_version": "IPv4",
     "success": true,
@@ -4167,17 +4112,6 @@
     "latency_ms": 130,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "108.162.195.202",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.202:443: i/o timeout"
   },
   {
     "host": "cris.ns.cloudflare.com",

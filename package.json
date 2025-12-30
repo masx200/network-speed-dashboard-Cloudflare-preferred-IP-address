@@ -4,10 +4,11 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-  "fetch":"python cf_ip_extractor.py",
+    "fetch": "python cf_ip_extractor.py",
     "extract": "node ip-info.js && node merge-cloudflare-ips.js",
     "check": "node ip-info.js && go run -v  host_connectivity_check.go -verbose  -dohip 104.21.95.9 --doh-url https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
     "start": "node ip-info.js && node generate-test-report.js",
+    "clean": "node clean-reports.js",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",

@@ -1023,17 +1023,6 @@
     "error_msg": null
   },
   {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
     "host": "sullivan.ns.cloudflare.com",
     "target_ip": "162.159.44.161",
     "ip_version": "IPv4",
@@ -1915,17 +1904,6 @@
   },
   {
     "host": "cloudflare.182682.xyz",
-    "target_ip": "2606:4700:e7::3151:47a9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:e7::3151:47a9]:443: i/o timeout"
-  },
-  {
-    "host": "cloudflare.182682.xyz",
     "target_ip": "2606:4700:3032::818:669e",
     "ip_version": "IPv6",
     "success": true,
@@ -1967,17 +1945,6 @@
     "latency_ms": 385,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",
@@ -2220,17 +2187,6 @@
     "latency_ms": 220,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
   },
   {
     "host": "104.16.223.179",
@@ -3960,17 +3916,6 @@
     "error_msg": null
   },
   {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
-  },
-  {
     "host": "[2606:4700:4408::18c5:3304]",
     "target_ip": "2606:4700:4408::18c5:3304",
     "ip_version": "IPv6",
@@ -4860,28 +4805,6 @@
     "latency_ms": 467,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 3.0.50.69:443: i/o timeout"
   },
   {
     "host": "japan.com",

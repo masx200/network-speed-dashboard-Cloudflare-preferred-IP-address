@@ -770,17 +770,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
     "host": "[2606:4700:83bd::7d8:2b47]",
     "target_ip": "2606:4700:83bd::7d8:2b47",
     "ip_version": "IPv6",
@@ -2069,17 +2058,6 @@
   },
   {
     "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
     "target_ip": "104.16.241.229",
     "ip_version": "IPv4",
     "success": true,
@@ -2341,17 +2319,6 @@
     "latency_ms": 632,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "bowen.ns.cloudflare.com",
@@ -2682,17 +2649,6 @@
     "latency_ms": 168,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "104.17.142.12",
@@ -4926,28 +4882,6 @@
     "latency_ms": 86,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "104.18.78.214",

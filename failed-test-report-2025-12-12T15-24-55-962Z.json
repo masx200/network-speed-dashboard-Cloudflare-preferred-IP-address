@@ -25,99 +25,7 @@
       "连接超时: I/O超时": 7
     },
     "grouped_tests": {
-      "连接超时: I/O超时": [
-        {
-          "index": 72,
-          "host": "trevor.ns.cloudflare.com",
-          "target_ip": "108.162.195.154",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 108.162.195.154:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.960Z",
-          "success": false
-        },
-        {
-          "index": 157,
-          "host": "172.67.49.134",
-          "target_ip": "172.67.49.134",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.67.49.134:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.960Z",
-          "success": false
-        },
-        {
-          "index": 252,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "104.20.255.53",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 104.20.255.53:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.960Z",
-          "success": false
-        },
-        {
-          "index": 256,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "198.41.212.130",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.960Z",
-          "success": false
-        },
-        {
-          "index": 332,
-          "host": "141.147.185.63",
-          "target_ip": "141.147.185.63",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 141.147.185.63:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.960Z",
-          "success": false
-        },
-        {
-          "index": 435,
-          "host": "172.64.201.25",
-          "target_ip": "172.64.201.25",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.961Z",
-          "success": false
-        },
-        {
-          "index": 447,
-          "host": "3.0.50.69",
-          "target_ip": "3.0.50.69",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 3.0.50.69:443: i/o timeout",
-          "timestamp": "2025-12-12T15:24:55.961Z",
-          "success": false
-        }
-      ]
+      "连接超时: I/O超时": []
     },
     "error_patterns": {
       "超时集中度分析": "共有 7 次超时，主要集中在IP段 108.162（1 次），可能存在网络路由问题或目标服务器负载过高",
@@ -143,99 +51,7 @@
       "连接超时: I/O超时": 7
     }
   },
-  "failed_tests": [
-    {
-      "index": 72,
-      "host": "trevor.ns.cloudflare.com",
-      "target_ip": "108.162.195.154",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 108.162.195.154:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.960Z",
-      "success": false
-    },
-    {
-      "index": 157,
-      "host": "172.67.49.134",
-      "target_ip": "172.67.49.134",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.67.49.134:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.960Z",
-      "success": false
-    },
-    {
-      "index": 252,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "104.20.255.53",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 104.20.255.53:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.960Z",
-      "success": false
-    },
-    {
-      "index": 256,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "198.41.212.130",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.960Z",
-      "success": false
-    },
-    {
-      "index": 332,
-      "host": "141.147.185.63",
-      "target_ip": "141.147.185.63",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 141.147.185.63:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.960Z",
-      "success": false
-    },
-    {
-      "index": 435,
-      "host": "172.64.201.25",
-      "target_ip": "172.64.201.25",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.961Z",
-      "success": false
-    },
-    {
-      "index": 447,
-      "host": "3.0.50.69",
-      "target_ip": "3.0.50.69",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 3.0.50.69:443: i/o timeout",
-      "timestamp": "2025-12-12T15:24:55.961Z",
-      "success": false
-    }
-  ],
+  "failed_tests": [],
   "top_latency_records": [
     {
       "index": 427,
@@ -1542,7 +1358,7 @@
     "timestamp": "2025-12-12T15:24:55.995Z",
     "ip_info": {
       "ip": "240e:38b:8b20:1200:6c97:1f15:bffd:8e32",
-      "ip_decimal": 4.792497190727705e37,
+      "ip_decimal": 4.792497190727705e+37,
       "country": "China",
       "country_iso": "CN",
       "country_eu": false,

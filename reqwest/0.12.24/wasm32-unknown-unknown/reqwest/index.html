@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -38,9 +38,10 @@
     <script src="/-/rustdoc.static/storage-e2aeef58.js"></script>
     <script defer src="../crates-20251012-1.92.0-nightly-2300c2aef.js"></script>
     <script defer src="/-/rustdoc.static/main-ce535bd0.js"></script>
-    <noscript
-      ><link rel="stylesheet" href="/-/rustdoc.static/noscript-263c88ec.css"
-    /></noscript>
+    <noscript><link
+        rel="stylesheet"
+        href="/-/rustdoc.static/noscript-263c88ec.css"
+      /></noscript>
     <link
       rel="alternate icon"
       type="image/png"
@@ -59,13 +60,12 @@
         things.
       </div><!
     [endif]--><rustdoc-topbar
-      ><h2><a href="#">Crate reqwest</a></h2></rustdoc-topbar
-    >
+    ><h2><a href="#">Crate reqwest</a></h2></rustdoc-topbar>
     <nav class="sidebar">
       <div class="sidebar-crate">
         <h2>
-          <a href="../reqwest/index.html">reqwest</a
-          ><span class="version">0.12.24</span>
+          <a href="../reqwest/index.html">reqwest</a><span class="version"
+          >0.12.24</span>
         </h2>
       </div>
       <div class="sidebar-elems">
@@ -80,25 +80,21 @@
               <ul>
                 <li>
                   <a href="#commercial-support" title="Commercial Support"
-                    >Commercial Support</a
-                  >
+                  >Commercial Support</a>
                 </li>
                 <li>
                   <a href="#making-a-get-request" title="Making a GET request"
-                    >Making a GET request</a
-                  >
+                  >Making a GET request</a>
                 </li>
                 <li>
                   <a
                     href="#making-post-requests-or-setting-request-bodies"
                     title="Making POST requests (or setting request bodies)"
-                    >Making POST requests (or setting request bodies)</a
-                  >
+                  >Making POST requests (or setting request bodies)</a>
                 </li>
                 <li>
                   <a href="#redirect-policies" title="Redirect Policies"
-                    >Redirect Policies</a
-                  >
+                  >Redirect Policies</a>
                 </li>
                 <li><a href="#cookies" title="Cookies">Cookies</a></li>
                 <li><a href="#proxies" title="Proxies">Proxies</a></li>
@@ -106,13 +102,11 @@
                 <li><a href="#wasm" title="WASM">WASM</a></li>
                 <li>
                   <a href="#optional-features" title="Optional Features"
-                    >Optional Features</a
-                  >
+                  >Optional Features</a>
                 </li>
                 <li>
                   <a href="#unstable-features" title="Unstable Features"
-                    >Unstable Features</a
-                  >
+                  >Unstable Features</a>
                 </li>
                 <li><a href="#sponsors" title="Sponsors">Sponsors</a></li>
               </ul>
@@ -143,9 +137,10 @@
                 Copy item path
               </button>
             </h1>
-            <rustdoc-toolbar></rustdoc-toolbar
-            ><span class="sub-heading"
-              ><a class="src" href="../src/reqwest/lib.rs.html#1-395">Source</a>
+            <rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a
+                class="src"
+                href="../src/reqwest/lib.rs.html#1-395"
+              >Source</a>
             </span>
           </div>
           <details class="toggle top-doc" open>
@@ -157,8 +152,7 @@
               <p>
                 The <code>reqwest</code> crate provides a convenient,
                 higher-level HTTP
-                <a href="./struct.Client.html"><code>Client</code></a
-                >.
+                <a href="./struct.Client.html"><code>Client</code></a>.
               </p>
               <p>
                 It handles many of the things that most people just expect an
@@ -172,8 +166,7 @@
                   Plain bodies, <a href="#json">JSON</a>,
                   <a href="#forms">urlencoded</a>,
                   <a href="multipart/index.html" title="mod reqwest::multipart"
-                    >multipart</a
-                  >
+                  >multipart</a>
                 </li>
                 <li>
                   Customizable <a href="#redirect-policies">redirect policy</a>
@@ -195,14 +188,12 @@
                 <li>
                   <a
                     href="https://rust-lang-nursery.github.io/rust-cookbook/web/clients.html"
-                    >The Rust Cookbook</a
-                  >
+                  >The Rust Cookbook</a>
                 </li>
                 <li>
                   <a
                     href="https://github.com/seanmonstar/reqwest/tree/master/examples"
-                    >reqwest Repository Examples</a
-                  >
+                  >reqwest Repository Examples</a>
                 </li>
               </ul>
               <h3 id="commercial-support">
@@ -212,8 +203,8 @@
               <p>
                 For private advice, support, reviews, access to the maintainer,
                 and the like, reach out for
-                <a href="https://seanmonstar.com/sponsor">commercial support</a
-                >.
+                <a href="https://seanmonstar.com/sponsor"
+                >commercial support</a>.
               </p>
               <h3 id="making-a-get-request">
                 <a class="doc-anchor" href="#making-a-get-request">§</a>Making a
@@ -225,7 +216,9 @@
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="kw">let </span>body = reqwest::get(<span class="string">"https://www.rust-lang.org"</span>)
     .<span class="kw">await</span><span class="question-mark">?
     </span>.text()
@@ -243,22 +236,23 @@
                 <a
                   class="doc-anchor"
                   href="#making-post-requests-or-setting-request-bodies"
-                  >§</a
-                >Making POST requests (or setting request bodies)
+                >§</a>Making POST requests (or setting request bodies)
               </h3>
               <p>
                 There are several ways you can set the body of a request. The
                 basic one is by using the <code>body()</code> method of a
-                <a href="./struct.RequestBuilder.html"
-                  ><code>RequestBuilder</code></a
-                >. This lets you set the exact raw bytes of what the body should
-                be. It accepts various types, including <code>String</code> and
+                <a href="./struct.RequestBuilder.html"><code
+                  >RequestBuilder</code></a>. This lets you set the exact raw
+                bytes of what the body should be. It accepts various types,
+                including <code>String</code> and
                 <code>Vec&lt;u8&gt;</code>. If you wish to pass a custom type,
                 you can use the <code>reqwest::Body</code> constructors.
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="kw">let </span>client = reqwest::Client::new();
 <span class="kw">let </span>res = client.post(<span class="string">"http://httpbin.org/post"</span>)
     .body(<span class="string">"the exact body that is sent"</span>)
@@ -274,12 +268,13 @@
               <p>
                 This can be an array of tuples, or a <code>HashMap</code>, or a
                 custom type that implements
-                <a href="http://serde.rs"><code>Serialize</code></a
-                >.
+                <a href="http://serde.rs"><code>Serialize</code></a>.
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="comment">// This will POST a body of `foo=bar&amp;baz=quux`
 </span><span class="kw">let </span>params = [(<span class="string">"foo"</span>, <span class="string">"bar"</span>), (<span class="string">"baz"</span>, <span class="string">"quux"</span>)];
 <span class="kw">let </span>client = reqwest::Client::new();
@@ -291,16 +286,17 @@
               <h4 id="json"><a class="doc-anchor" href="#json">§</a>JSON</h4>
               <p>
                 There is also a <code>json</code> method helper on the
-                <a href="./struct.RequestBuilder.html"
-                  ><code>RequestBuilder</code></a
-                >
+                <a href="./struct.RequestBuilder.html"><code
+                  >RequestBuilder</code></a>
                 that works in a similar fashion the <code>form</code> method. It
                 can take any value that can be serialized into JSON. The feature
                 <code>json</code> is required.
               </p>
 
               <div class="example-wrap">
-                <pre class="rust rust-example-rendered">
+                <pre
+                  class="rust rust-example-rendered"
+                >
 <code><span class="comment">// This will POST a body of `{"lang":"rust","body":"json"}`
 </span><span class="kw">let </span><span class="kw-2">mut </span>map = HashMap::new();
 map.insert(<span class="string">"lang"</span>, <span class="string">"rust"</span>);
@@ -328,9 +324,8 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
               </h3>
               <p>
                 The automatic storing and sending of session cookies can be
-                enabled with the
-                [<code>cookie_store</code>][ClientBuilder::cookie_store] method
-                on
+                enabled with the [<code
+                >cookie_store</code>][ClientBuilder::cookie_store] method on
                 <code>ClientBuilder</code>.
               </p>
               <h3 id="proxies">
@@ -357,10 +352,8 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 These can be overwritten by adding a [<code>Proxy</code>] to
                 <code>ClientBuilder</code>
                 i.e.
-                <code
-                  >let proxy =
-                  reqwest::Proxy::http("https://secure.example")?;</code
-                >
+                <code>let proxy =
+                  reqwest::Proxy::http("https://secure.example")?;</code>
                 or disabled by calling <code>ClientBuilder::no_proxy()</code>.
               </p>
               <p>
@@ -400,8 +393,8 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 The Client implementation automatically switches to the WASM one
                 when the target_arch is wasm32, the usage is basically the same
                 as the async api. Some of the features are disabled in wasm :
-                [<code>tls</code>], [<code>cookie</code>],
-                [<code>blocking</code>], as well as various
+                [<code>tls</code>], [<code>cookie</code>], [<code
+                >blocking</code>], as well as various
                 <code>ClientBuilder</code> methods such as
                 <code>timeout()</code> and <code>connector_layer()</code>.
               </p>
@@ -418,8 +411,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 The following are a list of
                 <a
                   href="https://doc.rust-lang.org/stable/cargo/reference/manifest.html#the-features-section"
-                  >Cargo features</a
-                >
+                >Cargo features</a>
                 that can be enabled or disabled:
               </p>
               <ul>
@@ -559,8 +551,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="mod"
                 href="header/index.html"
                 title="mod reqwest::header"
-                >header</a
-              >
+              >header</a>
             </dt>
             <dd>HTTP header types</dd>
             <dt>
@@ -568,12 +559,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="mod"
                 href="multipart/index.html"
                 title="mod reqwest::multipart"
-                >multipart</a
-              ><wbr /><span
+              >multipart</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly and crate feature `multipart` only"
-                >WebAssembly and <code>multipart</code></span
-              >
+              >WebAssembly and <code>multipart</code></span>
             </dt>
             <dd>TODO multipart/form-data</dd>
           </dl>
@@ -586,12 +575,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Body.html"
                 title="struct reqwest::Body"
-                >Body</a
-              ><wbr /><span
+              >Body</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>The body of a <code>Request</code>.</dd>
             <dt>
@@ -599,12 +586,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Client.html"
                 title="struct reqwest::Client"
-                >Client</a
-              ><wbr /><span
+              >Client</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>dox</dd>
             <dt>
@@ -612,12 +597,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.ClientBuilder.html"
                 title="struct reqwest::ClientBuilder"
-                >Client<wbr />Builder</a
-              ><wbr /><span
+              >Client<wbr />Builder</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>dox</dd>
             <dt>
@@ -625,8 +608,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Error.html"
                 title="struct reqwest::Error"
-                >Error</a
-              >
+              >Error</a>
             </dt>
             <dd>
               The Errors that may occur when processing a <code>Request</code>.
@@ -636,8 +618,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Method.html"
                 title="struct reqwest::Method"
-                >Method</a
-              >
+              >Method</a>
             </dt>
             <dd>The Request Method (VERB)</dd>
             <dt>
@@ -645,12 +626,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Request.html"
                 title="struct reqwest::Request"
-                >Request</a
-              ><wbr /><span
+              >Request</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>
               A request which can be executed with
@@ -661,12 +640,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.RequestBuilder.html"
                 title="struct reqwest::RequestBuilder"
-                >Request<wbr />Builder</a
-              ><wbr /><span
+              >Request<wbr />Builder</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>
               A builder to construct the properties of a <code>Request</code>.
@@ -676,12 +653,10 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Response.html"
                 title="struct reqwest::Response"
-                >Response</a
-              ><wbr /><span
+              >Response</a><wbr /><span
                 class="stab portability"
                 title="Available on WebAssembly only"
-                >WebAssembly</span
-              >
+              >WebAssembly</span>
             </dt>
             <dd>A Response to a submitted <code>Request</code>.</dd>
             <dt>
@@ -689,8 +664,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.StatusCode.html"
                 title="struct reqwest::StatusCode"
-                >Status<wbr />Code</a
-              >
+              >Status<wbr />Code</a>
             </dt>
             <dd>
               An HTTP status code (<code>status-code</code> in RFC 9110 et al.).
@@ -700,8 +674,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Url.html"
                 title="struct reqwest::Url"
-                >Url</a
-              >
+              >Url</a>
             </dt>
             <dd>A parsed URL record.</dd>
             <dt>
@@ -709,8 +682,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="struct"
                 href="struct.Version.html"
                 title="struct reqwest::Version"
-                >Version</a
-              >
+              >Version</a>
             </dt>
             <dd>Represents a version of the HTTP spec.</dd>
           </dl>
@@ -723,8 +695,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="trait"
                 href="trait.IntoUrl.html"
                 title="trait reqwest::IntoUrl"
-                >IntoUrl</a
-              >
+              >IntoUrl</a>
             </dt>
             <dd>
               A trait to try to convert some type into a <code>Url</code>.
@@ -734,8 +705,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="trait"
                 href="trait.ResponseBuilderExt.html"
                 title="trait reqwest::ResponseBuilderExt"
-                >Response<wbr />Builder<wbr />Ext</a
-              >
+              >Response<wbr />Builder<wbr />Ext</a>
             </dt>
             <dd>Extension trait for http::response::Builder objects</dd>
           </dl>
@@ -757,8 +727,7 @@ map.insert(<span class="string">"body"</span>, <span class="string">"json"</span
                 class="type"
                 href="type.Result.html"
                 title="type reqwest::Result"
-                >Result</a
-              >
+              >Result</a>
             </dt>
             <dd>
               A <code>Result</code> alias where the <code>Err</code> case is

@@ -2629,17 +2629,6 @@
     "error_msg": null
   },
   {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
     "host": "172.67.120.0",
     "target_ip": "172.67.120.0",
     "ip_version": "IPv4",
@@ -4334,17 +4323,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "cris.ns.cloudflare.com",
     "target_ip": "108.162.195.202",
     "ip_version": "IPv4",
@@ -4409,17 +4387,6 @@
     "latency_ms": 216,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
   },
   {
     "host": "eur.877774.xyz",
@@ -5016,17 +4983,6 @@
     "error_msg": null
   },
   {
-    "host": "yx-auto.pages.dev",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析无结果"
-  },
-  {
     "host": "www.okcupid.com",
     "target_ip": "104.16.239.254",
     "ip_version": "IPv4",
@@ -5080,39 +5036,6 @@
     "latency_ms": 362,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",

@@ -266,11 +266,13 @@ class IPInfoFetcher {
 - **网络域名**: ${this.ipinfo.as_domain || "N/A"}`;
 
     if (this.ipinfo.continent) {
-      markdown += `\n- **大洲**: ${this.ipinfo.continent} (${this.ipinfo.continent_code})`;
+      markdown +=
+        `\n- **大洲**: ${this.ipinfo.continent} (${this.ipinfo.continent_code})`;
     }
 
     if (this.ipinfo.latitude && this.ipinfo.longitude) {
-      markdown += `\n- **地理坐标**: ${this.ipinfo.latitude}, ${this.ipinfo.longitude}`;
+      markdown +=
+        `\n- **地理坐标**: ${this.ipinfo.latitude}, ${this.ipinfo.longitude}`;
     }
 
     if (this.ipinfo.time_zone) {

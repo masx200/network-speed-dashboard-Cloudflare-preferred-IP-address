@@ -88,17 +88,6 @@
     "error_msg": null
   },
   {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 141.147.185.63:443: i/o timeout"
-  },
-  {
     "host": "104.16.45.84",
     "target_ip": "104.16.45.84",
     "ip_version": "IPv4",
@@ -627,17 +616,6 @@
     "error_msg": null
   },
   {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
     "host": "172.67.120.0",
     "target_ip": "172.67.120.0",
     "ip_version": "IPv4",
@@ -647,28 +625,6 @@
     "latency_ms": 8990,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.877771.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析无结果"
-  },
-  {
-    "host": "www.visa.cn",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析无结果"
   },
   {
     "host": "172.67.243.218",
@@ -768,17 +724,6 @@
     "latency_ms": 622,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "huxley.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2cbc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "huxley.ns.cloudflare.com",
@@ -4026,17 +3971,6 @@
     "error_msg": null
   },
   {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
     "host": "104.19.175.123",
     "target_ip": "104.19.175.123",
     "ip_version": "IPv4",
@@ -4598,17 +4532,6 @@
     "error_msg": null
   },
   {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 3.0.50.69:443: i/o timeout"
-  },
-  {
     "host": "cfip.xxxxxxxx.tk",
     "target_ip": "198.41.214.141",
     "ip_version": "IPv4",
@@ -4697,17 +4620,6 @@
     "error_msg": null
   },
   {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
     "host": "trevor.ns.cloudflare.com",
     "target_ip": "162.159.44.154",
     "ip_version": "IPv4",
@@ -4717,17 +4629,6 @@
     "latency_ms": 506,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",

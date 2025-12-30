@@ -69,17 +69,6 @@
     "host": "104.26.6.112",
     "target_ip": "104.26.6.112",
     "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
     "success": true,
     "status_code": 200,
     "protocol": "h2",
@@ -724,17 +713,6 @@
     "latency_ms": 142,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "www.visa.com.sg",
@@ -1901,17 +1879,6 @@
     "latency_ms": 151,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "172.67.120.0",
@@ -3730,17 +3697,6 @@
   },
   {
     "host": "rustam.ns.cloudflare.com",
-    "target_ip": "172.64.35.148",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.148:443: i/o timeout"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
     "target_ip": "2606:4700:58::a29f:2c94",
     "ip_version": "IPv6",
     "success": true,
@@ -3771,28 +3727,6 @@
     "latency_ms": 156,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "cmcc.877774.xyz",
@@ -4101,17 +4035,6 @@
     "latency_ms": 209,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "pranab.ns.cloudflare.com",
-    "target_ip": "172.64.35.199",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.199:443: i/o timeout"
   },
   {
     "host": "pranab.ns.cloudflare.com",
@@ -4981,17 +4904,6 @@
     "latency_ms": 157,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
   },
   {
     "host": "cfip.xxxxxxxx.tk",

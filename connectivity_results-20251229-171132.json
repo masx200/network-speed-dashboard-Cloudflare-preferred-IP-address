@@ -243,17 +243,6 @@
   },
   {
     "host": "comicabc.com",
-    "target_ip": "104.21.64.10",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "comicabc.com",
     "target_ip": "172.67.174.21",
     "ip_version": "IPv4",
     "success": true,
@@ -317,17 +306,6 @@
     "latency_ms": 1179,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.wto.org",
-    "target_ip": "2606:4700:4406::ac40:9242",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:4406::ac40:9242]:443: i/o timeout"
   },
   {
     "host": "www.wto.org",
@@ -529,28 +507,6 @@
   },
   {
     "host": "trevor.ns.cloudflare.com",
-    "target_ip": "162.159.44.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "172.64.35.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.154:443: i/o timeout"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
     "target_ip": "108.162.195.154",
     "ip_version": "IPv4",
     "success": true,
@@ -636,17 +592,6 @@
     "latency_ms": 1413,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "198.41.194.162",
-    "target_ip": "198.41.194.162",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.194.162:443: i/o timeout"
   },
   {
     "host": "[2606:4700:440b::3e6e:5f06]",
@@ -847,17 +792,6 @@
     "error_msg": null
   },
   {
-    "host": "162.159.133.85",
-    "target_ip": "162.159.133.85",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.133.85:443: i/o timeout"
-  },
-  {
     "host": "104.17.142.12",
     "target_ip": "104.17.142.12",
     "ip_version": "IPv4",
@@ -913,17 +847,6 @@
     "error_msg": null
   },
   {
-    "host": "172.67.79.211",
-    "target_ip": "172.67.79.211",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.79.211:443: i/o timeout"
-  },
-  {
     "host": "www.digitalocean.com",
     "target_ip": "104.19.174.68",
     "ip_version": "IPv4",
@@ -966,17 +889,6 @@
     "latency_ms": 2095,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
   },
   {
     "host": "www.udemy.com",
@@ -1100,28 +1012,6 @@
     "error_msg": null
   },
   {
-    "host": "eur.877774.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": context deadline exceeded"
-  },
-  {
-    "host": "otto.ns.cloudflare.com",
-    "target_ip": "172.64.35.135",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.135:443: i/o timeout"
-  },
-  {
     "host": "otto.ns.cloudflare.com",
     "target_ip": "162.159.44.135",
     "ip_version": "IPv4",
@@ -1131,17 +1021,6 @@
     "latency_ms": 4697,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "otto.ns.cloudflare.com",
-    "target_ip": "108.162.195.135",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "otto.ns.cloudflare.com",
@@ -1175,17 +1054,6 @@
     "latency_ms": 1017,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "icook.tw",
-    "target_ip": "104.20.28.74",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "icook.tw",
@@ -1230,17 +1098,6 @@
     "latency_ms": 2477,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "damien.ns.cloudflare.com",
-    "target_ip": "108.162.195.168",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.168:443: i/o timeout"
   },
   {
     "host": "damien.ns.cloudflare.com",
@@ -1321,17 +1178,6 @@
   },
   {
     "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
-    "host": "cfip.xxxxxxxx.tk",
     "target_ip": "104.16.232.223",
     "ip_version": "IPv4",
     "success": true,
@@ -1398,28 +1244,6 @@
   },
   {
     "host": "toy-people.com",
-    "target_ip": "104.26.2.36",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "toy-people.com",
-    "target_ip": "2606:4700:20::681a:324",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:20::681a:324]:443: i/o timeout"
-  },
-  {
-    "host": "toy-people.com",
     "target_ip": "2606:4700:20::ac43:4812",
     "ip_version": "IPv6",
     "success": true,
@@ -1472,17 +1296,6 @@
     "latency_ms": 740,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.pcmag.com",
-    "target_ip": "2606:4700::6810:1576",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "cf.0sm.com",
@@ -1560,17 +1373,6 @@
     "latency_ms": 1490,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "wilson.ns.cloudflare.com",
-    "target_ip": "2a06:98c1:50::ac40:236e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2a06:98c1:50::ac40:236e]:443: i/o timeout"
   },
   {
     "host": "wilson.ns.cloudflare.com",
@@ -1760,17 +1562,6 @@
     "error_msg": null
   },
   {
-    "host": "ct.877774.xyz",
-    "target_ip": "172.64.229.185",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "steamdb.info",
     "target_ip": "104.20.34.212",
     "ip_version": "IPv4",
@@ -1892,17 +1683,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.4.90",
-    "target_ip": "104.26.4.90",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "162.159.137.204",
     "target_ip": "162.159.137.204",
     "ip_version": "IPv4",
@@ -1934,17 +1714,6 @@
     "latency_ms": 725,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.229.7",
-    "target_ip": "172.64.229.7",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "162.159.128.253",
@@ -2011,17 +1780,6 @@
     "latency_ms": 1051,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.gov.ua",
-    "target_ip": "104.21.23.72",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.21.23.72:443: i/o timeout"
   },
   {
     "host": "www.gov.ua",
@@ -2156,28 +1914,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "168.138.165.174",
-    "target_ip": "168.138.165.174",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "iplocation.io",
     "target_ip": "104.26.10.222",
     "ip_version": "IPv4",
@@ -2187,17 +1923,6 @@
     "latency_ms": 684,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "iplocation.io",
-    "target_ip": "104.26.11.222",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.11.222:443: i/o timeout"
   },
   {
     "host": "iplocation.io",
@@ -2288,17 +2013,6 @@
     "error_msg": null
   },
   {
-    "host": "[2606:4700:8de6::5fa2:799e]",
-    "target_ip": "2606:4700:8de6::5fa2:799e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:8de6::5fa2:799e]:443: i/o timeout"
-  },
-  {
     "host": "cu.877774.xyz",
     "target_ip": "104.18.42.54",
     "ip_version": "IPv4",
@@ -2308,17 +2022,6 @@
     "latency_ms": 497,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cu.877774.xyz",
-    "target_ip": "172.64.145.202",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.145.202:443: i/o timeout"
   },
   {
     "host": "172.67.120.0",
@@ -2387,17 +2090,6 @@
     "error_msg": null
   },
   {
-    "host": "icook.hk",
-    "target_ip": "2606:4700:3031::6815:5ad2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700:3031::6815:5ad2]:443: i/o timeout"
-  },
-  {
     "host": "www.okcupid.com",
     "target_ip": "104.16.144.63",
     "ip_version": "IPv4",
@@ -2462,17 +2154,6 @@
     "latency_ms": 1238,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "huxley.ns.cloudflare.com",
-    "target_ip": "162.159.44.188",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "huxley.ns.cloudflare.com",
@@ -2608,17 +2289,6 @@
   },
   {
     "host": "www.hugedomains.com",
-    "target_ip": "172.67.70.191",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.70.191:443: i/o timeout"
-  },
-  {
-    "host": "www.hugedomains.com",
     "target_ip": "104.26.7.37",
     "ip_version": "IPv4",
     "success": true,
@@ -2682,28 +2352,6 @@
     "latency_ms": 710,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.877771.xyz",
-    "target_ip": "104.21.80.180",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.21.80.180:443: i/o timeout"
-  },
-  {
-    "host": "cf.877771.xyz",
-    "target_ip": "172.67.152.183",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.152.183:443: i/o timeout"
   },
   {
     "host": "cf.877771.xyz",
@@ -2949,17 +2597,6 @@
   },
   {
     "host": "craig.ns.cloudflare.com",
-    "target_ip": "172.64.35.192",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.35.192:443: i/o timeout"
-  },
-  {
-    "host": "craig.ns.cloudflare.com",
     "target_ip": "2606:4700:58::a29f:2cc0",
     "ip_version": "IPv6",
     "success": true,
@@ -3113,28 +2750,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:3121:c6d4:af96:6677:59bf:faec",
-    "target_ip": "2a06:98c1:3121:c6d4:af96:6677:59bf:faec",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "2a06:98c1:3121:5d:1caa:56dd:a908:af7b",
-    "target_ip": "2a06:98c1:3121:5d:1caa:56dd:a908:af7b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "freeyx.cloudflare88.eu.org",
     "target_ip": "141.101.121.38",
     "ip_version": "IPv4",
@@ -3158,17 +2773,6 @@
   },
   {
     "host": "freeyx.cloudflare88.eu.org",
-    "target_ip": "2606:4700:3009:aa59:4b67:cdf7:b91:1a47",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "freeyx.cloudflare88.eu.org",
     "target_ip": "2606:4700:3010:3392:350c:968b:1f41:32b0",
     "ip_version": "IPv6",
     "success": true,
@@ -3177,28 +2781,6 @@
     "latency_ms": 924,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "172.64.35.202",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "cris.ns.cloudflare.com",
-    "target_ip": "108.162.195.202",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.202:443: i/o timeout"
   },
   {
     "host": "cris.ns.cloudflare.com",
@@ -3265,17 +2847,6 @@
     "latency_ms": 718,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cmcc.877774.xyz",
-    "target_ip": "104.16.149.6",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "cmcc.877774.xyz",
@@ -3411,17 +2982,6 @@
   },
   {
     "host": "cmcc.877774.xyz",
-    "target_ip": "104.16.148.6",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.16.148.6:443: i/o timeout"
-  },
-  {
-    "host": "cmcc.877774.xyz",
     "target_ip": "104.16.148.7",
     "ip_version": "IPv4",
     "success": true,
@@ -3520,17 +3080,6 @@
     "error_msg": null
   },
   {
-    "host": "cmcc.877774.xyz",
-    "target_ip": "104.16.149.3",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "time.is",
     "target_ip": "104.26.12.54",
     "ip_version": "IPv4",
@@ -3573,17 +3122,6 @@
     "latency_ms": 710,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.17.79.11",
-    "target_ip": "104.17.79.11",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.17.79.11:443: i/o timeout"
   },
   {
     "host": "asia.877774.xyz",
@@ -3840,17 +3378,6 @@
   },
   {
     "host": "www.whatismyip.com",
-    "target_ip": "172.67.69.129",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.69.129:443: i/o timeout"
-  },
-  {
-    "host": "www.whatismyip.com",
     "target_ip": "2606:4700:20::681a:d17",
     "ip_version": "IPv6",
     "success": true,
@@ -3939,17 +3466,6 @@
   },
   {
     "host": "bestcf.030101.xyz",
-    "target_ip": "104.19.47.227",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "bestcf.030101.xyz",
     "target_ip": "104.19.55.80",
     "ip_version": "IPv4",
     "success": true,
@@ -4013,28 +3529,6 @@
     "latency_ms": 1187,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "kyree.ns.cloudflare.com",
-    "target_ip": "2606:4700:58::a29f:2ccf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "kyree.ns.cloudflare.com",
-    "target_ip": "2803:f800:50::6ca2:c3cf",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "kyree.ns.cloudflare.com",
@@ -4123,17 +3617,6 @@
     "latency_ms": 478,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "saas.sin.fan",
-    "target_ip": "162.159.36.20",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.36.20:443: i/o timeout"
   },
   {
     "host": "fbi.gov",
@@ -4453,17 +3936,6 @@
     "latency_ms": 1522,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "108.162.195.83",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "bowen.ns.cloudflare.com",
@@ -4896,39 +4368,6 @@
   },
   {
     "host": "rustam.ns.cloudflare.com",
-    "target_ip": "172.64.35.148",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "108.162.195.148",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "162.159.44.148",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.44.148:443: i/o timeout"
-  },
-  {
-    "host": "rustam.ns.cloudflare.com",
     "target_ip": "2606:4700:58::a29f:2c94",
     "ip_version": "IPv6",
     "success": true,
@@ -4970,17 +4409,6 @@
     "latency_ms": 829,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.18.42.26",
-    "target_ip": "104.18.42.26",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "www.visa.com.hk",
@@ -5058,17 +4486,6 @@
     "latency_ms": 1903,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "whatismyipaddress.com",
-    "target_ip": "2606:4700::6813:df4f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp [2606:4700::6813:df4f]:443: i/o timeout"
   },
   {
     "host": "whatismyipaddress.com",
@@ -5193,28 +4610,6 @@
   },
   {
     "host": "ashton.ns.cloudflare.com",
-    "target_ip": "108.162.195.173",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.173:443: i/o timeout"
-  },
-  {
-    "host": "ashton.ns.cloudflare.com",
-    "target_ip": "162.159.44.173",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "ashton.ns.cloudflare.com",
     "target_ip": "172.64.35.173",
     "ip_version": "IPv4",
     "success": true,
@@ -5256,17 +4651,6 @@
     "latency_ms": 1470,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "julio.ns.cloudflare.com",
-    "target_ip": "108.162.195.209",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "julio.ns.cloudflare.com",

@@ -25,60 +25,7 @@
       "连接超时: I/O超时": 4
     },
     "grouped_tests": {
-      "连接超时: I/O超时": [
-        {
-          "index": 19,
-          "host": "cfip.xxxxxxxx.tk",
-          "target_ip": "198.41.212.130",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-          "timestamp": "2025-12-14T14:19:26.182Z",
-          "success": false
-        },
-        {
-          "index": 169,
-          "host": "pranab.ns.cloudflare.com",
-          "target_ip": "162.159.44.199",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 162.159.44.199:443: i/o timeout",
-          "timestamp": "2025-12-14T14:19:26.183Z",
-          "success": false
-        },
-        {
-          "index": 373,
-          "host": "172.64.201.25",
-          "target_ip": "172.64.201.25",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-          "timestamp": "2025-12-14T14:19:26.183Z",
-          "success": false
-        },
-        {
-          "index": 421,
-          "host": "otto.ns.cloudflare.com",
-          "target_ip": "162.159.44.135",
-          "ip_version": "IPv4",
-          "protocol": "none",
-          "status_code": null,
-          "latency_ms": 0,
-          "server_header": "N/A",
-          "error_msg": "dial tcp 162.159.44.135:443: i/o timeout",
-          "timestamp": "2025-12-14T14:19:26.183Z",
-          "success": false
-        }
-      ]
+      "连接超时: I/O超时": []
     },
     "error_patterns": {
       "超时集中度分析": "共有 4 次超时，主要集中在IP段 162.159（2 次），可能存在网络路由问题或目标服务器负载过高",
@@ -104,60 +51,7 @@
       "连接超时: I/O超时": 4
     }
   },
-  "failed_tests": [
-    {
-      "index": 19,
-      "host": "cfip.xxxxxxxx.tk",
-      "target_ip": "198.41.212.130",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 198.41.212.130:443: i/o timeout",
-      "timestamp": "2025-12-14T14:19:26.182Z",
-      "success": false
-    },
-    {
-      "index": 169,
-      "host": "pranab.ns.cloudflare.com",
-      "target_ip": "162.159.44.199",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 162.159.44.199:443: i/o timeout",
-      "timestamp": "2025-12-14T14:19:26.183Z",
-      "success": false
-    },
-    {
-      "index": 373,
-      "host": "172.64.201.25",
-      "target_ip": "172.64.201.25",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 172.64.201.25:443: i/o timeout",
-      "timestamp": "2025-12-14T14:19:26.183Z",
-      "success": false
-    },
-    {
-      "index": 421,
-      "host": "otto.ns.cloudflare.com",
-      "target_ip": "162.159.44.135",
-      "ip_version": "IPv4",
-      "protocol": "none",
-      "status_code": null,
-      "latency_ms": 0,
-      "server_header": "N/A",
-      "error_msg": "dial tcp 162.159.44.135:443: i/o timeout",
-      "timestamp": "2025-12-14T14:19:26.183Z",
-      "success": false
-    }
-  ],
+  "failed_tests": [],
   "top_latency_records": [
     {
       "index": 30,

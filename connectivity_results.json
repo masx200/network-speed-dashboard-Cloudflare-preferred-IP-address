@@ -55,83 +55,6 @@
     "error_msg": null
   },
   {
-    "host": "stock.hostmonit.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving"
-  },
-  {
-    "host": "palera.in",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving"
-  },
-  {
-    "host": "www.4chan.org",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving"
-  },
-  {
-    "host": "fbi.gov",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: Post \"https://deno-dns-over-https-server.g18uibxgnb.de5.net/\": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving"
-  },
-  {
-    "host": "www.ipchicken.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析无结果"
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
-  },
-  {
     "host": "172.67.79.211",
     "target_ip": "172.67.79.211",
     "ip_version": "IPv4",
@@ -1837,17 +1760,6 @@
     "error_msg": null
   },
   {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "198.41.212.130",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 198.41.212.130:443: i/o timeout"
-  },
-  {
     "host": "[2606:4700:440b::3e6e:5f06]",
     "target_ip": "2606:4700:440b::3e6e:5f06",
     "ip_version": "IPv6",
@@ -1857,17 +1769,6 @@
     "latency_ms": 81,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "cris.ns.cloudflare.com",
@@ -1989,17 +1890,6 @@
     "latency_ms": 97,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "172.64.153.172",
@@ -2739,17 +2629,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
     "host": "[2606:4700:4403::7357:544f]",
     "target_ip": "2606:4700:4403::7357:544f",
     "ip_version": "IPv6",
@@ -3001,17 +2880,6 @@
     "latency_ms": 70,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
   },
   {
     "host": "3.0.50.69",
@@ -3454,17 +3322,6 @@
     "error_msg": null
   },
   {
-    "host": "104.26.6.112",
-    "target_ip": "104.26.6.112",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 104.26.6.112:443: i/o timeout"
-  },
-  {
     "host": "comicabc.com",
     "target_ip": "172.67.174.21",
     "ip_version": "IPv4",
@@ -3859,17 +3716,6 @@
     "latency_ms": 73,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "108.162.195.83",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.83:443: i/o timeout"
   },
   {
     "host": "bowen.ns.cloudflare.com",
@@ -4706,17 +4552,6 @@
     "latency_ms": 87,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "162.159.44.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 162.159.44.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",
