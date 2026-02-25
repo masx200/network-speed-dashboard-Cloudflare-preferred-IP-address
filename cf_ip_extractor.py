@@ -139,23 +139,69 @@ def print_summary(results: list):
         print(f"  {isp}: {count}个")
 
 
+def load_existing_data(output_file: str) -> list:
+    """加载现有数据"""
+    if not os.path.exists(output_file):
+        return []
+
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+            return existing_data.get('data', [])
+    except Exception as e:
+        print(f"⚠ 加载现有数据失败: {e}")
+        return []
+
+
+def merge_and_deduplicate(existing_data: list, new_data: list) -> list:
+    """合并新旧数据并按IP去重"""
+    # 创建IP到数据的映射，新数据优先
+    ip_map = {}
+
+    # 先添加旧数据
+    for item in existing_data:
+        ip = item.get('ip')
+        if ip:
+            ip_map[ip] = item
+
+    # 用新数据覆盖（新数据优先）
+    for item in new_data:
+        ip = item.get('ip')
+        if ip:
+            ip_map[ip] = item
+
+    # 返回合并后的列表
+    return list(ip_map.values())
+
+
 async def main():
     url = "https://api.uouin.com/cloudflare.html"
+    output_file = "cloudflare_ips.json"
 
     # 下载HTML
     html = await download_html(url)
 
     # 提取IP
-    results = extract_ips(html)
+    new_results = extract_ips(html)
+
+    # 加载现有数据
+    existing_results = load_existing_data(output_file)
+    print(f"📂 现有数据: {len(existing_results)} 条")
+
+    # 合并并去重
+    merged_results = merge_and_deduplicate(existing_results, new_results)
 
     # 打印摘要
-    print_summary(results)
+    print("\n=== 新提取数据 ===")
+    print(f"新增: {len(new_results)} 个IP")
+
+    print_summary(merged_results)
 
     # 添加时间戳
     output_data = {
         "update_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "total_count": len(results),
-        "data": results
+        "total_count": len(merged_results),
+        "data": merged_results
     }
 
     # 输出JSON
@@ -164,10 +210,10 @@ async def main():
     print(json_output)
 
     # 保存到文件
-    output_file = "cloudflare_ips.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(json_output)
-    print(f"\n已保存到: {output_file}")
+    print(f"\n✓ 已保存到: {output_file}")
+    print(f"✓ 总记录数: {len(merged_results)} (原有: {len(existing_results)}, 新增: {len(new_results)})")
 
 
 if __name__ == "__main__":

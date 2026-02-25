@@ -153,12 +153,8 @@ jobs:
 
       - run: npm run clean
 
-
-
-
-
       - run: npm run merge-results
-      
+
       - name: Check for changes
         id: verify-changed-files
         run: |
