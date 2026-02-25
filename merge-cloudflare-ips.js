@@ -14,7 +14,10 @@ const hostsPath = path.join(__dirname, "hosts.json");
 const hosts = JSON.parse(fs.readFileSync(hostsPath, "utf8"));
 
 // 从 cloudflare_ips.json 提取 IP 地址，转换为 host 格式
-const newHosts = cloudflareIps.data.map((entry) => ({...entry, host: entry.ip }));
+const newHosts = cloudflareIps.data.map((entry) => ({
+  ...entry,
+  host: entry.ip,
+}));
 
 // 合并两个数组
 const mergedHosts = [...hosts, ...newHosts];

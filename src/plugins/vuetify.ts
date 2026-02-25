@@ -10,7 +10,7 @@ import "vuetify/styles";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import { mdi } from "vuetify/iconsets/mdi";
-import { zhHans } from 'vuetify/locale'
+import { zhHans } from "vuetify/locale";
 // Composables
 import { createVuetify } from "vuetify";
 
@@ -28,7 +28,7 @@ export default createVuetify({
     defaultTheme: "system",
   },
   locale: {
-    locale: 'zhHans',
+    locale: "zhHans",
     messages: { zhHans },
   },
 });
