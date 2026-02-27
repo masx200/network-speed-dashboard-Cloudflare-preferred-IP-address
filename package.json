@@ -29,7 +29,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^25.0.9",
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue": "^6.0.4",
     "@vue/tsconfig": "^0.8.1",
     "npm-run-all2": "^8.0.4",
     "sass-embedded": "^1.97.3",
