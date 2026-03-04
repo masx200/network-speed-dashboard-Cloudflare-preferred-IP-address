@@ -77,17 +77,6 @@
     "error_msg": null
   },
   {
-    "host": "wilson.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "ct.877774.xyz",
     "target_ip": "172.64.229.161",
     "ip_version": "IPv4",
@@ -308,17 +297,6 @@
     "error_msg": null
   },
   {
-    "host": "cfip.xxxxxxxx.tk",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "103.160.204.59",
     "target_ip": "103.160.204.59",
     "ip_version": "IPv4",
@@ -374,28 +352,6 @@
     "error_msg": null
   },
   {
-    "host": "[2606:4700:8de6::5fa2:799e]",
-    "target_ip": "2606:4700:8de6::5fa2:799e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "cf.0sm.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "168.138.165.174",
     "target_ip": "168.138.165.174",
     "ip_version": "IPv4",
@@ -405,50 +361,6 @@
     "latency_ms": 1526,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "ipv4.ip.sb",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "www.gov.ua",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "34.143.159.175",
-    "target_ip": "34.143.159.175",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
-    "host": "trevor.ns.cloudflare.com",
-    "target_ip": "108.162.195.154",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 108.162.195.154:443: i/o timeout"
   },
   {
     "host": "trevor.ns.cloudflare.com",
@@ -572,17 +484,6 @@
     "error_msg": null
   },
   {
-    "host": "cu.877774.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "shopify.com",
     "target_ip": "23.227.38.33",
     "ip_version": "IPv4",
@@ -625,17 +526,6 @@
     "latency_ms": 1498,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:9add::880:52fc]",
-    "target_ip": "2606:4700:9add::880:52fc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "104.26.6.112",
@@ -702,17 +592,6 @@
     "latency_ms": 369,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "sullivan.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "cmcc.877774.xyz",
@@ -1001,17 +880,6 @@
     "error_msg": null
   },
   {
-    "host": "cf.877771.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "icook.hk",
     "target_ip": "104.21.90.210",
     "ip_version": "IPv4",
@@ -1265,28 +1133,6 @@
     "error_msg": null
   },
   {
-    "host": "172.67.49.134",
-    "target_ip": "172.67.49.134",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.67.49.134:443: i/o timeout"
-  },
-  {
-    "host": "www.visa.cn",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "kyree.ns.cloudflare.com",
     "target_ip": "108.162.195.207",
     "ip_version": "IPv4",
@@ -1318,17 +1164,6 @@
     "latency_ms": 208,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:4409::5b5b:7758]",
-    "target_ip": "2606:4700:4409::5b5b:7758",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "www.whatismyip.com",
@@ -1507,17 +1342,6 @@
     "error_msg": null
   },
   {
-    "host": "[2606:4700:440f::53aa:4126]",
-    "target_ip": "2606:4700:440f::53aa:4126",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "172.64.151.55",
     "target_ip": "172.64.151.55",
     "ip_version": "IPv4",
@@ -1683,17 +1507,6 @@
     "error_msg": null
   },
   {
-    "host": "bestcf.030101.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "cf.090227.xyz",
     "target_ip": "104.18.35.15",
     "ip_version": "IPv4",
@@ -1747,28 +1560,6 @@
     "latency_ms": 229,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "cf.zhetengsha.eu.org",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "fbi.gov",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "ip.sb",
@@ -1826,17 +1617,6 @@
     "error_msg": null
   },
   {
-    "host": "bowen.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "palera.in",
     "target_ip": "172.67.157.122",
     "ip_version": "IPv4",
@@ -1879,17 +1659,6 @@
     "latency_ms": 950,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "time.is",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "whatismyipaddress.com",
@@ -1969,17 +1738,6 @@
     "error_msg": null
   },
   {
-    "host": "rustam.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "local-aria2-webui.masx200.ddns-ip.net",
     "target_ip": "172.67.157.182",
     "ip_version": "IPv4",
@@ -2000,17 +1758,6 @@
     "latency_ms": 538,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:964f::6e2c:588e]",
-    "target_ip": "2606:4700:964f::6e2c:588e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "www.visa.com.hk",
@@ -2077,50 +1824,6 @@
     "latency_ms": 2945,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "singapore.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "[2606:4700:440b::3e6e:5f06]",
-    "target_ip": "2606:4700:440b::3e6e:5f06",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "[2606:4700:4403::7357:544f]",
-    "target_ip": "2606:4700:4403::7357:544f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "silkbook.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "162.159.133.85",
@@ -2211,17 +1914,6 @@
     "error_msg": null
   },
   {
-    "host": "141.147.185.63",
-    "target_ip": "141.147.185.63",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
-  },
-  {
     "host": "cfip.1323123.xyz",
     "target_ip": "104.16.133.220",
     "ip_version": "IPv4",
@@ -2244,28 +1936,6 @@
     "error_msg": null
   },
   {
-    "host": "[2606:4700:4408::18c5:3304]",
-    "target_ip": "2606:4700:4408::18c5:3304",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "ashton.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "172.67.79.211",
     "target_ip": "172.67.79.211",
     "ip_version": "IPv4",
@@ -2286,28 +1956,6 @@
     "latency_ms": 388,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "ip.gs",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "[2606:4700:83be::11:74f]",
-    "target_ip": "2606:4700:83be::11:74f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "otto.ns.cloudflare.com",
@@ -2343,17 +1991,6 @@
     "error_msg": null
   },
   {
-    "host": "cf.877774.xyz",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "104.26.13.31",
     "target_ip": "104.26.13.31",
     "ip_version": "IPv4",
@@ -2374,28 +2011,6 @@
     "latency_ms": 399,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "[2606:4700:83bd::7d8:2b47]",
-    "target_ip": "2606:4700:83bd::7d8:2b47",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "tasteatlas.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "icook.tw",
@@ -2486,17 +2101,6 @@
     "error_msg": null
   },
   {
-    "host": "lewis.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "172.67.181.209",
     "target_ip": "172.67.181.209",
     "ip_version": "IPv4",
@@ -2585,17 +2189,6 @@
     "error_msg": null
   },
   {
-    "host": "www.digitalocean.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "198.41.194.162",
     "target_ip": "198.41.194.162",
     "ip_version": "IPv4",
@@ -2616,17 +2209,6 @@
     "latency_ms": 1399,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "damien.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "172.64.52.127",
@@ -2759,17 +2341,6 @@
     "latency_ms": 1002,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "172.64.201.25",
-    "target_ip": "172.64.201.25",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "none",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "dial tcp 172.64.201.25:443: i/o timeout"
   },
   {
     "host": "162.159.136.89",
@@ -2915,28 +2486,6 @@
     "error_msg": null
   },
   {
-    "host": "abdullah.ns.cloudflare.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
-    "host": "ifconfig.co",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
-  },
-  {
     "host": "104.19.154.200",
     "target_ip": "104.19.154.200",
     "ip_version": "IPv4",
@@ -3045,116 +2594,6 @@
     "latency_ms": 673,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:3121:c6d4:4130:7992:df42:f04c",
-    "target_ip": "2a06:98c1:3121:c6d4:4130:7992:df42:f04c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:c677:c614:1f96:d4bf:a723",
-    "target_ip": "2a06:98c1:3121:c677:c614:1f96:d4bf:a723",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:c6d4:af96:6677:59bf:faec",
-    "target_ip": "2a06:98c1:3121:c6d4:af96:6677:59bf:faec",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:5d:1caa:56dd:a908:af7b",
-    "target_ip": "2a06:98c1:3121:5d:1caa:56dd:a908:af7b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:0:ef18:6ab0:b648:d756",
-    "target_ip": "2a06:98c1:3121:0:ef18:6ab0:b648:d756",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:0:efde:82d1:8124:3fed",
-    "target_ip": "2a06:98c1:3121:0:efde:82d1:8124:3fed",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:c677:c614:7606:cec1:f722",
-    "target_ip": "2a06:98c1:3121:c677:c614:7606:cec1:f722",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3121:cdc1:6b1b:cfe6:f0:eaa2",
-    "target_ip": "2a06:98c1:3121:cdc1:6b1b:cfe6:f0:eaa2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3120:c39b:f77:4fc1:b18b:c12",
-    "target_ip": "2a06:98c1:3120:c39b:f77:4fc1:b18b:c12",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3120:c39b:7522:c680:d288:d13c",
-    "target_ip": "2a06:98c1:3120:c39b:7522:c680:d288:d13c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "104.17.69.244",
@@ -3364,17 +2803,6 @@
     "latency_ms": 530,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "www.7749tv.com",
-    "target_ip": "",
-    "ip_version": "",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "DNS解析失败: 未查询到任何IP记录"
   },
   {
     "host": "172.64.229.191",
@@ -3597,17 +3025,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:310b:2522:4bfe:492f:64b3:2d36",
-    "target_ip": "2a06:98c1:310b:2522:4bfe:492f:64b3:2d36",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "162.159.0.115",
     "target_ip": "162.159.0.115",
     "ip_version": "IPv4",
@@ -3617,105 +3034,6 @@
     "latency_ms": 233,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:50:eac5:5d97:a2b9:5c3d:de2b",
-    "target_ip": "2a06:98c1:50:eac5:5d97:a2b9:5c3d:de2b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2803:f800:50:9a81:aaf8:2b9b:dd37:67e2",
-    "target_ip": "2803:f800:50:9a81:aaf8:2b9b:dd37:67e2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310e:68:b803:ed16:7e58:d249",
-    "target_ip": "2a06:98c1:310e:68:b803:ed16:7e58:d249",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:5429:cdf:3003:ae9c:e62e",
-    "target_ip": "2a06:98c1:310b:5429:cdf:3003:ae9c:e62e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:af:a833:8bb4:57b3:c4fd",
-    "target_ip": "2a06:98c1:3105:af:a833:8bb4:57b3:c4fd",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3106:7319:3a35:b2f6:24ef:ea97",
-    "target_ip": "2a06:98c1:3106:7319:3a35:b2f6:24ef:ea97",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2803:f800:51:6a7b:7c95:5585:9678:1549",
-    "target_ip": "2803:f800:51:6a7b:7c95:5585:9678:1549",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310d:4c:4b41:a84:50ee:e810",
-    "target_ip": "2a06:98c1:310d:4c:4b41:a84:50ee:e810",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3107:0:cf9c:104d:1e03:9644",
-    "target_ip": "2a06:98c1:3107:0:cf9c:104d:1e03:9644",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "162.159.45.93",
@@ -3782,17 +3100,6 @@
     "latency_ms": 181,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "3.0.50.69",
-    "target_ip": "3.0.50.69",
-    "ip_version": "IPv4",
-    "success": false,
-    "status_code": null,
-    "protocol": "h2",
-    "latency_ms": 0,
-    "server_header": null,
-    "error_msg": "Get \"https://local-aria2-webui.masx200.ddns-ip.net:443/\": context deadline exceeded"
   },
   {
     "host": "104.20.26.58",
@@ -4367,105 +3674,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:51:eb89:13e1:e7d0:738a:d1e6",
-    "target_ip": "2a06:98c1:51:eb89:13e1:e7d0:738a:d1e6",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:43:e83a:f5ed:8126:81dc",
-    "target_ip": "2a06:98c1:310b:43:e83a:f5ed:8126:81dc",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3101:6cce:1edc:88:628d:fd50",
-    "target_ip": "2a06:98c1:3101:6cce:1edc:88:628d:fd50",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:0:db:557f:8a53:2469",
-    "target_ip": "2a06:98c1:3105:0:db:557f:8a53:2469",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:e7:5abb:89e:d67d:c1a4",
-    "target_ip": "2a06:98c1:51:e7:5abb:89e:d67d:c1a4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3104:0:4:5eb4:7182:42a0",
-    "target_ip": "2a06:98c1:3104:0:4:5eb4:7182:42a0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:27a8:686d:aa56:c917:4726",
-    "target_ip": "2a06:98c1:3100:27a8:686d:aa56:c917:4726",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:0:a3:1339:d974:e2c",
-    "target_ip": "2a06:98c1:3100:0:a3:1339:d974:e2c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:eecc:184:7caf:f7e0:b92",
-    "target_ip": "2a06:98c1:310b:eecc:184:7caf:f7e0:b92",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "162.159.44.128",
     "target_ip": "162.159.44.128",
     "ip_version": "IPv4",
@@ -4574,17 +3782,6 @@
     "latency_ms": 168,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:3106::c5:5d39:736d",
-    "target_ip": "2a06:98c1:3106::c5:5d39:736d",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "172.64.34.153",
@@ -5027,105 +4224,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:310b:0:e474:ff3f:ecc6:5793",
-    "target_ip": "2a06:98c1:310b:0:e474:ff3f:ecc6:5793",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51::c0bc:f0fe:59ba",
-    "target_ip": "2a06:98c1:51::c0bc:f0fe:59ba",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2400:cb00:f00e:9635:6a0b:4525:95ff:26a3",
-    "target_ip": "2400:cb00:f00e:9635:6a0b:4525:95ff:26a3",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:b523:52dd:b43c:a5f:5a85",
-    "target_ip": "2a06:98c1:310a:b523:52dd:b43c:a5f:5a85",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:50:8be4:5078:7eea:e43d:164",
-    "target_ip": "2a06:98c1:50:8be4:5078:7eea:e43d:164",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310c:6a:19f2:494:88cc:d5f",
-    "target_ip": "2a06:98c1:310c:6a:19f2:494:88cc:d5f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:0:e474:ff3f:ec26:c616",
-    "target_ip": "2a06:98c1:310b:0:e474:ff3f:ec26:c616",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:fd:febc:dbaf:d5f9:76d4",
-    "target_ip": "2a06:98c1:310b:fd:febc:dbaf:d5f9:76d4",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:0:15:735e:c4e:e2f7",
-    "target_ip": "2a06:98c1:310a:0:15:735e:c4e:e2f7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "162.159.44.133",
     "target_ip": "162.159.44.133",
     "ip_version": "IPv4",
@@ -5135,17 +4233,6 @@
     "latency_ms": 181,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2400:cb00:2049:e59d:7af6:c00c:4418:a88a",
-    "target_ip": "2400:cb00:2049:e59d:7af6:c00c:4418:a88a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "162.159.45.165",
@@ -5575,116 +4662,6 @@
     "latency_ms": 247,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:3101:d7:eb36:3a1:c94d:32de",
-    "target_ip": "2a06:98c1:3101:d7:eb36:3a1:c94d:32de",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3109:be88:aeb7:b6d2:c9f2:4d65",
-    "target_ip": "2a06:98c1:3109:be88:aeb7:b6d2:c9f2:4d65",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:0:2359:4222:d558:10fb",
-    "target_ip": "2a06:98c1:3105:0:2359:4222:d558:10fb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3103:c550:9adb:34b4:ce11:19c",
-    "target_ip": "2a06:98c1:3103:c550:9adb:34b4:ce11:19c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:8a7e:2be1:4da9:97bb:7c59",
-    "target_ip": "2a06:98c1:51:8a7e:2be1:4da9:97bb:7c59",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310f:5820:a733:3f39:ff68:f260",
-    "target_ip": "2a06:98c1:310f:5820:a733:3f39:ff68:f260",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3102:0:90e8:b850:3d09:cfc8",
-    "target_ip": "2a06:98c1:3102:0:90e8:b850:3d09:cfc8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:3dea:69ff:1edd:4cd:ed87",
-    "target_ip": "2a06:98c1:3105:3dea:69ff:1edd:4cd:ed87",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3106:0:ef95:8505:25ee:e5ae",
-    "target_ip": "2a06:98c1:3106:0:ef95:8505:25ee:e5ae",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:50:f771:e9b:84bd:5505:3935",
-    "target_ip": "2a06:98c1:50:f771:e9b:84bd:5505:3935",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "162.159.36.52",
@@ -6127,116 +5104,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:3108:0:edda:98f0:da65:4271",
-    "target_ip": "2a06:98c1:3108:0:edda:98f0:da65:4271",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310d:85:ac4c:8137:506:5188",
-    "target_ip": "2a06:98c1:310d:85:ac4c:8137:506:5188",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3107:ee7a:af11:b020:b50d:d4e2",
-    "target_ip": "2a06:98c1:3107:ee7a:af11:b020:b50d:d4e2",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2803:f800:51:0:fc87:e2d6:88c3:378b",
-    "target_ip": "2803:f800:51:0:fc87:e2d6:88c3:378b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:73ae:49fb:f5c4:1394:7e53",
-    "target_ip": "2a06:98c1:310a:73ae:49fb:f5c4:1394:7e53",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:6e:e874:db4f:a1d5:2163",
-    "target_ip": "2a06:98c1:51:6e:e874:db4f:a1d5:2163",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:900d:4f38:5221:f77f:fe11",
-    "target_ip": "2a06:98c1:3105:900d:4f38:5221:f77f:fe11",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51::ee:b8fb:877f",
-    "target_ip": "2a06:98c1:51::ee:b8fb:877f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3105:900d:3fc7:e3c6:68cd:ece3",
-    "target_ip": "2a06:98c1:3105:900d:3fc7:e3c6:68cd:ece3",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3106:f0:fa21:b1c1:bf1b:efd7",
-    "target_ip": "2a06:98c1:3106:f0:fa21:b1c1:bf1b:efd7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "162.159.58.17",
     "target_ip": "162.159.58.17",
     "ip_version": "IPv4",
@@ -6675,116 +5542,6 @@
     "latency_ms": 179,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:51:a594:2926:2b16:6e8d:843e",
-    "target_ip": "2a06:98c1:51:a594:2926:2b16:6e8d:843e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:aa:3e22:dd48:6279:eeb9",
-    "target_ip": "2a06:98c1:51:aa:3e22:dd48:6279:eeb9",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310c:5874:e72e:d139:ebe3:e5ea",
-    "target_ip": "2a06:98c1:310c:5874:e72e:d139:ebe3:e5ea",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3102:e8:d68a:c7f6:afaa:c80b",
-    "target_ip": "2a06:98c1:3102:e8:d68a:c7f6:afaa:c80b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3104:da84:1c63:f149:4d21:b339",
-    "target_ip": "2a06:98c1:3104:da84:1c63:f149:4d21:b339",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2803:f800:50:9516:e4a1:4ba9:1c5e:7533",
-    "target_ip": "2803:f800:50:9516:e4a1:4ba9:1c5e:7533",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:f702:ebbf:618b:76c:9ba7",
-    "target_ip": "2a06:98c1:3100:f702:ebbf:618b:76c:9ba7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3107:54:2c60:eafc:f14d:ca4b",
-    "target_ip": "2a06:98c1:3107:54:2c60:eafc:f14d:ca4b",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3106:6a:7ba4:346b:e06c:71c7",
-    "target_ip": "2a06:98c1:3106:6a:7ba4:346b:e06c:71c7",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3104::f3:8fed:cac0",
-    "target_ip": "2a06:98c1:3104::f3:8fed:cac0",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "172.67.70.56",
@@ -7436,116 +6193,6 @@
     "error_msg": null
   },
   {
-    "host": "2a06:98c1:3102:94:16cd:b988:5dae:1295",
-    "target_ip": "2a06:98c1:3102:94:16cd:b988:5dae:1295",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2400:cb00:2049:ec9e:b468:412c:1558:69cb",
-    "target_ip": "2400:cb00:2049:ec9e:b468:412c:1558:69cb",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:f7b9:fbc7:ac52:15f3:609c",
-    "target_ip": "2a06:98c1:310a:f7b9:fbc7:ac52:15f3:609c",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3102:94:1604:ebd:f1ec:37be",
-    "target_ip": "2a06:98c1:3102:94:1604:ebd:f1ec:37be",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2606:4700:59:764d:d406:c823:e52f:4f3a",
-    "target_ip": "2606:4700:59:764d:d406:c823:e52f:4f3a",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:d5f5:74cf:317a:6c39:4c5f",
-    "target_ip": "2a06:98c1:310b:d5f5:74cf:317a:6c39:4c5f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:8:7944:48b0:1301:5ced",
-    "target_ip": "2a06:98c1:51:8:7944:48b0:1301:5ced",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b::fda8:fa9e:4a3e",
-    "target_ip": "2a06:98c1:310b::fda8:fa9e:4a3e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310b:0:cfd2:7ebe:a043:8535",
-    "target_ip": "2a06:98c1:310b:0:cfd2:7ebe:a043:8535",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3102:0:e263:6cdc:a8ce:a339",
-    "target_ip": "2a06:98c1:3102:0:e263:6cdc:a8ce:a339",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "104.25.252.135",
     "target_ip": "104.25.252.135",
     "ip_version": "IPv4",
@@ -7898,17 +6545,6 @@
     "error_msg": null
   },
   {
-    "host": "2400:cb00:2049:5d:a92a:97f:6fa3:f803",
-    "target_ip": "2400:cb00:2049:5d:a92a:97f:6fa3:f803",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
     "host": "104.25.241.235",
     "target_ip": "104.25.241.235",
     "ip_version": "IPv4",
@@ -7984,105 +6620,6 @@
     "latency_ms": 220,
     "server_header": "cloudflare",
     "error_msg": null
-  },
-  {
-    "host": "2a06:98c1:3102:8768:b929:7455:f040:5aee",
-    "target_ip": "2a06:98c1:3102:8768:b929:7455:f040:5aee",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:0:de:2b25:85a5:8a26",
-    "target_ip": "2a06:98c1:310a:0:de:2b25:85a5:8a26",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:22:21ad:d760:d542:16c8",
-    "target_ip": "2a06:98c1:3100:22:21ad:d760:d542:16c8",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310c::dd:f399:427e",
-    "target_ip": "2a06:98c1:310c::dd:f399:427e",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:e1e7:ae26:af07:44a6:82da",
-    "target_ip": "2a06:98c1:3100:e1e7:ae26:af07:44a6:82da",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:310a:d:1bd6:bbd1:d9a0:60b3",
-    "target_ip": "2a06:98c1:310a:d:1bd6:bbd1:d9a0:60b3",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:b3:af54:9923:e84:af58",
-    "target_ip": "2a06:98c1:3100:b3:af54:9923:e84:af58",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:3100:22:21cb:7546:1cd8:a79f",
-    "target_ip": "2a06:98c1:3100:22:21cb:7546:1cd8:a79f",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
-  },
-  {
-    "host": "2a06:98c1:51:878:e123:da31:b2ee:2017",
-    "target_ip": "2a06:98c1:51:878:e123:da31:b2ee:2017",
-    "ip_version": "IPv6",
-    "success": false,
-    "status_code": null,
-    "protocol": "",
-    "latency_ms": null,
-    "server_header": null,
-    "error_msg": "因IP版本过滤而跳过"
   },
   {
     "host": "162.159.33.28",
