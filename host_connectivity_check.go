@@ -34,6 +34,15 @@ type TestResult struct {
 	ErrorMessage *string `json:"error_msg"`
 }
 
+// IP版本类型
+type IPVersionFilter string
+
+const (
+	IPVersionAll IPVersionFilter = "all"
+	IPVersionV4  IPVersionFilter = "ipv4"
+	IPVersionV6  IPVersionFilter = "ipv6"
+)
+
 // 全局配置
 var (
 	verbose     = flag.Bool("verbose", false, "详细输出")
@@ -44,6 +53,7 @@ var (
 	DOHURL      = flag.String("doh-url", "https://deno-dns-over-https-server.g18uibxgnb.de5.net/", "DoH查询URL")
 	PORT        = flag.Int("port", 443, "目标端口")
 	DOHIP       = flag.String("dohip", "", "强制解析 ykxkqhbc8x.apuk83ea3z.de5.net 到指定IP")
+	ipVersion   = flag.String("ip-version", string(IPVersionAll), "IP版本过滤 (4/6/all), 默认为all")
 )
 
 func main() {
@@ -56,6 +66,8 @@ func main() {
 		fmt.Fprintf(os.Stderr, "\n示例:\n")
 		fmt.Fprintf(os.Stderr, "  %s -verbose -input custom_hosts.json\n", os.Args[0])
 		fmt.Fprintf(os.Stderr, "  %s -concurrency 20 -timeout 15\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "  %s -ip-version 4 -verbose\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "  %s -ip-version 6\n", os.Args[0])
 		os.Exit(1)
 	}
 
@@ -176,7 +188,7 @@ func testSingleHost(host string) []TestResult {
 		if *verbose {
 			fmt.Printf("  %s 是域名，进行DoH解析...\n", host)
 		}
-		targetIPs, err = dohLookup(host, *DOHURL, *DOHIP)
+		targetIPs, err = dohLookup(host, *DOHURL, *DOHIP, IPVersionFilter(*ipVersion))
 		if err != nil {
 			return []TestResult{{
 				Host:         host,
@@ -267,7 +279,7 @@ func isIPAddress(host string) bool {
 }
 
 // DoH查询
-func dohLookup(domain, dohURL string, dohip string) ([]string, error) {
+func dohLookup(domain, dohURL string, dohip string, ipVersion IPVersionFilter) ([]string, error) {
 	var allIPs []string
 
 	// 准备DoH服务器的IP地址
@@ -280,33 +292,40 @@ func dohLookup(domain, dohURL string, dohip string) ([]string, error) {
 		}
 	}
 
-	// 查询A记录
+	// 根据IP版本设置查询相应的DNS记录
 	msg := new(dns.Msg)
-	msg.SetQuestion(dns.Fqdn(domain), dns.TypeA)
-	aIPs, err := performDoHQuery(msg, dohURL, dohIPs...)
-	if err != nil && *verbose {
-		fmt.Printf("  DoH查询A记录失败: %v\n", err)
-	} else if len(aIPs) > 0 {
-		allIPs = append(allIPs, aIPs...)
-		if *verbose {
-			fmt.Printf("  查询到A记录: %v\n", aIPs)
+
+	// 查询A记录（IPv4）
+	if ipVersion == IPVersionAll || ipVersion == IPVersionV4 {
+		msg.SetQuestion(dns.Fqdn(domain), dns.TypeA)
+		aIPs, err := performDoHQuery(msg, dohURL, dohIPs...)
+		if err != nil && *verbose {
+			fmt.Printf("  DoH查询A记录失败: %v\n", err)
+		} else if len(aIPs) > 0 {
+			allIPs = append(allIPs, aIPs...)
+			if *verbose {
+				fmt.Printf("  查询到A记录: %v\n", aIPs)
+			}
 		}
 	}
 
-	// 查询AAAA记录
-	msg.SetQuestion(dns.Fqdn(domain), dns.TypeAAAA)
-	aaaaIPs, err := performDoHQuery(msg, dohURL, dohIPs...)
-	if err != nil && *verbose {
-		fmt.Printf("  DoH查询AAAA记录失败: %v\n", err)
-	} else if len(aaaaIPs) > 0 {
-		allIPs = append(allIPs, aaaaIPs...)
-		if *verbose {
-			fmt.Printf("  查询到AAAA记录: %v\n", aaaaIPs)
+	// 查询AAAA记录（IPv6）
+	if ipVersion == IPVersionAll || ipVersion == IPVersionV6 {
+		msg.SetQuestion(dns.Fqdn(domain), dns.TypeAAAA)
+		aaaaIPs, err := performDoHQuery(msg, dohURL, dohIPs...)
+		if err != nil && *verbose {
+			fmt.Printf("  DoH查询AAAA记录失败: %v\n", err)
+		} else if len(aaaaIPs) > 0 {
+			allIPs = append(allIPs, aaaaIPs...)
+			if *verbose {
+				fmt.Printf("  查询到AAAA记录: %v\n", aaaaIPs)
+			}
 		}
 	}
 
-	if len(allIPs) == 0 && err != nil {
-		return nil, err
+	// 如果没有查询到任何IP，返回错误
+	if len(allIPs) == 0 {
+		return nil, fmt.Errorf("未查询到任何IP记录")
 	}
 
 	return allIPs, nil
@@ -373,7 +392,7 @@ func testHTTP3Connection(testURL, hostHeader, targetIP string, port int, timeout
 	// 成功后也要关闭传输器
 	defer transport.Close()
 
-	return (resp.StatusCode < 300 && resp.StatusCode >=200), "h3", statusCode, serverHeader, latencyMs, nil
+	return (resp.StatusCode < 300 && resp.StatusCode >= 200), "h3", statusCode, serverHeader, latencyMs, nil
 }
 
 // 测试HTTP/2连接
@@ -427,7 +446,7 @@ func testHTTP2Connection(testURL, hostHeader, targetIP string, port int, timeout
 	statusCode := uint16(resp.StatusCode)
 	serverHeader := resp.Header.Get("Server")
 
-	return (resp.StatusCode < 300 && resp.StatusCode >=200), "h2", statusCode, serverHeader, latencyMs, nil
+	return (resp.StatusCode < 300 && resp.StatusCode >= 200), "h2", statusCode, serverHeader, latencyMs, nil
 }
 
 // 保存结果到JSON文件
