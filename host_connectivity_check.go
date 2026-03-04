@@ -179,6 +179,41 @@ func testSingleHost(host string) []TestResult {
 		if strings.HasPrefix(host, "[") && strings.HasSuffix(host, "]") {
 			targetIP = host[1 : len(host)-1]
 		}
+		// 检查IP版本是否符合过滤条件
+		ip := net.ParseIP(targetIP)
+		if ip == nil {
+			return []TestResult{{
+				Host:         host,
+				Success:      false,
+				ErrorMessage: stringPtr(fmt.Sprintf("无效的IP地址: %s", targetIP)),
+			}}
+		}
+
+		// 根据ipVersion过滤
+		isIPv4 := ip.To4() != nil
+		filtered := false
+		if IPVersionFilter(*ipVersion) == IPVersionV4 && !isIPv4 {
+			filtered = true
+			if *verbose {
+				fmt.Printf("  %s 是IPv6地址，已跳过(-ip-version=ipv4)\n", originalHost)
+			}
+		} else if IPVersionFilter(*ipVersion) == IPVersionV6 && isIPv4 {
+			filtered = true
+			if *verbose {
+				fmt.Printf("  %s 是IPv4地址，已跳过(-ip-version=ipv6)\n", originalHost)
+			}
+		}
+
+		if filtered {
+			return []TestResult{{
+				Host:         host,
+				TargetIP:     targetIP,
+				IPVersion:    map[bool]string{true: "IPv4", false: "IPv6"}[isIPv4],
+				Success:      false,
+				ErrorMessage: stringPtr("因IP版本过滤而跳过"),
+			}}
+		}
+
 		targetIPs = []string{targetIP}
 		if *verbose {
 			fmt.Printf("  %s 是IP地址，直接使用\n", originalHost)
