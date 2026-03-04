@@ -53,7 +53,7 @@ var (
 	DOHURL      = flag.String("doh-url", "https://deno-dns-over-https-server.g18uibxgnb.de5.net/", "DoH查询URL")
 	PORT        = flag.Int("port", 443, "目标端口")
 	DOHIP       = flag.String("dohip", "", "强制解析 ykxkqhbc8x.apuk83ea3z.de5.net 到指定IP")
-	ipVersion   = flag.String("ip-version", string(IPVersionAll), "IP版本过滤 (4/6/all), 默认为all")
+	ipVersion   = flag.String("ip-version", string(IPVersionAll), "IP版本过滤 (ipv4/ipv6/all), 默认为all")
 )
 
 func main() {
@@ -66,8 +66,8 @@ func main() {
 		fmt.Fprintf(os.Stderr, "\n示例:\n")
 		fmt.Fprintf(os.Stderr, "  %s -verbose -input custom_hosts.json\n", os.Args[0])
 		fmt.Fprintf(os.Stderr, "  %s -concurrency 20 -timeout 15\n", os.Args[0])
-		fmt.Fprintf(os.Stderr, "  %s -ip-version 4 -verbose\n", os.Args[0])
-		fmt.Fprintf(os.Stderr, "  %s -ip-version 6\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "  %s -ip-version ipv4 -verbose\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "  %s -ip-version ipv6\n", os.Args[0])
 		os.Exit(1)
 	}
 
