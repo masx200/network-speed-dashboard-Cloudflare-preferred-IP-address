@@ -93,8 +93,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 382  | toy-people.com                        | 2606:4700:20::ac43:4812              | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 65   | ip.sb                                 | 104.26.12.31                         | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 87   | singapore.com                         | 2606:4700:20::ac43:4bc2              | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 93   | silkbook.com                          | 2606:4700:20::ac43:4bd0              | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 94   | silkbook.com                          | 2606:4700:20::681a:8a0               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 93   | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0              | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 94   | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:8a0               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 151  | www.digitalocean.com                  | 104.19.173.68                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 154  | www.digitalocean.com                  | 2606:4700::6813:ae44                 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 251  | icook.hk                              | 104.21.90.210                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -114,7 +114,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 75   | local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6            | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 77   | whatismyipaddress.com                 | 104.19.222.79                        | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 85   | singapore.com                         | 2606:4700:20::681a:c8c               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
-| 91   | silkbook.com                          | 104.26.9.160                         | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
+| 91   | 456.cloudflare.182682.xyz                          | 104.26.9.160                         | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 100  | [2606:4700:83be::11:74f]              | 2606:4700:83be::11:74f               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 132  | tasteatlas.com                        | 104.17.37.105                        | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 143  | 104.18.37.40                          | 104.18.37.40                         | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |

@@ -153,7 +153,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 243  | cf.090227.xyz                           | 2a06:98c1:310d::6812:2bae               | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 272  | time.is                                 | 2606:4700:20::681a:d36                  | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 293  | ip.sb                                   | 104.26.12.31                            | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
-| 316  | silkbook.com                            | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
+| 316  | 456.cloudflare.182682.xyz                            | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 342  | dnschecker.org                          | 104.26.7.89                             | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 370  | icook.tw                                | 2606:4700:10::ac42:9e73                 | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 385  | 104.26.13.31                            | 104.26.13.31                            | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |

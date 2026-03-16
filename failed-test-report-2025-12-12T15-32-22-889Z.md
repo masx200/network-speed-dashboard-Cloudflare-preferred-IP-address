@@ -128,7 +128,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 29   | moura.ns.cloudflare.com               | 2a06:98c1:50::ac40:23d9   | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 80   | whatismyipaddress.com                 | 2606:4700::6813:de4f      | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 86   | singapore.com                         | 2606:4700:20::681a:d8c    | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
-| 94   | silkbook.com                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
+| 94   | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 101  | dnschecker.org                        | 104.26.6.89               | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 110  | ashton.ns.cloudflare.com              | 2606:4700:58::a29f:2cad   | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 119  | 104.26.13.31                          | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
@@ -168,7 +168,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 77   | whatismyipaddress.com                 | 104.19.223.79             | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 79   | whatismyipaddress.com                 | 2606:4700::6813:df4f      | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 82   | singapore.com                         | 104.26.13.140             | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
-| 91   | silkbook.com                          | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
+| 91   | 456.cloudflare.182682.xyz                          | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 
 ### 延迟分布分析
 

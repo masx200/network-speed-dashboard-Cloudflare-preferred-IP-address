@@ -176,9 +176,9 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 213  | palera.in                             | 172.67.157.122            | IPv4   | h3   | ✅ 成功 | 437      | cloudflare |
 | 195  | bowen.ns.cloudflare.com               | 108.162.195.83            | IPv4   | h3   | ✅ 成功 | 438      | cloudflare |
 | 409  | www.pcmag.com                         | 104.16.20.118             | IPv4   | h3   | ✅ 成功 | 439      | cloudflare |
-| 255  | silkbook.com                          | 2606:4700:20::ac43:4bd0   | IPv6   | h3   | ✅ 成功 | 441      | cloudflare |
+| 255  | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0   | IPv6   | h3   | ✅ 成功 | 441      | cloudflare |
 | 171  | xn--b6gac.eu.org                      | 104.21.90.78              | IPv4   | h3   | ✅ 成功 | 443      | cloudflare |
-| 253  | silkbook.com                          | 172.67.75.208             | IPv4   | h3   | ✅ 成功 | 443      | cloudflare |
+| 253  | 456.cloudflare.182682.xyz                          | 172.67.75.208             | IPv4   | h3   | ✅ 成功 | 443      | cloudflare |
 | 311  | japan.com                             | 104.26.4.60               | IPv4   | h3   | ✅ 成功 | 443      | cloudflare |
 | 74   | www.visa.com.sg                       | 104.18.12.229             | IPv4   | h3   | ✅ 成功 | 447      | cloudflare |
 | 266  | ashton.ns.cloudflare.com              | 108.162.195.173           | IPv4   | h3   | ✅ 成功 | 448      | cloudflare |

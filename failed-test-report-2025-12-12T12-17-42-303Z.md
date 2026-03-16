@@ -83,7 +83,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 191  | time.is                               | 2606:4700:20::681a:d36    | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
 | 203  | palera.in                             | 2606:4700:3035::6815:3a48 | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
 | 215  | ip.sb                                 | 2606:4700:20::681a:d1f    | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
-| 236  | silkbook.com                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
+| 236  | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
 | 270  | [2606:4700:4403::7357:544f]           | 2606:4700:4403::7357:544f | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
 | 281  | tasteatlas.com                        | 2606:4700::6811:2469      | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
 | 302  | www.digitalocean.com                  | 2606:4700::6813:ad44      | IPv6   | h2   | ✅ 成功 | 60       | cloudflare |
@@ -95,7 +95,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 224  | singapore.com                         | 104.26.13.140             | IPv4   | h2   | ✅ 成功 | 61       | cloudflare |
 | 225  | singapore.com                         | 2606:4700:20::681a:d8c    | IPv6   | h2   | ✅ 成功 | 61       | cloudflare |
 | 227  | singapore.com                         | 2606:4700:20::681a:c8c    | IPv6   | h2   | ✅ 成功 | 61       | cloudflare |
-| 237  | silkbook.com                          | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 61       | cloudflare |
+| 237  | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 61       | cloudflare |
 | 239  | www.visa.com.hk                       | 104.18.21.69              | IPv4   | h2   | ✅ 成功 | 61       | cloudflare |
 | 244  | 162.159.133.85                        | 162.159.133.85            | IPv4   | h2   | ✅ 成功 | 61       | cloudflare |
 | 254  | dnschecker.org                        | 104.26.6.89               | IPv4   | h2   | ✅ 成功 | 61       | cloudflare |

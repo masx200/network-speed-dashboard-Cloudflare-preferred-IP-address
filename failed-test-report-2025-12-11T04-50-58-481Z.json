@@ -33,7 +33,7 @@
       "超时集中度分析": "共有 4 次超时，主要集中在IP段 172.67（1 次），可能存在网络路由问题或目标服务器负载过高",
       "协议协商分析": "有 175 次失败是因为协议协商失败（protocol: none），说明无法与目标建立HTTP/3或其他现代协议连接",
       "IP版本分析": "IPv4失败 4 次，IPv6失败 171 次，两种协议都存在问题",
-      "问题主机分析": "以下主机出现多次失败：dnschecker.org (3次), ashton.ns.cloudflare.com (3次), silkbook.com (3次)，建议重点检查这些主机的网络状态和服务可用性"
+      "问题主机分析": "以下主机出现多次失败：dnschecker.org (3次), ashton.ns.cloudflare.com (3次), 456.cloudflare.182682.xyz (3次)，建议重点检查这些主机的网络状态和服务可用性"
     },
     "main_error_distribution": {
       "网络不可达": {

@@ -123,7 +123,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 412  | www.glassdoor.com                       | 104.16.25.46                            | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 416  | cf.090227.xyz                           | 2606:4700:4407::ac40:9052               | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 431  | time.is                                 | 104.26.13.54                            | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
-| 480  | silkbook.com                            | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
+| 480  | 456.cloudflare.182682.xyz                            | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 22   | www.udemy.com                           | 2606:4700::6810:8eed                    | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 36   | wilson.ns.cloudflare.com                | 172.64.35.110                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 50   | icook.tw                                | 2606:4700:10::6814:1c4a                 | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
@@ -164,7 +164,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 357  | zread.ai                                | 172.67.202.78                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 372  | cf.zhetengsha.eu.org                    | 2606:4700:440a::ac40:98f1               | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
 | 398  | fbi.gov                                 | 104.16.148.244                          | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
-| 477  | silkbook.com                            | 172.67.75.208                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
+| 477  | 456.cloudflare.182682.xyz                            | 172.67.75.208                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 482  | whatismyipaddress.com                   | 104.19.223.79                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 31   | trevor.ns.cloudflare.com                | 172.64.35.154                           | IPv4   | h2   | ✅ 成功 | 60       | cloudflare |
 | 52   | www.digitalocean.com                    | 104.19.173.68                           | IPv4   | h2   | ✅ 成功 | 60       | cloudflare |

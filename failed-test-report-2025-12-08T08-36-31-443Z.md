@@ -34,9 +34,9 @@
 | 15   | julio.ns.cloudflare.com                                                             | 2606:4700:58::a29f:2cd1              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2cd1]:443: connect: network is unreachable              |
 | 16   | julio.ns.cloudflare.com                                                             | 2803:f800:50::6ca2:c3d1              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3d1]:443: connect: network is unreachable              |
 | 17   | julio.ns.cloudflare.com                                                             | 2a06:98c1:50::ac40:23d1              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23d1]:443: connect: network is unreachable              |
-| 21   | silkbook.com                                                                        | 2606:4700:20::681a:8a0               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable               |
-| 22   | silkbook.com                                                                        | 2606:4700:20::681a:9a0               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable               |
-| 23   | silkbook.com                                                                        | 2606:4700:20::ac43:4bd0              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable              |
+| 21   | 456.cloudflare.182682.xyz                                                                        | 2606:4700:20::681a:8a0               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable               |
+| 22   | 456.cloudflare.182682.xyz                                                                        | 2606:4700:20::681a:9a0               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable               |
+| 23   | 456.cloudflare.182682.xyz                                                                        | 2606:4700:20::ac43:4bd0              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable              |
 | 27   | abdullah.ns.cloudflare.com                                                          | 2606:4700:58::a29f:2ccb              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:58::a29f:2ccb]:443: connect: network is unreachable              |
 | 28   | abdullah.ns.cloudflare.com                                                          | 2803:f800:50::6ca2:c3cb              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2803:f800:50::6ca2:c3cb]:443: connect: network is unreachable              |
 | 29   | abdullah.ns.cloudflare.com                                                          | 2a06:98c1:50::ac40:23cb              | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23cb]:443: connect: network is unreachable              |
@@ -242,7 +242,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 **IP版本分析**: IPv4失败 11 次，IPv6失败 173 次，两种协议都存在问题
 
 **问题主机分析**: 以下主机出现多次失败：bowen.ns.cloudflare.com (3次),
-julio.ns.cloudflare.com (3次), silkbook.com
+julio.ns.cloudflare.com (3次), 456.cloudflare.182682.xyz
 (3次)，建议重点检查这些主机的网络状态和服务可用性
 
 ---

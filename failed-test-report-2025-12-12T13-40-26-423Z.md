@@ -77,7 +77,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 159  | cris.ns.cloudflare.com      | 2a06:98c1:50::ac40:23ca   | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
 | 185  | kyree.ns.cloudflare.com     | 2a06:98c1:50::ac40:23cf   | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
 | 239  | cf.zhetengsha.eu.org        | 104.18.35.15              | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
-| 328  | silkbook.com                | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 328  | 456.cloudflare.182682.xyz                | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 339  | ashton.ns.cloudflare.com    | 2606:4700:58::a29f:2cad   | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
 | 344  | dnschecker.org              | 172.67.73.216             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 374  | tasteatlas.com              | 2606:4700::6811:2569      | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
@@ -122,7 +122,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 266  | bowen.ns.cloudflare.com     | 2803:f800:50::6ca2:c353   | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 271  | icook.tw                    | 104.20.28.74              | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 321  | whatismyipaddress.com       | 104.19.223.79             | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
-| 327  | silkbook.com                | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
+| 327  | 456.cloudflare.182682.xyz                | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 337  | ashton.ns.cloudflare.com    | 162.159.44.173            | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 346  | dnschecker.org              | 104.26.7.89               | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 350  | cf.877774.xyz               | 172.64.146.66             | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |

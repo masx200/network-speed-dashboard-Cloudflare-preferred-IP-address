@@ -43,9 +43,9 @@
 | 29   | ashton.ns.cloudflare.com              | 2a06:98c1:50::ac40:23ad                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:50::ac40:23ad]:443: connect: network is unreachable                 |
 | 32   | www.wto.org                           | 2a06:98c1:3102::6812:29be               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2a06:98c1:3102::6812:29be]:443: connect: network is unreachable               |
 | 33   | www.wto.org                           | 2606:4700:4406::ac40:9242               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:4406::ac40:9242]:443: connect: network is unreachable               |
-| 42   | silkbook.com                          | 2606:4700:20::681a:9a0                  | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable                  |
-| 43   | silkbook.com                          | 2606:4700:20::ac43:4bd0                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable                 |
-| 44   | silkbook.com                          | 2606:4700:20::681a:8a0                  | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable                  |
+| 42   | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:9a0                  | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:9a0]:443: connect: network is unreachable                  |
+| 43   | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0                 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::ac43:4bd0]:443: connect: network is unreachable                 |
+| 44   | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:8a0                  | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:20::681a:8a0]:443: connect: network is unreachable                  |
 | 45   | [2606:4700:4403::7357:544f]           | 2606:4700:4403::7357:544f               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:4403::7357:544f]:443: connect: network is unreachable               |
 | 54   | ip.gs                                 | 2606:4700:3035::ac43:a01c               | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3035::ac43:a01c]:443: connect: network is unreachable               |
 | 55   | ip.gs                                 | 2606:4700:3036::6815:eb0                | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:3036::6815:eb0]:443: connect: network is unreachable                |
@@ -230,7 +230,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 **IP版本分析**: IPv4失败 7 次，IPv6失败 172 次，两种协议都存在问题
 
 **问题主机分析**: 以下主机出现多次失败：dnschecker.org (3次),
-ashton.ns.cloudflare.com (3次), silkbook.com
+ashton.ns.cloudflare.com (3次), 456.cloudflare.182682.xyz
 (3次)，建议重点检查这些主机的网络状态和服务可用性
 
 ---
@@ -322,7 +322,7 @@ www.hugedomains.com | 172.67.70.191 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare 
 bowen.ns.cloudflare.com | 108.162.195.83 | IPv4 | h3 | ✅ 成功 | 110 |
 cloudflare | | 331 | singapore.com | 172.67.75.194 | IPv4 | h3 | ✅ 成功 | 110 |
 cloudflare | | 368 | uriah.ns.cloudflare.com | 172.64.35.194 | IPv4 | h3 | ✅
-成功 | 110 | cloudflare | | 39 | silkbook.com | 172.67.75.208 | IPv4 | h3 | ✅
+成功 | 110 | cloudflare | | 39 | 456.cloudflare.182682.xyz | 172.67.75.208 | IPv4 | h3 | ✅
 成功 | 111 | cloudflare | | 134 | cf.zhetengsha.eu.org | 104.18.35.15 | IPv4 |
 h3 | ✅ 成功 | 111 | cloudflare | | 254 | cmcc.877774.xyz | 104.16.148.8 | IPv4
 | h3 | ✅ 成功 | 111 | cloudflare | | 385 | kyree.ns.cloudflare.com |

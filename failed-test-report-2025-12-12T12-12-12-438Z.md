@@ -69,7 +69,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 
 | 序号 | 主机/域名                             | 目标IP                    | IP版本 | 协议 | 状态    | 延迟(ms) | 服务器     |
 | ---- | ------------------------------------- | ------------------------- | ------ | ---- | ------- | -------- | ---------- |
-| 98   | silkbook.com                          | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
+| 98   | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 152  | ipv4.ip.sb                            | 104.26.12.31              | IPv4   | h2   | ✅ 成功 | 33       | cloudflare |
 | 174  | www.gov.ua                            | 2606:4700:3031::6815:1748 | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 377  | icook.tw                              | 2606:4700:10::6814:1c4a   | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
@@ -94,7 +94,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 83   | ip.gs                                 | 2606:4700:3036::6815:eb0  | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 86   | singapore.com                         | 172.67.75.194             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 89   | singapore.com                         | 2606:4700:20::ac43:4bc2   | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
-| 95   | silkbook.com                          | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
+| 95   | 456.cloudflare.182682.xyz                          | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 157  | cf.0sm.com                            | 2606:4700:3032::6815:785  | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 168  | steamdb.info                          | 2606:4700:10::6814:22d4   | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 190  | iplocation.io                         | 104.26.11.222             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
@@ -121,7 +121,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 39   | cfip.xxxxxxxx.tk                      | 104.16.241.229            | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 41   | cfip.xxxxxxxx.tk                      | 190.93.244.201            | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 82   | ip.gs                                 | 172.67.160.28             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 96   | silkbook.com                          | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
+| 96   | 456.cloudflare.182682.xyz                          | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 102  | local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 109  | 162.159.133.85                        | 162.159.133.85            | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 118  | dnschecker.org                        | 104.26.6.89               | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
@@ -166,7 +166,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 84   | ip.gs                                 | 2606:4700:3035::ac43:a01c | IPv6   | h2   | ✅ 成功 | 37       | cloudflare |
 | 85   | singapore.com                         | 104.26.12.140             | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 91   | whatismyipaddress.com                 | 104.19.222.79             | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
-| 97   | silkbook.com                          | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
+| 97   | 456.cloudflare.182682.xyz                          | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 101  | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182            | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 104  | www.visa.com.hk                       | 104.18.21.69              | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 

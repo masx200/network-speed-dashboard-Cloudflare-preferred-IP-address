@@ -70,7 +70,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 序号 | 主机/域名                             | 目标IP                                  | IP版本 | 协议 | 状态    | 延迟(ms) | 服务器     |
 | ---- | ------------------------------------- | --------------------------------------- | ------ | ---- | ------- | -------- | ---------- |
 | 230  | singapore.com                         | 2606:4700:20::681a:c8c                  | IPv6   | h2   | ✅ 成功 | 61       | cloudflare |
-| 242  | silkbook.com                          | 2606:4700:20::681a:8a0                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
+| 242  | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:8a0                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 119  | fbi.gov                               | 2606:4700::6810:95f4                    | IPv6   | h2   | ✅ 成功 | 64       | cloudflare |
 | 135  | cf.090227.xyz                         | 172.64.144.82                           | IPv4   | h2   | ✅ 成功 | 64       | cloudflare |
 | 187  | ipv4.ip.sb                            | 172.67.75.172                           | IPv4   | h2   | ✅ 成功 | 64       | cloudflare |
@@ -117,7 +117,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 219  | www.gov.ua                            | 172.67.209.127                          | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 224  | 104.16.45.84                          | 104.16.45.84                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 225  | singapore.com                         | 104.26.12.140                           | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
-| 238  | silkbook.com                          | 104.26.9.160                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
+| 238  | 456.cloudflare.182682.xyz                          | 104.26.9.160                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 248  | 104.18.254.88                         | 104.18.254.88                           | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 251  | icook.hk                              | 104.21.90.210                           | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 253  | icook.hk                              | 2606:4700:3037::ac43:a168               | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
@@ -163,7 +163,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 209  | ipinfo.in                             | 104.21.21.129                           | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 218  | www.gov.ua                            | 104.21.23.72                            | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 227  | singapore.com                         | 172.67.75.194                           | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
-| 237  | silkbook.com                          | 104.26.8.160                            | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
+| 237  | 456.cloudflare.182682.xyz                          | 104.26.8.160                            | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 245  | ip.gs                                 | 104.21.14.176                           | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 247  | ip.gs                                 | 2606:4700:3036::6815:eb0                | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |
 | 249  | www.4chan.org                         | 104.16.228.229                          | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |

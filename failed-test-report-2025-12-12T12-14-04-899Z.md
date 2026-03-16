@@ -72,7 +72,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 序号 | 主机/域名                  | 目标IP                    | IP版本 | 协议 | 状态    | 延迟(ms) | 服务器     |
 | ---- | -------------------------- | ------------------------- | ------ | ---- | ------- | -------- | ---------- |
 | 182  | www.wto.org                | 172.64.146.66             | IPv4   | h2   | ✅ 成功 | 49       | cloudflare |
-| 86   | silkbook.com               | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
+| 86   | 456.cloudflare.182682.xyz               | 2606:4700:20::681a:9a0    | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 183  | www.wto.org                | 104.18.41.190             | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 63   | ip.sb                      | 2606:4700:20::681a:c1f    | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 264  | www.gov.ua                 | 2606:4700:3031::6815:1748 | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
@@ -88,7 +88,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 38   | cfip.xxxxxxxx.tk           | 104.16.241.229            | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 79   | singapore.com              | 172.67.75.194             | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 81   | singapore.com              | 2606:4700:20::681a:d8c    | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
-| 87   | silkbook.com               | 2606:4700:20::681a:8a0    | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
+| 87   | 456.cloudflare.182682.xyz               | 2606:4700:20::681a:8a0    | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 144  | www.digitalocean.com       | 104.19.174.68             | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 226  | cmcc.877774.xyz            | 104.16.149.10             | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 253  | ipinfo.in                  | 2606:4700:3031::6815:1581 | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
