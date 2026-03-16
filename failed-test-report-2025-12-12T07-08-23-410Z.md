@@ -130,7 +130,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 300  | ip.sb                                 | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 316  | singapore.com                         | 104.26.12.140             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 322  | whatismyipaddress.com                 | 104.19.223.79             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 330  | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 330  | 456.cloudflare.182682.xyz             | 2606:4700:20::ac43:4bd0   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 344  | yx-auto.pages.dev                     | 2606:4700:310c::ac42:2f70 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 380  | yx-auto.pages.dev                     | 2606:4700:3034::6815:9e6  | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 400  | icook.tw                              | 2606:4700:10::ac42:9e73   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -162,7 +162,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 302  | ip.sb                                 | 2606:4700:20::681a:d1f    | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 313  | ip.gs                                 | 2606:4700:3035::ac43:a01c | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 323  | whatismyipaddress.com                 | 2606:4700::6813:de4f      | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
-| 327  | 456.cloudflare.182682.xyz                          | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
+| 327  | 456.cloudflare.182682.xyz             | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 334  | [2606:4700:964f::6e2c:588e]           | 2606:4700:964f::6e2c:588e | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 355  | dnschecker.org                        | 2606:4700:20::681a:759    | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 359  | cf.877774.xyz                         | 2a06:98c1:3102::6812:29be | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |

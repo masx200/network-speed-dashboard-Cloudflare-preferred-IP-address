@@ -220,7 +220,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 70   | cfip.xxxxxxxx.tk                        | 104.16.232.223                          | IPv4   | h3   | ✅ 成功 | 560      | cloudflare |
 | 151  | cris.ns.cloudflare.com                  | 162.159.44.202                          | IPv4   | h3   | ✅ 成功 | 560      | cloudflare |
 | 296  | wilson.ns.cloudflare.com                | 162.159.44.110                          | IPv4   | h3   | ✅ 成功 | 560      | cloudflare |
-| 370  | 456.cloudflare.182682.xyz                            | 104.26.9.160                            | IPv4   | h3   | ✅ 成功 | 560      | cloudflare |
+| 370  | 456.cloudflare.182682.xyz               | 104.26.9.160                            | IPv4   | h3   | ✅ 成功 | 560      | cloudflare |
 | 379  | ashton.ns.cloudflare.com                | 2a06:98c1:50::ac40:23ad                 | IPv6   | h3   | ✅ 成功 | 561      | cloudflare |
 | 319  | time.is                                 | 172.67.68.157                           | IPv4   | h3   | ✅ 成功 | 562      | cloudflare |
 | 398  | dnschecker.org                          | 104.26.7.89                             | IPv4   | h3   | ✅ 成功 | 562      | cloudflare |

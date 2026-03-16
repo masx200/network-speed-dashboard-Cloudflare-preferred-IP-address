@@ -71,7 +71,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | ---- | ------------------------------------- | ------------------------- | ------ | ---- | ------- | -------- | ---------- |
 | 221  | cmcc.877774.xyz                       | 104.16.148.7              | IPv4   | h2   | ✅ 成功 | 28       | cloudflare |
 | 159  | toy-people.com                        | 2606:4700:20::681a:324    | IPv6   | h2   | ✅ 成功 | 29       | cloudflare |
-| 323  | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:8a0    | IPv6   | h2   | ✅ 成功 | 30       | cloudflare |
+| 323  | 456.cloudflare.182682.xyz             | 2606:4700:20::681a:8a0    | IPv6   | h2   | ✅ 成功 | 30       | cloudflare |
 | 44   | ipv4.ip.sb                            | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 33       | cloudflare |
 | 103  | www.hugedomains.com                   | 2606:4700:20::ac43:46bf   | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 120  | yx-auto.pages.dev                     | 2606:4700:310c::ac42:2c90 | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
@@ -112,7 +112,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 249  | cf.090227.xyz                         | 2a06:98c1:3101::ac40:919e | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 257  | www.ipchicken.com                     | 104.26.6.112              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 298  | ip.sb                                 | 172.67.75.172             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
-| 318  | 456.cloudflare.182682.xyz                          | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
+| 318  | 456.cloudflare.182682.xyz             | 172.67.75.208             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 383  | icook.tw                              | 2606:4700:10::6814:1c4a   | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 386  | 104.26.13.31                          | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 425  | stock.hostmonit.com                   | 2606:4700:3033::ac43:bbfb | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |

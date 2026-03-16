@@ -258,7 +258,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 20   | www.pcmag.com               | 104.16.21.118                       | IPv4   | h3   | ✅ 成功 | 388      | cloudflare |
 | 172  | cloudflare.182682.xyz       | 104.18.185.26                       | IPv4   | h3   | ✅ 成功 | 388      | cloudflare |
 | 188  | na.877774.xyz               | 104.18.187.25                       | IPv4   | h3   | ✅ 成功 | 388      | cloudflare |
-| 326  | 456.cloudflare.182682.xyz                | 2606:4700:20::681a:8a0              | IPv6   | h3   | ✅ 成功 | 389      | cloudflare |
+| 326  | 456.cloudflare.182682.xyz   | 2606:4700:20::681a:8a0              | IPv6   | h3   | ✅ 成功 | 389      | cloudflare |
 | 369  | dnschecker.org              | 2606:4700:20::681a:659              | IPv6   | h3   | ✅ 成功 | 389      | cloudflare |
 | 46   | www.gov.ua                  | 104.21.23.72                        | IPv4   | h3   | ✅ 成功 | 390      | cloudflare |
 | 186  | freeyx.cloudflare88.eu.org  | 141.101.121.127                     | IPv4   | h3   | ✅ 成功 | 390      | cloudflare |

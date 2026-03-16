@@ -112,7 +112,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 429  | lewis.ns.cloudflare.com    | 2606:4700:58::a29f:2c9f   | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
 | 448  | singapore.com              | 104.26.13.140             | IPv4   | h2   | ✅ 成功 | 34       | cloudflare |
 | 10   | ip.gs                      | 2606:4700:3036::6815:eb0  | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
-| 23   | 456.cloudflare.182682.xyz               | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
+| 23   | 456.cloudflare.182682.xyz  | 104.26.8.160              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 57   | www.hugedomains.com        | 2606:4700:20::681a:625    | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 60   | www.okcupid.com            | 104.16.144.63             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 63   | www.visa.com.sg            | 104.18.12.229             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
@@ -163,7 +163,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 453  | singapore.com              | 2606:4700:20::681a:c8c    | IPv6   | h2   | ✅ 成功 | 35       | cloudflare |
 | 11   | ip.gs                      | 2606:4700:3035::ac43:a01c | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 14   | comicabc.com               | 2606:4700:3036::6815:400a | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
-| 24   | 456.cloudflare.182682.xyz               | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
+| 24   | 456.cloudflare.182682.xyz  | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 49   | 172.67.120.0               | 172.67.120.0              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 65   | cf.877771.xyz              | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 67   | cf.877771.xyz              | 2606:4700:3033::ac43:98b7 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |

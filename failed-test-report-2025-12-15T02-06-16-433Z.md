@@ -213,7 +213,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 117  | palera.in                             | 104.21.58.72                        | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 127  | rustam.ns.cloudflare.com              | 2a06:98c1:50::ac40:2394             | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 142  | ip.gs                                 | 104.21.14.176                       | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
-| 156  | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:9a0              | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
+| 156  | 456.cloudflare.182682.xyz             | 2606:4700:20::681a:9a0              | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 170  | whatismyipaddress.com                 | 2606:4700::6813:de4f                | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 202  | cf.0sm.com                            | 104.21.7.133                        | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 218  | ipinfo.in                             | 172.67.198.203                      | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |

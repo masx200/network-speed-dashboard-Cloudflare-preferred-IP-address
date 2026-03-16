@@ -224,7 +224,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 118  | cu.877774.xyz                         | 104.26.4.114                            | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 147  | singapore.com                         | 2606:4700:20::681a:d8c                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 148  | singapore.com                         | 2606:4700:20::681a:c8c                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
-| 154  | 456.cloudflare.182682.xyz                          | 2606:4700:20::681a:9a0                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
+| 154  | 456.cloudflare.182682.xyz             | 2606:4700:20::681a:9a0                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 225  | ipinfo.in                             | 2606:4700:3037::ac43:c6cb               | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 261  | dylan.ns.cloudflare.com               | 2606:4700:58::a29f:2cbb                 | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 15   | www.ipget.net                         | 2606:4700:3031::ac43:cf1a               | IPv6   | h2   | ✅ 成功 | 64       | cloudflare |
@@ -250,7 +250,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 80   | www.hugedomains.com                   | 104.26.7.37                             | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 133  | cris.ns.cloudflare.com                | 2a06:98c1:50::ac40:23ca                 | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 137  | ip.gs                                 | 172.67.160.28                           | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
-| 156  | 456.cloudflare.182682.xyz                          | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
+| 156  | 456.cloudflare.182682.xyz             | 2606:4700:20::ac43:4bd0                 | IPv6   | h2   | ✅ 成功 | 65       | cloudflare |
 | 170  | dnschecker.org                        | 172.67.73.216                           | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 186  | cf.877774.xyz                         | 172.64.146.66                           | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
 | 222  | ipinfo.in                             | 172.67.198.203                          | IPv4   | h2   | ✅ 成功 | 65       | cloudflare |
@@ -268,7 +268,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 115  | cu.877774.xyz                         | 104.26.4.111                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 135  | local-aria2-webui.masx200.ddns-ip.net | 2606:4700:3031::ac43:9db6               | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 138  | ip.gs                                 | 2606:4700:3035::ac43:a01c               | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
-| 153  | 456.cloudflare.182682.xyz                          | 104.26.9.160                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
+| 153  | 456.cloudflare.182682.xyz             | 104.26.9.160                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 
 ### 延迟分布分析
 

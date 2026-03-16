@@ -198,7 +198,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 430  | 104.17.68.85                            | 104.17.68.85                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 447  | ip.sb                                   | 2606:4700:20::ac43:4bac                 | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 462  | whatismyipaddress.com                   | 2606:4700::6813:de4f                    | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
-| 469  | 456.cloudflare.182682.xyz                            | 2606:4700:20::681a:9a0                  | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
+| 469  | 456.cloudflare.182682.xyz               | 2606:4700:20::681a:9a0                  | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 476  | cf.877774.xyz                           | 2606:4700:4406::ac40:9242               | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 5    | www.ipget.net                           | 172.67.207.26                           | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 11   | comicabc.com                            | 2606:4700:3030::ac43:ae15               | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |
