@@ -696,7 +696,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 711  | abdullah.ns.cloudflare.com              | 2a06:98c1:50::ac40:23cb                 | IPv6   | h2   | ✅ 成功 | 95       | cloudflare |
 | 450  | toy-people.com                          | 172.67.72.18                            | IPv4   | h2   | ✅ 成功 | 96       | cloudflare |
 | 140  | craig.ns.cloudflare.com                 | 2803:f800:50::6ca2:c3c0                 | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |
-| 295  | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |
+| 295  | 6666.cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |
 | 465  | kyree.ns.cloudflare.com                 | 2803:f800:50::6ca2:c3cf                 | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |
 | 498  | benedict.ns.cloudflare.com              | 2803:f800:50::6ca2:c3cd                 | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |
 | 584  | lewis.ns.cloudflare.com                 | 2803:f800:50::6ca2:c39f                 | IPv6   | h2   | ✅ 成功 | 97       | cloudflare |

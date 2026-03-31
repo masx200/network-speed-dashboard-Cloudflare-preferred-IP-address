@@ -304,7 +304,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 628  | 172.64.153.141                          | 172.64.153.141                          | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 638  | 172.64.146.67                           | 172.64.146.67                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 648  | 104.19.153.47                           | 104.19.153.47                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
-| 672  | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
+| 672  | 6666.cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 5    | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 18   | craig.ns.cloudflare.com                 | 2a06:98c1:50::ac40:23c0                 | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 42   | ipinfo.in                               | 2606:4700:3031::6815:1581               | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |

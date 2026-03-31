@@ -1006,7 +1006,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 731  | julio.ns.cloudflare.com                 | 2606:4700:58::a29f:2cd1                 | IPv6   | h2   | ✅ 成功 | 99       | cloudflare |
 | 741  | 172.64.49.146                           | 172.64.49.146                           | IPv4   | h2   | ✅ 成功 | 99       | cloudflare |
 | 782  | 108.162.198.85                          | 108.162.198.85                          | IPv4   | h2   | ✅ 成功 | 99       | cloudflare |
-| 546  | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | IPv6   | h2   | ✅ 成功 | 100      | cloudflare |
+| 546  | 6666.cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | h2   | ✅ 成功 | 100      | cloudflare |
 | 590  | fbi.gov                                 | 2606:4700::6810:94f4                    | IPv6   | h2   | ✅ 成功 | 100      | cloudflare |
 | 620  | bowen.ns.cloudflare.com                 | 162.159.44.83                           | IPv4   | h2   | ✅ 成功 | 100      | cloudflare |
 | 790  | 198.41.222.191                          | 198.41.222.191                          | IPv4   | h2   | ✅ 成功 | 100      | cloudflare |

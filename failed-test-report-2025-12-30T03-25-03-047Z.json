@@ -3110,8 +3110,8 @@
     },
     {
       "index": 672,
-      "host": "2400:cb00:f00e:9635:6a0b:4525:95ff:26a3",
-      "target_ip": "2400:cb00:f00e:9635:6a0b:4525:95ff:26a3",
+      "host": "6666.cloudflare.182682.xyz",
+      "target_ip": "6666.cloudflare.182682.xyz",
       "ip_version": "IPv6",
       "protocol": "h2",
       "status_code": 200,

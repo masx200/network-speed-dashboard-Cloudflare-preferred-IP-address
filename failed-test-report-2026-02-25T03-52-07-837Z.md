@@ -747,7 +747,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 555  | 108.162.198.170                         | 108.162.198.170                         | IPv4   | h2   | ✅ 成功 | 81       | cloudflare |
 | 625  | julio.ns.cloudflare.com                 | 2803:f800:50::6ca2:c3d1                 | IPv6   | h2   | ✅ 成功 | 81       | cloudflare |
 | 650  | 172.64.52.67                            | 172.64.52.67                            | IPv4   | h2   | ✅ 成功 | 81       | cloudflare |
-| 666  | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | IPv6   | h2   | ✅ 成功 | 81       | cloudflare |
+| 666  | 6666.cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | h2   | ✅ 成功 | 81       | cloudflare |
 | 712  | 162.159.1.145                           | 162.159.1.145                           | IPv4   | h2   | ✅ 成功 | 81       | cloudflare |
 | 759  | 162.159.3.128                           | 162.159.3.128                           | IPv4   | h2   | ✅ 成功 | 81       | cloudflare |
 | 764  | 172.64.53.202                           | 172.64.53.202                           | IPv4   | h2   | ✅ 成功 | 81       | cloudflare |

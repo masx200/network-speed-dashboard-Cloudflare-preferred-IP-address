@@ -845,7 +845,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 222  | 2606:4700:59:764d:d406:c823:e52f:4f3a   | 2606:4700:59:764d:d406:c823:e52f:4f3a   | IPv6   | h2   | ✅ 成功 | 87       | cloudflare |
 | 439  | 162.159.34.55                           | 162.159.34.55                           | IPv4   | h2   | ✅ 成功 | 87       | cloudflare |
 | 522  | 162.159.42.146                          | 162.159.42.146                          | IPv4   | h2   | ✅ 成功 | 87       | cloudflare |
-| 541  | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | 2400:cb00:f00e:9635:6a0b:4525:95ff:26a3 | IPv6   | h2   | ✅ 成功 | 87       | cloudflare |
+| 541  | 6666.cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | h2   | ✅ 成功 | 87       | cloudflare |
 | 700  | cris.ns.cloudflare.com                  | 2a06:98c1:50::ac40:23ca                 | IPv6   | h2   | ✅ 成功 | 87       | cloudflare |
 | 770  | braden.ns.cloudflare.com                | 162.159.44.169                          | IPv4   | h2   | ✅ 成功 | 87       | cloudflare |
 | 800  | rustam.ns.cloudflare.com                | 2803:f800:50::6ca2:c394                 | IPv6   | h2   | ✅ 成功 | 87       | cloudflare |
