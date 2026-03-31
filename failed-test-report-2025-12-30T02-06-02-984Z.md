@@ -45,7 +45,7 @@
 | 309  | cris.ns.cloudflare.com   | 108.162.195.202 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.202:443: i/o timeout |
 | 318  | decker.ns.cloudflare.com | 162.159.44.155  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.155:443: i/o timeout  |
 | 332  | kyree.ns.cloudflare.com  | 162.159.44.207  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.207:443: i/o timeout  |
-| 485  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 485  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 
 ### 📈 错误分析总结
 
@@ -389,7 +389,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 156  | cf.0sm.com                              | 104.21.7.133                            | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 159  | cf.0sm.com                              | 2606:4700:3037::ac43:bb91               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
 | 162  | ipinfo.in                               | 2606:4700:3037::ac43:c6cb               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
-| 179  | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
+| 179  | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 204  | cmcc.877774.xyz                         | 104.16.148.12                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 233  | www.okcupid.com                         | 104.16.239.254                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 245  | yx-auto.pages.dev                       | 172.66.44.144                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |

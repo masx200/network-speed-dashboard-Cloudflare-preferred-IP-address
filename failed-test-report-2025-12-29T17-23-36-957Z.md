@@ -42,7 +42,7 @@
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 36   | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
-| 379  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 379  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 
 ### 📈 错误分析总结
 
@@ -162,7 +162,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 66   | cloudflare.182682.xyz                   | 104.16.250.22                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 69   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 79   | www.gov.ua                              | 104.21.23.72                            | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
-| 94   | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
+| 94   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 115  | huxley.ns.cloudflare.com                | 2a06:98c1:50::ac40:23bc                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 121  | www.okcupid.com                         | 104.18.160.63                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 122  | www.okcupid.com                         | 104.16.223.254                          | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |

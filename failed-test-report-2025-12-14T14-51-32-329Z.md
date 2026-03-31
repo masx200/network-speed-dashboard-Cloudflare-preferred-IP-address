@@ -43,7 +43,7 @@
 | ---- | ------------------------ | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
 | 32   | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout |
 | 91   | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
-| 270  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 270  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 331  | kyree.ns.cloudflare.com  | 172.64.35.207   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.207:443: i/o timeout   |
 
 ### 📈 错误分析总结
@@ -188,7 +188,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 74   | iplocation.io                         | 2606:4700:20::681a:bde                | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 109  | singapore.com                         | 2606:4700:20::681a:d8c                | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 119  | 456.cloudflare.182682.xyz             | 2606:4700:20::681a:8a0                | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
-| 147  | 172.67.49.134                         | 172.67.49.134                         | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
+| 147  | cf.877774.xyz                         | cf.877774.xyz                         | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 152  | dnschecker.org                        | 2606:4700:20::ac43:49d8               | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 163  | [2606:4700:8de6::5fa2:799e]           | 2606:4700:8de6::5fa2:799e             | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 173  | cf.877774.xyz                         | 2606:4700:4406::ac40:9242             | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |

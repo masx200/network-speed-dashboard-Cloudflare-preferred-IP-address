@@ -29,7 +29,7 @@
 | 45   | huxley.ns.cloudflare.com   | 108.162.195.188 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.188:443: i/o timeout |
 | 95   | cfip.xxxxxxxx.tk           | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
 | 201  | benedict.ns.cloudflare.com | 108.162.195.205 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.205:443: i/o timeout |
-| 311  | 172.64.201.25              | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 311  | ct.877774.xyz              | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 
 ### 📈 错误分析总结
 

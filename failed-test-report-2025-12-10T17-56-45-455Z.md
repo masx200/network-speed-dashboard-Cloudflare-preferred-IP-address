@@ -29,7 +29,7 @@
 | 序号 | 主机/域名        | 目标IP          | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                  |
 | ---- | ---------------- | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
 | 5    | 175.212.207.13   | 175.212.207.13  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 175.212.207.13:443: i/o timeout  |
-| 6    | 172.64.201.25    | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 6    | ct.877774.xyz    | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 90   | 121.188.182.190  | 121.188.182.190 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 121.188.182.190:443: i/o timeout |
 | 118  | 115.22.115.218   | 115.22.115.218  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 115.22.115.218:443: i/o timeout  |
 | 158  | cfip.xxxxxxxx.tk | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
@@ -100,7 +100,7 @@ palera.in | 104.21.58.72 | IPv4 | h2 | ✅ 成功 | 78 | cloudflare | | 27 |
 78 | cloudflare | | 308 | cf.877771.xyz | 172.67.152.183 | IPv4 | h2 | ✅ 成功 |
 78 | cloudflare | | 381 | cf.090227.xyz | 172.66.44.77 | IPv4 | h2 | ✅ 成功 |
 78 | cloudflare | | 383 | cf.090227.xyz | 2606:4700:310c::ac42:2c4d | IPv6 | h2
-| ✅ 成功 | 78 | cloudflare | | 397 | 172.67.49.134 | 172.67.49.134 | IPv4 | h2
+| ✅ 成功 | 78 | cloudflare | | 397 | cf.877774.xyz | cf.877774.xyz | IPv4 | h2
 | ✅ 成功 | 78 | cloudflare | | 411 | 456.cloudflare.182682.xyz | 104.26.9.160 |
 IPv4 | h2 | ✅ 成功 | 78 | cloudflare | | 44 | japan.com | 104.26.5.60 | IPv4 |
 h2 | ✅ 成功 | 79 | cloudflare | | 49 | japan.com | 2606:4700:20::ac43:465c |

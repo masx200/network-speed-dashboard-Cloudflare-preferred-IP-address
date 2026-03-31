@@ -34,7 +34,7 @@
 | 307  | decker.ns.cloudflare.com | 108.162.195.155 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.155:443: i/o timeout |
 | 351  | 104.26.6.112             | 104.26.6.112    | IPv4   | none | N/A    | 0        | N/A    | dial tcp 104.26.6.112:443: i/o timeout    |
 | 384  | 52.76.110.129            | 52.76.110.129   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 52.76.110.129:443: i/o timeout   |
-| 393  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 393  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 396  | 111.171.108.67           | 111.171.108.67  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 111.171.108.67:443: i/o timeout  |
 
 ### 📈 错误分析总结
@@ -67,7 +67,7 @@ cloudflare | | 409 | huxley.ns.cloudflare.com | 2606:4700:58::a29f:2cbc | IPv6 |
 h2 | ✅ 成功 | 55 | cloudflare | | 445 | damien.ns.cloudflare.com |
 2a06:98c1:50::ac40:23a8 | IPv6 | h2 | ✅ 成功 | 55 | cloudflare | | 467 |
 cmcc.877774.xyz | 104.16.149.1 | IPv4 | h2 | ✅ 成功 | 55 | cloudflare | | 404 |
-172.67.49.134 | 172.67.49.134 | IPv4 | h2 | ✅ 成功 | 56 | cloudflare | | 478 |
+cf.877774.xyz | cf.877774.xyz | IPv4 | h2 | ✅ 成功 | 56 | cloudflare | | 478 |
 ct.877774.xyz | 172.64.229.173 | IPv4 | h2 | ✅ 成功 | 56 | cloudflare | | 398 |
 [2606:4700:440f::53aa:4126] | 2606:4700:440f::53aa:4126 | IPv6 | h2 | ✅ 成功 |
 57 | cloudflare | | 171 | cf.877771.xyz | 2606:4700:3033::6815:50b4 | IPv6 | h2

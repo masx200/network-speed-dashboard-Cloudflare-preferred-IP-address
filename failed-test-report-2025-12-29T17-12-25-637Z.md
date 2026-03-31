@@ -80,7 +80,7 @@
 | 59   | 198.41.194.162              | 198.41.194.162            | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.194.162:443: i/o timeout              |
 | 78   | 162.159.133.85              | 162.159.133.85            | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.133.85:443: i/o timeout              |
 | 84   | 172.67.79.211               | 172.67.79.211             | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.67.79.211:443: i/o timeout               |
-| 89   | 172.64.201.25               | 172.64.201.25             | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout               |
+| 89   | ct.877774.xyz               | ct.877774.xyz             | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout               |
 | 102  | otto.ns.cloudflare.com      | 172.64.35.135             | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.135:443: i/o timeout               |
 | 113  | damien.ns.cloudflare.com    | 108.162.195.168           | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.168:443: i/o timeout             |
 | 121  | cfip.xxxxxxxx.tk            | 198.41.212.130            | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout              |
@@ -309,7 +309,7 @@ rustam.ns.cloudflare.com (3次)，建议重点检查这些主机的网络状态�
 | 56   | 172.64.82.114                           | 172.64.82.114                           | IPv4   | h2   | ✅ 成功 | 940      | cloudflare |
 | 310  | cmcc.877774.xyz                         | 104.16.148.5                            | IPv4   | h2   | ✅ 成功 | 940      | cloudflare |
 | 196  | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h2   | ✅ 成功 | 942      | cloudflare |
-| 206  | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 942      | cloudflare |
+| 206  | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 942      | cloudflare |
 | 414  | palera.in                               | 2606:4700:3032::ac43:9d7a               | IPv6   | h2   | ✅ 成功 | 945      | cloudflare |
 | 98   | tasteatlas.com                          | 2606:4700::6811:2469                    | IPv6   | h2   | ✅ 成功 | 946      | cloudflare |
 | 257  | 104.31.16.158                           | 104.31.16.158                           | IPv4   | h2   | ✅ 成功 | 948      | cloudflare |

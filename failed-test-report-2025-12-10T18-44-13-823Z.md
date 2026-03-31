@@ -35,7 +35,7 @@
 | 332  | sullivan.ns.cloudflare.com | 162.159.44.161  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.161:443: i/o timeout  |
 | 383  | benedict.ns.cloudflare.com | 108.162.195.205 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.205:443: i/o timeout |
 | 385  | benedict.ns.cloudflare.com | 172.64.35.205   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.205:443: i/o timeout   |
-| 449  | 172.64.201.25              | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 449  | ct.877774.xyz              | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 450  | 119.194.220.146            | 119.194.220.146 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 119.194.220.146:443: i/o timeout |
 
 ### 📈 错误分析总结

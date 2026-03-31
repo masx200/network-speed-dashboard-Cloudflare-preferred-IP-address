@@ -41,7 +41,7 @@
 
 | 序号 | 主机/域名                  | 目标IP          | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                  |
 | ---- | -------------------------- | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
-| 118  | 172.64.201.25              | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 118  | ct.877774.xyz              | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 240  | abdullah.ns.cloudflare.com | 162.159.44.203  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.203:443: i/o timeout  |
 | 288  | huxley.ns.cloudflare.com   | 172.64.35.188   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.188:443: i/o timeout   |
 | 334  | cfip.xxxxxxxx.tk           | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |

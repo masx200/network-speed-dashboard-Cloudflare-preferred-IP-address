@@ -42,7 +42,7 @@
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 45   | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
-| 352  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 352  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 
 ### 📈 错误分析总结
 
@@ -161,7 +161,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 50   | www.gov.ua                            | 104.21.23.72              | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 53   | 103.160.204.59                        | 103.160.204.59            | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 57   | ct.877774.xyz                         | 172.64.229.173            | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
-| 64   | 172.67.49.134                         | 172.67.49.134             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 64   | cf.877774.xyz                         | cf.877774.xyz             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 66   | www.4chan.org                         | 104.16.229.229            | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 72   | iplocation.io                         | 104.26.10.222             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 74   | iplocation.io                         | 172.67.70.100             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |

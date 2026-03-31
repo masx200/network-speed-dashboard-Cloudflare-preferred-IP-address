@@ -42,7 +42,7 @@
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 36   | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
-| 108  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 108  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 | 495  | 198.41.194.162   | 198.41.194.162 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.194.162:443: i/o timeout |
 
 ### 📈 错误分析总结
@@ -260,7 +260,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 76   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 98   | tasteatlas.com                          | 104.17.37.105                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 116  | cu.877774.xyz                           | 172.64.145.202                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 117  | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 117  | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 118  | [2606:4700:8de6::5fa2:799e]             | 2606:4700:8de6::5fa2:799e               | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 120  | www.4chan.org                           | 104.16.228.229                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 123  | icook.tw                                | 2606:4700:10::ac42:9e73                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |

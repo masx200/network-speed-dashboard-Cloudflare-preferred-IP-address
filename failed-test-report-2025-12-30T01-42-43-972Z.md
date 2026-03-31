@@ -43,7 +43,7 @@
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 128  | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
 | 345  | 198.41.194.162   | 198.41.194.162 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.194.162:443: i/o timeout |
-| 506  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 506  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 
 ### 📈 错误分析总结
 
@@ -187,7 +187,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 61   | cloudflare.182682.xyz                   | 104.16.250.22                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 72   | 172.67.75.172                           | 172.67.75.172                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 78   | iplocation.io                           | 2606:4700:20::681a:bde                  | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
-| 104  | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
+| 104  | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 115  | huxley.ns.cloudflare.com                | 2803:f800:50::6ca2:c3bc                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 127  | cfip.xxxxxxxx.tk                        | 198.41.214.141                          | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 134  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |

@@ -44,7 +44,7 @@
 | ---- | ------------------------ | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
 | 44   | wilson.ns.cloudflare.com | 108.162.195.110 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.110:443: i/o timeout |
 | 232  | dylan.ns.cloudflare.com  | 162.159.44.187  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.187:443: i/o timeout  |
-| 373  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 373  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 501  | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
 
 #### DNS解析错误: 其他DNS错误 (1 次测试)
@@ -131,7 +131,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 458  | 104.26.5.134                            | 104.26.5.134                            | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
 | 54   | steamdb.info                            | 172.66.175.250                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 73   | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
-| 77   | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
+| 77   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 81   | iplocation.io                           | 2606:4700:20::681a:ade                  | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 111  | www.hugedomains.com                     | 172.67.70.191                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 158  | cris.ns.cloudflare.com                  | 2606:4700:58::a29f:2cca                 | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |

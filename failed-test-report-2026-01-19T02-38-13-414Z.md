@@ -43,7 +43,7 @@
 | ---- | ----------------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 7    | cfip.xxxxxxxx.tk        | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
 | 296  | 162.159.38.67           | 162.159.38.67  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.38.67:443: i/o timeout  |
-| 508  | 172.64.201.25           | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 508  | ct.877774.xyz           | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 | 600  | bowen.ns.cloudflare.com | 172.64.35.83   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.83:443: i/o timeout   |
 
 ### 📈 错误分析总结
@@ -271,7 +271,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 19   | www.pcmag.com                           | 2606:4700::6810:1476                    | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 45   | ct.877774.xyz                           | 172.64.229.185                          | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 55   | www.gov.ua                              | 2606:4700:3033::ac43:d17f               | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
-| 59   | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
+| 59   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 85   | [2606:4700:8de6::5fa2:799e]             | 2606:4700:8de6::5fa2:799e               | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 88   | 104.17.154.254                          | 104.17.154.254                          | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 96   | 104.16.251.143                          | 104.16.251.143                          | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |

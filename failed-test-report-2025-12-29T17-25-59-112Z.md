@@ -45,7 +45,7 @@
 | 131  | craig.ns.cloudflare.com  | 108.162.195.192 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.192:443: i/o timeout |
 | 189  | dylan.ns.cloudflare.com  | 172.64.35.187   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.187:443: i/o timeout   |
 | 263  | bowen.ns.cloudflare.com  | 162.159.44.83   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.83:443: i/o timeout   |
-| 361  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 361  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 419  | damien.ns.cloudflare.com | 108.162.195.168 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.168:443: i/o timeout |
 
 ### 📈 错误分析总结

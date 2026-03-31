@@ -42,7 +42,7 @@
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 85   | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
-| 376  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 376  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 
 ### 📈 错误分析总结
 
@@ -103,7 +103,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 668  | 2a06:98c1:310c:6a:19f2:494:88cc:d5f     | 2a06:98c1:310c:6a:19f2:494:88cc:d5f     | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 44   | ct.877774.xyz                           | 172.64.229.236                          | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 75   | www.gov.ua                              | 104.21.23.72                            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 94   | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
+| 94   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 119  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 132  | www.hugedomains.com                     | 104.26.6.37                             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 290  | time.is                                 | 2606:4700:20::ac43:449d                 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |

@@ -30,7 +30,7 @@
 | 67   | 121.188.182.190          | 121.188.182.190 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 121.188.182.190:443: i/o timeout |
 | 174  | 175.212.207.13           | 175.212.207.13  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 175.212.207.13:443: i/o timeout  |
 | 340  | rustam.ns.cloudflare.com | 172.64.35.148   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.148:443: i/o timeout   |
-| 344  | 172.64.201.25            | 172.64.201.25   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout   |
+| 344  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 345  | 119.194.220.146          | 119.194.220.146 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 119.194.220.146:443: i/o timeout |
 | 374  | pranab.ns.cloudflare.com | 172.64.35.199   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.199:443: i/o timeout   |
 | 454  | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |

@@ -43,7 +43,7 @@
 | ---- | ------------------------ | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 19   | cfip.xxxxxxxx.tk         | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
 | 169  | pranab.ns.cloudflare.com | 162.159.44.199 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.199:443: i/o timeout |
-| 373  | 172.64.201.25            | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 373  | ct.877774.xyz            | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 | 421  | otto.ns.cloudflare.com   | 162.159.44.135 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 162.159.44.135:443: i/o timeout |
 
 ### 📈 错误分析总结
@@ -204,7 +204,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 48   | ipinfo.in                             | 104.21.21.129                        | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 71   | ct.877774.xyz                         | 172.64.229.174                       | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 75   | www.gov.ua                            | 104.21.23.72                         | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
-| 82   | 172.67.49.134                         | 172.67.49.134                        | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
+| 82   | cf.877774.xyz                         | cf.877774.xyz                        | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 130  | www.visa.com.hk                       | 104.18.21.69                         | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 148  | cu.877774.xyz                         | 104.26.4.114                         | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 186  | bestcf.030101.xyz                     | 104.17.211.46                        | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |

@@ -41,7 +41,7 @@
 
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
-| 141  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 141  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 | 270  | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
 
 ### 📈 错误分析总结
@@ -98,7 +98,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 151  | www.digitalocean.com                  | 104.19.173.68                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 154  | www.digitalocean.com                  | 2606:4700::6813:ae44                 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 251  | icook.hk                              | 104.21.90.210                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 255  | 172.67.49.134                         | 172.67.49.134                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
+| 255  | cf.877774.xyz                         | cf.877774.xyz                        | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 271  | cfip.xxxxxxxx.tk                      | 104.16.232.223                       | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 366  | cmcc.877774.xyz                       | 104.16.148.3                         | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 377  | cmcc.877774.xyz                       | 104.16.149.5                         | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |

@@ -42,7 +42,7 @@
 | 序号 | 主机/域名        | 目标IP         | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                 |
 | ---- | ---------------- | -------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------- |
 | 92   | cfip.xxxxxxxx.tk | 198.41.212.130 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout |
-| 372  | 172.64.201.25    | 172.64.201.25  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.201.25:443: i/o timeout  |
+| 372  | ct.877774.xyz    | ct.877774.xyz  | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout  |
 | 453  | 198.41.194.162   | 198.41.194.162 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.194.162:443: i/o timeout |
 
 ### 📈 错误分析总结
@@ -272,7 +272,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 567  | 104.19.50.35                            | 104.19.50.35                            | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
 | 595  | trevor.ns.cloudflare.com                | 162.159.44.154                          | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
 | 39   | ct.877774.xyz                           | 172.64.229.185                          | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
-| 70   | 172.67.49.134                           | 172.67.49.134                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
+| 70   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 82   | huxley.ns.cloudflare.com                | 2606:4700:58::a29f:2cbc                 | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
 | 101  | www.okcupid.com                         | 104.16.239.254                          | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 105  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
