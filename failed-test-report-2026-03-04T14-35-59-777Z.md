@@ -578,7 +578,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 31   | trevor.ns.cloudflare.com                | 2606:4700:58::a29f:2c9a                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 38   | steamdb.info                            | 104.20.34.212                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 64   | [2606:4700:9add::880:52fc]              | 2606:4700:9add::880:52fc                | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
-| 72   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
+| 72   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 73   | cloudflare.182682.xyz                   | 2606:4700:3032::818:669e                | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 126  | cfip.xxxxxxxx.tk                        | 104.27.21.118                           | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 224  | cmcc.877774.xyz                         | 104.16.149.8                            | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |

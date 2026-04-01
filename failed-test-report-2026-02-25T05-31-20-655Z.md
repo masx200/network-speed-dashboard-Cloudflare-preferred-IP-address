@@ -81,7 +81,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 636  | icook.hk                                | 104.21.90.210                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 55   | 104.20.28.239                           | 104.20.28.239                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 81   | cloudflare.182682.xyz                   | 104.18.185.26                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
-| 86   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
+| 86   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 96   | 2a06:98c1:3107:ee7a:af11:b020:b50d:d4e2 | 2a06:98c1:3107:ee7a:af11:b020:b50d:d4e2 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 114  | 104.20.31.132                           | 104.20.31.132                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 164  | 104.20.26.221                           | 104.20.26.221                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |

@@ -49,7 +49,7 @@
 | 444  | trevor.ns.cloudfl...                  | 108.162.195.154         | IPv4    | none | N/A    | 0        | N/A        | dial tcp 108.162.195.154:443: i/o timeout          |
 | 451  | 61.85.1.77                            | 61.85.1.77              | IPv4    | none | N/A    | 0        | N/A        | dial tcp 61.85.1.77:443: connectex: No connecti... |
 | 478  | 3.0.50.69                             | 3.0.50.69               | IPv4    | none | N/A    | 0        | N/A        | dial tcp 3.0.50.69:443: i/o timeout                |
-| 485  | cloudflare.182682...                  | 2606:4700:e7::3151:47a9 | IPv6    | none | N/A    | 0        | N/A        | dial tcp [2606:4700:e7::3151:47a9]:443: i/o tim... |
+| 485  | cloudflare.182682...                  | 6666.cloudflare.182682.xyz | IPv6    | none | N/A    | 0        | N/A        | dial tcp 6666.cloudflare.182682.xyz:443: i/o tim... |
 
 ---
 

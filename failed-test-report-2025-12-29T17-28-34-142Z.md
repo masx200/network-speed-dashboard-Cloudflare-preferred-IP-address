@@ -89,7 +89,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 304  | ip.sb                                   | 104.26.12.31                            | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 427  | www.wto.org                             | 104.18.41.190                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 478  | 104.19.220.22                           | 104.19.220.22                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
-| 70   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 41       | cloudflare |
+| 70   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 41       | cloudflare |
 | 89   | icook.hk                                | 2606:4700:3031::6815:5ad2               | IPv6   | h2   | ✅ 成功 | 41       | cloudflare |
 | 103  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 41       | cloudflare |
 | 130  | cu.877774.xyz                           | 104.26.4.117                            | IPv4   | h2   | ✅ 成功 | 41       | cloudflare |

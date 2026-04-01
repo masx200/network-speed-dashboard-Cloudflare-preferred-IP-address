@@ -454,7 +454,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 336  | japan.com                               | 2606:4700:20::681a:43c                  | IPv6   | h2   | ✅ 成功 | 70       | cloudflare |
 | 392  | moura.ns.cloudflare.com                 | 162.159.44.217                          | IPv4   | h2   | ✅ 成功 | 70       | cloudflare |
 | 456  | 104.18.189.153                          | 104.18.189.153                          | IPv4   | h2   | ✅ 成功 | 70       | cloudflare |
-| 67   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 71       | cloudflare |
+| 67   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 71       | cloudflare |
 | 97   | 104.18.254.88                           | 104.18.254.88                           | IPv4   | h2   | ✅ 成功 | 71       | cloudflare |
 | 135  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 71       | cloudflare |
 | 170  | cu.877774.xyz                           | 104.26.4.111                            | IPv4   | h2   | ✅ 成功 | 71       | cloudflare |

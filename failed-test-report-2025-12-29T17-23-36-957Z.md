@@ -160,7 +160,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 43   | cf.0sm.com                              | 2606:4700:3032::6815:785                | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 57   | 104.18.39.196                           | 104.18.39.196                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 66   | cloudflare.182682.xyz                   | 104.16.250.22                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
-| 69   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
+| 69   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 79   | www.gov.ua                              | 104.21.23.72                            | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 94   | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 115  | huxley.ns.cloudflare.com                | 2a06:98c1:50::ac40:23bc                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |

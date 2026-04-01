@@ -79,7 +79,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 253  | yx-auto.pages.dev                       | 172.66.44.144                           | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 456  | ip.sb                                   | 104.26.13.31                            | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 14   | www.ipget.net                           | 2606:4700:3031::ac43:cf1a               | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
-| 68   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
+| 68   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 79   | otto.ns.cloudflare.com                  | 2606:4700:58::a29f:2c87                 | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 115  | japan.com                               | 2606:4700:20::ac43:465c                 | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 141  | steamdb.info                            | 2606:4700:10::6814:22d4                 | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |

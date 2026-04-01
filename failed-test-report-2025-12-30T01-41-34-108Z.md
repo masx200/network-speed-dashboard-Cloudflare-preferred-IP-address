@@ -224,7 +224,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 31   | cf.0sm.com                              | 172.67.187.145                          | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 46   | ct.877774.xyz                           | 172.64.229.217                          | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 56   | 172.67.110.232                          | 172.67.110.232                          | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
-| 73   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
+| 73   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 79   | 104.18.254.88                           | 104.18.254.88                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 86   | [2606:4700:8de6::5fa2:799e]             | 2606:4700:8de6::5fa2:799e               | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 91   | 172.67.120.0                            | 172.67.120.0                            | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |

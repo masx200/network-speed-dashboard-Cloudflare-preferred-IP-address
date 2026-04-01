@@ -58,7 +58,7 @@
 | ---- | --------------------- | ----------------------- | ------ | ---- | ------ | -------- | ------ | --------------------------------------------------- |
 | 69   | cfip.xxxxxxxx.tk      | 198.41.212.130          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout            |
 | 95   | cf.877774.xyz         | cf.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout             |
-| 122  | cloudflare.182682.xyz | 2606:4700:e7::3151:47a9 | IPv6   | none | N/A    | 0        | N/A    | dial tcp [2606:4700:e7::3151:47a9]:443: i/o timeout |
+| 122  | cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | none | N/A    | 0        | N/A    | dial tcp 6666.cloudflare.182682.xyz:443: i/o timeout |
 | 280  | 3.0.50.69             | 3.0.50.69               | IPv4   | none | N/A    | 0        | N/A    | dial tcp 3.0.50.69:443: i/o timeout                 |
 | 320  | 141.147.185.63        | 141.147.185.63          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout            |
 | 408  | ct.877774.xyz         | ct.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout             |

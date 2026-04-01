@@ -421,7 +421,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 332  | 456.cloudflare.182682.xyz               | 2606:4700:20::681a:9a0                  | IPv6   | h2   | ✅ 成功 | 74       | cloudflare |
 | 446  | japan.com                               | 2606:4700:20::ac43:465c                 | IPv6   | h2   | ✅ 成功 | 74       | cloudflare |
 | 17   | www.pcmag.com                           | 2606:4700::6810:1476                    | IPv6   | h2   | ✅ 成功 | 75       | cloudflare |
-| 60   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 75       | cloudflare |
+| 60   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 75       | cloudflare |
 | 66   | iplocation.io                           | 172.67.70.100                           | IPv4   | h2   | ✅ 成功 | 75       | cloudflare |
 | 97   | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 75       | cloudflare |
 | 115  | www.visa.com.sg                         | 104.18.13.229                           | IPv4   | h2   | ✅ 成功 | 75       | cloudflare |

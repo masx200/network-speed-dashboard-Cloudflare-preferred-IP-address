@@ -127,7 +127,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 12   | www.ipget.net                           | 172.67.207.26                           | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 57   | cloudflare.182682.xyz                   | 104.17.25.173                           | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 63   | cloudflare.182682.xyz                   | 2606:4700:8ca0::3dc4:21a2               | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
-| 65   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
+| 65   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 100  | 162.159.136.89                          | 162.159.136.89                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 133  | 104.18.189.153                          | 104.18.189.153                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 152  | www.pcmag.com                           | 104.16.20.118                           | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |

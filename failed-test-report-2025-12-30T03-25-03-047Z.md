@@ -231,7 +231,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 39   | cf.0sm.com                              | 2606:4700:3037::ac43:bb91               | IPv6   | h2   | ✅ 成功 | 49       | cloudflare |
 | 51   | ct.877774.xyz                           | 172.64.229.217                          | IPv4   | h2   | ✅ 成功 | 49       | cloudflare |
 | 61   | cloudflare.182682.xyz                   | 104.17.25.173                           | IPv4   | h2   | ✅ 成功 | 49       | cloudflare |
-| 66   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 49       | cloudflare |
+| 66   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 49       | cloudflare |
 | 76   | www.gov.ua                              | 2606:4700:3033::ac43:d17f               | IPv6   | h2   | ✅ 成功 | 49       | cloudflare |
 | 93   | 104.18.254.88                           | 104.18.254.88                           | IPv4   | h2   | ✅ 成功 | 49       | cloudflare |
 | 98   | www.4chan.org                           | 104.16.229.229                          | IPv4   | h2   | ✅ 成功 | 49       | cloudflare |

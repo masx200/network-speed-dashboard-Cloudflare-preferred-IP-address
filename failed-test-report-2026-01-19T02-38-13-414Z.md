@@ -234,7 +234,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 28   | 104.18.39.196                           | 104.18.39.196                           | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 37   | ipv4.ip.sb                              | 104.26.12.31                            | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 46   | ct.877774.xyz                           | 172.64.229.161                          | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
-| 70   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 52       | cloudflare |
+| 70   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 52       | cloudflare |
 | 82   | icook.hk                                | 2606:4700:3037::ac43:a168               | IPv6   | h2   | ✅ 成功 | 52       | cloudflare |
 | 87   | 104.17.30.164                           | 104.17.30.164                           | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 104  | www.okcupid.com                         | 104.16.239.254                          | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |

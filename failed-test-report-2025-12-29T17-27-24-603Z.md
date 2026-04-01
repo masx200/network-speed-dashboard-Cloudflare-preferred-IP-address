@@ -112,7 +112,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 41   | cf.0sm.com                              | 172.67.187.145                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 44   | ipinfo.in                               | 104.21.21.129                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 70   | cloudflare.182682.xyz                   | 104.21.224.5                            | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
-| 72   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
+| 72   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
 | 74   | cloudflare.182682.xyz                   | 2606:4700:3035::1a4f:5642               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
 | 80   | www.gov.ua                              | 2606:4700:3033::ac43:d17f               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
 | 99   | www.4chan.org                           | 104.16.229.229                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |

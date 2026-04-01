@@ -257,7 +257,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 38   | cfip.xxxxxxxx.tk                        | 104.16.232.223                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 58   | ct.877774.xyz                           | 172.64.229.174                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 63   | ct.877774.xyz                           | 172.64.229.44                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 76   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
+| 76   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 98   | tasteatlas.com                          | 104.17.37.105                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 116  | cu.877774.xyz                           | 172.64.145.202                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 117  | cf.877774.xyz                           | cf.877774.xyz                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |

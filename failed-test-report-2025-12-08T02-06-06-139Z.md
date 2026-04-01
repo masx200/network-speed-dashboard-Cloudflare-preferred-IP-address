@@ -51,7 +51,7 @@
 | 473  | 141.147.185.63                        | 141.147.185.63          | IPv4    | h2   | N/A    | 0        | N/A        | Get "https://local-aria2-webui.masx200.ddns-ip.... |
 | 474  | 61.85.1.77                            | 61.85.1.77              | IPv4    | none | N/A    | 0        | N/A        | dial tcp 61.85.1.77:443: connectex: No connecti... |
 | 475  | 3.0.50.69                             | 3.0.50.69               | IPv4    | none | N/A    | 0        | N/A        | dial tcp 3.0.50.69:443: i/o timeout                |
-| 483  | cloudflare.182682...                  | 2606:4700:e7::3151:47a9 | IPv6    | none | N/A    | 0        | N/A        | dial tcp [2606:4700:e7::3151:47a9]:443: i/o tim... |
+| 483  | cloudflare.182682...                  | 6666.cloudflare.182682.xyz | IPv6    | none | N/A    | 0        | N/A        | dial tcp 6666.cloudflare.182682.xyz:443: i/o tim... |
 
 ---
 

@@ -214,7 +214,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 19   | www.digitalocean.com                    | 104.19.173.68                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 24   | 104.26.13.31                            | 104.26.13.31                            | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 31   | otto.ns.cloudflare.com                  | 108.162.195.135                         | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
-| 64   | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
+| 64   | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
 | 72   | www.csgo.com                            | 195.85.59.161                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 115  | 104.18.89.52                            | 104.18.89.52                            | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 116  | 104.18.166.129                          | 104.18.166.129                          | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |

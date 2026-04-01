@@ -196,7 +196,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 205  | 172.64.151.55                           | 172.64.151.55                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 224  | cmcc.877774.xyz                         | 104.16.148.6                            | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 230  | cmcc.877774.xyz                         | 104.16.148.12                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
-| 260  | cloudflare.182682.xyz                   | 2606:4700:e7::3151:47a9                 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
+| 260  | cloudflare.182682.xyz                   | 6666.cloudflare.182682.xyz                 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 288  | time.is                                 | 172.67.68.157                           | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 314  | ip.sb                                   | 104.26.12.31                            | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 339  | [2606:4700:964f::6e2c:588e]             | 2606:4700:964f::6e2c:588e               | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |

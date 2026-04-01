@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 // 获取当前文件的目录路径
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const oldTextArray = ["6666.cloudflare.182682.xyz"];
+const oldTextArray = ["6666.cloudflare.182682.xyz","6666.cloudflare.182682.xyz","6666.cloudflare.182682.xyz"];
 
 for (const oldText of oldTextArray) {
   // 配置要替换的文本
