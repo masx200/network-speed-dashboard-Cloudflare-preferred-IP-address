@@ -220,7 +220,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 39   | ipinfo.in                               | 104.21.21.129                           | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
 | 92   | iplocation.io                           | 2606:4700:20::681a:bde                  | IPv6   | h2   | ✅ 成功 | 55       | cloudflare |
 | 93   | 172.67.120.0                            | 172.67.120.0                            | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
-| 95   | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
+| 95   | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
 | 153  | zread.ai                                | 104.21.76.240                           | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
 | 190  | www.whatismyip.com                      | 104.26.12.23                            | IPv4   | h2   | ✅ 成功 | 55       | cloudflare |
 | 193  | www.whatismyip.com                      | 2606:4700:20::681a:c17                  | IPv6   | h2   | ✅ 成功 | 55       | cloudflare |

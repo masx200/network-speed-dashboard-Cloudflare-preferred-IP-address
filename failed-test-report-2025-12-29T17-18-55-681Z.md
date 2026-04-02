@@ -173,7 +173,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 359  | singapore.com                           | 104.26.12.140                           | IPv4   | h3   | ✅ 成功 | 533      | cloudflare |
 | 180  | bestcf.030101.xyz                       | 2606:4700:0:c5:4803:8845:8bde:1897      | IPv6   | h3   | ✅ 成功 | 534      | cloudflare |
 | 332  | 104.16.65.1                             | 104.16.65.1                             | IPv4   | h3   | ✅ 成功 | 534      | cloudflare |
-| 94   | www.visa.cn                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 535      | cloudflare |
+| 94   | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 535      | cloudflare |
 | 214  | www.digitalocean.com                    | 2606:4700::6813:ad44                    | IPv6   | h3   | ✅ 成功 | 536      | cloudflare |
 | 78   | cu.877774.xyz                           | 172.64.145.202                          | IPv4   | h3   | ✅ 成功 | 538      | cloudflare |
 | 221  | otto.ns.cloudflare.com                  | 2606:4700:58::a29f:2c87                 | IPv6   | h3   | ✅ 成功 | 538      | cloudflare |
@@ -206,7 +206,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 324  | benedict.ns.cloudflare.com              | 108.162.195.205                         | IPv4   | h3   | ✅ 成功 | 552      | cloudflare |
 | 41   | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h3   | ✅ 成功 | 554      | cloudflare |
 | 191  | braden.ns.cloudflare.com                | 2803:f800:50::6ca2:c3a9                 | IPv6   | h3   | ✅ 成功 | 554      | cloudflare |
-| 93   | www.visa.cn                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 555      | cloudflare |
+| 93   | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 555      | cloudflare |
 | 100  | craig.ns.cloudflare.com                 | 2a06:98c1:50::ac40:23c0                 | IPv6   | h3   | ✅ 成功 | 555      | cloudflare |
 | 329  | benedict.ns.cloudflare.com              | 2a06:98c1:50::ac40:23cd                 | IPv6   | h3   | ✅ 成功 | 556      | cloudflare |
 | 192  | braden.ns.cloudflare.com                | 2606:4700:58::a29f:2ca9                 | IPv6   | h3   | ✅ 成功 | 557      | cloudflare |

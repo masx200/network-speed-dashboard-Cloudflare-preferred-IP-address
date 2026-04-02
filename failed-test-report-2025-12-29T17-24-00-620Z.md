@@ -93,7 +93,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 61   | steamdb.info                            | 104.20.34.212                           | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 80   | ct.877774.xyz                           | 172.64.229.185                          | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 108  | icook.hk                                | 188.114.96.3                            | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
-| 123  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
+| 123  | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 131  | www.okcupid.com                         | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 158  | na.877774.xyz                           | 104.18.38.235                           | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 203  | japan.com                               | 2606:4700:20::ac43:465c                 | IPv6   | h2   | ✅ 成功 | 37       | cloudflare |
@@ -143,8 +143,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 91   | iplocation.io                           | 2606:4700:20::ac43:4664                 | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
 | 109  | icook.hk                                | 2606:4700:3037::ac43:a168               | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
 | 111  | 172.67.120.0                            | 172.67.120.0                            | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
-| 112  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
-| 113  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
+| 112  | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
+| 113  | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 209  | cf.zhetengsha.eu.org                    | 172.64.144.82                           | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 222  | cmcc.877774.xyz                         | 104.16.148.4                            | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
 | 226  | cmcc.877774.xyz                         | 104.16.148.8                            | IPv4   | h2   | ✅ 成功 | 39       | cloudflare |
@@ -186,7 +186,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 92   | cfip.xxxxxxxx.tk                        | 198.41.214.141                          | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 107  | icook.hk                                | 188.114.97.3                            | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 118  | huxley.ns.cloudflare.com                | 2803:f800:50::6ca2:c3bc                 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
-| 125  | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
+| 125  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 129  | www.okcupid.com                         | 104.16.223.254                          | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 147  | yx-auto.pages.dev                       | 2606:4700:310c::ac42:2f70               | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 166  | asia.877774.xyz                         | 104.16.211.153                          | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
@@ -268,7 +268,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 84   | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 104  | [2606:4700:8de6::5fa2:799e]             | 2606:4700:8de6::5fa2:799e               | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
 | 110  | icook.hk                                | 2606:4700:3031::6815:5ad2               | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
-| 124  | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 124  | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 
 ### 延迟分布分析
 

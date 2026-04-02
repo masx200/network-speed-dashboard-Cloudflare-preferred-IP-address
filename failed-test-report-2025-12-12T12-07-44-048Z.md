@@ -161,7 +161,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 104  | sullivan.ns.cloudflare.com | 108.162.195.161 | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 109  | www.okcupid.com            | 104.18.160.63   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 162  | kyree.ns.cloudflare.com    | 172.64.35.207   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
-| 181  | www.visa.cn                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
+| 181  | www.4444.cloudflare.182682.xyz                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 199  | asia.877774.xyz            | 104.17.142.146  | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 229  | cloudflare-ip.mofashi.ltd  | 104.21.72.233   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 245  | time.is                    | 172.67.68.157   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |

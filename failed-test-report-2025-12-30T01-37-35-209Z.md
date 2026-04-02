@@ -193,7 +193,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 101  | www.4chan.org                         | 104.16.229.229  | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 102  | www.4chan.org                         | 104.16.228.229  | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 139  | cmcc.877774.xyz                       | 104.16.148.2    | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
-| 160  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
+| 160  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 186  | benedict.ns.cloudflare.com            | 108.162.195.205 | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 207  | cris.ns.cloudflare.com                | 172.64.35.202   | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 323  | www.glassdoor.com                     | 104.17.64.70    | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
@@ -221,7 +221,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 253  | xn--b6gac.eu.org                      | 172.67.153.253  | IPv4   | h3   | ✅ 成功 | 107      | cloudflare |
 | 277  | moura.ns.cloudflare.com               | 108.162.195.217 | IPv4   | h3   | ✅ 成功 | 107      | cloudflare |
 | 357  | ip.gs                                 | 172.67.160.28   | IPv4   | h3   | ✅ 成功 | 107      | cloudflare |
-| 20   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 108      | cloudflare |
+| 20   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 108      | cloudflare |
 | 64   | www.gov.ua                            | 172.67.209.127  | IPv4   | h3   | ✅ 成功 | 108      | cloudflare |
 | 346  | 104.16.61.163                         | 104.16.61.163   | IPv4   | h3   | ✅ 成功 | 108      | cloudflare |
 | 376  | cf.877774.xyz                         | 104.18.41.190   | IPv4   | h3   | ✅ 成功 | 108      | cloudflare |
@@ -258,7 +258,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 52   | 104.16.45.84                          | 104.16.45.84    | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
 | 53   | cloudflare.182682.xyz                 | 104.21.227.134  | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
 | 143  | cmcc.877774.xyz                       | 104.16.149.11   | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
-| 155  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
+| 155  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
 | 223  | www.whatismyip.com                    | 104.26.13.23    | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
 | 330  | singapore.com                         | 104.26.13.140   | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
 | 417  | damien.ns.cloudflare.com              | 108.162.195.168 | IPv4   | h3   | ✅ 成功 | 114      | cloudflare |
@@ -318,7 +318,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 441  | otto.ns.cloudflare.com                | 172.64.35.135   | IPv4   | h3   | ✅ 成功 | 124      | cloudflare |
 | 125  | www.okcupid.com                       | 104.17.48.63    | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
 | 142  | cmcc.877774.xyz                       | 104.16.149.12   | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
-| 156  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
+| 156  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
 | 483  | 162.159.24.131                        | 162.159.24.131  | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
 | 498  | cfip.xxxxxxxx.tk                      | 104.16.241.229  | IPv4   | h3   | ✅ 成功 | 125      | cloudflare |
 | 32   | comicabc.com                          | 104.21.64.10    | IPv4   | h3   | ✅ 成功 | 126      | cloudflare |
@@ -338,7 +338,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 295  | www.ipchicken.com                     | 104.26.7.112    | IPv4   | h3   | ✅ 成功 | 131      | cloudflare |
 | 435  | japan.com                             | 104.26.4.60     | IPv4   | h3   | ✅ 成功 | 131      | cloudflare |
 | 5    | tasteatlas.com                        | 104.17.37.105   | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
-| 161  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
+| 161  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
 | 187  | benedict.ns.cloudflare.com            | 162.159.44.205  | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
 | 299  | 172.64.229.7                          | 172.64.229.7    | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
 | 406  | www.digitalocean.com                  | 104.19.174.68   | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |

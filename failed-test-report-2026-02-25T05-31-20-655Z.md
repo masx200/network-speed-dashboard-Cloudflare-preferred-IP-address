@@ -274,7 +274,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 631  | ct.877774.xyz                           | 172.64.229.217                          | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
 | 634  | www.4chan.org                           | 104.16.229.229                          | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
 | 640  | 172.67.120.0                            | 172.67.120.0                            | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
-| 647  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
+| 647  | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
 | 659  | www.okcupid.com                         | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 43       | cloudflare |
 | 674  | sullivan.ns.cloudflare.com              | 2803:f800:50::6ca2:c3a1                 | IPv6   | h2   | ✅ 成功 | 43       | cloudflare |
 | 676  | sullivan.ns.cloudflare.com              | 2a06:98c1:50::ac40:23a1                 | IPv6   | h2   | ✅ 成功 | 43       | cloudflare |
@@ -350,8 +350,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 624  | cu.877774.xyz                           | 172.64.145.202                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 637  | icook.hk                                | 172.67.161.104                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 639  | icook.hk                                | 2606:4700:3031::6815:5ad2               | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
-| 648  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
-| 652  | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
+| 648  | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
+| 652  | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 660  | www.okcupid.com                         | 104.17.48.63                            | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 661  | www.hugedomains.com                     | 172.67.70.191                           | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 663  | www.hugedomains.com                     | 104.26.7.37                             | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
@@ -427,9 +427,9 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 597  | steamdb.info                            | 172.66.175.250                          | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 602  | www.gov.ua                              | 2606:4700:3031::6815:1748               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 649  | www.visa.com.sg                         | 104.18.13.229                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 651  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
-| 653  | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 654  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 651  | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
+| 653  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
+| 654  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 679  | na.877774.xyz                           | 104.18.38.235                           | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 686  | freeyx.cloudflare88.eu.org              | 172.64.147.165                          | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 703  | toy-people.com                          | 104.26.2.36                             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -949,7 +949,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 367  | 2a06:98c1:3120:c39b:7522:c680:d288:d13c | 2a06:98c1:3120:c39b:7522:c680:d288:d13c | IPv6   | h2   | ✅ 成功 | 156      | cloudflare |
 | 872  | julio.ns.cloudflare.com                 | 108.162.195.209                         | IPv4   | h2   | ✅ 成功 | 161      | cloudflare |
 | 499  | 162.159.18.240                          | 162.159.18.240                          | IPv4   | h2   | ✅ 成功 | 181      | cloudflare |
-| 35   | trevor.ns.cloudflare.com                | 108.162.195.154                         | IPv4   | h2   | ✅ 成功 | 192      | cloudflare |
+| 35   | trevor.ns.cloudflare.com                | 4444.cloudflare.182682.xyz                         | IPv4   | h2   | ✅ 成功 | 192      | cloudflare |
 | 500  | 162.159.3.89                            | 162.159.3.89                            | IPv4   | h2   | ✅ 成功 | 192      | cloudflare |
 | 448  | 104.17.214.136                          | 104.17.214.136                          | IPv4   | h2   | ✅ 成功 | 241      | cloudflare |
 | 506  | 162.159.22.29                           | 162.159.22.29                           | IPv4   | h2   | ✅ 成功 | 315      | cloudflare |

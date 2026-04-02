@@ -133,7 +133,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 299  | 108.162.198.54                        | 108.162.198.54  | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 112  | www.gov.ua                            | 172.67.209.127  | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
 | 285  | ifconfig.co                           | 104.21.54.91    | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
-| 310  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
+| 310  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
 | 314  | yx-auto.pages.dev                     | 172.66.47.112   | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
 | 417  | bowen.ns.cloudflare.com               | 108.162.195.83  | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
 | 118  | www.hugedomains.com                   | 104.26.6.37     | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
@@ -150,13 +150,13 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 191  | ashton.ns.cloudflare.com              | 172.64.35.173   | IPv4   | h3   | ✅ 成功 | 82       | cloudflare |
 | 236  | gamer.com.tw                          | 104.18.2.197    | IPv4   | h3   | ✅ 成功 | 82       | cloudflare |
 | 250  | otto.ns.cloudflare.com                | 162.159.44.135  | IPv4   | h3   | ✅ 成功 | 82       | cloudflare |
-| 6    | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
+| 6    | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 90   | cmcc.877774.xyz                       | 104.16.148.6    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 91   | cmcc.877774.xyz                       | 104.16.148.7    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 211  | 104.18.14.76                          | 104.18.14.76    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 255  | damien.ns.cloudflare.com              | 172.64.35.168   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 318  | pranab.ns.cloudflare.com              | 108.162.195.199 | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
-| 432  | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
+| 432  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 167  | singapore.com                         | 104.26.13.140   | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
 | 175  | ip.gs                                 | 104.21.14.176   | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
 | 196  | dnschecker.org                        | 104.26.7.89     | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |

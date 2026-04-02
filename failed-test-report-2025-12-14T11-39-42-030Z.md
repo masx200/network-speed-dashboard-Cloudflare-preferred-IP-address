@@ -142,7 +142,7 @@ www.hugedomains.com (3次), trevor.ns.cloudflare.com
 | 241  | www.glassdoor.com          | 104.17.64.70    | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 413  | ipv4.ip.sb                 | 104.26.12.31    | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 57   | www.ipget.net              | 172.67.207.26   | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |
-| 76   | trevor.ns.cloudflare.com   | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |
+| 76   | trevor.ns.cloudflare.com   | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |
 | 138  | toy-people.com             | 104.26.3.36     | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |
 | 243  | 104.16.61.163              | 104.16.61.163   | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |
 | 322  | www.udemy.com              | 104.16.142.237  | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |

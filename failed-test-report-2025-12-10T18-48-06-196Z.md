@@ -119,7 +119,7 @@ cloudflare | | 411 | wilson.ns.cloudflare.com | 172.64.35.110 | IPv4 | h3 | ✅
 yx-auto.pages.dev | 172.66.44.144 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare | |
 218 | www.ipget.net | 172.67.207.26 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare | |
 317 | www.gov.ua | 104.21.23.72 | IPv4 | h3 | ✅ 成功 | 101 | cloudflare | | 447
-| trevor.ns.cloudflare.com | 108.162.195.154 | IPv4 | h3 | ✅ 成功 | 101 |
+| trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4 | h3 | ✅ 成功 | 101 |
 cloudflare | | 81 | asia.877774.xyz | 104.17.139.62 | IPv4 | h3 | ✅ 成功 | 102
 | cloudflare | | 255 | cmcc.877774.xyz | 104.16.148.9 | IPv4 | h3 | ✅ 成功 |
 102 | cloudflare | | 387 | kyree.ns.cloudflare.com | 172.64.35.207 | IPv4 | h3 |
@@ -145,7 +145,7 @@ www.hugedomains.com | 172.67.70.191 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare 
 373 | www.visa.com.hk | 104.18.20.69 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare |
 | 457 | icook.tw | 104.20.28.74 | IPv4 | h3 | ✅ 成功 | 109 | cloudflare | | 20
 | dnschecker.org | 172.67.73.216 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare | | 86
-| cf.877771.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare | | 153
+| 4444.cloudflare.182682.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare | | 153
 | ifconfig.co | 104.21.54.91 | IPv4 | h3 | ✅ 成功 | 110 | cloudflare | | 207 |
 bowen.ns.cloudflare.com | 108.162.195.83 | IPv4 | h3 | ✅ 成功 | 110 |
 cloudflare | | 331 | singapore.com | 172.67.75.194 | IPv4 | h3 | ✅ 成功 | 110 |
@@ -168,7 +168,7 @@ h3 | ✅ 成功 | 113 | cloudflare | | 148 | ct.877774.xyz | 172.64.229.195 | IP
 IPv4 | h3 | ✅ 成功 | 115 | cloudflare | | 417 | pranab.ns.cloudflare.com |
 172.64.35.199 | IPv4 | h3 | ✅ 成功 | 115 | cloudflare | | 428 |
 cris.ns.cloudflare.com | 172.64.35.202 | IPv4 | h3 | ✅ 成功 | 115 | cloudflare
-| | 470 | www.visa.cn | 162.159.152.2 | IPv4 | h3 | ✅ 成功 | 115 | cloudflare |
+| | 470 | www.4444.cloudflare.182682.xyz | 162.159.152.2 | IPv4 | h3 | ✅ 成功 | 115 | cloudflare |
 | 215 | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182 | IPv4 | h3 | ✅
 成功 | 116 | cloudflare | | 374 | www.visa.com.hk | 104.18.21.69 | IPv4 | h3 |
 ✅ 成功 | 116 | cloudflare | | 391 | julio.ns.cloudflare.com | 108.162.195.209 |

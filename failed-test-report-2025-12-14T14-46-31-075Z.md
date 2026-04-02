@@ -123,7 +123,7 @@ wilson.ns.cloudflare.com (3次), moura.ns.cloudflare.com
 | 412  | 172.64.151.55                         | 172.64.151.55   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 428  | www.csgo.com                          | 195.85.59.161   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 106  | cmcc.877774.xyz                       | 104.16.149.7    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
-| 150  | cf.877771.xyz                         | 188.114.96.3    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
+| 150  | 4444.cloudflare.182682.xyz                         | 188.114.96.3    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 353  | cfip.xxxxxxxx.tk                      | 188.114.96.125  | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 359  | cf.zhetengsha.eu.org                  | 172.64.145.158  | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 362  | 104.18.37.40                          | 104.18.37.40    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
@@ -153,7 +153,7 @@ wilson.ns.cloudflare.com (3次), moura.ns.cloudflare.com
 | 43   | ipinfo.in                             | 104.21.21.129   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 57   | 104.18.37.13                          | 104.18.37.13    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 95   | cmcc.877774.xyz                       | 104.16.148.9    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
-| 149  | cf.877771.xyz                         | 188.114.97.3    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
+| 149  | 4444.cloudflare.182682.xyz                         | 188.114.97.3    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 257  | www.udemy.com                         | 104.16.142.237  | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 275  | cloudflare-ip.mofashi.ltd             | 172.67.155.172  | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 116  | cmcc.877774.xyz                       | 104.16.148.4    | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
@@ -162,7 +162,7 @@ wilson.ns.cloudflare.com (3次), moura.ns.cloudflare.com
 | 306  | 104.16.223.179                        | 104.16.223.179  | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
 | 386  | cfip.1323123.xyz                      | 104.16.133.220  | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
 | 403  | cf.090227.xyz                         | 172.64.144.82   | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
-| 72   | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
+| 72   | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 101  | cmcc.877774.xyz                       | 104.16.149.2    | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 180  | palera.in                             | 172.67.157.122  | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 206  | ip.sb                                 | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
@@ -212,7 +212,7 @@ wilson.ns.cloudflare.com (3次), moura.ns.cloudflare.com
 | 417  | 104.19.175.123                        | 104.19.175.123  | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 8    | www.pcmag.com                         | 104.16.21.118   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 59   | iplocation.io                         | 172.67.70.100   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
-| 73   | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
+| 73   | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 97   | cmcc.877774.xyz                       | 104.16.148.11   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 147  | cu.877774.xyz                         | 104.26.4.111    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 227  | julio.ns.cloudflare.com               | 172.64.35.209   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
@@ -250,7 +250,7 @@ wilson.ns.cloudflare.com (3次), moura.ns.cloudflare.com
 | 280  | cris.ns.cloudflare.com                | 108.162.195.202 | IPv4   | h3   | ✅ 成功 | 101      | cloudflare |
 | 325  | lewis.ns.cloudflare.com               | 172.64.35.159   | IPv4   | h3   | ✅ 成功 | 101      | cloudflare |
 | 434  | bowen.ns.cloudflare.com               | 172.64.35.83    | IPv4   | h3   | ✅ 成功 | 101      | cloudflare |
-| 3    | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 102      | cloudflare |
+| 3    | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 102      | cloudflare |
 | 90   | www.hugedomains.com                   | 104.26.6.37     | IPv4   | h3   | ✅ 成功 | 102      | cloudflare |
 | 103  | cmcc.877774.xyz                       | 104.16.149.4    | IPv4   | h3   | ✅ 成功 | 102      | cloudflare |
 | 414  | stock.hostmonit.com                   | 104.21.7.193    | IPv4   | h3   | ✅ 成功 | 102      | cloudflare |

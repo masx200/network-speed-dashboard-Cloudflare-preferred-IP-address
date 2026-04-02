@@ -110,7 +110,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 71   | [2606:4700:9add::880:52fc]            | 2606:4700:9add::880:52fc           | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
 | 82   | iplocation.io                         | 2606:4700:20::681a:bde             | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
 | 118  | www.hugedomains.com                   | 104.26.7.37                        | IPv4   | h2   | ✅ 成功 | 390      | cloudflare |
-| 127  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4          | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
+| 127  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4          | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
 | 259  | ip.sb                                 | 172.67.75.172                      | IPv4   | h2   | ✅ 成功 | 390      | cloudflare |
 | 326  | cf.zhetengsha.eu.org                  | 2606:4700:4407::ac40:9052          | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
 | 434  | otto.ns.cloudflare.com                | 2a06:98c1:50::ac40:2387            | IPv6   | h2   | ✅ 成功 | 390      | cloudflare |
@@ -144,7 +144,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 250  | 104.17.68.85                          | 104.17.68.85                       | IPv4   | h2   | ✅ 成功 | 397      | cloudflare |
 | 366  | cloudflare-ip.mofashi.ltd             | 2606:4700:3037::6815:48e9          | IPv6   | h2   | ✅ 成功 | 397      | cloudflare |
 | 372  | kyree.ns.cloudflare.com               | 2a06:98c1:50::ac40:23cf            | IPv6   | h2   | ✅ 成功 | 397      | cloudflare |
-| 126  | cf.877771.xyz                         | 2606:4700:3033::ac43:98b7          | IPv6   | h2   | ✅ 成功 | 398      | cloudflare |
+| 126  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::ac43:98b7          | IPv6   | h2   | ✅ 成功 | 398      | cloudflare |
 | 236  | moura.ns.cloudflare.com               | 2a06:98c1:50::ac40:23d9            | IPv6   | h2   | ✅ 成功 | 398      | cloudflare |
 | 273  | whatismyipaddress.com                 | 104.19.222.79                      | IPv4   | h2   | ✅ 成功 | 398      | cloudflare |
 | 296  | dnschecker.org                        | 2606:4700:20::681a:759             | IPv6   | h2   | ✅ 成功 | 398      | cloudflare |
@@ -223,7 +223,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 195  | cmcc.877774.xyz                       | 104.16.148.5                       | IPv4   | h2   | ✅ 成功 | 428      | cloudflare |
 | 352  | toy-people.com                        | 2606:4700:20::681a:324             | IPv6   | h2   | ✅ 成功 | 428      | cloudflare |
 | 339  | tasteatlas.com                        | 2606:4700::6811:2469               | IPv6   | h2   | ✅ 成功 | 429      | cloudflare |
-| 124  | cf.877771.xyz                         | 172.67.152.183                     | IPv4   | h2   | ✅ 成功 | 430      | cloudflare |
+| 124  | 4444.cloudflare.182682.xyz                         | 172.67.152.183                     | IPv4   | h2   | ✅ 成功 | 430      | cloudflare |
 | 142  | www.visa.com.sg                       | 104.18.13.229                      | IPv4   | h2   | ✅ 成功 | 430      | cloudflare |
 | 410  | icook.tw                              | 2606:4700:10::6814:1c4a            | IPv6   | h2   | ✅ 成功 | 430      | cloudflare |
 | 400  | [2606:4700:4408::18c5:3304]           | 2606:4700:4408::18c5:3304          | IPv6   | h2   | ✅ 成功 | 433      | cloudflare |

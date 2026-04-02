@@ -76,7 +76,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 411  | 104.26.13.31                          | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 78   | www.4chan.org                         | 104.16.229.229            | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 89   | huxley.ns.cloudflare.com              | 2a06:98c1:50::ac40:23bc   | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
-| 95   | cf.877771.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
+| 95   | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 109  | cfip.xxxxxxxx.tk                      | 104.18.228.35             | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 145  | cu.877774.xyz                         | 104.26.4.114              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 148  | cu.877774.xyz                         | 104.26.4.117              | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -116,8 +116,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 442  | damien.ns.cloudflare.com              | 2a06:98c1:50::ac40:23a8   | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 9    | comicabc.com                          | 2606:4700:3030::ac43:ae15 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 84   | huxley.ns.cloudflare.com              | 108.162.195.188           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 93   | cf.877771.xyz                         | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 94   | cf.877771.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 93   | 4444.cloudflare.182682.xyz                         | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 94   | 4444.cloudflare.182682.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 126  | sullivan.ns.cloudflare.com            | 2606:4700:58::a29f:2ca1   | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 142  | cu.877774.xyz                         | 104.26.4.111              | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 157  | pranab.ns.cloudflare.com              | 172.64.35.199             | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |

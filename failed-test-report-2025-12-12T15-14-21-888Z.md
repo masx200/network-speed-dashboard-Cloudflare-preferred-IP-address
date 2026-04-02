@@ -80,7 +80,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 序号 | 主机/域名                  | 目标IP          | IP版本 | 协议 | 状态    | 延迟(ms) | 服务器     |
 | ---- | -------------------------- | --------------- | ------ | ---- | ------- | -------- | ---------- |
 | 262  | 104.16.223.179             | 104.16.223.179  | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
-| 73   | cf.877771.xyz              | 188.114.97.3    | IPv4   | h3   | ✅ 成功 | 54       | cloudflare |
+| 73   | 4444.cloudflare.182682.xyz              | 188.114.97.3    | IPv4   | h3   | ✅ 成功 | 54       | cloudflare |
 | 389  | time.is                    | 104.26.12.54    | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
 | 149  | 172.67.79.211              | 172.67.79.211   | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
 | 139  | cmcc.877774.xyz            | 104.16.148.12   | IPv4   | h3   | ✅ 成功 | 66       | cloudflare |
@@ -100,7 +100,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 435  | dylan.ns.cloudflare.com    | 108.162.195.187 | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 452  | cfip.xxxxxxxx.tk           | 188.114.96.125  | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
 | 318  | eur.877774.xyz             | 104.21.26.150   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
-| 98   | www.visa.cn                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
+| 98   | www.4444.cloudflare.182682.xyz                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 175  | dnschecker.org             | 172.67.73.216   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 280  | saas.sin.fan               | 162.159.36.20   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 136  | cmcc.877774.xyz            | 104.16.148.9    | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |

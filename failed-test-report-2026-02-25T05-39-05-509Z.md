@@ -106,7 +106,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 497  | 104.18.40.216                         | 104.18.40.216   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
 | 536  | 104.17.53.129                         | 104.17.53.129   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
 | 550  | 162.159.1.145                         | 162.159.1.145   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
-| 613  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
+| 613  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
 | 624  | na.877774.xyz                         | 104.18.187.25   | IPv4   | h3   | ✅ 成功 | 34       | cloudflare |
 | 200  | ct.877774.xyz                         | 172.64.229.174  | IPv4   | h3   | ✅ 成功 | 35       | cloudflare |
 | 377  | 104.16.255.1                          | 104.16.255.1    | IPv4   | h3   | ✅ 成功 | 35       | cloudflare |
@@ -234,7 +234,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 443  | 104.26.6.159                          | 104.26.6.159    | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 506  | 104.20.25.82                          | 104.20.25.82    | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 538  | 104.19.144.159                        | 104.19.144.159  | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
-| 612  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
+| 612  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 621  | www.visa.com.sg                       | 104.18.12.229   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 640  | pranab.ns.cloudflare.com              | 108.162.195.199 | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 716  | 104.16.223.179                        | 104.16.223.179  | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
@@ -242,8 +242,8 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 778  | saas.sin.fan                          | 162.159.36.20   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 797  | cf.090227.xyz                         | 172.64.144.82   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 820  | ashton.ns.cloudflare.com              | 172.64.35.173   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
-| 20   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
-| 44   | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
+| 20   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
+| 44   | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 76   | iplocation.io                         | 172.67.70.100   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 122  | huxley.ns.cloudflare.com              | 172.64.35.188   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 204  | 172.64.153.183                        | 172.64.153.183  | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
@@ -598,7 +598,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 549  | 104.17.187.186                        | 104.17.187.186  | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
 | 881  | 104.19.175.123                        | 104.19.175.123  | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
 | 7    | wilson.ns.cloudflare.com              | 172.64.35.110   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
-| 45   | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
+| 45   | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 116  | cmcc.877774.xyz                       | 104.16.149.6    | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 123  | huxley.ns.cloudflare.com              | 108.162.195.188 | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 154  | www.hugedomains.com                   | 104.26.6.37     | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |

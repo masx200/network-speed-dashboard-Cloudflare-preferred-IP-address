@@ -44,7 +44,7 @@
 | 76   | cf.877774.xyz            | cf.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout             |
 | 177  | cloudflare.182682.xyz    | 6666.cloudflare.182682.xyz | IPv6   | none | N/A    | 0        | N/A    | dial tcp 6666.cloudflare.182682.xyz:443: i/o timeout |
 | 227  | 141.147.185.63           | 141.147.185.63          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout            |
-| 292  | trevor.ns.cloudflare.com | 108.162.195.154         | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout           |
+| 292  | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz         | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout           |
 | 365  | ct.877774.xyz            | ct.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout             |
 | 482  | 3.0.50.69                | 3.0.50.69               | IPv4   | none | N/A    | 0        | N/A    | dial tcp 3.0.50.69:443: i/o timeout                 |
 | 487  | ct.877774.xyz            | 172.64.229.236          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.229.236:443: i/o timeout            |
@@ -264,7 +264,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 19   | www.okcupid.com                         | 104.16.223.254                          | IPv4   | h3   | ✅ 成功 | 370      | cloudflare |
 | 478  | 104.16.105.166                          | 104.16.105.166                          | IPv4   | h3   | ✅ 成功 | 370      | cloudflare |
 | 174  | cloudflare.182682.xyz                   | 104.21.224.5                            | IPv4   | h3   | ✅ 成功 | 371      | cloudflare |
-| 13   | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h3   | ✅ 成功 | 372      | cloudflare |
+| 13   | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h3   | ✅ 成功 | 372      | cloudflare |
 | 288  | www.digitalocean.com                    | 104.19.173.68                           | IPv4   | h3   | ✅ 成功 | 372      | cloudflare |
 | 384  | iplocation.io                           | 2606:4700:20::681a:bde                  | IPv6   | h3   | ✅ 成功 | 372      | cloudflare |
 | 92   | asia.877774.xyz                         | 104.17.142.146                          | IPv4   | h3   | ✅ 成功 | 373      | cloudflare |
@@ -313,7 +313,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 280  | www.udemy.com                           | 2606:4700::6810:8eed                    | IPv6   | h3   | ✅ 成功 | 392      | cloudflare |
 | 419  | [2606:4700:9add::880:52fc]              | 2606:4700:9add::880:52fc                | IPv6   | h3   | ✅ 成功 | 392      | cloudflare |
 | 437  | 104.26.3.162                            | 104.26.3.162                            | IPv4   | h3   | ✅ 成功 | 393      | cloudflare |
-| 15   | www.visa.cn                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 394      | cloudflare |
+| 15   | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 394      | cloudflare |
 | 18   | www.okcupid.com                         | 104.16.239.254                          | IPv4   | h3   | ✅ 成功 | 394      | cloudflare |
 | 47   | bestcf.030101.xyz                       | 2606:4700:0:7809:f54e:ab56:90d6:b7ab    | IPv6   | h3   | ✅ 成功 | 394      | cloudflare |
 | 241  | [2606:4700:964f::6e2c:588e]             | 2606:4700:964f::6e2c:588e               | IPv6   | h3   | ✅ 成功 | 394      | cloudflare |
@@ -334,13 +334,13 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 279  | www.udemy.com                           | 104.16.143.237                          | IPv4   | h3   | ✅ 成功 | 398      | cloudflare |
 | 316  | cf.0sm.com                              | 2606:4700:3032::6815:785                | IPv6   | h3   | ✅ 成功 | 398      | cloudflare |
 | 393  | japan.com                               | 104.26.4.60                             | IPv4   | h3   | ✅ 成功 | 398      | cloudflare |
-| 12   | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h3   | ✅ 成功 | 399      | cloudflare |
-| 14   | www.visa.cn                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 399      | cloudflare |
+| 12   | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h3   | ✅ 成功 | 399      | cloudflare |
+| 14   | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 399      | cloudflare |
 | 331  | cmcc.877774.xyz                         | 104.16.148.6                            | IPv4   | h3   | ✅ 成功 | 400      | cloudflare |
 | 97   | zread.ai                                | 2606:4700:3033::6815:4cf0               | IPv6   | h3   | ✅ 成功 | 401      | cloudflare |
 | 172  | cloudflare.182682.xyz                   | 104.18.185.26                           | IPv4   | h3   | ✅ 成功 | 401      | cloudflare |
 | 260  | dnschecker.org                          | 2606:4700:20::681a:759                  | IPv6   | h3   | ✅ 成功 | 401      | cloudflare |
-| 11   | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h3   | ✅ 成功 | 402      | cloudflare |
+| 11   | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h3   | ✅ 成功 | 402      | cloudflare |
 | 443  | icook.hk                                | 188.114.97.3                            | IPv4   | h3   | ✅ 成功 | 402      | cloudflare |
 | 45   | bestcf.030101.xyz                       | 104.19.156.139                          | IPv4   | h3   | ✅ 成功 | 403      | cloudflare |
 | 469  | 2a06:98c1:3121:0:efde:82d1:8124:3fed    | 2a06:98c1:3121:0:efde:82d1:8124:3fed    | IPv6   | h3   | ✅ 成功 | 403      | cloudflare |
@@ -386,7 +386,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 390  | 104.19.175.123                          | 104.19.175.123                          | IPv4   | h3   | ✅ 成功 | 422      | cloudflare |
 | 281  | www.udemy.com                           | 2606:4700::6810:8fed                    | IPv6   | h3   | ✅ 成功 | 424      | cloudflare |
 | 328  | cmcc.877774.xyz                         | 104.16.148.3                            | IPv4   | h3   | ✅ 成功 | 424      | cloudflare |
-| 10   | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h3   | ✅ 成功 | 425      | cloudflare |
+| 10   | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h3   | ✅ 成功 | 425      | cloudflare |
 | 341  | cmcc.877774.xyz                         | 104.16.149.3                            | IPv4   | h3   | ✅ 成功 | 426      | cloudflare |
 | 438  | stock.hostmonit.com                     | 104.21.7.193                            | IPv4   | h3   | ✅ 成功 | 427      | cloudflare |
 | 149  | www.ipchicken.com                       | 104.26.6.112                            | IPv4   | h3   | ✅ 成功 | 428      | cloudflare |

@@ -155,9 +155,9 @@ IPv4 | h3 | ✅ 成功 | 131 | cloudflare | | 433 | xn--b6gac.eu.org |
 cfip.1323123.xyz | 104.16.133.220 | IPv4 | h3 | ✅ 成功 | 133 | cloudflare | |
 256 | ip.sb | 104.26.13.31 | IPv4 | h3 | ✅ 成功 | 133 | cloudflare | | 437 |
 bowen.ns.cloudflare.com | 108.162.195.83 | IPv4 | h3 | ✅ 成功 | 133 |
-cloudflare | | 453 | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4 | h3 | ✅
+cloudflare | | 453 | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4 | h3 | ✅
 成功 | 133 | cloudflare | | 25 | singapore.com | 172.67.75.194 | IPv4 | h3 | ✅
-成功 | 134 | cloudflare | | 202 | www.visa.cn | 162.159.153.2 | IPv4 | h3 | ✅
+成功 | 134 | cloudflare | | 202 | www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h3 | ✅
 成功 | 134 | cloudflare | | 366 | cf.090227.xyz | 172.66.44.77 | IPv4 | h3 | ✅
 成功 | 134 | cloudflare | | 391 | sullivan.ns.cloudflare.com | 162.159.44.161 |
 IPv4 | h3 | ✅ 成功 | 134 | cloudflare | | 95 | ct.877774.xyz | 172.64.229.173 |

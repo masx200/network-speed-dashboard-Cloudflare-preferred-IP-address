@@ -48,14 +48,14 @@
 | 367  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 419  | 3.0.50.69                | 3.0.50.69       | IPv4   | none | N/A    | 0        | N/A    | dial tcp 3.0.50.69:443: i/o timeout       |
 | 428  | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
-| 430  | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout |
+| 430  | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout |
 
 #### DNS解析错误: 其他DNS错误 (2 次测试)
 
 | 序号 | 主机/域名     | 目标IP  | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息      |
 | ---- | ------------- | ------- | ------- | ---- | ------ | -------- | ------ | ------------- |
-| 60   | cf.877771.xyz | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果 |
-| 61   | www.visa.cn   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果 |
+| 60   | 4444.cloudflare.182682.xyz | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果 |
+| 61   | www.4444.cloudflare.182682.xyz   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果 |
 
 #### 连接超时: 上下文超时 (1 次测试)
 

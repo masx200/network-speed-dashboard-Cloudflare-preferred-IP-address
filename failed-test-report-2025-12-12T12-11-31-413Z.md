@@ -146,13 +146,13 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 66   | ipv4.ip.sb                            | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 67   | 172.67.75.172                         | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 70   | iplocation.io                         | 104.26.11.222   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
-| 114  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
+| 114  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 118  | 172.67.120.0                          | 172.67.120.0    | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 238  | cf.090227.xyz                         | 172.64.152.241  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 250  | saas.sin.fan                          | 162.159.36.5    | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 270  | www.ipchicken.com                     | 172.67.68.101   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 287  | palera.in                             | 172.67.157.122  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
-| 19   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
+| 19   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 273  | www.glassdoor.com                     | 104.17.64.70    | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 283  | ip.sb                                 | 104.26.12.31    | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 203  | dylan.ns.cloudflare.com               | 172.64.35.187   | IPv4   | h3   | ✅ 成功 | 92       | cloudflare |
@@ -168,7 +168,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 168  | cmcc.877774.xyz                       | 104.16.148.11   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 297  | singapore.com                         | 104.26.13.140   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 328  | julio.ns.cloudflare.com               | 108.162.195.209 | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
-| 115  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
+| 115  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 130  | cu.877774.xyz                         | 104.26.4.111    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 174  | cmcc.877774.xyz                       | 104.16.149.4    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 217  | www.whatismyip.com                    | 104.26.13.23    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |

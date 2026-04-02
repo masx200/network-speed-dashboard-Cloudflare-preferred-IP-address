@@ -71,13 +71,13 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | ---- | ------------------------------------- | ----------------------------------- | ------ | ---- | ------- | -------- | ---------- |
 | 245  | iplocation.io                         | 2606:4700:20::681a:bde              | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 263  | 104.18.14.76                          | 104.18.14.76                        | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
-| 182  | cf.877771.xyz                         | 172.67.152.183                      | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
+| 182  | 4444.cloudflare.182682.xyz                         | 172.67.152.183                      | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 294  | cfip.xxxxxxxx.tk                      | 104.16.241.229                      | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 445  | fbi.gov                               | 104.16.148.244                      | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 80   | ifconfig.co                           | 2606:4700:3037::6815:365b           | IPv6   | h2   | ✅ 成功 | 52       | cloudflare |
 | 82   | www.csgo.com                          | 195.85.59.95                        | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 179  | dnschecker.org                        | 2606:4700:20::681a:659              | IPv6   | h2   | ✅ 成功 | 52       | cloudflare |
-| 185  | cf.877771.xyz                         | 2606:4700:3033::ac43:98b7           | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
+| 185  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::ac43:98b7           | IPv6   | h2   | ✅ 成功 | 53       | cloudflare |
 | 210  | ipv4.ip.sb                            | 104.26.12.31                        | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 301  | www.udemy.com                         | 104.16.143.237                      | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
 | 321  | trevor.ns.cloudflare.com              | 172.64.35.154                       | IPv4   | h2   | ✅ 成功 | 53       | cloudflare |
@@ -93,7 +93,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 181  | dnschecker.org                        | 2606:4700:20::ac43:49d8             | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 189  | julio.ns.cloudflare.com               | 2803:f800:50::6ca2:c3d1             | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 305  | 172.67.120.0                          | 172.67.120.0                        | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
-| 322  | trevor.ns.cloudflare.com              | 108.162.195.154                     | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
+| 322  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz                     | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 366  | kyree.ns.cloudflare.com               | 2803:f800:50::6ca2:c3cf             | IPv6   | h2   | ✅ 成功 | 56       | cloudflare |
 | 370  | 104.16.223.179                        | 104.16.223.179                      | IPv4   | h2   | ✅ 成功 | 56       | cloudflare |
 | 20   | comicabc.com                          | 2606:4700:3030::ac43:ae15           | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
@@ -171,7 +171,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 209  | ipv4.ip.sb                            | 104.26.13.31                        | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 231  | ct.877774.xyz                         | 172.64.229.195                      | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 268  | www.okcupid.com                       | 104.17.48.63                        | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
-| 306  | www.visa.cn                           | 162.159.153.2                       | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
+| 306  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2                       | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 312  | cu.877774.xyz                         | 104.26.4.113                        | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 315  | cu.877774.xyz                         | 104.26.4.116                        | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 368  | na.877774.xyz                         | 104.18.187.25                       | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
@@ -241,7 +241,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 171  | whatismyipaddress.com                 | 2606:4700::6813:df4f                | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 175  | cf.877774.xyz                         | 2a06:98c1:3102::6812:29be           | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 176  | dnschecker.org                        | 104.26.6.89                         | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
-| 183  | cf.877771.xyz                         | 104.21.80.180                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
+| 183  | 4444.cloudflare.182682.xyz                         | 104.21.80.180                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 192  | uriah.ns.cloudflare.com               | 172.64.35.194                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 213  | steamdb.info                          | 104.20.34.212                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 234  | ct.877774.xyz                         | 172.64.229.44                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |

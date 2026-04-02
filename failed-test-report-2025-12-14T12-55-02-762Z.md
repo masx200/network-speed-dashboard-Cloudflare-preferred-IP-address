@@ -156,7 +156,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 444  | cfip.xxxxxxxx.tk                      | 104.18.228.35   | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 452  | cfip.xxxxxxxx.tk                      | 104.16.232.223  | IPv4   | h3   | ✅ 成功 | 86       | cloudflare |
 | 99   | www.okcupid.com                       | 104.16.239.254  | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
-| 155  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
+| 155  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
 | 216  | moura.ns.cloudflare.com               | 172.64.35.217   | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
 | 235  | www.ipchicken.com                     | 104.26.7.112    | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
 | 293  | 104.18.42.26                          | 104.18.42.26    | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |

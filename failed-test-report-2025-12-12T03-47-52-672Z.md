@@ -82,7 +82,7 @@ trevor.ns.cloudflare.com | 172.64.35.154 | IPv4 | h3 | ✅ 成功 | 70 | cloudfl
 | | 83 | ct.877774.xyz | 172.64.229.185 | IPv4 | h3 | ✅ 成功 | 70 | cloudflare
 | | 321 | cf.090227.xyz | 172.64.144.82 | IPv4 | h3 | ✅ 成功 | 70 | cloudflare
 | | 389 | www.digitalocean.com | 104.19.174.68 | IPv4 | h3 | ✅ 成功 | 70 |
-cloudflare | | 182 | cf.877771.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 71 |
+cloudflare | | 182 | 4444.cloudflare.182682.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 71 |
 cloudflare | | 432 | abdullah.ns.cloudflare.com | 172.64.35.203 | IPv4 | h3 | ✅
 成功 | 71 | cloudflare | | 168 | cmcc.877774.xyz | 104.16.148.10 | IPv4 | h3 |
 ✅ 成功 | 72 | cloudflare | | 371 | yx-auto.pages.dev | 172.67.161.98 | IPv4 |

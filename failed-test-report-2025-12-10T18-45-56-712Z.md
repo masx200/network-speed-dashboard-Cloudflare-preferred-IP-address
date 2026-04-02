@@ -78,7 +78,7 @@ otto.ns.cloudflare.com | 108.162.195.135 | IPv4 | h3 | ✅ 成功 | 55 | cloudfl
 | | 212 | time.is | 172.67.68.157 | IPv4 | h3 | ✅ 成功 | 58 | cloudflare | |
 414 | www.ipchicken.com | 172.67.68.101 | IPv4 | h3 | ✅ 成功 | 58 | cloudflare
 | | 108 | japan.com | 172.67.70.92 | IPv4 | h3 | ✅ 成功 | 60 | cloudflare | |
-365 | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4 | h3 | ✅ 成功 | 60 |
+365 | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4 | h3 | ✅ 成功 | 60 |
 cloudflare | | 254 | singapore.com | 104.26.13.140 | IPv4 | h3 | ✅ 成功 | 61 |
 cloudflare | | 440 | asia.877774.xyz | 104.17.142.146 | IPv4 | h3 | ✅ 成功 | 61
 | cloudflare | | 423 | cf.877774.xyz | 104.18.41.190 | IPv4 | h3 | ✅ 成功 | 62
@@ -140,7 +140,7 @@ cloudflare | | 187 | cmcc.877774.xyz | 104.16.149.10 | IPv4 | h3 | ✅ 成功 | 
 pranab.ns.cloudflare.com | 162.159.44.199 | IPv4 | h3 | ✅ 成功 | 101 |
 cloudflare | | 44 | ifconfig.co | 104.21.54.91 | IPv4 | h3 | ✅ 成功 | 102 |
 cloudflare | | 128 | ct.877774.xyz | 172.64.229.173 | IPv4 | h3 | ✅ 成功 | 102
-| cloudflare | | 180 | cf.877771.xyz | 172.67.152.183 | IPv4 | h3 | ✅ 成功 |
+| cloudflare | | 180 | 4444.cloudflare.182682.xyz | 172.67.152.183 | IPv4 | h3 | ✅ 成功 |
 102 | cloudflare | | 207 | cmcc.877774.xyz | 104.16.149.4 | IPv4 | h3 | ✅ 成功
 | 102 | cloudflare | | 387 | damien.ns.cloudflare.com | 162.159.44.168 | IPv4 |
 h3 | ✅ 成功 | 102 | cloudflare | | 448 | cloudflare-ip.mofashi.ltd |

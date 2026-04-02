@@ -196,7 +196,7 @@ sullivan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 3    | 104.18.255.167                        | 104.18.255.167  | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 32   | sullivan.ns.cloudflare.com            | 172.64.35.161   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 95   | 172.67.77.196                         | 172.67.77.196   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
-| 180  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
+| 180  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 328  | palera.in                             | 104.21.58.72    | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 524  | 104.19.175.123                        | 104.19.175.123  | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
 | 530  | 172.64.82.114                         | 172.64.82.114   | IPv4   | h3   | ✅ 成功 | 85       | cloudflare |
@@ -361,7 +361,7 @@ sullivan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 620  | 104.18.47.46                          | 104.18.47.46    | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 644  | 104.17.25.87                          | 104.17.25.87    | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 685  | steamdb.info                          | 172.66.175.250  | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
-| 61   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 106      | cloudflare |
+| 61   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 106      | cloudflare |
 | 187  | cris.ns.cloudflare.com                | 108.162.195.202 | IPv4   | h3   | ✅ 成功 | 106      | cloudflare |
 | 224  | www.whatismyip.com                    | 104.26.13.23    | IPv4   | h3   | ✅ 成功 | 106      | cloudflare |
 | 356  | www.ipchicken.com                     | 104.26.6.112    | IPv4   | h3   | ✅ 成功 | 107      | cloudflare |
@@ -400,7 +400,7 @@ sullivan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 724  | ipv4.ip.sb                            | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
 | 99   | 104.26.8.148                          | 104.26.8.148    | IPv4   | h3   | ✅ 成功 | 111      | cloudflare |
 | 120  | yx-auto.pages.dev                     | 172.66.44.144   | IPv4   | h3   | ✅ 成功 | 111      | cloudflare |
-| 181  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 111      | cloudflare |
+| 181  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 111      | cloudflare |
 | 183  | 104.17.101.208                        | 104.17.101.208  | IPv4   | h3   | ✅ 成功 | 111      | cloudflare |
 | 150  | cmcc.877774.xyz                       | 104.16.148.9    | IPv4   | h3   | ✅ 成功 | 112      | cloudflare |
 | 158  | cmcc.877774.xyz                       | 104.16.149.4    | IPv4   | h3   | ✅ 成功 | 112      | cloudflare |
@@ -501,7 +501,7 @@ sullivan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 529  | 108.162.198.54                        | 108.162.198.54  | IPv4   | h3   | ✅ 成功 | 129      | cloudflare |
 | 573  | 104.18.81.19                          | 104.18.81.19    | IPv4   | h3   | ✅ 成功 | 129      | cloudflare |
 | 23   | 162.159.17.243                        | 162.159.17.243  | IPv4   | h3   | ✅ 成功 | 130      | cloudflare |
-| 174  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 130      | cloudflare |
+| 174  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 130      | cloudflare |
 | 531  | cfip.1323123.xyz                      | 104.16.133.220  | IPv4   | h3   | ✅ 成功 | 130      | cloudflare |
 | 608  | 172.64.145.108                        | 172.64.145.108  | IPv4   | h3   | ✅ 成功 | 130      | cloudflare |
 | 1    | 172.64.154.18                         | 172.64.154.18   | IPv4   | h3   | ✅ 成功 | 132      | cloudflare |
@@ -514,7 +514,7 @@ sullivan.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 553  | 104.26.5.134                          | 104.26.5.134    | IPv4   | h3   | ✅ 成功 | 134      | cloudflare |
 | 607  | 162.159.36.223                        | 162.159.36.223  | IPv4   | h3   | ✅ 成功 | 134      | cloudflare |
 | 46   | 172.67.74.57                          | 172.67.74.57    | IPv4   | h3   | ✅ 成功 | 135      | cloudflare |
-| 173  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 135      | cloudflare |
+| 173  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 135      | cloudflare |
 | 38   | 162.159.46.238                        | 162.159.46.238  | IPv4   | h3   | ✅ 成功 | 136      | cloudflare |
 | 438  | 162.159.22.29                         | 162.159.22.29   | IPv4   | h3   | ✅ 成功 | 136      | cloudflare |
 | 102  | 104.20.20.42                          | 104.20.20.42    | IPv4   | h3   | ✅ 成功 | 137      | cloudflare |

@@ -136,7 +136,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 407  | fbi.gov                               | 2606:4700::6810:95f4                    | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 415  | trevor.ns.cloudflare.com              | 2a06:98c1:50::ac40:239a                 | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 436  | bestcf.030101.xyz                     | 2606:4700::fffd:819d:acda               | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 4    | www.visa.cn                           | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
+| 4    | www.4444.cloudflare.182682.xyz                           | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 14   | comicabc.com                          | 172.67.174.21                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 22   | time.is                               | 2606:4700:20::681a:d36                  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 45   | 104.18.39.196                         | 104.18.39.196                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -147,7 +147,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 84   | icook.hk                              | 172.67.161.104                          | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 89   | iplocation.io                         | 172.67.70.100                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 101  | www.okcupid.com                       | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
-| 107  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
+| 107  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 110  | www.hugedomains.com                   | 104.26.7.37                             | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 115  | www.visa.com.sg                       | 104.18.13.229                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 116  | www.visa.com.sg                       | 104.18.12.229                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |

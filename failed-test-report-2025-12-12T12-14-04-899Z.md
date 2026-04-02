@@ -105,7 +105,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 234  | abdullah.ns.cloudflare.com | 2606:4700:58::a29f:2ccb   | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 251  | ipinfo.in                  | 104.21.21.129             | IPv4   | h2   | ✅ 成功 | 54       | cloudflare |
 | 295  | www.visa.com.sg            | 104.18.12.229             | IPv4   | h2   | ✅ 成功 | 54       | cloudflare |
-| 297  | cf.877771.xyz              | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 54       | cloudflare |
+| 297  | 4444.cloudflare.182682.xyz              | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 54       | cloudflare |
 | 310  | www.hugedomains.com        | 2606:4700:20::ac43:46bf   | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 311  | www.hugedomains.com        | 2606:4700:20::681a:725    | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
 | 358  | toy-people.com             | 2606:4700:20::681a:224    | IPv6   | h2   | ✅ 成功 | 54       | cloudflare |
@@ -162,7 +162,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 230  | cmcc.877774.xyz            | 104.16.148.1              | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 248  | www.pcmag.com              | 2606:4700::6810:1576      | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 259  | steamdb.info               | 2606:4700:10::6814:22d4   | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
-| 299  | cf.877771.xyz              | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
+| 299  | 4444.cloudflare.182682.xyz              | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 321  | yx-auto.pages.dev          | 2606:4700:310c::ac42:2f70 | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 337  | cu.877774.xyz              | 104.26.4.111              | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 340  | cu.877774.xyz              | 104.26.4.114              | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |

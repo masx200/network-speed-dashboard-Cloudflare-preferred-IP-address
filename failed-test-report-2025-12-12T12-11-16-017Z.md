@@ -92,7 +92,7 @@ kyree.ns.cloudflare.com (3次), dylan.ns.cloudflare.com
 | 107  | saas.sin.fan                          | 162.159.36.20   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 245  | cmcc.877774.xyz                       | 104.16.148.6    | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 318  | tasteatlas.com                        | 104.17.36.105   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
-| 400  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
+| 400  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 423  | cris.ns.cloudflare.com                | 172.64.35.202   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 45   | 172.64.151.55                         | 172.64.151.55   | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
 | 132  | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182  | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
@@ -116,9 +116,9 @@ kyree.ns.cloudflare.com (3次), dylan.ns.cloudflare.com
 | 411  | cfip.1323123.xyz                      | 104.16.133.220  | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
 | 179  | cloudflare-ip.mofashi.ltd             | 172.67.155.172  | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
 | 219  | cf.0sm.com                            | 104.21.7.133    | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
-| 401  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
+| 401  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
 | 408  | 172.67.243.218                        | 172.67.243.218  | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
-| 409  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
+| 409  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 43       | cloudflare |
 | 206  | ct.877774.xyz                         | 172.64.229.185  | IPv4   | h3   | ✅ 成功 | 44       | cloudflare |
 | 229  | iplocation.io                         | 104.26.10.222   | IPv4   | h3   | ✅ 成功 | 44       | cloudflare |
 | 282  | 104.18.14.76                          | 104.18.14.76    | IPv4   | h3   | ✅ 成功 | 44       | cloudflare |

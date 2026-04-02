@@ -148,7 +148,7 @@ trevor.ns.cloudflare.com (3次), huxley.ns.cloudflare.com
 | 35   | 104.18.39.196                         | 104.18.39.196   | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 244  | cf.090227.xyz                         | 172.64.152.241  | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 277  | www.glassdoor.com                     | 104.17.64.70    | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
-| 17   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
+| 17   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
 | 23   | cf.0sm.com                            | 104.21.7.133    | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
 | 32   | ct.877774.xyz                         | 172.64.229.195  | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
 | 49   | cmcc.877774.xyz                       | 104.16.148.3    | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |

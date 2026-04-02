@@ -94,7 +94,7 @@ IPv4 | h2 | ✅ 成功 | 49 | cloudflare | | 42 | comicabc.com |
 2606:4700:3036::6815:400a | IPv6 | h2 | ✅ 成功 | 50 | cloudflare | | 57 |
 www.whatismyip.com | 2606:4700:20::681a:c17 | IPv6 | h2 | ✅ 成功 | 50 |
 cloudflare | | 65 | japan.com | 2606:4700:20::681a:43c | IPv6 | h2 | ✅ 成功 |
-50 | cloudflare | | 89 | cf.877771.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | h2 |
+50 | cloudflare | | 89 | 4444.cloudflare.182682.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | h2 |
 ✅ 成功 | 50 | cloudflare | | 157 | time.is | 2606:4700:20::681a:d36 | IPv6 | h2
 | ✅ 成功 | 50 | cloudflare | | 166 | 172.64.146.16 | 172.64.146.16 | IPv4 | h2
 | ✅ 成功 | 50 | cloudflare | | 184 | 172.64.159.6 | 172.64.159.6 | IPv4 | h2 |
@@ -103,7 +103,7 @@ cloudflare | | 65 | japan.com | 2606:4700:20::681a:43c | IPv6 | h2 | ✅ 成功 
 ✅ 成功 | 50 | cloudflare | | 213 | cmcc.877774.xyz | 104.16.148.4 | IPv4 | h2 |
 ✅ 成功 | 50 | cloudflare | | 253 | 104.26.13.31 | 104.26.13.31 | IPv4 | h2 | ✅
 成功 | 50 | cloudflare | | 322 | whatismyipaddress.com | 2606:4700::6813:df4f |
-IPv6 | h2 | ✅ 成功 | 50 | cloudflare | | 334 | www.visa.cn | 162.159.152.2 |
+IPv6 | h2 | ✅ 成功 | 50 | cloudflare | | 334 | www.4444.cloudflare.182682.xyz | 162.159.152.2 |
 IPv4 | h2 | ✅ 成功 | 50 | cloudflare | | 350 | bestcf.030101.xyz |
 104.19.149.213 | IPv4 | h2 | ✅ 成功 | 50 | cloudflare | | 375 | cf.877774.xyz |
 2606:4700:4406::ac40:9242 | IPv6 | h2 | ✅ 成功 | 50 | cloudflare | | 396 |

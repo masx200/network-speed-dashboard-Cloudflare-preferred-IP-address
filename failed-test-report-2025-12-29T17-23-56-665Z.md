@@ -91,7 +91,7 @@ wilson.ns.cloudflare.com (3次), iplocation.io
 | 192  | kyree.ns.cloudflare.com               | 108.162.195.207 | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 317  | 456.cloudflare.182682.xyz             | 172.67.75.208   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 409  | 104.18.78.214                         | 104.18.78.214   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
-| 143  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
+| 143  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 307  | ip.gs                                 | 104.21.14.176   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 472  | 104.17.142.212                        | 104.17.142.212  | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 471  | 162.159.58.65                         | 162.159.58.65   | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
@@ -125,7 +125,7 @@ wilson.ns.cloudflare.com (3次), iplocation.io
 | 370  | 172.64.229.7                          | 172.64.229.7    | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 468  | 104.18.223.253                        | 104.18.223.253  | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 29   | ct.877774.xyz                         | 172.64.229.174  | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
-| 149  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
+| 149  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 170  | pranab.ns.cloudflare.com              | 172.64.35.199   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 214  | 104.17.79.11                          | 104.17.79.11    | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 242  | fbi.gov                               | 104.16.148.244  | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
@@ -163,7 +163,7 @@ wilson.ns.cloudflare.com (3次), iplocation.io
 | 450  | abdullah.ns.cloudflare.com            | 172.64.35.203   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 7    | cf.0sm.com                            | 104.21.7.133    | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 87   | cmcc.877774.xyz                       | 104.16.148.244  | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
-| 116  | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
+| 116  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 121  | cloudflare.182682.xyz                 | 104.17.25.173   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 390  | 104.18.89.52                          | 104.18.89.52    | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 410  | 104.17.139.37                         | 104.17.139.37   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |

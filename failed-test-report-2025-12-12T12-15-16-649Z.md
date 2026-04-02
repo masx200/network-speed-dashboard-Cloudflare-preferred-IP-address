@@ -96,7 +96,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 56   | 104.18.37.13                          | 104.18.37.13              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 65   | 104.26.6.112                          | 104.26.6.112              | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 71   | cf.877774.xyz                         | cf.877774.xyz             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
-| 92   | www.visa.cn                           | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
+| 92   | www.4444.cloudflare.182682.xyz                           | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 140  | na.877774.xyz                         | 104.18.187.25             | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 154  | toy-people.com                        | 104.26.2.36               | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
 | 155  | toy-people.com                        | 104.26.3.36               | IPv4   | h2   | ✅ 成功 | 35       | cloudflare |
@@ -128,7 +128,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 79   | iplocation.io                         | 2606:4700:20::ac43:4664   | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 85   | 172.67.120.0                          | 172.67.120.0              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 97   | www.okcupid.com                       | 104.18.160.63             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 108  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
+| 108  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 111  | 172.67.243.218                        | 172.67.243.218            | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 115  | sullivan.ns.cloudflare.com            | 2a06:98c1:50::ac40:23a1   | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 157  | toy-people.com                        | 2606:4700:20::ac43:4812   | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
@@ -167,7 +167,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 77   | iplocation.io                         | 2606:4700:20::681a:bde    | IPv6   | h2   | ✅ 成功 | 37       | cloudflare |
 | 84   | icook.hk                              | 2606:4700:3037::ac43:a168 | IPv6   | h2   | ✅ 成功 | 37       | cloudflare |
 | 100  | www.hugedomains.com                   | 172.67.70.191             | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
-| 105  | cf.877771.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
+| 105  | 4444.cloudflare.182682.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 | 119  | yx-auto.pages.dev                     | 172.66.47.112             | IPv4   | h2   | ✅ 成功 | 37       | cloudflare |
 
 ### 延迟分布分析

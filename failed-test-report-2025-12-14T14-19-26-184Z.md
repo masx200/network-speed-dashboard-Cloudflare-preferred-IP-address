@@ -95,7 +95,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 25   | toy-people.com                        | 2606:4700:20::681a:224               | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 59   | 172.67.75.172                         | 172.67.75.172                        | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 62   | ipv4.ip.sb                            | 104.26.12.31                         | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
-| 103  | www.visa.cn                           | 162.159.153.2                        | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
+| 103  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2                        | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 116  | www.hugedomains.com                   | 104.26.6.37                          | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 234  | cf.zhetengsha.eu.org                  | 2606:4700:4407::ac40:9052            | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 405  | ifconfig.co                           | 172.67.168.106                       | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
@@ -148,7 +148,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 88   | iplocation.io                         | 2606:4700:20::ac43:4664              | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 91   | [2606:4700:8de6::5fa2:799e]           | 2606:4700:8de6::5fa2:799e            | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 108  | www.okcupid.com                       | 104.16.239.254                       | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
-| 111  | cf.877771.xyz                         | 104.21.80.180                        | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
+| 111  | 4444.cloudflare.182682.xyz                         | 104.21.80.180                        | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 179  | cloudflare-ip.mofashi.ltd             | 2606:4700:3037::ac43:9bac            | IPv6   | h2   | ✅ 成功 | 66       | cloudflare |
 | 216  | cmcc.877774.xyz                       | 104.16.149.5                         | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 220  | cmcc.877774.xyz                       | 104.16.149.9                         | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |

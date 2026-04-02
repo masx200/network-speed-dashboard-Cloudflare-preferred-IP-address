@@ -82,7 +82,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 184  | japan.com                             | 104.26.5.60     | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 204  | eur.877774.xyz                        | 104.21.26.150   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 207  | abdullah.ns.cloudflare.com            | 108.162.195.203 | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
-| 350  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
+| 350  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 40       | cloudflare |
 | 165  | otto.ns.cloudflare.com                | 172.64.35.135   | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
 | 250  | 104.16.45.84                          | 104.16.45.84    | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
 | 356  | cu.877774.xyz                         | 104.26.4.113    | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
@@ -128,7 +128,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 324  | www.okcupid.com                       | 104.17.48.63    | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 341  | www.visa.com.sg                       | 104.18.13.229   | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 342  | www.visa.com.sg                       | 104.18.12.229   | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
-| 351  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
+| 351  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 421  | asia.877774.xyz                       | 104.17.142.146  | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 425  | bowen.ns.cloudflare.com               | 172.64.35.83    | IPv4   | h3   | ✅ 成功 | 61       | cloudflare |
 | 141  | yx-auto.pages.dev                     | 172.67.161.98   | IPv4   | h3   | ✅ 成功 | 62       | cloudflare |

@@ -178,7 +178,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 692  | 104.16.251.254                        | 104.16.251.254  | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 716  | 172.64.53.165                         | 172.64.53.165   | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 126  | www.okcupid.com                       | 104.17.48.63    | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
-| 158  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
+| 158  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 197  | www.whatismyip.com                    | 172.67.69.129   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 376  | otto.ns.cloudflare.com                | 172.64.35.135   | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
 | 458  | 198.41.208.224                        | 198.41.208.224  | IPv4   | h3   | ✅ 成功 | 46       | cloudflare |
@@ -213,7 +213,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 786  | 104.25.245.215                        | 104.25.245.215  | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 820  | 172.67.75.212                         | 172.67.75.212   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 825  | 104.25.244.87                         | 104.25.244.87   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
-| 841  | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
+| 841  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 18   | cf.0sm.com                            | 104.21.7.133    | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 65   | 104.18.254.88                         | 104.18.254.88   | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
 | 102  | www.4chan.org                         | 104.16.229.229  | IPv4   | h3   | ✅ 成功 | 49       | cloudflare |
@@ -248,7 +248,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 103  | www.4chan.org                         | 104.16.228.229  | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 105  | icook.hk                              | 172.67.161.104  | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 124  | www.okcupid.com                       | 104.18.160.63   | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
-| 157  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
+| 157  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 342  | 104.18.14.76                          | 104.18.14.76    | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 409  | japan.com                             | 104.26.4.60     | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 471  | 104.18.223.253                        | 104.18.223.253  | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
@@ -358,7 +358,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 32   | steamdb.info                          | 172.66.175.250  | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 56   | cloudflare.182682.xyz                 | 104.16.250.22   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 75   | cmcc.877774.xyz                       | 104.16.148.11   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
-| 134  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
+| 134  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 250  | time.is                               | 104.26.13.54    | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 333  | julio.ns.cloudflare.com               | 172.64.35.209   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 357  | www.glassdoor.com                     | 104.17.64.70    | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
@@ -521,7 +521,7 @@ iplocation.io (3次), huxley.ns.cloudflare.com
 | 510  | 104.16.255.1                          | 104.16.255.1    | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 643  | 104.17.209.79                         | 104.17.209.79   | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 45   | iplocation.io                         | 172.67.70.100   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
-| 135  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
+| 135  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 138  | pranab.ns.cloudflare.com              | 108.162.195.199 | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 380  | 172.64.35.24                          | 172.64.35.24    | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 611  | 172.67.75.11                          | 172.67.75.11    | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |

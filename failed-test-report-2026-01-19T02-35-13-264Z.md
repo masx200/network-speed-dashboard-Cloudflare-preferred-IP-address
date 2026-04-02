@@ -103,7 +103,7 @@ iplocation.io (3次), www.hugedomains.com
 | 589  | 172.64.42.158                         | 172.64.42.158   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 655  | 104.20.23.184                         | 104.20.23.184   | IPv4   | h3   | ✅ 成功 | 50       | cloudflare |
 | 76   | www.okcupid.com                       | 104.16.239.254  | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
-| 106  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
+| 106  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 361  | ifconfig.co                           | 172.67.168.106  | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 661  | 104.20.28.71                          | 104.20.28.71    | IPv4   | h3   | ✅ 成功 | 51       | cloudflare |
 | 102  | yx-auto.pages.dev                     | 172.66.47.112   | IPv4   | h3   | ✅ 成功 | 52       | cloudflare |
@@ -339,13 +339,13 @@ iplocation.io (3次), www.hugedomains.com
 | 611  | 104.17.115.224                        | 104.17.115.224  | IPv4   | h3   | ✅ 成功 | 93       | cloudflare |
 | 435  | 104.17.69.244                         | 104.17.69.244   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 666  | 172.67.110.232                        | 172.67.110.232  | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
-| 107  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
+| 107  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 428  | 104.17.139.37                         | 104.17.139.37   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 524  | 162.159.34.55                         | 162.159.34.55   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 657  | 162.159.34.78                         | 162.159.34.78   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 60   | cmcc.877774.xyz                       | 104.16.149.1    | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
 | 61   | cmcc.877774.xyz                       | 104.16.149.2    | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
-| 88   | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
+| 88   | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
 | 208  | asia.877774.xyz                       | 104.16.211.153  | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
 | 355  | damien.ns.cloudflare.com              | 172.64.35.168   | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
 | 391  | 198.41.194.162                        | 198.41.194.162  | IPv4   | h3   | ✅ 成功 | 96       | cloudflare |
@@ -357,7 +357,7 @@ iplocation.io (3次), www.hugedomains.com
 | 517  | 104.16.148.187                        | 104.16.148.187  | IPv4   | h3   | ✅ 成功 | 97       | cloudflare |
 | 660  | 172.67.79.160                         | 172.67.79.160   | IPv4   | h3   | ✅ 成功 | 97       | cloudflare |
 | 43   | cmcc.877774.xyz                       | 104.16.149.10   | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
-| 87   | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
+| 87   | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
 | 210  | time.is                               | 104.26.13.54    | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
 | 247  | palera.in                             | 104.21.58.72    | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
 | 290  | 456.cloudflare.182682.xyz             | 104.26.9.160    | IPv4   | h3   | ✅ 成功 | 98       | cloudflare |
@@ -556,7 +556,7 @@ iplocation.io (3次), www.hugedomains.com
 | 254  | julio.ns.cloudflare.com               | 162.159.44.209  | IPv4   | h3   | ✅ 成功 | 189      | cloudflare |
 | 311  | uriah.ns.cloudflare.com               | 162.159.44.194  | IPv4   | h3   | ✅ 成功 | 190      | cloudflare |
 | 324  | 104.17.142.12                         | 104.17.142.12   | IPv4   | h3   | ✅ 成功 | 194      | cloudflare |
-| 705  | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 200      | cloudflare |
+| 705  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 200      | cloudflare |
 | 481  | 104.17.16.248                         | 104.17.16.248   | IPv4   | h3   | ✅ 成功 | 208      | cloudflare |
 | 4    | 103.160.204.59                        | 103.160.204.59  | IPv4   | h3   | ✅ 成功 | 211      | cloudflare |
 | 559  | 104.17.154.254                        | 104.17.154.254  | IPv4   | h3   | ✅ 成功 | 219      | cloudflare |

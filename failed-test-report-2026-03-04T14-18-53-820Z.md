@@ -156,8 +156,8 @@
 | 39   | www.gov.ua                 | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
 | 53   | cu.877774.xyz              | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
 | 65   | sullivan.ns.cloudflare.com | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
-| 92   | cf.877771.xyz              | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
-| 117  | www.visa.cn                | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
+| 92   | 4444.cloudflare.182682.xyz              | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
+| 117  | www.4444.cloudflare.182682.xyz                | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
 | 154  | bestcf.030101.xyz          | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
 | 160  | cf.zhetengsha.eu.org       | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
 | 161  | fbi.gov                    | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: 未查询到任何IP记录 |
@@ -189,7 +189,7 @@
 
 | 序号 | 主机/域名                | 目标IP          | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                  |
 | ---- | ------------------------ | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
-| 41   | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout |
+| 41   | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout |
 | 116  | cf.877774.xyz            | cf.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout   |
 | 252  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 

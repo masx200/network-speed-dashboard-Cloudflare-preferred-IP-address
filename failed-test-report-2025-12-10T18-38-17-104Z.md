@@ -82,7 +82,7 @@ craig.ns.cloudflare.com | 172.64.35.192 | IPv4 | h3 | ✅ 成功 | 70 | cloudfla
 | | 425 | cris.ns.cloudflare.com | 172.64.35.202 | IPv4 | h3 | ✅ 成功 | 76 |
 cloudflare | | 454 | icook.tw | 104.20.28.74 | IPv4 | h3 | ✅ 成功 | 78 |
 cloudflare | | 460 | damien.ns.cloudflare.com | 108.162.195.168 | IPv4 | h3 | ✅
-成功 | 78 | cloudflare | | 474 | www.visa.cn | 162.159.152.2 | IPv4 | h3 | ✅
+成功 | 78 | cloudflare | | 474 | www.4444.cloudflare.182682.xyz | 162.159.152.2 | IPv4 | h3 | ✅
 成功 | 82 | cloudflare | | 478 | cfip.xxxxxxxx.tk | 190.93.244.201 | IPv4 | h3 |
 ✅ 成功 | 82 | cloudflare | | 156 | www.hugedomains.com | 104.26.7.37 | IPv4 |
 h3 | ✅ 成功 | 83 | cloudflare | | 446 | yx-auto.pages.dev | 104.21.9.230 | IPv4
@@ -106,7 +106,7 @@ h3 | ✅ 成功 | 101 | cloudflare | | 135 | 162.159.36.104 | 162.159.36.104 | I
 ✅ 成功 | 103 | cloudflare | | 14 | www.ipchicken.com | 104.26.7.112 | IPv4 | h3
 | ✅ 成功 | 104 | cloudflare | | 226 | cmcc.877774.xyz | 104.16.148.8 | IPv4 |
 h3 | ✅ 成功 | 104 | cloudflare | | 94 | ct.877774.xyz | 172.64.229.44 | IPv4 |
-h3 | ✅ 成功 | 105 | cloudflare | | 213 | cf.877771.xyz | 172.67.152.183 | IPv4
+h3 | ✅ 成功 | 105 | cloudflare | | 213 | 4444.cloudflare.182682.xyz | 172.67.152.183 | IPv4
 | h3 | ✅ 成功 | 105 | cloudflare | | 433 | www.okcupid.com | 104.16.144.63 |
 IPv4 | h3 | ✅ 成功 | 105 | cloudflare | | 85 | stock.hostmonit.com |
 104.21.7.193 | IPv4 | h3 | ✅ 成功 | 106 | cloudflare | | 289 | time.is |
@@ -129,7 +129,7 @@ h3 | ✅ 成功 | 110 | cloudflare | | 300 | 172.64.153.172 | 172.64.153.172 | I
 IPv4 | h3 | ✅ 成功 | 111 | cloudflare | | 394 | rustam.ns.cloudflare.com |
 162.159.44.148 | IPv4 | h3 | ✅ 成功 | 111 | cloudflare | | 37 |
 cfip.1323123.xyz | 104.16.133.220 | IPv4 | h3 | ✅ 成功 | 112 | cloudflare | |
-214 | cf.877771.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 112 | cloudflare | |
+214 | 4444.cloudflare.182682.xyz | 104.21.80.180 | IPv4 | h3 | ✅ 成功 | 112 | cloudflare | |
 204 | 104.16.61.163 | 104.16.61.163 | IPv4 | h3 | ✅ 成功 | 113 | cloudflare | |
 326 | 172.67.79.211 | 172.67.79.211 | IPv4 | h3 | ✅ 成功 | 113 | cloudflare | |
 58 | www.visa.com.sg | 104.18.13.229 | IPv4 | h3 | ✅ 成功 | 114 | cloudflare |
@@ -161,7 +161,7 @@ h3 | ✅ 成功 | 118 | cloudflare | | 121 | ae8a9c24-83de.masx200.ddns-ip.net |
 104.26.4.117 | IPv4 | h3 | ✅ 成功 | 118 | cloudflare | | 355 | 172.64.33.67 |
 172.64.33.67 | IPv4 | h3 | ✅ 成功 | 118 | cloudflare | | 369 |
 moura.ns.cloudflare.com | 108.162.195.217 | IPv4 | h3 | ✅ 成功 | 118 |
-cloudflare | | 473 | www.visa.cn | 162.159.153.2 | IPv4 | h3 | ✅ 成功 | 118 |
+cloudflare | | 473 | www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h3 | ✅ 成功 | 118 |
 cloudflare | | 130 | na.877774.xyz | 104.18.38.235 | IPv4 | h3 | ✅ 成功 | 119 |
 cloudflare | | 185 | yx-auto.pages.dev | 172.66.47.112 | IPv4 | h3 | ✅ 成功 |
 119 | cloudflare | | 196 | bowen.ns.cloudflare.com | 108.162.195.83 | IPv4 | h3

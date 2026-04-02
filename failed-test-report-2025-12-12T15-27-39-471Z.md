@@ -108,7 +108,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 49   | iplocation.io              | 104.26.10.222   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 411  | japan.com                  | 104.26.4.60     | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 129  | yx-auto.pages.dev          | 172.66.47.112   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
-| 18   | trevor.ns.cloudflare.com   | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
+| 18   | trevor.ns.cloudflare.com   | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 145  | na.877774.xyz              | 104.18.38.235   | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 326  | dnschecker.org             | 104.26.6.89     | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 366  | tasteatlas.com             | 104.17.36.105   | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
@@ -153,7 +153,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 46   | ipv4.ip.sb                 | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 81   | www.4chan.org              | 104.16.229.229  | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 98   | www.okcupid.com            | 104.18.160.63   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
-| 100  | cf.877771.xyz              | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
+| 100  | 4444.cloudflare.182682.xyz              | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 133  | www.visa.com.sg            | 104.18.13.229   | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 175  | cmcc.877774.xyz            | 104.16.149.6    | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |
 | 307  | benedict.ns.cloudflare.com | 162.159.44.205  | IPv4   | h3   | ✅ 成功 | 95       | cloudflare |

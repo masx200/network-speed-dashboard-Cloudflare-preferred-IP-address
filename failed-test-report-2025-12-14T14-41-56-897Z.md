@@ -93,7 +93,7 @@ cris.ns.cloudflare.com (3次), dylan.ns.cloudflare.com
 | 35   | kyree.ns.cloudflare.com               | 172.64.35.207   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 243  | otto.ns.cloudflare.com                | 172.64.35.135   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 425  | www.visa.com.sg                       | 104.18.13.229   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
-| 437  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
+| 437  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 38       | cloudflare |
 | 215  | icook.tw                              | 104.20.28.74    | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 393  | cu.877774.xyz                         | 104.26.4.112    | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
 | 403  | yx-auto.pages.dev                     | 172.66.47.112   | IPv4   | h3   | ✅ 成功 | 39       | cloudflare |
@@ -179,7 +179,7 @@ cris.ns.cloudflare.com (3次), dylan.ns.cloudflare.com
 | 377  | cmcc.877774.xyz                       | 104.16.149.10   | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
 | 400  | www.okcupid.com                       | 104.18.160.63   | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
 | 407  | 172.67.120.0                          | 172.67.120.0    | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
-| 416  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
+| 416  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
 | 18   | dylan.ns.cloudflare.com               | 172.64.35.187   | IPv4   | h3   | ✅ 成功 | 64       | cloudflare |
 | 19   | dylan.ns.cloudflare.com               | 108.162.195.187 | IPv4   | h3   | ✅ 成功 | 64       | cloudflare |
 | 25   | toy-people.com                        | 104.26.3.36     | IPv4   | h3   | ✅ 成功 | 64       | cloudflare |
@@ -223,10 +223,10 @@ cris.ns.cloudflare.com (3次), dylan.ns.cloudflare.com
 | 203  | 104.17.142.12                         | 104.17.142.12   | IPv4   | h3   | ✅ 成功 | 67       | cloudflare |
 | 205  | cf.090227.xyz                         | 172.64.144.82   | IPv4   | h3   | ✅ 成功 | 67       | cloudflare |
 | 305  | ct.877774.xyz                         | 172.64.229.217  | IPv4   | h3   | ✅ 成功 | 67       | cloudflare |
-| 415  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 67       | cloudflare |
+| 415  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 67       | cloudflare |
 | 81   | na.877774.xyz                         | 104.18.187.25   | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
 | 210  | 104.18.37.40                          | 104.18.37.40    | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
-| 288  | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
+| 288  | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
 | 306  | ct.877774.xyz                         | 172.64.229.236  | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
 | 369  | cmcc.877774.xyz                       | 104.16.149.2    | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |
 | 389  | cu.877774.xyz                         | 104.26.4.115    | IPv4   | h3   | ✅ 成功 | 68       | cloudflare |

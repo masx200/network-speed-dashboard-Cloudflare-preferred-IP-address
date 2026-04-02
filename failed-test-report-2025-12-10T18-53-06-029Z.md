@@ -65,7 +65,7 @@ cloudflare | | 120 | ae8a9c24-83de.masx200.ddns-ip.net |
 huxley.ns.cloudflare.com | 2a06:98c1:50::ac40:23bc | IPv6 | h2 | ✅ 成功 | 58 |
 cloudflare | | 335 | toy-people.com | 2606:4700:20::ac43:4812 | IPv6 | h2 | ✅
 成功 | 58 | cloudflare | | 376 | cmcc.877774.xyz | 104.16.148.244 | IPv4 | h2 |
-✅ 成功 | 58 | cloudflare | | 228 | cf.877771.xyz | 2606:4700:3033::6815:50b4 |
+✅ 成功 | 58 | cloudflare | | 228 | 4444.cloudflare.182682.xyz | 2606:4700:3033::6815:50b4 |
 IPv6 | h2 | ✅ 成功 | 59 | cloudflare | | 359 | cmcc.877774.xyz | 104.16.149.9 |
 IPv4 | h2 | ✅ 成功 | 59 | cloudflare | | 393 | uriah.ns.cloudflare.com |
 2803:f800:50::6ca2:c3c2 | IPv6 | h2 | ✅ 成功 | 59 | cloudflare | | 412 |
@@ -103,7 +103,7 @@ cloudflare | | 235 | www.ipget.net | 2606:4700:3031::ac43:cf1a | IPv6 | h2 | ✅
 h2 | ✅ 成功 | 64 | cloudflare | | 221 | bowen.ns.cloudflare.com |
 2a06:98c1:50::ac40:2353 | IPv6 | h2 | ✅ 成功 | 64 | cloudflare | | 400 |
 moura.ns.cloudflare.com | 2803:f800:50::6ca2:c3d9 | IPv6 | h2 | ✅ 成功 | 64 |
-cloudflare | | 425 | www.visa.cn | 162.159.153.2 | IPv4 | h2 | ✅ 成功 | 64 |
+cloudflare | | 425 | www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h2 | ✅ 成功 | 64 |
 cloudflare | | 479 | damien.ns.cloudflare.com | 2606:4700:58::a29f:2ca8 | IPv6 |
 h2 | ✅ 成功 | 64 | cloudflare | | 43 | ashton.ns.cloudflare.com |
 2a06:98c1:50::ac40:23ad | IPv6 | h2 | ✅ 成功 | 65 | cloudflare | | 67 |

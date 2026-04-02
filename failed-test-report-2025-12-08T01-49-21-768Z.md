@@ -46,7 +46,7 @@
 | 418  | 138.2.18.82                           | 138.2.18.82             | IPv4    | none | N/A    | 0        | N/A        | dial tcp 138.2.18.82:443: i/o timeout              |
 | 439  | 115.22.115.218                        | 115.22.115.218          | IPv4    | none | N/A    | 0        | N/A        | dial tcp 115.22.115.218:443: i/o timeout           |
 | 443  | 59.31.68.195                          | 59.31.68.195            | IPv4    | none | N/A    | 0        | N/A        | dial tcp 59.31.68.195:443: connectex: No connec... |
-| 444  | trevor.ns.cloudfl...                  | 108.162.195.154         | IPv4    | none | N/A    | 0        | N/A        | dial tcp 108.162.195.154:443: i/o timeout          |
+| 444  | trevor.ns.cloudfl...                  | 4444.cloudflare.182682.xyz         | IPv4    | none | N/A    | 0        | N/A        | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout          |
 | 451  | 61.85.1.77                            | 61.85.1.77              | IPv4    | none | N/A    | 0        | N/A        | dial tcp 61.85.1.77:443: connectex: No connecti... |
 | 478  | 3.0.50.69                             | 3.0.50.69               | IPv4    | none | N/A    | 0        | N/A        | dial tcp 3.0.50.69:443: i/o timeout                |
 | 485  | cloudflare.182682...                  | 6666.cloudflare.182682.xyz | IPv6    | none | N/A    | 0        | N/A        | dial tcp 6666.cloudflare.182682.xyz:443: i/o tim... |

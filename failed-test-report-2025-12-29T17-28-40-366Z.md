@@ -79,7 +79,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 413  | ip.sb                                   | 2606:4700:20::ac43:4bac                 | IPv6   | h2   | ✅ 成功 | 41       | cloudflare |
 | 444  | julio.ns.cloudflare.com                 | 172.64.35.209                           | IPv4   | h2   | ✅ 成功 | 41       | cloudflare |
 | 481  | uriah.ns.cloudflare.com                 | 172.64.35.194                           | IPv4   | h2   | ✅ 成功 | 41       | cloudflare |
-| 27   | trevor.ns.cloudflare.com                | 108.162.195.154                         | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 27   | trevor.ns.cloudflare.com                | 4444.cloudflare.182682.xyz                         | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 72   | cloudflare.182682.xyz                   | 104.21.227.134                          | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 141  | otto.ns.cloudflare.com                  | 108.162.195.135                         | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 197  | pranab.ns.cloudflare.com                | 162.159.44.199                          | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
@@ -174,7 +174,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 75   | cloudflare.182682.xyz                   | 2a06:98c1:3120::5692:61a4               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 97   | gamer.com.tw                            | 104.18.3.197                            | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 115  | cu.877774.xyz                           | 104.18.42.54                            | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
-| 147  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
+| 147  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 152  | www.hugedomains.com                     | 2606:4700:20::681a:725                  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 153  | www.hugedomains.com                     | 2606:4700:20::ac43:46bf                 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 240  | lewis.ns.cloudflare.com                 | 108.162.195.159                         | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -265,7 +265,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 120  | www.4chan.org                           | 104.16.228.229                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 123  | icook.tw                                | 2606:4700:10::ac42:9e73                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 125  | [2606:4700:4408::18c5:3304]             | 2606:4700:4408::18c5:3304               | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
-| 137  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 137  | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 151  | www.hugedomains.com                     | 104.26.7.37                             | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 189  | eur.877774.xyz                          | 104.21.29.164                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 223  | cmcc.877774.xyz                         | 104.16.148.244                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |

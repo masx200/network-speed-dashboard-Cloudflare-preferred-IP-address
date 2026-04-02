@@ -208,7 +208,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 128  | cfip.xxxxxxxx.tk                        | 188.114.97.144                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 135  | www.hugedomains.com                     | 172.67.70.191                           | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 136  | www.hugedomains.com                     | 104.26.6.37                             | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
-| 142  | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
+| 142  | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 175  | yx-auto.pages.dev                       | 2606:4700:310c::ac42:2f70               | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 193  | 172.64.53.15                            | 172.64.53.15                            | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 209  | cmcc.877774.xyz                         | 104.16.148.6                            | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
@@ -625,7 +625,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 92   | icook.hk                                | 172.67.161.104                          | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 107  | 162.159.21.16                           | 162.159.21.16                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 116  | www.okcupid.com                         | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
-| 118  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
+| 118  | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 123  | cfip.xxxxxxxx.tk                        | 104.20.255.53                           | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 206  | cmcc.877774.xyz                         | 104.16.148.3                            | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 277  | 172.64.229.106                          | 172.64.229.106                          | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
@@ -769,7 +769,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 799  | 104.26.1.88                             | 104.26.1.88                             | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
 | 879  | 2a06:98c1:3102:e8:d68a:c7f6:afaa:c80b   | 2a06:98c1:3102:e8:d68a:c7f6:afaa:c80b   | IPv6   | h2   | ✅ 成功 | 68       | cloudflare |
 | 947  | otto.ns.cloudflare.com                  | 108.162.195.135                         | IPv4   | h2   | ✅ 成功 | 68       | cloudflare |
-| 141  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
+| 141  | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
 | 278  | 172.64.40.68                            | 172.64.40.68                            | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
 | 606  | 104.26.6.171                            | 104.26.6.171                            | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
 | 890  | 104.20.22.141                           | 104.20.22.141                           | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
@@ -833,7 +833,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 875  | 2a06:98c1:51:aa:3e22:dd48:6279:eeb9     | 2a06:98c1:51:aa:3e22:dd48:6279:eeb9     | IPv6   | h2   | ✅ 成功 | 77       | cloudflare |
 | 889  | 104.25.244.87                           | 104.25.244.87                           | IPv4   | h2   | ✅ 成功 | 77       | cloudflare |
 | 111  | 104.20.29.62                            | 104.20.29.62                            | IPv4   | h2   | ✅ 成功 | 78       | cloudflare |
-| 119  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 78       | cloudflare |
+| 119  | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 78       | cloudflare |
 | 177  | 104.16.247.125                          | 104.16.247.125                          | IPv4   | h2   | ✅ 成功 | 78       | cloudflare |
 | 580  | cloudflare-ip.mofashi.ltd               | 2606:4700:3037::6815:48e9               | IPv6   | h2   | ✅ 成功 | 78       | cloudflare |
 | 589  | fbi.gov                                 | 2606:4700::6810:95f4                    | IPv6   | h2   | ✅ 成功 | 78       | cloudflare |
@@ -847,8 +847,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 566  | cf.zhetengsha.eu.org                    | 2606:4700:440a::ac40:98f1               | IPv6   | h2   | ✅ 成功 | 79       | cloudflare |
 | 585  | 172.64.41.216                           | 172.64.41.216                           | IPv4   | h2   | ✅ 成功 | 79       | cloudflare |
 | 134  | cfip.xxxxxxxx.tk                        | 104.16.232.223                          | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
-| 143  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 80       | cloudflare |
-| 144  | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 80       | cloudflare |
+| 143  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 80       | cloudflare |
+| 144  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 80       | cloudflare |
 | 154  | 172.67.64.116                           | 172.67.64.116                           | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
 | 155  | 172.67.68.110                           | 172.67.68.110                           | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
 | 219  | cmcc.877774.xyz                         | 104.16.149.3                            | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
@@ -949,7 +949,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 748  | 162.159.38.171                          | 162.159.38.171                          | IPv4   | h2   | ✅ 成功 | 94       | cloudflare |
 | 946  | otto.ns.cloudflare.com                  | 172.64.35.135                           | IPv4   | h2   | ✅ 成功 | 94       | cloudflare |
 | 985  | abdullah.ns.cloudflare.com              | 162.159.44.203                          | IPv4   | h2   | ✅ 成功 | 94       | cloudflare |
-| 30   | trevor.ns.cloudflare.com                | 108.162.195.154                         | IPv4   | h2   | ✅ 成功 | 95       | cloudflare |
+| 30   | trevor.ns.cloudflare.com                | 4444.cloudflare.182682.xyz                         | IPv4   | h2   | ✅ 成功 | 95       | cloudflare |
 | 199  | cris.ns.cloudflare.com                  | 108.162.195.202                         | IPv4   | h2   | ✅ 成功 | 95       | cloudflare |
 | 319  | 2a06:98c1:51:878:e123:da31:b2ee:2017    | 2a06:98c1:51:878:e123:da31:b2ee:2017    | IPv6   | h2   | ✅ 成功 | 95       | cloudflare |
 | 438  | 108.162.198.48                          | 108.162.198.48                          | IPv4   | h2   | ✅ 成功 | 95       | cloudflare |

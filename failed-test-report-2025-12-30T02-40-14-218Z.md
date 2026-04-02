@@ -256,7 +256,7 @@
 | 555  | 104.18.40.39                            | 104.18.40.39                            | IPv4   | h3   | ✅ 成功 | 353      | cloudflare |
 | 191  | 104.17.79.11                            | 104.17.79.11                            | IPv4   | h3   | ✅ 成功 | 354      | cloudflare |
 | 2    | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h3   | ✅ 成功 | 357      | cloudflare |
-| 60   | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h3   | ✅ 成功 | 358      | cloudflare |
+| 60   | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h3   | ✅ 成功 | 358      | cloudflare |
 | 54   | yx-auto.pages.dev                       | 172.66.47.112                           | IPv4   | h3   | ✅ 成功 | 361      | cloudflare |
 | 166  | cmcc.877774.xyz                         | 104.16.148.5                            | IPv4   | h3   | ✅ 成功 | 361      | cloudflare |
 | 449  | 104.18.89.52                            | 104.18.89.52                            | IPv4   | h3   | ✅ 成功 | 361      | cloudflare |
@@ -314,7 +314,7 @@
 | 244  | fbi.gov                                 | 104.16.149.244                          | IPv4   | h3   | ✅ 成功 | 379      | cloudflare |
 | 477  | 104.18.189.153                          | 104.18.189.153                          | IPv4   | h3   | ✅ 成功 | 379      | cloudflare |
 | 13   | huxley.ns.cloudflare.com                | 2a06:98c1:50::ac40:23bc                 | IPv6   | h3   | ✅ 成功 | 380      | cloudflare |
-| 57   | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h3   | ✅ 成功 | 380      | cloudflare |
+| 57   | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h3   | ✅ 成功 | 380      | cloudflare |
 | 472  | 104.17.69.244                           | 104.17.69.244                           | IPv4   | h3   | ✅ 成功 | 380      | cloudflare |
 | 559  | 104.19.50.35                            | 104.19.50.35                            | IPv4   | h3   | ✅ 成功 | 380      | cloudflare |
 | 20   | www.okcupid.com                         | 104.18.160.63                           | IPv4   | h3   | ✅ 成功 | 381      | cloudflare |
@@ -332,7 +332,7 @@
 | 298  | ip.sb                                   | 2606:4700:20::681a:d1f                  | IPv6   | h3   | ✅ 成功 | 384      | cloudflare |
 | 398  | icook.tw                                | 2606:4700:10::6814:1c4a                 | IPv6   | h3   | ✅ 成功 | 384      | cloudflare |
 | 423  | 172.64.82.114                           | 172.64.82.114                           | IPv4   | h3   | ✅ 成功 | 384      | cloudflare |
-| 50   | www.visa.cn                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 385      | cloudflare |
+| 50   | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 385      | cloudflare |
 | 163  | cmcc.877774.xyz                         | 104.16.148.2                            | IPv4   | h3   | ✅ 成功 | 385      | cloudflare |
 | 218  | 104.16.45.84                            | 104.16.45.84                            | IPv4   | h3   | ✅ 成功 | 385      | cloudflare |
 | 400  | 104.19.223.58                           | 104.19.223.58                           | IPv4   | h3   | ✅ 成功 | 386      | cloudflare |
@@ -346,7 +346,7 @@
 | 374  | www.digitalocean.com                    | 2606:4700::6813:ad44                    | IPv6   | h3   | ✅ 成功 | 388      | cloudflare |
 | 446  | 104.26.5.134                            | 104.26.5.134                            | IPv4   | h3   | ✅ 成功 | 388      | cloudflare |
 | 486  | 2a06:98c1:3121:0:ef18:6ab0:b648:d756    | 2a06:98c1:3121:0:ef18:6ab0:b648:d756    | IPv6   | h3   | ✅ 成功 | 388      | cloudflare |
-| 59   | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h3   | ✅ 成功 | 389      | cloudflare |
+| 59   | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h3   | ✅ 成功 | 389      | cloudflare |
 | 14   | www.4chan.org                           | 104.16.228.229                          | IPv4   | h3   | ✅ 成功 | 390      | cloudflare |
 | 283  | benedict.ns.cloudflare.com              | 172.64.35.205                           | IPv4   | h3   | ✅ 成功 | 390      | cloudflare |
 | 388  | 104.18.78.214                           | 104.18.78.214                           | IPv4   | h3   | ✅ 成功 | 390      | cloudflare |
@@ -367,10 +367,10 @@
 | 368  | 172.67.79.211                           | 172.67.79.211                           | IPv4   | h3   | ✅ 成功 | 395      | cloudflare |
 | 372  | www.digitalocean.com                    | 104.19.173.68                           | IPv4   | h3   | ✅ 成功 | 395      | cloudflare |
 | 422  | ifconfig.co                             | 2606:4700:3037::6815:365b               | IPv6   | h3   | ✅ 成功 | 395      | cloudflare |
-| 58   | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h3   | ✅ 成功 | 396      | cloudflare |
+| 58   | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h3   | ✅ 成功 | 396      | cloudflare |
 | 339  | 162.159.133.85                          | 162.159.133.85                          | IPv4   | h3   | ✅ 成功 | 396      | cloudflare |
 | 506  | 172.67.74.57                            | 172.67.74.57                            | IPv4   | h3   | ✅ 成功 | 396      | cloudflare |
-| 49   | www.visa.cn                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 397      | cloudflare |
+| 49   | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 397      | cloudflare |
 | 127  | iplocation.io                           | 172.67.70.100                           | IPv4   | h3   | ✅ 成功 | 397      | cloudflare |
 | 193  | cloudflare.182682.xyz                   | 104.17.25.173                           | IPv4   | h3   | ✅ 成功 | 397      | cloudflare |
 | 212  | www.whatismyip.com                      | 172.67.69.129                           | IPv4   | h3   | ✅ 成功 | 397      | cloudflare |

@@ -101,7 +101,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 285  | benedict.ns.cloudflare.com | 162.159.44.205  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 405  | lewis.ns.cloudflare.com    | 108.162.195.159 | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 451  | 162.159.137.204            | 162.159.137.204 | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
-| 216  | www.visa.cn                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
+| 216  | www.4444.cloudflare.182682.xyz                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 326  | dnschecker.org             | 172.67.73.216   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 353  | tasteatlas.com             | 104.17.36.105   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 457  | 104.18.89.52               | 104.18.89.52    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
@@ -121,7 +121,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 100  | www.hugedomains.com        | 104.26.6.37     | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 111  | pranab.ns.cloudflare.com   | 108.162.195.199 | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 158  | cmcc.877774.xyz            | 104.16.148.10   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
-| 215  | www.visa.cn                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
+| 215  | www.4444.cloudflare.182682.xyz                | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 273  | www.ipchicken.com          | 172.67.68.101   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 304  | 456.cloudflare.182682.xyz  | 104.26.8.160    | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 354  | tasteatlas.com             | 104.17.37.105   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
@@ -195,7 +195,7 @@ wilson.ns.cloudflare.com (3次), trevor.ns.cloudflare.com
 | 466  | 104.19.154.200             | 104.19.154.200  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 59   | ct.877774.xyz              | 172.64.229.161  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 172  | cmcc.877774.xyz            | 104.16.149.11   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
-| 205  | cf.877771.xyz              | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
+| 205  | 4444.cloudflare.182682.xyz              | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 351  | 162.159.133.85             | 162.159.133.85  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 32   | www.pcmag.com              | 104.16.21.118   | IPv4   | h3   | ✅ 成功 | 92       | cloudflare |
 | 117  | freeyx.cloudflare88.eu.org | 141.101.120.176 | IPv4   | h3   | ✅ 成功 | 92       | cloudflare |

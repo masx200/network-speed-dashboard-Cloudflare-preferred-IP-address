@@ -131,7 +131,7 @@ h3 | ✅ 成功 | 109 | cloudflare | | 392 | 104.18.37.40 | 104.18.37.40 | IPv4 
 h3 | ✅ 成功 | 109 | cloudflare | | 466 | cmcc.877774.xyz | 104.16.148.6 | IPv4
 | h3 | ✅ 成功 | 109 | cloudflare | | 76 | 172.64.146.16 | 172.64.146.16 | IPv4
 | h3 | ✅ 成功 | 110 | cloudflare | | 196 | icook.hk | 104.21.90.210 | IPv4 | h3
-| ✅ 成功 | 110 | cloudflare | | 259 | www.visa.cn | 162.159.153.2 | IPv4 | h3 |
+| ✅ 成功 | 110 | cloudflare | | 259 | www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h3 |
 ✅ 成功 | 110 | cloudflare | | 464 | cmcc.877774.xyz | 104.16.148.4 | IPv4 | h3
 | ✅ 成功 | 110 | cloudflare | | 45 | dylan.ns.cloudflare.com | 172.64.35.187 |
 IPv4 | h3 | ✅ 成功 | 111 | cloudflare | | 178 | rustam.ns.cloudflare.com |

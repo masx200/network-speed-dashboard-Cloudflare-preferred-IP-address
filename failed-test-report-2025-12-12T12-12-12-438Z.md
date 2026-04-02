@@ -81,7 +81,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 173  | www.gov.ua                            | 2606:4700:3033::ac43:d17f | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
 | 182  | 104.26.6.112                          | 104.26.6.112              | IPv4   | h2   | ✅ 成功 | 34       | cloudflare |
 | 242  | www.okcupid.com                       | 104.18.160.63             | IPv4   | h2   | ✅ 成功 | 34       | cloudflare |
-| 246  | cf.877771.xyz                         | 2606:4700:3033::ac43:98b7 | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
+| 246  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::ac43:98b7 | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
 | 251  | zread.ai                              | 2606:4700:3032::ac43:ca4e | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
 | 257  | www.hugedomains.com                   | 2606:4700:20::681a:725    | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
 | 267  | yx-auto.pages.dev                     | 2606:4700:310c::ac42:2c90 | IPv6   | h2   | ✅ 成功 | 34       | cloudflare |
@@ -133,8 +133,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 162  | ipinfo.in                             | 2606:4700:3037::ac43:c6cb | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 187  | 104.18.254.88                         | 104.18.254.88             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 188  | cf.877774.xyz                         | cf.877774.xyz             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 230  | www.visa.cn                           | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 245  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
+| 230  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
+| 245  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 247  | www.visa.com.sg                       | 104.18.13.229             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 253  | www.hugedomains.com                   | 104.26.6.37               | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 268  | yx-auto.pages.dev                     | 2606:4700:310c::ac42:2f70 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |

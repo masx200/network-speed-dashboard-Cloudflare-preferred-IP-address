@@ -168,7 +168,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 32   | wilson.ns.cloudflare.com              | 172.64.35.110             | IPv4   | h2   | ✅ 成功 | 82       | cloudflare |
 | 33   | wilson.ns.cloudflare.com              | 108.162.195.110           | IPv4   | h2   | ✅ 成功 | 89       | cloudflare |
 | 1    | 172.64.154.18                         | 172.64.154.18             | IPv4   | h2   | ✅ 成功 | 96       | cloudflare |
-| 21   | trevor.ns.cloudflare.com              | 108.162.195.154           | IPv4   | h2   | ✅ 成功 | 97       | cloudflare |
+| 21   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz           | IPv4   | h2   | ✅ 成功 | 97       | cloudflare |
 | 36   | wilson.ns.cloudflare.com              | 2803:f800:50::6ca2:c36e   | IPv6   | h2   | ✅ 成功 | 103      | cloudflare |
 | 44   | benedict.ns.cloudflare.com            | 2803:f800:50::6ca2:c3cd   | IPv6   | h2   | ✅ 成功 | 104      | cloudflare |
 | 43   | benedict.ns.cloudflare.com            | 2606:4700:58::a29f:2ccd   | IPv6   | h2   | ✅ 成功 | 105      | cloudflare |

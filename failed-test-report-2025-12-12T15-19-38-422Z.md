@@ -89,7 +89,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 287  | zread.ai                              | 2606:4700:3033::6815:4cf0            | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 290  | www.hugedomains.com                   | 172.67.70.191                        | IPv4   | h2   | ✅ 成功 | 44       | cloudflare |
 | 291  | www.hugedomains.com                   | 2606:4700:20::681a:725               | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
-| 296  | cf.877771.xyz                         | 2606:4700:3033::ac43:98b7            | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
+| 296  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::ac43:98b7            | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 382  | toy-people.com                        | 2606:4700:20::ac43:4812              | IPv6   | h2   | ✅ 成功 | 44       | cloudflare |
 | 65   | ip.sb                                 | 104.26.12.31                         | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 87   | singapore.com                         | 2606:4700:20::ac43:4bc2              | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
@@ -155,7 +155,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 277  | www.okcupid.com                       | 104.18.160.63                        | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 279  | www.okcupid.com                       | 104.16.223.254                       | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 292  | www.hugedomains.com                   | 2606:4700:20::ac43:46bf              | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
-| 297  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4            | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
+| 297  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4            | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 310  | sullivan.ns.cloudflare.com            | 2606:4700:58::a29f:2ca1              | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 370  | cmcc.877774.xyz                       | 104.16.149.12                        | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 371  | cmcc.877774.xyz                       | 104.16.149.11                        | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |

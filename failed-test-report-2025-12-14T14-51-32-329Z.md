@@ -41,7 +41,7 @@
 
 | 序号 | 主机/域名                | 目标IP          | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                  |
 | ---- | ------------------------ | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
-| 32   | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout |
+| 32   | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout |
 | 91   | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
 | 270  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
 | 331  | kyree.ns.cloudflare.com  | 172.64.35.207   | IPv4   | none | N/A    | 0        | N/A    | dial tcp 172.64.35.207:443: i/o timeout   |
@@ -99,7 +99,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 151  | dnschecker.org                        | 2606:4700:20::681a:759                | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 174  | cf.877774.xyz                         | 2a06:98c1:3102::6812:29be             | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 199  | cu.877774.xyz                         | 104.26.4.118                          | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
-| 234  | cf.877771.xyz                         | 2606:4700:3033::ac43:98b7             | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
+| 234  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::ac43:98b7             | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 264  | tasteatlas.com                        | 2606:4700::6811:2469                  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 371  | www.digitalocean.com                  | 2606:4700::6813:ad44                  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 372  | www.digitalocean.com                  | 2606:4700::6813:ae44                  | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -114,7 +114,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 198  | cu.877774.xyz                         | 104.26.4.117                          | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 209  | cmcc.877774.xyz                       | 104.16.149.11                         | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 221  | cmcc.877774.xyz                       | 104.16.148.10                         | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
-| 235  | cf.877771.xyz                         | 2606:4700:3033::6815:50b4             | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
+| 235  | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4             | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 246  | [2606:4700:440b::3e6e:5f06]           | 2606:4700:440b::3e6e:5f06             | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
 | 258  | gamer.com.tw                          | 104.18.2.197                          | IPv4   | h2   | ✅ 成功 | 47       | cloudflare |
 | 292  | toy-people.com                        | 2606:4700:20::681a:224                | IPv6   | h2   | ✅ 成功 | 47       | cloudflare |
@@ -142,7 +142,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 137  | icook.hk                              | 2606:4700:3037::ac43:a168             | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 181  | www.okcupid.com                       | 104.16.223.254                        | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 196  | cu.877774.xyz                         | 104.26.4.115                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 203  | www.visa.cn                           | 162.159.152.2                         | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 203  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2                         | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 229  | cmcc.877774.xyz                       | 104.16.149.5                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 277  | freeyx.cloudflare88.eu.org            | 141.101.121.19                        | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 322  | bestcf.030101.xyz                     | 2606:4700:0:26e6:9bb0:8293:779:dc27   | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
@@ -223,7 +223,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 205  | cmcc.877774.xyz                       | 104.16.149.7                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 213  | cmcc.877774.xyz                       | 104.16.148.2                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 225  | cmcc.877774.xyz                       | 104.16.149.1                          | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
-| 232  | cf.877771.xyz                         | 104.21.80.180                         | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
+| 232  | 4444.cloudflare.182682.xyz                         | 104.21.80.180                         | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 252  | craig.ns.cloudflare.com               | 2a06:98c1:50::ac40:23c0               | IPv6   | h2   | ✅ 成功 | 51       | cloudflare |
 | 320  | bestcf.030101.xyz                     | 104.19.153.222                        | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
 | 339  | cf.zhetengsha.eu.org                  | 172.64.145.158                        | IPv4   | h2   | ✅ 成功 | 51       | cloudflare |
@@ -245,7 +245,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 219  | cmcc.877774.xyz                       | 104.16.148.8                          | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 222  | cmcc.877774.xyz                       | 104.16.148.11                         | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 228  | cmcc.877774.xyz                       | 104.16.149.4                          | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
-| 233  | cf.877771.xyz                         | 172.67.152.183                        | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
+| 233  | 4444.cloudflare.182682.xyz                         | 172.67.152.183                        | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 242  | 172.67.243.218                        | 172.67.243.218                        | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 253  | yx-auto.pages.dev                     | 172.66.44.144                         | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |
 | 257  | gamer.com.tw                          | 104.18.3.197                          | IPv4   | h2   | ✅ 成功 | 52       | cloudflare |

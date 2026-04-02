@@ -43,7 +43,7 @@
 | ---- | ------------------------ | ----------------------- | ------ | ---- | ------ | -------- | ------ | --------------------------------------------------- |
 | 94   | cfip.xxxxxxxx.tk         | 198.41.212.130          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout            |
 | 175  | cloudflare.182682.xyz    | 6666.cloudflare.182682.xyz | IPv6   | none | N/A    | 0        | N/A    | dial tcp 6666.cloudflare.182682.xyz:443: i/o timeout |
-| 180  | trevor.ns.cloudflare.com | 108.162.195.154         | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout           |
+| 180  | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz         | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout           |
 | 203  | cf.877774.xyz            | cf.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout             |
 | 361  | 141.147.185.63           | 141.147.185.63          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout            |
 | 443  | ct.877774.xyz            | ct.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout             |
@@ -228,7 +228,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 22   | www.pcmag.com               | 2606:4700::6810:1476                | IPv6   | h3   | ✅ 成功 | 362      | cloudflare |
 | 415  | 104.18.78.214               | 104.18.78.214                       | IPv4   | h3   | ✅ 成功 | 362      | cloudflare |
 | 59   | iplocation.io               | 2606:4700:20::ac43:4664             | IPv6   | h3   | ✅ 成功 | 367      | cloudflare |
-| 118  | cf.877771.xyz               | 172.67.152.183                      | IPv4   | h3   | ✅ 成功 | 368      | cloudflare |
+| 118  | 4444.cloudflare.182682.xyz               | 172.67.152.183                      | IPv4   | h3   | ✅ 成功 | 368      | cloudflare |
 | 37   | ipv4.ip.sb                  | 104.26.13.31                        | IPv4   | h3   | ✅ 成功 | 369      | cloudflare |
 | 19   | www.pcmag.com               | 104.16.20.118                       | IPv4   | h3   | ✅ 成功 | 370      | cloudflare |
 | 450  | japan.com                   | 2606:4700:20::ac43:465c             | IPv6   | h3   | ✅ 成功 | 370      | cloudflare |
@@ -246,7 +246,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 285  | time.is                     | 172.67.68.157                       | IPv4   | h3   | ✅ 成功 | 380      | cloudflare |
 | 71   | ipinfo.in                   | 172.67.198.203                      | IPv4   | h3   | ✅ 成功 | 381      | cloudflare |
 | 126  | cmcc.877774.xyz             | 104.16.149.3                        | IPv4   | h3   | ✅ 成功 | 382      | cloudflare |
-| 117  | www.visa.cn                 | 162.159.153.2                       | IPv4   | h3   | ✅ 成功 | 384      | cloudflare |
+| 117  | www.4444.cloudflare.182682.xyz                 | 162.159.153.2                       | IPv4   | h3   | ✅ 成功 | 384      | cloudflare |
 | 193  | toy-people.com              | 104.26.3.36                         | IPv4   | h3   | ✅ 成功 | 384      | cloudflare |
 | 34   | huxley.ns.cloudflare.com    | 2a06:98c1:50::ac40:23bc             | IPv6   | h3   | ✅ 成功 | 385      | cloudflare |
 | 84   | cu.877774.xyz               | 104.26.4.112                        | IPv4   | h3   | ✅ 成功 | 385      | cloudflare |

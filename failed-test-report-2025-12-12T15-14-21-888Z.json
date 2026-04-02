@@ -76,7 +76,7 @@
     },
     {
       "index": 73,
-      "host": "cf.877771.xyz",
+      "host": "4444.cloudflare.182682.xyz",
       "target_ip": "188.114.97.3",
       "ip_version": "IPv4",
       "protocol": "h3",
@@ -336,7 +336,7 @@
     },
     {
       "index": 98,
-      "host": "www.visa.cn",
+      "host": "www.4444.cloudflare.182682.xyz",
       "target_ip": "162.159.152.2",
       "ip_version": "IPv4",
       "protocol": "h3",

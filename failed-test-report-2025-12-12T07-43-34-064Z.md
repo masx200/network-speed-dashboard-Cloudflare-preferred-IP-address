@@ -43,7 +43,7 @@
 | 序号 | 主机/域名                | 目标IP          | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                  |
 | ---- | ------------------------ | --------------- | ------ | ---- | ------ | -------- | ------ | ----------------------------------------- |
 | 141  | cfip.xxxxxxxx.tk         | 198.41.212.130  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout  |
-| 149  | trevor.ns.cloudflare.com | 108.162.195.154 | IPv4   | none | N/A    | 0        | N/A    | dial tcp 108.162.195.154:443: i/o timeout |
+| 149  | trevor.ns.cloudflare.com | 4444.cloudflare.182682.xyz | IPv4   | none | N/A    | 0        | N/A    | dial tcp 4444.cloudflare.182682.xyz:443: i/o timeout |
 | 202  | cf.877774.xyz            | cf.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout   |
 | 367  | 141.147.185.63           | 141.147.185.63  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout  |
 | 451  | ct.877774.xyz            | ct.877774.xyz   | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout   |
@@ -139,7 +139,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 216  | dylan.ns.cloudflare.com    | 172.64.35.187            | IPv4   | h3   | ✅ 成功 | 233      | cloudflare |
 | 279  | rustam.ns.cloudflare.com   | 108.162.195.148          | IPv4   | h3   | ✅ 成功 | 234      | cloudflare |
 | 50   | cmcc.877774.xyz            | 104.16.149.7             | IPv4   | h3   | ✅ 成功 | 236      | cloudflare |
-| 120  | www.visa.cn                | 162.159.152.2            | IPv4   | h3   | ✅ 成功 | 242      | cloudflare |
+| 120  | www.4444.cloudflare.182682.xyz                | 162.159.152.2            | IPv4   | h3   | ✅ 成功 | 242      | cloudflare |
 | 151  | trevor.ns.cloudflare.com   | 172.64.35.154            | IPv4   | h3   | ✅ 成功 | 245      | cloudflare |
 | 364  | cf.877774.xyz              | 172.64.146.66            | IPv4   | h3   | ✅ 成功 | 245      | cloudflare |
 | 162  | cris.ns.cloudflare.com     | 108.162.195.202          | IPv4   | h3   | ✅ 成功 | 248      | cloudflare |
@@ -148,7 +148,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 293  | benedict.ns.cloudflare.com | 172.64.35.205            | IPv4   | h3   | ✅ 成功 | 273      | cloudflare |
 | 81   | 34.143.159.175             | 34.143.159.175           | IPv4   | h2   | ✅ 成功 | 306      | cloudflare |
 | 40   | cmcc.877774.xyz            | 104.16.148.10            | IPv4   | h3   | ✅ 成功 | 322      | cloudflare |
-| 119  | www.visa.cn                | 162.159.153.2            | IPv4   | h3   | ✅ 成功 | 325      | cloudflare |
+| 119  | www.4444.cloudflare.182682.xyz                | 162.159.153.2            | IPv4   | h3   | ✅ 成功 | 325      | cloudflare |
 | 87   | [2606:4700:9add::880:52fc] | 2606:4700:9add::880:52fc | IPv6   | h3   | ✅ 成功 | 328      | cloudflare |
 | 303  | singapore.com              | 104.26.13.140            | IPv4   | h3   | ✅ 成功 | 351      | cloudflare |
 | 111  | na.877774.xyz              | 104.18.187.25            | IPv4   | h3   | ✅ 成功 | 358      | cloudflare |

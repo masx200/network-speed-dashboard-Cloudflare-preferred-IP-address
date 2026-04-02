@@ -120,14 +120,14 @@ wilson.ns.cloudflare.com (3次), ip.sb
 | 277  | palera.in                             | 172.67.157.122  | IPv4   | h3   | ✅ 成功 | 74       | cloudflare |
 | 529  | 104.18.39.15                          | 104.18.39.15    | IPv4   | h3   | ✅ 成功 | 74       | cloudflare |
 | 148  | www.hugedomains.com                   | 104.26.7.37     | IPv4   | h3   | ✅ 成功 | 75       | cloudflare |
-| 235  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 75       | cloudflare |
+| 235  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 75       | cloudflare |
 | 369  | 172.64.35.24                          | 172.64.35.24    | IPv4   | h3   | ✅ 成功 | 75       | cloudflare |
 | 445  | 172.64.48.226                         | 172.64.48.226   | IPv4   | h3   | ✅ 成功 | 75       | cloudflare |
 | 122  | cmcc.877774.xyz                       | 104.16.149.8    | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 208  | asia.877774.xyz                       | 104.16.211.153  | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 341  | uriah.ns.cloudflare.com               | 108.162.195.194 | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 281  | ip.gs                                 | 172.67.160.28   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
-| 234  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
+| 234  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 264  | www.ipchicken.com                     | 104.26.6.112    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 282  | ip.gs                                 | 104.21.14.176   | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 36   | ip.sb                                 | 104.26.12.31    | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
@@ -203,7 +203,7 @@ wilson.ns.cloudflare.com (3次), ip.sb
 | 429  | 108.162.198.54                        | 108.162.198.54  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 472  | 104.19.148.121                        | 104.19.148.121  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 75   | cu.877774.xyz                         | 104.18.42.54    | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
-| 99   | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
+| 99   | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 121  | cmcc.877774.xyz                       | 104.16.148.1    | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 237  | cf.090227.xyz                         | 104.18.43.174   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 292  | freeyx.cloudflare88.eu.org            | 141.101.121.87  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
@@ -305,7 +305,7 @@ wilson.ns.cloudflare.com (3次), ip.sb
 | 438  | 162.159.140.85                        | 162.159.140.85  | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 513  | 172.67.74.57                          | 172.67.74.57    | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
 | 560  | 104.18.40.39                          | 104.18.40.39    | IPv4   | h3   | ✅ 成功 | 103      | cloudflare |
-| 100  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
+| 100  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
 | 130  | cmcc.877774.xyz                       | 104.16.148.8    | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
 | 161  | toy-people.com                        | 104.26.2.36     | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
 | 313  | cfip.xxxxxxxx.tk                      | 190.93.247.169  | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
@@ -340,7 +340,7 @@ wilson.ns.cloudflare.com (3次), ip.sb
 | 547  | 104.20.18.47                          | 104.20.18.47    | IPv4   | h3   | ✅ 成功 | 109      | cloudflare |
 | 6    | shopify.com                           | 23.227.38.33    | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
 | 34   | ip.sb                                 | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
-| 58   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
+| 58   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
 | 199  | cloudflare-ip.mofashi.ltd             | 172.67.155.172  | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
 | 360  | www.udemy.com                         | 104.16.143.237  | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |
 | 423  | japan.com                             | 104.26.4.60     | IPv4   | h3   | ✅ 成功 | 110      | cloudflare |

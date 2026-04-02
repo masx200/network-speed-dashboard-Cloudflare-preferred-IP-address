@@ -130,7 +130,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 74   | ipv4.ip.sb                              | 172.67.75.172                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 76   | ipv4.ip.sb                              | 104.26.12.31                            | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 105  | wilson.ns.cloudflare.com                | 2803:f800:50::6ca2:c36e                 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
-| 150  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
+| 150  | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 174  | sullivan.ns.cloudflare.com              | 2a06:98c1:50::ac40:23a1                 | IPv6   | h2   | ✅ 成功 | 46       | cloudflare |
 | 179  | na.877774.xyz                           | 104.19.74.233                           | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
 | 183  | craig.ns.cloudflare.com                 | 162.159.44.192                          | IPv4   | h2   | ✅ 成功 | 46       | cloudflare |
@@ -198,8 +198,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 133  | icook.hk                                | 2606:4700:3037::ac43:a168               | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 155  | www.okcupid.com                         | 104.18.160.63                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 158  | www.okcupid.com                         | 104.16.223.254                          | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 159  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
-| 161  | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
+| 159  | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
+| 161  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 176  | yx-auto.pages.dev                       | 172.66.44.144                           | IPv4   | h2   | ✅ 成功 | 48       | cloudflare |
 | 194  | pranab.ns.cloudflare.com                | 2a06:98c1:50::ac40:23c7                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
 | 203  | cris.ns.cloudflare.com                  | 2606:4700:58::a29f:2cca                 | IPv6   | h2   | ✅ 成功 | 48       | cloudflare |
@@ -255,7 +255,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 13   | 172.64.229.7                            | 172.64.229.7                            | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 18   | 104.26.3.162                            | 104.26.3.162                            | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 23   | 104.18.166.129                          | 104.18.166.129                          | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
-| 51   | trevor.ns.cloudflare.com                | 108.162.195.154                         | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
+| 51   | trevor.ns.cloudflare.com                | 4444.cloudflare.182682.xyz                         | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 65   | cloudflare.182682.xyz                   | 104.16.250.22                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 79   | cf.0sm.com                              | 2606:4700:3032::6815:785                | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 | 80   | cf.0sm.com                              | 2606:4700:3037::ac43:bb91               | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
@@ -266,7 +266,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 131  | icook.hk                                | 172.67.161.104                          | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 132  | icook.hk                                | 104.21.90.210                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 137  | iplocation.io                           | 104.26.11.222                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
-| 149  | www.visa.cn                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
+| 149  | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 163  | www.hugedomains.com                     | 172.67.70.191                           | IPv4   | h2   | ✅ 成功 | 50       | cloudflare |
 | 167  | www.hugedomains.com                     | 2606:4700:20::ac43:46bf                 | IPv6   | h2   | ✅ 成功 | 50       | cloudflare |
 

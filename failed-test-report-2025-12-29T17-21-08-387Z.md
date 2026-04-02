@@ -91,7 +91,7 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 406  | stock.hostmonit.com                   | 172.67.187.251  | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
 | 457  | uriah.ns.cloudflare.com               | 172.64.35.194   | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
 | 72   | ipv4.ip.sb                            | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 71       | cloudflare |
-| 110  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 71       | cloudflare |
+| 110  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 71       | cloudflare |
 | 133  | 172.67.243.218                        | 172.67.243.218  | IPv4   | h3   | ✅ 成功 | 71       | cloudflare |
 | 214  | benedict.ns.cloudflare.com            | 108.162.195.205 | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
 | 319  | 456.cloudflare.182682.xyz             | 172.67.75.208   | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
@@ -174,14 +174,14 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 420  | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182  | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
 | 447  | 162.159.128.253                       | 162.159.128.253 | IPv4   | h3   | ✅ 成功 | 87       | cloudflare |
 | 5    | www.ipget.net                         | 104.21.15.212   | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
-| 131  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
+| 131  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 140  | na.877774.xyz                         | 104.19.74.233   | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 281  | ip.sb                                 | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 381  | japan.com                             | 104.26.5.60     | IPv4   | h3   | ✅ 成功 | 88       | cloudflare |
 | 59   | 172.67.75.172                         | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
 | 271  | moura.ns.cloudflare.com               | 172.64.35.217   | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
 | 277  | www.ipchicken.com                     | 104.26.6.112    | IPv4   | h3   | ✅ 成功 | 89       | cloudflare |
-| 13   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
+| 13   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 123  | www.okcupid.com                       | 104.16.239.254  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 372  | 104.19.223.58                         | 104.19.223.58   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 455  | uriah.ns.cloudflare.com               | 108.162.195.194 | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |

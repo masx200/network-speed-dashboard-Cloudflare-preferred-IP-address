@@ -145,9 +145,9 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 260  | time.is                               | 104.26.13.54    | IPv4   | h3   | ✅ 成功 | 63       | cloudflare |
 | 148  | na.877774.xyz                         | 104.18.38.235   | IPv4   | h3   | ✅ 成功 | 64       | cloudflare |
 | 413  | www.ipchicken.com                     | 104.26.7.112    | IPv4   | h3   | ✅ 成功 | 64       | cloudflare |
-| 13   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
+| 13   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
 | 55   | 104.18.37.13                          | 104.18.37.13    | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
-| 133  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
+| 133  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
 | 150  | na.877774.xyz                         | 104.19.74.233   | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
 | 161  | ct.877774.xyz                         | 172.64.229.217  | IPv4   | h3   | ✅ 成功 | 65       | cloudflare |
 | 4    | ipv4.ip.sb                            | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 66       | cloudflare |
@@ -218,7 +218,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 59   | cmcc.877774.xyz                       | 104.16.149.4    | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 87   | 104.18.254.88                         | 104.18.254.88   | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 284  | cf.zhetengsha.eu.org                  | 104.18.43.174   | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
-| 122  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
+| 122  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 254  | moura.ns.cloudflare.com               | 172.64.35.217   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 367  | japan.com                             | 172.67.70.92    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 405  | cfip.1323123.xyz                      | 104.16.133.220  | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
@@ -227,7 +227,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 129  | craig.ns.cloudflare.com               | 172.64.35.192   | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 276  | singapore.com                         | 172.67.75.194   | IPv4   | h3   | ✅ 成功 | 79       | cloudflare |
 | 68   | cmcc.877774.xyz                       | 104.16.149.244  | IPv4   | h3   | ✅ 成功 | 80       | cloudflare |
-| 134  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
+| 134  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 158  | ct.877774.xyz                         | 172.64.229.174  | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 175  | huxley.ns.cloudflare.com              | 162.159.44.188  | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |
 | 246  | bowen.ns.cloudflare.com               | 108.162.195.83  | IPv4   | h3   | ✅ 成功 | 81       | cloudflare |

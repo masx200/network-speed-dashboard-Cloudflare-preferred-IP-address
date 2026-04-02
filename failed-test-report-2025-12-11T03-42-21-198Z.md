@@ -78,7 +78,7 @@ moura.ns.cloudflare.com | 172.64.35.217 | IPv4 | h3 | ✅ 成功 | 41 | cloudfla
 cloudflare | | 352 | decker.ns.cloudflare.com | 172.64.35.155 | IPv4 | h3 | ✅
 成功 | 43 | cloudflare | | 434 | otto.ns.cloudflare.com | 108.162.195.135 | IPv4
 | h3 | ✅ 成功 | 43 | cloudflare | | 447 | yx-auto.pages.dev | 104.21.9.230 |
-IPv4 | h3 | ✅ 成功 | 43 | cloudflare | | 220 | cf.877771.xyz | 104.21.80.180 |
+IPv4 | h3 | ✅ 成功 | 43 | cloudflare | | 220 | 4444.cloudflare.182682.xyz | 104.21.80.180 |
 IPv4 | h3 | ✅ 成功 | 44 | cloudflare | | 289 | cmcc.877774.xyz | 104.16.148.4 |
 IPv4 | h3 | ✅ 成功 | 44 | cloudflare | | 356 | 172.64.159.6 | 172.64.159.6 |
 IPv4 | h3 | ✅ 成功 | 44 | cloudflare | | 214 | www.ipget.net | 104.21.15.212 |
@@ -102,7 +102,7 @@ cloudflare | | 33 | ashton.ns.cloudflare.com | 108.162.195.173 | IPv4 | h3 | ✅
 成功 | 52 | cloudflare | | 308 | cmcc.877774.xyz | 104.16.149.10 | IPv4 | h3 |
 ✅ 成功 | 52 | cloudflare | | 309 | sullivan.ns.cloudflare.com | 108.162.195.161
 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare | | 359 | cris.ns.cloudflare.com |
-172.64.35.202 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare | | 422 | www.visa.cn |
+172.64.35.202 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare | | 422 | www.4444.cloudflare.182682.xyz |
 162.159.153.2 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare | | 132 | 104.19.223.58 |
 104.19.223.58 | IPv4 | h3 | ✅ 成功 | 54 | cloudflare | | 261 | cu.877774.xyz |
 104.26.4.116 | IPv4 | h3 | ✅ 成功 | 54 | cloudflare | | 305 | cmcc.877774.xyz |

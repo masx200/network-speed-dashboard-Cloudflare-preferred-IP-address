@@ -161,7 +161,7 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 496  | cfip.xxxxxxxx.tk           | 104.16.241.229  | IPv4   | h3   | ✅ 成功 | 93       | cloudflare |
 | 4    | www.pcmag.com              | 104.16.20.118   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 52   | ipv4.ip.sb                 | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
-| 168  | www.visa.cn                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
+| 168  | www.4444.cloudflare.182682.xyz                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 192  | toy-people.com             | 104.26.2.36     | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 449  | 162.159.128.253            | 162.159.128.253 | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |
 | 469  | 104.19.212.207             | 104.19.212.207  | IPv4   | h3   | ✅ 成功 | 94       | cloudflare |

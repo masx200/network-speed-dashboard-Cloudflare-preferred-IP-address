@@ -201,7 +201,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 228  | 172.67.243.218                          | 172.67.243.218                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 230  | www.visa.com.sg                         | 104.18.12.229                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 232  | www.okcupid.com                         | 104.16.239.254                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
-| 245  | cf.877771.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
+| 245  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::ac43:98b7               | IPv6   | h2   | ✅ 成功 | 62       | cloudflare |
 | 275  | cfip.xxxxxxxx.tk                        | 198.41.214.141                          | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 333  | 104.17.69.244                           | 104.17.69.244                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
 | 360  | cloudflare-ip.mofashi.ltd               | 104.21.72.233                           | IPv4   | h2   | ✅ 成功 | 62       | cloudflare |
@@ -217,7 +217,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 211  | cmcc.877774.xyz                         | 104.16.148.8                            | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 234  | www.okcupid.com                         | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 239  | www.hugedomains.com                     | 2606:4700:20::ac43:46bf                 | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
-| 244  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
+| 244  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 252  | yx-auto.pages.dev                       | 172.66.47.112                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 272  | cfip.xxxxxxxx.tk                        | 104.27.21.118                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 283  | pranab.ns.cloudflare.com                | 108.162.195.199                         | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |

@@ -158,7 +158,7 @@ lewis.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 13   | cmcc.877774.xyz                       | 104.16.148.11   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 58   | steamdb.info                          | 104.20.34.212   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 119  | icook.hk                              | 104.21.90.210   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
-| 154  | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
+| 154  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 483  | 104.26.3.162                          | 104.26.3.162    | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 614  | 162.159.6.44                          | 162.159.6.44    | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
 | 783  | 104.25.250.205                        | 104.25.250.205  | IPv4   | h3   | ✅ 成功 | 48       | cloudflare |
@@ -251,7 +251,7 @@ lewis.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 124  | www.4chan.org                         | 104.16.228.229  | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 158  | yx-auto.pages.dev                     | 172.66.44.144   | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 161  | pranab.ns.cloudflare.com              | 108.162.195.199 | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
-| 167  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
+| 167  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 179  | toy-people.com                        | 104.26.2.36     | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 187  | www.whatismyip.com                    | 104.26.13.23    | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 191  | na.877774.xyz                         | 104.19.74.233   | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
@@ -339,7 +339,7 @@ lewis.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 33   | cloudflare.182682.xyz                 | 104.17.25.173   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 62   | ipv4.ip.sb                            | 172.67.75.172   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 144  | www.okcupid.com                       | 104.16.239.254  | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
-| 153  | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
+| 153  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 214  | cloudflare-ip.mofashi.ltd             | 104.21.72.233   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 330  | dnschecker.org                        | 172.67.73.216   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
 | 336  | 172.67.106.26                         | 172.67.106.26   | IPv4   | h3   | ✅ 成功 | 58       | cloudflare |
@@ -474,7 +474,7 @@ lewis.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 331  | dnschecker.org                        | 104.26.6.89     | IPv4   | h3   | ✅ 成功 | 69       | cloudflare |
 | 481  | 104.26.5.134                          | 104.26.5.134    | IPv4   | h3   | ✅ 成功 | 69       | cloudflare |
 | 68   | www.gov.ua                            | 172.67.209.127  | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
-| 87   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
+| 87   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
 | 142  | www.okcupid.com                       | 104.16.144.63   | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
 | 155  | www.visa.com.sg                       | 104.18.13.229   | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
 | 386  | icook.tw                              | 172.66.158.115  | IPv4   | h3   | ✅ 成功 | 70       | cloudflare |
@@ -501,7 +501,7 @@ lewis.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 636  | 104.18.39.15                          | 104.18.39.15    | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
 | 867  | 104.25.249.174                        | 104.25.249.174  | IPv4   | h3   | ✅ 成功 | 72       | cloudflare |
 | 27   | cmcc.877774.xyz                       | 104.16.149.12   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
-| 168  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
+| 168  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 375  | gamer.com.tw                          | 104.18.2.197    | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 454  | www.wto.org                           | 172.64.146.66   | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |
 | 488  | 162.159.140.116                       | 162.159.140.116 | IPv4   | h3   | ✅ 成功 | 73       | cloudflare |

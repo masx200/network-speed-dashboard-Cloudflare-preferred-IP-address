@@ -82,7 +82,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 351  | xn--b6gac.eu.org                        | 172.67.153.253                          | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
 | 385  | fbi.gov                                 | 104.16.148.244                          | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
 | 64   | steamdb.info                            | 2606:4700:10::6814:22d4                 | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
-| 118  | cf.877771.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
+| 118  | 4444.cloudflare.182682.xyz                           | 2606:4700:3033::6815:50b4               | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
 | 172  | www.udemy.com                           | 104.16.143.237                          | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 302  | 104.19.148.121                          | 104.19.148.121                          | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 360  | dylan.ns.cloudflare.com                 | 2606:4700:58::a29f:2cbb                 | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
@@ -132,7 +132,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 56   | ipv4.ip.sb                              | 172.67.75.172                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 73   | cloudflare.182682.xyz                   | 2606:4700:3032::818:669e                | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 91   | iplocation.io                           | 104.26.11.222                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
-| 116  | cf.877771.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
+| 116  | 4444.cloudflare.182682.xyz                           | 104.21.80.180                           | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 131  | www.hugedomains.com                     | 2606:4700:20::681a:625                  | IPv6   | h2   | ✅ 成功 | 63       | cloudflare |
 | 223  | cmcc.877774.xyz                         | 104.16.148.244                          | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |
 | 253  | 104.19.175.123                          | 104.19.175.123                          | IPv4   | h2   | ✅ 成功 | 63       | cloudflare |

@@ -136,7 +136,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 68   | 172.67.110.232              | 172.67.110.232            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 74   | 103.160.204.59              | 103.160.204.59            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 97   | huxley.ns.cloudflare.com    | 2803:f800:50::6ca2:c3bc   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
-| 99   | www.visa.cn                 | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
+| 99   | www.4444.cloudflare.182682.xyz                 | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 101  | www.okcupid.com             | 104.16.239.254            | IPv4   | h2   | ✅ 成功 | 45       | cloudflare |
 | 122  | sullivan.ns.cloudflare.com  | 2a06:98c1:50::ac40:23a1   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |
 | 133  | craig.ns.cloudflare.com     | 2a06:98c1:50::ac40:23c0   | IPv6   | h2   | ✅ 成功 | 45       | cloudflare |

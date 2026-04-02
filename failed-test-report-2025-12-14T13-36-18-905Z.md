@@ -94,7 +94,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 195  | japan.com                             | 2606:4700:20::ac43:465c   | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 221  | ifconfig.co                           | 2606:4700:3037::6815:365b | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 229  | iplocation.io                         | 2606:4700:20::681a:bde    | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
-| 263  | www.visa.cn                           | 162.159.152.2             | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
+| 263  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2             | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 268  | abdullah.ns.cloudflare.com            | 2803:f800:50::6ca2:c3cb   | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 394  | www.whatismyip.com                    | 104.26.13.23              | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 428  | cmcc.877774.xyz                       | 104.16.148.12             | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
@@ -144,7 +144,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 250  | www.4chan.org                         | 104.16.229.229            | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 255  | huxley.ns.cloudflare.com              | 2606:4700:58::a29f:2cbc   | IPv6   | h2   | ✅ 成功 | 59       | cloudflare |
 | 272  | www.okcupid.com                       | 104.16.223.254            | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
-| 284  | cf.877771.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
+| 284  | 4444.cloudflare.182682.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 295  | yx-auto.pages.dev                     | 172.66.47.112             | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 301  | cu.877774.xyz                         | 104.26.4.119              | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |
 | 311  | www.visa.com.sg                       | 104.18.12.229             | IPv4   | h2   | ✅ 成功 | 59       | cloudflare |

@@ -208,7 +208,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 757  | 108.162.198.206                       | 108.162.198.206 | IPv4   | h3   | ✅ 成功 | 30       | cloudflare |
 | 792  | 104.20.21.202                         | 104.20.21.202   | IPv4   | h3   | ✅ 成功 | 30       | cloudflare |
 | 844  | cfip.xxxxxxxx.tk                      | 188.114.97.144  | IPv4   | h3   | ✅ 成功 | 30       | cloudflare |
-| 59   | www.visa.cn                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 31       | cloudflare |
+| 59   | www.4444.cloudflare.182682.xyz                           | 162.159.152.2   | IPv4   | h3   | ✅ 成功 | 31       | cloudflare |
 | 342  | 104.17.168.159                        | 104.17.168.159  | IPv4   | h3   | ✅ 成功 | 31       | cloudflare |
 | 366  | 104.26.8.148                          | 104.26.8.148    | IPv4   | h3   | ✅ 成功 | 31       | cloudflare |
 | 384  | 104.17.101.208                        | 104.17.101.208  | IPv4   | h3   | ✅ 成功 | 31       | cloudflare |
@@ -340,7 +340,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 793  | 104.18.33.253                         | 104.18.33.253   | IPv4   | h3   | ✅ 成功 | 36       | cloudflare |
 | 809  | 104.17.119.130                        | 104.17.119.130  | IPv4   | h3   | ✅ 成功 | 36       | cloudflare |
 | 810  | 172.64.229.172                        | 172.64.229.172  | IPv4   | h3   | ✅ 成功 | 36       | cloudflare |
-| 58   | www.visa.cn                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 37       | cloudflare |
+| 58   | www.4444.cloudflare.182682.xyz                           | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 37       | cloudflare |
 | 61   | sullivan.ns.cloudflare.com            | 172.64.35.161   | IPv4   | h3   | ✅ 成功 | 37       | cloudflare |
 | 85   | cmcc.877774.xyz                       | 104.16.149.11   | IPv4   | h3   | ✅ 成功 | 37       | cloudflare |
 | 192  | whatismyipaddress.com                 | 104.19.222.79   | IPv4   | h3   | ✅ 成功 | 37       | cloudflare |
@@ -405,7 +405,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 681  | ipv4.ip.sb                            | 104.26.13.31    | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
 | 699  | 172.64.146.137                        | 172.64.146.137  | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
 | 798  | 172.67.79.166                         | 172.67.79.166   | IPv4   | h3   | ✅ 成功 | 41       | cloudflare |
-| 14   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
+| 14   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
 | 64   | www.okcupid.com                       | 104.16.223.254  | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
 | 183  | ip.gs                                 | 104.21.14.176   | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
 | 189  | 456.cloudflare.182682.xyz             | 104.26.9.160    | IPv4   | h3   | ✅ 成功 | 42       | cloudflare |
@@ -432,7 +432,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 579  | 162.159.3.128                         | 162.159.3.128   | IPv4   | h3   | ✅ 成功 | 44       | cloudflare |
 | 608  | 172.67.67.0                           | 172.67.67.0     | IPv4   | h3   | ✅ 成功 | 44       | cloudflare |
 | 6    | ipinfo.in                             | 104.21.21.129   | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
-| 56   | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
+| 56   | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 125  | dylan.ns.cloudflare.com               | 108.162.195.187 | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 155  | 104.16.147.114                        | 104.16.147.114  | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
 | 249  | japan.com                             | 104.26.4.60     | IPv4   | h3   | ✅ 成功 | 45       | cloudflare |
@@ -566,7 +566,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 2    | 104.16.45.84                          | 104.16.45.84    | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 7    | www.ipget.net                         | 104.21.15.212   | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 11   | www.pcmag.com                         | 104.16.21.118   | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
-| 57   | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
+| 57   | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 65   | www.okcupid.com                       | 104.17.48.63    | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 74   | www.visa.com.sg                       | 104.18.13.229   | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 80   | cmcc.877774.xyz                       | 104.16.149.6    | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |

@@ -77,7 +77,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 |------|-----------|--------|--------|------|------|----------|--------|| 154 |
 www.wto.org | 104.18.41.190 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 24 |
 fbi.gov | 2606:4700::6810:94f4 | IPv6 | h2 | ✅ 成功 | 76 | cloudflare | | 309 |
-cf.877771.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | h2 | ✅ 成功 | 76 |
+4444.cloudflare.182682.xyz | 2606:4700:3033::ac43:98b7 | IPv6 | h2 | ✅ 成功 | 76 |
 cloudflare | | 359 | yx-auto.pages.dev | 2606:4700:3031::ac43:868b | IPv6 | h2 |
 ✅ 成功 | 76 | cloudflare | | 88 | local-aria2-webui.masx200.ddns-ip.net |
 2606:4700:3031::ac43:9db6 | IPv6 | h2 | ✅ 成功 | 77 | cloudflare | | 124 |
@@ -97,7 +97,7 @@ palera.in | 104.21.58.72 | IPv4 | h2 | ✅ 成功 | 78 | cloudflare | | 27 |
 | h2 | ✅ 成功 | 78 | cloudflare | | 275 | ip.sb | 104.26.13.31 | IPv4 | h2 | ✅
 成功 | 78 | cloudflare | | 276 | ip.sb | 172.67.75.172 | IPv4 | h2 | ✅ 成功 |
 78 | cloudflare | | 278 | ip.sb | 2606:4700:20::681a:c1f | IPv6 | h2 | ✅ 成功 |
-78 | cloudflare | | 308 | cf.877771.xyz | 172.67.152.183 | IPv4 | h2 | ✅ 成功 |
+78 | cloudflare | | 308 | 4444.cloudflare.182682.xyz | 172.67.152.183 | IPv4 | h2 | ✅ 成功 |
 78 | cloudflare | | 381 | cf.090227.xyz | 172.66.44.77 | IPv4 | h2 | ✅ 成功 |
 78 | cloudflare | | 383 | cf.090227.xyz | 2606:4700:310c::ac42:2c4d | IPv6 | h2
 | ✅ 成功 | 78 | cloudflare | | 397 | cf.877774.xyz | cf.877774.xyz | IPv4 | h2
@@ -140,7 +140,7 @@ cf.877774.xyz | 2606:4700:4406::ac40:9242 | IPv6 | h2 | ✅ 成功 | 80 |
 cloudflare | | 155 | www.wto.org | 172.64.146.66 | IPv4 | h2 | ✅ 成功 | 80 |
 cloudflare | | 157 | www.wto.org | 2a06:98c1:3102::6812:29be | IPv6 | h2 | ✅
 成功 | 80 | cloudflare | | 166 | www.csgo.com | 195.85.59.161 | IPv4 | h2 | ✅
-成功 | 80 | cloudflare | | 310 | cf.877771.xyz | 2606:4700:3033::6815:50b4 |
+成功 | 80 | cloudflare | | 310 | 4444.cloudflare.182682.xyz | 2606:4700:3033::6815:50b4 |
 IPv6 | h2 | ✅ 成功 | 80 | cloudflare | | 343 | www.pcmag.com |
 2606:4700::6810:1476 | IPv6 | h2 | ✅ 成功 | 80 | cloudflare | | 355 |
 www.ipget.net | 2606:4700:3031::ac43:cf1a | IPv6 | h2 | ✅ 成功 | 80 |

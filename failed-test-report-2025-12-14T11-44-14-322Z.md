@@ -142,7 +142,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 439  | cmcc.877774.xyz                       | 104.16.149.244                          | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 442  | cmcc.877774.xyz                       | 104.16.148.6                            | IPv4   | h2   | ✅ 成功 | 66       | cloudflare |
 | 17   | comicabc.com                          | 2606:4700:3030::ac43:ae15               | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |
-| 18   | cf.877771.xyz                         | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
+| 18   | 4444.cloudflare.182682.xyz                         | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 67       | cloudflare |
 | 26   | yx-auto.pages.dev                     | 2606:4700:310c::ac42:2f70               | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |
 | 31   | huxley.ns.cloudflare.com              | 2803:f800:50::6ca2:c3bc                 | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |
 | 43   | freeyx.cloudflare88.eu.org            | 2606:4700:3009:aa73:82e3:b098:2d2c:5ebd | IPv6   | h2   | ✅ 成功 | 67       | cloudflare |

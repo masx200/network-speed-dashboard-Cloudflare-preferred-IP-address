@@ -101,7 +101,7 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 394  | uriah.ns.cloudflare.com               | 108.162.195.194 | IPv4   | h3   | ✅ 成功 | 53       | cloudflare |
 | 390  | cf.877774.xyz                         | 172.64.146.66   | IPv4   | h3   | ✅ 成功 | 54       | cloudflare |
 | 461  | abdullah.ns.cloudflare.com            | 172.64.35.203   | IPv4   | h3   | ✅ 成功 | 54       | cloudflare |
-| 27   | trevor.ns.cloudflare.com              | 108.162.195.154 | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
+| 27   | trevor.ns.cloudflare.com              | 4444.cloudflare.182682.xyz | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 248  | na.877774.xyz                         | 104.18.38.235   | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 261  | asia.877774.xyz                       | 104.17.142.146  | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
 | 357  | local-aria2-webui.masx200.ddns-ip.net | 172.67.157.182  | IPv4   | h3   | ✅ 成功 | 55       | cloudflare |
@@ -196,7 +196,7 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 449  | 172.67.181.209                        | 172.67.181.209  | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 473  | 172.64.48.226                         | 172.64.48.226   | IPv4   | h3   | ✅ 成功 | 90       | cloudflare |
 | 12   | www.ipget.net                         | 104.21.15.212   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
-| 181  | cf.877771.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
+| 181  | 4444.cloudflare.182682.xyz                         | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 280  | fbi.gov                               | 104.16.149.244  | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 468  | 198.41.208.15                         | 198.41.208.15   | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
 | 477  | japan.com                             | 172.67.70.92    | IPv4   | h3   | ✅ 成功 | 91       | cloudflare |
@@ -264,7 +264,7 @@ trevor.ns.cloudflare.com (3次), wilson.ns.cloudflare.com
 | 470  | www.csgo.com                          | 195.85.59.161   | IPv4   | h3   | ✅ 成功 | 104      | cloudflare |
 | 112  | 104.18.254.88                         | 104.18.254.88   | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 163  | cmcc.877774.xyz                       | 104.16.149.8    | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
-| 182  | cf.877771.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
+| 182  | 4444.cloudflare.182682.xyz                         | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 415  | 172.64.35.24                          | 172.64.35.24    | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 435  | ifconfig.co                           | 172.67.168.106  | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |
 | 460  | 162.159.61.183                        | 162.159.61.183  | IPv4   | h3   | ✅ 成功 | 105      | cloudflare |

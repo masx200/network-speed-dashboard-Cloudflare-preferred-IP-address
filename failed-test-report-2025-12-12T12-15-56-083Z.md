@@ -88,7 +88,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 348  | www.udemy.com                         | 2606:4700::6810:8fed      | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
 | 382  | stock.hostmonit.com                   | 2606:4700:3037::6815:7c1  | IPv6   | h2   | ✅ 成功 | 39       | cloudflare |
 | 51   | www.gov.ua                            | 2606:4700:3033::ac43:d17f | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
-| 90   | cf.877771.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
+| 90   | 4444.cloudflare.182682.xyz                         | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 163  | 104.16.223.179                        | 104.16.223.179            | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
 | 185  | www.whatismyip.com                    | 2606:4700:20::ac43:4581   | IPv6   | h2   | ✅ 成功 | 40       | cloudflare |
 | 192  | ip.sb                                 | 104.26.13.31              | IPv4   | h2   | ✅ 成功 | 40       | cloudflare |
@@ -166,8 +166,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 72   | iplocation.io                         | 104.26.10.222             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 74   | iplocation.io                         | 172.67.70.100             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 76   | iplocation.io                         | 2606:4700:20::681a:ade    | IPv6   | h2   | ✅ 成功 | 42       | cloudflare |
-| 87   | cf.877771.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
-| 88   | cf.877771.xyz                         | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 87   | 4444.cloudflare.182682.xyz                         | 172.67.152.183            | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
+| 88   | 4444.cloudflare.182682.xyz                         | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 | 93   | www.okcupid.com                       | 104.17.48.63              | IPv4   | h2   | ✅ 成功 | 42       | cloudflare |
 
 ### 延迟分布分析

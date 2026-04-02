@@ -74,7 +74,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 178  | toy-people.com                          | 2606:4700:20::ac43:4812                 | IPv6   | h2   | ✅ 成功 | 79       | cloudflare |
 | 307  | cf.090227.xyz                           | 104.18.43.174                           | IPv4   | h2   | ✅ 成功 | 79       | cloudflare |
 | 42   | cf.0sm.com                              | 172.67.187.145                          | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
-| 117  | www.visa.cn                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
+| 117  | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
 | 185  | zread.ai                                | 2606:4700:3033::6815:4cf0               | IPv6   | h2   | ✅ 成功 | 80       | cloudflare |
 | 359  | 104.18.78.214                           | 104.18.78.214                           | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
 | 463  | 104.26.3.162                            | 104.26.3.162                            | IPv4   | h2   | ✅ 成功 | 80       | cloudflare |
@@ -155,7 +155,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 457  | 172.64.229.7                            | 172.64.229.7                            | IPv4   | h2   | ✅ 成功 | 84       | cloudflare |
 | 11   | www.ipget.net                           | 2606:4700:3036::6815:fd4                | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 15   | decker.ns.cloudflare.com                | 2606:4700:58::a29f:2c9b                 | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
-| 26   | trevor.ns.cloudflare.com                | 108.162.195.154                         | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
+| 26   | trevor.ns.cloudflare.com                | 4444.cloudflare.182682.xyz                         | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 41   | cf.0sm.com                              | 104.21.7.133                            | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
 | 43   | cf.0sm.com                              | 2606:4700:3032::6815:785                | IPv6   | h2   | ✅ 成功 | 85       | cloudflare |
 | 57   | 104.18.39.196                           | 104.18.39.196                           | IPv4   | h2   | ✅ 成功 | 85       | cloudflare |
@@ -198,7 +198,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 93   | 104.18.254.88                           | 104.18.254.88                           | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
 | 99   | [2606:4700:8de6::5fa2:799e]             | 2606:4700:8de6::5fa2:799e               | IPv6   | h2   | ✅ 成功 | 86       | cloudflare |
 | 124  | www.okcupid.com                         | 104.16.144.63                           | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
-| 126  | cf.877771.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
+| 126  | 4444.cloudflare.182682.xyz                           | 172.67.152.183                          | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
 | 137  | sullivan.ns.cloudflare.com              | 172.64.35.161                           | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
 | 181  | www.glassdoor.com                       | 104.17.64.70                            | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |
 | 182  | zread.ai                                | 172.67.202.78                           | IPv4   | h2   | ✅ 成功 | 86       | cloudflare |

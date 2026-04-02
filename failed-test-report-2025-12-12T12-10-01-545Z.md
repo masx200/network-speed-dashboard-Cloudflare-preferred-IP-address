@@ -138,9 +138,9 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 89   | cu.877774.xyz              | 104.26.4.116    | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 180  | decker.ns.cloudflare.com   | 108.162.195.155 | IPv4   | h3   | ✅ 成功 | 76       | cloudflare |
 | 60   | ct.877774.xyz              | 172.64.229.236  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
-| 103  | cf.877771.xyz              | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
+| 103  | 4444.cloudflare.182682.xyz              | 172.67.152.183  | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 109  | cmcc.877774.xyz            | 104.16.148.1    | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
-| 135  | www.visa.cn                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
+| 135  | www.4444.cloudflare.182682.xyz                | 162.159.153.2   | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 307  | dnschecker.org             | 104.26.6.89     | IPv4   | h3   | ✅ 成功 | 77       | cloudflare |
 | 86   | cu.877774.xyz              | 104.26.4.113    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
 | 115  | cmcc.877774.xyz            | 104.16.148.7    | IPv4   | h3   | ✅ 成功 | 78       | cloudflare |
@@ -169,7 +169,7 @@ trevor.ns.cloudflare.com (3次), iplocation.io
 | 345  | tasteatlas.com             | 104.17.37.105   | IPv4   | h3   | ✅ 成功 | 82       | cloudflare |
 | 66   | www.4chan.org              | 104.16.228.229  | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 76   | www.hugedomains.com        | 104.26.6.37     | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
-| 104  | cf.877771.xyz              | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
+| 104  | 4444.cloudflare.182682.xyz              | 104.21.80.180   | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 272  | ip.sb                      | 104.26.12.31    | IPv4   | h3   | ✅ 成功 | 83       | cloudflare |
 | 33   | www.gov.ua                 | 104.21.23.72    | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |
 | 53   | ct.877774.xyz              | 172.64.229.44   | IPv4   | h3   | ✅ 成功 | 84       | cloudflare |

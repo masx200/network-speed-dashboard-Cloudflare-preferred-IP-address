@@ -107,7 +107,7 @@ cmcc.877774.xyz | 104.16.148.244 | IPv4 | h3 | ✅ 成功 | 52 | cloudflare | | 
 53 | cloudflare | | 335 | www.csgo.com | 195.85.59.95 | IPv4 | h3 | ✅ 成功 | 53
 | cloudflare | | 336 | www.csgo.com | 195.85.59.161 | IPv4 | h3 | ✅ 成功 | 53 |
 cloudflare | | 434 | freeyx.cloudflare88.eu.org | 141.101.121.254 | IPv4 | h3 |
-✅ 成功 | 53 | cloudflare | | 59 | cf.877771.xyz | 172.67.152.183 | IPv4 | h3 |
+✅ 成功 | 53 | cloudflare | | 59 | 4444.cloudflare.182682.xyz | 172.67.152.183 | IPv4 | h3 |
 ✅ 成功 | 54 | cloudflare | | 366 | bestcf.030101.xyz | 104.19.152.12 | IPv4 |
 h3 | ✅ 成功 | 54 | cloudflare | | 169 |
 04c6cf21-1294-4fae-8bf8-715bbc897b60.masx200.netlib.re | 172.67.174.219 | IPv4 |
@@ -140,7 +140,7 @@ cloudflare | | 181 | asia.877774.xyz | 104.17.142.146 | IPv4 | h3 | ✅ 成功 |
 IPv4 | h3 | ✅ 成功 | 57 | cloudflare | | 66 | saas.sin.fan | 162.159.36.20 |
 IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 85 | www.okcupid.com | 104.17.48.63 |
 IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 93 | dnschecker.org | 104.26.6.89 |
-IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 153 | www.visa.cn | 162.159.153.2 |
+IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 153 | www.4444.cloudflare.182682.xyz | 162.159.153.2 |
 IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 260 | eur.877774.xyz | 104.21.26.150 |
 IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 317 | cmcc.877774.xyz | 104.16.149.9 |
 IPv4 | h3 | ✅ 成功 | 58 | cloudflare | | 330 | cmcc.877774.xyz | 104.16.148.9 |
@@ -163,7 +163,7 @@ craig.ns.cloudflare.com | 172.64.35.192 | IPv4 | h3 | ✅ 成功 | 60 | cloudfla
 | | 348 | shopify.com | 23.227.38.33 | IPv4 | h3 | ✅ 成功 | 62 | cloudflare | |
 353 | www.4chan.org | 104.16.228.229 | IPv4 | h3 | ✅ 成功 | 62 | cloudflare | |
 382 | www.digitalocean.com | 104.19.173.68 | IPv4 | h3 | ✅ 成功 | 62 |
-cloudflare | | 154 | www.visa.cn | 162.159.152.2 | IPv4 | h3 | ✅ 成功 | 63 |
+cloudflare | | 154 | www.4444.cloudflare.182682.xyz | 162.159.152.2 | IPv4 | h3 | ✅ 成功 | 63 |
 cloudflare | | 284 | 162.159.133.85 | 162.159.133.85 | IPv4 | h3 | ✅ 成功 | 63
 | cloudflare | | 340 | ipv4.ip.sb | 172.67.75.172 | IPv4 | h3 | ✅ 成功 | 63 |
 cloudflare | | 458 | lewis.ns.cloudflare.com | 108.162.195.159 | IPv4 | h3 | ✅

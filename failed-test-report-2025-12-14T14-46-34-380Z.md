@@ -174,7 +174,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 395  | lewis.ns.cloudflare.com               | 2803:f800:50::6ca2:c39f                 | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
 | 397  | ifconfig.co                           | 172.67.168.106                          | IPv4   | h2   | ✅ 成功 | 57       | cloudflare |
 | 432  | japan.com                             | 2606:4700:20::681a:43c                  | IPv6   | h2   | ✅ 成功 | 57       | cloudflare |
-| 64   | www.visa.cn                           | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
+| 64   | www.4444.cloudflare.182682.xyz                           | 162.159.152.2                           | IPv4   | h2   | ✅ 成功 | 58       | cloudflare |
 | 84   | www.hugedomains.com                   | 2606:4700:20::681a:625                  | IPv6   | h2   | ✅ 成功 | 58       | cloudflare |
 | 139  | ip.gs                                 | 2606:4700:3036::6815:eb0                | IPv6   | h2   | ✅ 成功 | 58       | cloudflare |
 | 358  | damien.ns.cloudflare.com              | 2606:4700:58::a29f:2ca8                 | IPv6   | h2   | ✅ 成功 | 58       | cloudflare |

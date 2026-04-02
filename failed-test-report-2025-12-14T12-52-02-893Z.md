@@ -71,10 +71,10 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | ---- | -------------------------- | ------------------------- | ------ | ---- | ------- | -------- | ---------- |
 | 410  | ifconfig.co                | 172.67.168.106            | IPv4   | h2   | ✅ 成功 | 30       | cloudflare |
 | 375  | 104.18.37.40               | 104.18.37.40              | IPv4   | h2   | ✅ 成功 | 31       | cloudflare |
-| 51   | www.visa.cn                | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 32       | cloudflare |
+| 51   | www.4444.cloudflare.182682.xyz                | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 32       | cloudflare |
 | 386  | otto.ns.cloudflare.com     | 108.162.195.135           | IPv4   | h2   | ✅ 成功 | 32       | cloudflare |
 | 64   | www.visa.com.sg            | 104.18.13.229             | IPv4   | h2   | ✅ 成功 | 33       | cloudflare |
-| 68   | cf.877771.xyz              | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
+| 68   | 4444.cloudflare.182682.xyz              | 2606:4700:3033::6815:50b4 | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 105  | pranab.ns.cloudflare.com   | 2606:4700:58::a29f:2cc7   | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 106  | pranab.ns.cloudflare.com   | 2803:f800:50::6ca2:c3c7   | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
 | 159  | cf.0sm.com                 | 2606:4700:3032::6815:785  | IPv6   | h2   | ✅ 成功 | 33       | cloudflare |
@@ -165,8 +165,8 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 14   | comicabc.com               | 2606:4700:3036::6815:400a | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 24   | 456.cloudflare.182682.xyz  | 104.26.9.160              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 49   | 172.67.120.0               | 172.67.120.0              | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 65   | cf.877771.xyz              | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
-| 67   | cf.877771.xyz              | 2606:4700:3033::ac43:98b7 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
+| 65   | 4444.cloudflare.182682.xyz              | 104.21.80.180             | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
+| 67   | 4444.cloudflare.182682.xyz              | 2606:4700:3033::ac43:98b7 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 | 75   | 172.67.243.218             | 172.67.243.218            | IPv4   | h2   | ✅ 成功 | 36       | cloudflare |
 | 79   | yx-auto.pages.dev          | 2606:4700:310c::ac42:2f70 | IPv6   | h2   | ✅ 成功 | 36       | cloudflare |
 
