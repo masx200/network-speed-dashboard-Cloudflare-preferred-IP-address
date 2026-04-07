@@ -6765,6 +6765,17 @@
     "error_msg": null
   },
   {
+    "host": "trevor.ns.cloudflare.com",
+    "target_ip": "108.162.195.154",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 85,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "www.okcupid.com",
     "target_ip": "104.16.239.254",
     "ip_version": "IPv4",
@@ -7623,6 +7634,17 @@
     "error_msg": null
   },
   {
+    "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.146.161",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 92,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "craig.ns.cloudflare.com",
     "target_ip": "2606:4700:58::a29f:2cc0",
     "ip_version": "IPv6",
@@ -8393,6 +8415,17 @@
     "error_msg": null
   },
   {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "104.17.185.207",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 100,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "www.csgo.com",
     "target_ip": "195.85.59.161",
     "ip_version": "IPv4",
@@ -8527,6 +8560,17 @@
   {
     "host": "162.159.39.165",
     "target_ip": "162.159.39.165",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 101,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "www.7749tv.com",
+    "target_ip": "104.19.231.109",
     "ip_version": "IPv4",
     "success": true,
     "status_code": 200,
@@ -8756,6 +8800,17 @@
     "error_msg": null
   },
   {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "104.17.101.139",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 105,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "www.okcupid.com",
     "target_ip": "104.18.160.63",
     "ip_version": "IPv4",
@@ -8813,6 +8868,17 @@
   {
     "host": "162.159.45.237",
     "target_ip": "162.159.45.237",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 106,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.119",
     "ip_version": "IPv4",
     "success": true,
     "status_code": 200,
