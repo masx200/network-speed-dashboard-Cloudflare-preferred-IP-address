@@ -4521,6 +4521,17 @@
     "error_msg": null
   },
   {
+    "host": "cloudflare.182682.xyz",
+    "target_ip": "2606:4700:e7::3151:47a9",
+    "ip_version": "IPv6",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 71,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "cf.zhetengsha.eu.org",
     "target_ip": "172.64.145.158",
     "ip_version": "IPv4",
@@ -4808,6 +4819,17 @@
   },
   {
     "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.183",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 74,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "freeyx.cloudflare88.eu.org",
     "target_ip": "141.101.120.140",
     "ip_version": "IPv4",
     "success": true,
@@ -4879,6 +4901,17 @@
     "success": true,
     "status_code": 200,
     "protocol": "h3",
+    "latency_ms": 75,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "trevor.ns.cloudflare.com",
+    "target_ip": "108.162.195.154",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
     "latency_ms": 75,
     "server_header": "cloudflare",
     "error_msg": null
@@ -5000,6 +5033,17 @@
     "success": true,
     "status_code": 200,
     "protocol": "h3",
+    "latency_ms": 76,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "104.17.185.207",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
     "latency_ms": 76,
     "server_header": "cloudflare",
     "error_msg": null
@@ -5264,6 +5308,17 @@
     "success": true,
     "status_code": 200,
     "protocol": "h3",
+    "latency_ms": 78,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "2606:4700:4b:56d4:21b8:5bd2:a220:6156",
+    "ip_version": "IPv6",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
     "latency_ms": 78,
     "server_header": "cloudflare",
     "error_msg": null
@@ -5720,6 +5775,17 @@
     "error_msg": null
   },
   {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "104.17.101.139",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 80,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "toy-people.com",
     "target_ip": "2606:4700:20::681a:224",
     "ip_version": "IPv6",
@@ -5909,6 +5975,17 @@
   {
     "host": "2a06:98c1:51::ee:b8fb:877f",
     "target_ip": "2a06:98c1:51::ee:b8fb:877f",
+    "ip_version": "IPv6",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 81,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "bestcf.030101.xyz",
+    "target_ip": "2606:4700:4b:db57:b087:b9fd:76cc:fb4",
     "ip_version": "IPv6",
     "success": true,
     "status_code": 200,
