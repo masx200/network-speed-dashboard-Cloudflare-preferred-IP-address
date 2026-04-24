@@ -7403,6 +7403,17 @@
     "error_msg": null
   },
   {
+    "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.252",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 86,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "dylan.ns.cloudflare.com",
     "target_ip": "2a06:98c1:50::ac40:23bb",
     "ip_version": "IPv6",
