@@ -90,7 +90,7 @@ Result\<Vec\<String\>\> {\
 let type_param \= if ipv6 { "AAAA" } else { "A" };\
 // Google DNS JSON API 格式\
 let dns_url \= format\!(\
-"https://deno-dns-over-https-server.g18uibxgnb.de5.net/?name={}\&type={}",\
+"https://61919494499.security.cloudflare-dns.com/dns-query?name={}\&type={}",\
 domain, type_param\
 );
 
@@ -307,7 +307,7 @@ let dns_client \= Client::builder().build().unwrap();
 
 1. **防污染解析 (resolve_via_doh)**:
    - 这个函数现在显式调用了你提供的
-     URL：https://deno-dns-over-https-server.g18uibxgnb.de5.net/。
+     URL：https://61919494499.security.cloudflare-dns.com/dns-query。
    - 它会根据 ip_version 输入参数决定是请求 type=A (IPv4) 还是 type=AAAA
      (IPv6)。**注意**：虽然 curl 示例中用了
      type=HTTPS，但为了测试连通性，我们需要明确的 IP 地址，解析 A/AAAA

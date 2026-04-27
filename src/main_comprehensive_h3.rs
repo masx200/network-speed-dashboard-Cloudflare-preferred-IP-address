@@ -1,8 +1,8 @@
 // HTTP/3 综合测试模块 - 整合原生 h3 和 reqwest HTTP/3 测试
-use anyhow::{Context, Result};
-use clap::{Arg, Command};
-use serde::{Deserialize, Serialize};
-use std::collections::{HashMap, HashSet};
+use anyhow::{ Context, Result };
+use clap::{ Arg, Command };
+use serde::{ Deserialize, Serialize };
+use std::collections::{ HashMap, HashSet };
 use std::fs;
 use std::net::IpAddr;
 use std::path::Path;
@@ -10,11 +10,17 @@ use std::time::Instant;
 
 // 导入所有测试模块
 use crate::h3_direct_test::{
-    generate_test_report, get_default_h3_test_configs, H3TestConfig, H3TestResult, H3Tester,
+    generate_test_report,
+    get_default_h3_test_configs,
+    H3TestConfig,
+    H3TestResult,
+    H3Tester,
 };
-use crate::http3_test::{resolve_domain_with_rfc8484, InputTask, TestResult};
+use crate::http3_test::{ resolve_domain_with_rfc8484, InputTask, TestResult };
 use crate::main_h3_test::{
-    get_default_integration_test_configs, run_http3_integration_tests, H3IntegrationResult,
+    get_default_integration_test_configs,
+    run_http3_integration_tests,
+    H3IntegrationResult,
     H3IntegrationTest,
 };
 
@@ -41,19 +47,15 @@ impl Default for ComprehensiveTestConfig {
             target_domains: vec![
                 "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 "google.com".to_string(),
-                "facebook.com".to_string(),
+                "facebook.com".to_string()
             ],
             output_format: "all".to_string(),
             max_concurrent_tests: 10,
             timeout_seconds: 30,
             enable_ipv6: false,
             dns_resolve_mode: "https".to_string(),
-            doh_server: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/".to_string(),
-            test_paths: vec![
-                "/".to_string(),
-                "/cdn-cgi/trace".to_string(),
-                "/health".to_string(),
-            ],
+            doh_server: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
+            test_paths: vec!["/".to_string(), "/cdn-cgi/trace".to_string(), "/health".to_string()],
             use_fallback: true,
             max_field_section_size: Some(8192),
         }
@@ -90,7 +92,7 @@ impl ComprehensiveTestResult {
         path: &str,
         method: &str,
         protocol: &str,
-        dns_source: String,
+        dns_source: String
     ) -> Self {
         Self {
             test_mode: method.to_string(),
@@ -121,7 +123,7 @@ impl ComprehensiveTestResult {
         method: &str,
         protocol: &str,
         dns_source: String,
-        error: String,
+        error: String
     ) -> Self {
         Self {
             test_mode: method.to_string(),
@@ -156,7 +158,7 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("mode")
                 .value_name("MODE")
                 .help("Test mode: native_h3, reqwest_h3, integration, all")
-                .default_value("all"),
+                .default_value("all")
         )
         .arg(
             Arg::new("domains")
@@ -164,7 +166,7 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("domains")
                 .value_name("DOMAINS")
                 .help("Target domains (comma-separated)")
-                .default_value("local-aria2-webui.masx200.ddns-ip.net,google.com,facebook.com"),
+                .default_value("local-aria2-webui.masx200.ddns-ip.net,google.com,facebook.com")
         )
         .arg(
             Arg::new("output")
@@ -172,7 +174,7 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("output")
                 .value_name("FORMAT")
                 .help("Output format: json, table, all")
-                .default_value("all"),
+                .default_value("all")
         )
         .arg(
             Arg::new("timeout")
@@ -180,21 +182,21 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("timeout")
                 .value_name("SECONDS")
                 .help("Request timeout in seconds")
-                .default_value("30"),
+                .default_value("30")
         )
         .arg(
             Arg::new("config")
                 .short('c')
                 .long("config")
                 .value_name("FILE")
-                .help("Configuration file path (JSON)"),
+                .help("Configuration file path (JSON)")
         )
         .arg(
             Arg::new("ipv6")
                 .short('6')
                 .long("ipv6")
                 .help("Enable IPv6 testing")
-                .action(clap::ArgAction::SetTrue),
+                .action(clap::ArgAction::SetTrue)
         )
         .arg(
             Arg::new("resolve-mode")
@@ -202,7 +204,7 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("resolve-mode")
                 .value_name("MODE")
                 .help("DNS resolution mode: https, a_aaaa, direct")
-                .default_value("https"),
+                .default_value("https")
         )
         .arg(
             Arg::new("doh-server")
@@ -210,22 +212,27 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
                 .long("doh-server")
                 .value_name("URL")
                 .help("DNS over HTTPS server URL")
-                .default_value("https://deno-dns-over-https-server.g18uibxgnb.de5.net/"),
+                .default_value("https://61919494499.security.cloudflare-dns.com/dns-query")
         )
         .get_matches();
 
     // 如果提供了配置文件，尝试加载
     if let Some(config_path) = matches.get_one::<String>("config") {
         if let Ok(config_content) = fs::read_to_string(config_path) {
-            if let Ok(mut config) = serde_json::from_str::<ComprehensiveTestConfig>(&config_content)
+            if
+                let Ok(mut config) = serde_json::from_str::<ComprehensiveTestConfig>(
+                    &config_content
+                )
             {
                 // 命令行参数覆盖配置文件
                 if let Some(mode) = matches.get_one::<String>("mode") {
                     config.test_mode = mode.clone();
                 }
                 if let Some(domains) = matches.get_one::<String>("domains") {
-                    config.target_domains =
-                        domains.split(',').map(|s| s.trim().to_string()).collect();
+                    config.target_domains = domains
+                        .split(',')
+                        .map(|s| s.trim().to_string())
+                        .collect();
                 }
                 if let Some(output) = matches.get_one::<String>("output") {
                     config.output_format = output.clone();
@@ -256,7 +263,10 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
         config.test_mode = mode.clone();
     }
     if let Some(domains) = matches.get_one::<String>("domains") {
-        config.target_domains = domains.split(',').map(|s| s.trim().to_string()).collect();
+        config.target_domains = domains
+            .split(',')
+            .map(|s| s.trim().to_string())
+            .collect();
     }
     if let Some(output) = matches.get_one::<String>("output") {
         config.output_format = output.clone();
@@ -281,7 +291,7 @@ pub fn parse_command_line() -> ComprehensiveTestConfig {
 
 // --- 4. 原生 h3 测试 ---
 pub async fn run_native_h3_tests(
-    config: &ComprehensiveTestConfig,
+    config: &ComprehensiveTestConfig
 ) -> Result<Vec<ComprehensiveTestResult>> {
     println!("🚀 开始原生 HTTP/3 测试");
     println!("================================");
@@ -352,7 +362,7 @@ pub async fn run_native_h3_tests(
                                 &h3_result.config.test_path,
                                 "native_h3",
                                 &h3_result.protocol_version,
-                                dns_source,
+                                dns_source
                             );
                             result.status_code = h3_result.response_status;
                             result.latency_ms = h3_result.latency_ms;
@@ -379,7 +389,7 @@ pub async fn run_native_h3_tests(
                                 "native_h3",
                                 "HTTP/3",
                                 dns_source,
-                                format!("Native HTTP/3 test failed: {}", e),
+                                format!("Native HTTP/3 test failed: {}", e)
                             );
                             results.push(result);
                         }
@@ -387,10 +397,7 @@ pub async fn run_native_h3_tests(
                 }
             }
             Err(e) => {
-                eprintln!(
-                    "DNS resolution failed for {}: {:?}",
-                    h3_config.target_domain, e
-                );
+                eprintln!("DNS resolution failed for {}: {:?}", h3_config.target_domain, e);
             }
         }
     }
@@ -419,8 +426,7 @@ pub async fn run_comprehensive_h3_tests() -> Result<()> {
         }
         "reqwest_h3" | "integration" => {
             // 运行集成测试 (使用 reqwest HTTP/3)
-            let integration_configs: Vec<H3IntegrationTest> = config
-                .target_domains
+            let integration_configs: Vec<H3IntegrationTest> = config.target_domains
                 .iter()
                 .flat_map(|domain| {
                     config.test_paths.iter().map(move |path| H3IntegrationTest {
@@ -444,10 +450,7 @@ pub async fn run_comprehensive_h3_tests() -> Result<()> {
                 .collect();
 
             // 临时修改 main_h3_test 来运行自定义配置
-            println!(
-                "集成测试配置已准备，共 {} 个测试",
-                integration_configs.len()
-            );
+            println!("集成测试配置已准备，共 {} 个测试", integration_configs.len());
         }
         "all" => {
             // 运行所有测试模式
@@ -468,7 +471,8 @@ pub async fn run_comprehensive_h3_tests() -> Result<()> {
 
     // --- 6. 输出结果 ---
     if config.output_format == "json" || config.output_format == "all" {
-        let json_output = serde_json::to_string_pretty(&all_results)
+        let json_output = serde_json
+            ::to_string_pretty(&all_results)
             .context("Failed to serialize results to JSON")?;
         println!("\n📄 JSON 输出:");
         println!("{}", json_output);
@@ -501,7 +505,16 @@ pub fn print_table_output(results: &[ComprehensiveTestResult]) {
     println!("{}", "=".repeat(150));
     println!(
         "{:<20} {:<15} {:<10} {:<15} {:<10} {:<8} {:<8} {:<10} {:<15} {:<10}",
-        "域名", "IP地址", "版本", "协议", "状态", "延迟", "大小", "ALPN", "测试方法", "错误"
+        "域名",
+        "IP地址",
+        "版本",
+        "协议",
+        "状态",
+        "延迟",
+        "大小",
+        "ALPN",
+        "测试方法",
+        "错误"
     );
     println!("{}", "-".repeat(150));
 
@@ -535,23 +548,21 @@ pub fn generate_comprehensive_report(results: &[ComprehensiveTestResult]) -> Res
 
     // 基本统计
     let total = results.len();
-    let successful = results.iter().filter(|r| r.success).count();
+    let successful = results
+        .iter()
+        .filter(|r| r.success)
+        .count();
     let failed = total - successful;
 
     report.push_str(&format!("总测试数: {}\n", total));
     report.push_str(&format!("成功: {}\n", successful));
     report.push_str(&format!("失败: {}\n", failed));
-    report.push_str(&format!(
-        "成功率: {:.2}%\n\n",
-        (successful as f64 / total as f64) * 100.0
-    ));
+    report.push_str(&format!("成功率: {:.2}%\n\n", ((successful as f64) / (total as f64)) * 100.0));
 
     // 按域名分组
     let mut domain_stats: HashMap<String, (usize, usize)> = HashMap::new();
     for result in results {
-        let entry = domain_stats
-            .entry(result.target_domain.clone())
-            .or_insert((0, 0));
+        let entry = domain_stats.entry(result.target_domain.clone()).or_insert((0, 0));
         if result.success {
             entry.0 += 1;
         } else {
@@ -562,24 +573,21 @@ pub fn generate_comprehensive_report(results: &[ComprehensiveTestResult]) -> Res
     report.push_str("📡 按域名统计:\n");
     for (domain, (success, failed)) in domain_stats {
         let total_domain = success + failed;
-        let success_rate = (success as f64 / total_domain as f64) * 100.0;
-        report.push_str(&format!(
-            "  {}: {}/{} ({:.2}% 成功)\n",
-            domain, success, total_domain, success_rate
-        ));
+        let success_rate = ((success as f64) / (total_domain as f64)) * 100.0;
+        report.push_str(
+            &format!("  {}: {}/{} ({:.2}% 成功)\n", domain, success, total_domain, success_rate)
+        );
     }
 
     // 协议统计
     let mut protocol_stats: HashMap<String, usize> = HashMap::new();
     for result in results.iter().filter(|r| r.success) {
-        *protocol_stats
-            .entry(result.protocol_detected.clone())
-            .or_insert(0) += 1;
+        *protocol_stats.entry(result.protocol_detected.clone()).or_insert(0) += 1;
     }
 
     report.push_str("\n🔗 协议分布:\n");
     for (protocol, count) in protocol_stats {
-        let percentage = (count as f64 / successful as f64) * 100.0;
+        let percentage = ((count as f64) / (successful as f64)) * 100.0;
         report.push_str(&format!("  {}: {} ({:.2}%)\n", protocol, count, percentage));
     }
 
@@ -593,15 +601,18 @@ pub fn generate_comprehensive_report(results: &[ComprehensiveTestResult]) -> Res
 
     report.push_str("\n🔐 ALPN 协议分布:\n");
     for (alpn, count) in alpn_stats {
-        let percentage = (count as f64 / successful as f64) * 100.0;
+        let percentage = ((count as f64) / (successful as f64)) * 100.0;
         report.push_str(&format!("  {}: {} ({:.2}%)\n", alpn, count, percentage));
     }
 
     // 延迟统计
-    let latencies: Vec<u64> = results.iter().filter_map(|r| r.latency_ms).collect();
+    let latencies: Vec<u64> = results
+        .iter()
+        .filter_map(|r| r.latency_ms)
+        .collect();
 
     if !latencies.is_empty() {
-        let avg_latency = latencies.iter().sum::<u64>() as f64 / latencies.len() as f64;
+        let avg_latency = (latencies.iter().sum::<u64>() as f64) / (latencies.len() as f64);
         let min_latency = latencies.iter().min().unwrap();
         let max_latency = latencies.iter().max().unwrap();
 
@@ -658,10 +669,12 @@ pub fn generate_comprehensive_report(results: &[ComprehensiveTestResult]) -> Res
 // --- 10. 主程序入口 ---
 pub async fn main() -> Result<()> {
     // 设置 panic hook 来提供更好的错误信息
-    std::panic::set_hook(Box::new(|panic_info| {
-        eprintln!("程序 panic: {}", panic_info);
-        std::process::exit(1);
-    }));
+    std::panic::set_hook(
+        Box::new(|panic_info| {
+            eprintln!("程序 panic: {}", panic_info);
+            std::process::exit(1);
+        })
+    );
 
     // 检查命令行参数
     let args: Vec<String> = std::env::args().collect();
@@ -691,7 +704,8 @@ pub fn print_help() {
     println!("用法:");
     println!(
         "  {} [选项]",
-        std::env::args()
+        std::env
+            ::args()
             .next()
             .unwrap_or_else(|| "program".to_string())
     );
@@ -711,19 +725,22 @@ pub fn print_help() {
     println!("示例:");
     println!(
         "  {} -m native_h3 -d local-aria2-webui.masx200.ddns-ip.net,google.com",
-        std::env::args()
+        std::env
+            ::args()
             .next()
             .unwrap_or_else(|| "program".to_string())
     );
     println!(
         "  {} --mode all --domains local-aria2-webui.masx200.ddns-ip.net --ipv6 --output table",
-        std::env::args()
+        std::env
+            ::args()
             .next()
             .unwrap_or_else(|| "program".to_string())
     );
     println!(
         "  {} --config config.json",
-        std::env::args()
+        std::env
+            ::args()
             .next()
             .unwrap_or_else(|| "program".to_string())
     );

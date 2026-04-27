@@ -1,16 +1,16 @@
 // HTTP/3 network request test using reqwest with HTTP/3 support
 // Based on main.rs but enhanced for HTTP/3 testing
-use anyhow::{Context, Result};
-use base64::{engine::general_purpose, Engine as _};
+use anyhow::{ Context, Result };
+use base64::{ engine::general_purpose, Engine as _ };
 use reqwest::Client;
-use serde::{Deserialize, Serialize};
-use std::collections::{HashMap, HashSet};
-use std::net::{IpAddr, SocketAddr};
+use serde::{ Deserialize, Serialize };
+use std::collections::{ HashMap, HashSet };
+use std::net::{ IpAddr, SocketAddr };
 use std::str::FromStr;
-use std::time::{Duration, Instant};
+use std::time::{ Duration, Instant };
 use tokio::time::timeout;
-use trust_dns_proto::op::{Message, Query};
-use trust_dns_proto::rr::{Name, RecordType};
+use trust_dns_proto::op::{ Message, Query };
+use trust_dns_proto::rr::{ Name, RecordType };
 use trust_dns_proto::serialize::binary::BinEncodable;
 
 // --- 1. 输入配置 ---
@@ -79,7 +79,7 @@ async fn query_dns_over_https(
     client: &Client,
     domain: &str,
     record_type: RecordType,
-    doh_url: &str,
+    doh_url: &str
 ) -> Result<Vec<IpAddr>> {
     let name = Name::from_ascii(domain).context("Failed to parse domain name")?;
     let query = Query::query(name, record_type);
@@ -92,9 +92,7 @@ async fn query_dns_over_https(
     let mut request_bytes = Vec::new();
     {
         let mut encoder = trust_dns_proto::serialize::binary::BinEncoder::new(&mut request_bytes);
-        message
-            .emit(&mut encoder)
-            .context("Failed to serialize DNS query")?;
+        message.emit(&mut encoder).context("Failed to serialize DNS query")?;
     }
 
     let encoded_query = general_purpose::URL_SAFE_NO_PAD.encode(&request_bytes);
@@ -103,24 +101,16 @@ async fn query_dns_over_https(
     let response = client
         .get(&url)
         .header("Accept", "application/dns-message")
-        .send()
-        .await
+        .send().await
         .context("Failed to send DoH request")?;
 
     if response.status() != reqwest::StatusCode::OK {
-        return Err(anyhow::anyhow!(
-            "DoH server returned non-200 status: {}",
-            response.status()
-        ));
+        return Err(anyhow::anyhow!("DoH server returned non-200 status: {}", response.status()));
     }
 
-    let response_bytes = response
-        .bytes()
-        .await
-        .context("Failed to read response body")?;
+    let response_bytes = response.bytes().await.context("Failed to read response body")?;
 
-    let dns_response =
-        Message::from_vec(&response_bytes).context("Failed to parse DNS response")?;
+    let dns_response = Message::from_vec(&response_bytes).context("Failed to parse DNS response")?;
 
     let mut ip_addresses = Vec::new();
     let answers = dns_response.answers();
@@ -167,13 +157,13 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
         "https" => {
             println!("    -> 使用 RFC 8484 DoH 查询: {}", task.doh_resolve_domain);
 
-            match query_dns_over_https(
-                client,
-                &task.doh_resolve_domain,
-                RecordType::A,
-                &task.doh_url,
-            )
-            .await
+            match
+                query_dns_over_https(
+                    client,
+                    &task.doh_resolve_domain,
+                    RecordType::A,
+                    &task.doh_url
+                ).await
             {
                 Ok(mut ipv4_addresses) => {
                     ipv4_addresses.retain(|ip| {
@@ -186,13 +176,13 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
                         println!("    -> 从 RFC 8484 DoH 找到 IPv4: {}", ip);
                     }
 
-                    match query_dns_over_https(
-                        client,
-                        &task.doh_resolve_domain,
-                        RecordType::AAAA,
-                        &task.doh_url,
-                    )
-                    .await
+                    match
+                        query_dns_over_https(
+                            client,
+                            &task.doh_resolve_domain,
+                            RecordType::AAAA,
+                            &task.doh_url
+                        ).await
                     {
                         Ok(ipv6_addresses) => {
                             for ip in &ipv6_addresses {
@@ -213,13 +203,13 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
         "a_aaaa" => {
             println!("    -> 使用 DoH 查詢: {}", task.doh_resolve_domain);
 
-            match query_dns_over_https(
-                client,
-                &task.doh_resolve_domain,
-                RecordType::A,
-                &task.doh_url,
-            )
-            .await
+            match
+                query_dns_over_https(
+                    client,
+                    &task.doh_resolve_domain,
+                    RecordType::A,
+                    &task.doh_url
+                ).await
             {
                 Ok(mut ipv4_addresses) => {
                     ipv4_addresses.retain(|ip| {
@@ -237,13 +227,13 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
                 }
             }
 
-            match query_dns_over_https(
-                client,
-                &task.doh_resolve_domain,
-                RecordType::AAAA,
-                &task.doh_url,
-            )
-            .await
+            match
+                query_dns_over_https(
+                    client,
+                    &task.doh_resolve_domain,
+                    RecordType::AAAA,
+                    &task.doh_url
+                ).await
             {
                 Ok(ipv6_addresses) => {
                     for ip in &ipv6_addresses {
@@ -264,11 +254,7 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
         }
     }
 
-    if ips.is_empty()
-        && task
-            .doh_resolve_domain
-            .contains("local-aria2-webui.masx200.ddns-ip.net")
-    {
+    if ips.is_empty() && task.doh_resolve_domain.contains("local-aria2-webui.masx200.ddns-ip.net") {
         println!("    -> 使用備用的Cloudflare IP...");
         add_fallback_cloudflare_ips(&mut ips);
     }
@@ -281,12 +267,7 @@ pub async fn resolve_domain_with_rfc8484(client: &Client, task: &InputTask) -> R
 
 // 添加备用Cloudflare IP
 fn add_fallback_cloudflare_ips(ips: &mut HashSet<IpAddr>) {
-    let fallback_ips = [
-        "162.159.140.220",
-        "104.16.123.64",
-        "172.67.214.232",
-        "2606:4700:4700::1",
-    ];
+    let fallback_ips = ["162.159.140.220", "104.16.123.64", "172.67.214.232", "2606:4700:4700::1"];
 
     for ip_str in &fallback_ips {
         if let Ok(ip) = IpAddr::from_str(ip_str) {
@@ -306,16 +287,17 @@ async fn test_http3_connectivity(task: &InputTask, ip: IpAddr, dns_source: Strin
     println!("    -> 测试 HTTP/3 连接到: {} ({})", url, ip);
 
     // 配置 HTTP/3 客户端 - 使用 reqwest 的 HTTP/3 支持
-    let client = match Client::builder()
-        .timeout(std::time::Duration::from_secs(10))
-        .user_agent("rust-http3-test-tool/1.0")
-        .default_headers({
-            let mut headers = reqwest::header::HeaderMap::new();
-            headers.insert("Alt-Svc", "h3=\":443\"".parse().unwrap());
-            headers.insert("Connection", "keep-alive".parse().unwrap());
-            headers
-        })
-        .build()
+    let client = match
+        Client::builder()
+            .timeout(std::time::Duration::from_secs(10))
+            .user_agent("rust-http3-test-tool/1.0")
+            .default_headers({
+                let mut headers = reqwest::header::HeaderMap::new();
+                headers.insert("Alt-Svc", "h3=\":443\"".parse().unwrap());
+                headers.insert("Connection", "keep-alive".parse().unwrap());
+                headers
+            })
+            .build()
     {
         Ok(c) => c,
         Err(e) => {
@@ -324,20 +306,20 @@ async fn test_http3_connectivity(task: &InputTask, ip: IpAddr, dns_source: Strin
                 &ip.to_string(),
                 ip_ver,
                 format!("Failed to create HTTP client: {}", e),
-                dns_source,
+                dns_source
             );
         }
     };
 
     let start = Instant::now();
 
-    match client
-        .get(&url)
-        .header("Host", &task.test_host_header)
-        .header("Accept", "text/plain,application/json,*/*")
-        .header("User-Agent", "rust-http3-test-tool/1.0")
-        .send()
-        .await
+    match
+        client
+            .get(&url)
+            .header("Host", &task.test_host_header)
+            .header("Accept", "text/plain,application/json,*/*")
+            .header("User-Agent", "rust-http3-test-tool/1.0")
+            .send().await
     {
         Ok(res) => {
             let latency = start.elapsed().as_millis() as u64;
@@ -367,10 +349,7 @@ async fn test_http3_connectivity(task: &InputTask, ip: IpAddr, dns_source: Strin
             let _h3_indicators = vec![
                 ("alt-svc", res.headers().get("alt-svc").is_some()),
                 ("h3", res.headers().get("h3").is_some()),
-                (
-                    "x-http3-connection",
-                    res.headers().get("x-http3-connection").is_some(),
-                ),
+                ("x-http3-connection", res.headers().get("x-http3-connection").is_some())
             ];
 
             let response_size = match res.content_length() {
@@ -409,13 +388,14 @@ async fn test_http3_connectivity(task: &InputTask, ip: IpAddr, dns_source: Strin
                 request_path: test_path.to_string(),
             }
         }
-        Err(e) => TestResult::fail(
-            task,
-            &ip.to_string(),
-            ip_ver,
-            format!("HTTP request failed: {}", e),
-            dns_source,
-        ),
+        Err(e) =>
+            TestResult::fail(
+                task,
+                &ip.to_string(),
+                ip_ver,
+                format!("HTTP request failed: {}", e),
+                dns_source
+            ),
     }
 }
 
@@ -452,13 +432,14 @@ async fn test_http3_network_requests() -> Result<()> {
         .expect("Failed to create HTTP client");
 
     // 測試配置 - 專門用於 HTTP/3 測試
-    let input_json = r#"
+    let input_json =
+        r#"
     [
         {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": false,
             "resolve_mode": "https",
@@ -468,7 +449,7 @@ async fn test_http3_network_requests() -> Result<()> {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": false,
             "resolve_mode": "https",
@@ -478,7 +459,7 @@ async fn test_http3_network_requests() -> Result<()> {
             "doh_resolve_domain": "www.google.com",
             "test_sni_host": "www.google.com",
             "test_host_header": "www.google.com",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": false,
             "resolve_mode": "https",
@@ -487,16 +468,14 @@ async fn test_http3_network_requests() -> Result<()> {
     ]
     "#;
 
-    let tasks: Vec<InputTask> =
-        serde_json::from_str(input_json).context("Invalid JSON format in input")?;
+    let tasks: Vec<InputTask> = serde_json
+        ::from_str(input_json)
+        .context("Invalid JSON format in input")?;
 
     let mut futures = Vec::new();
 
     for task in tasks {
-        println!(
-            ">>> 正在解析 {} (模式: {})...",
-            task.doh_resolve_domain, task.resolve_mode
-        );
+        println!(">>> 正在解析 {} (模式: {})...", task.doh_resolve_domain, task.resolve_mode);
 
         match resolve_domain_with_rfc8484(&client, &task).await {
             Ok(ips) => {
@@ -524,18 +503,21 @@ async fn test_http3_network_requests() -> Result<()> {
                     let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
                     let task_for_fail = task.clone();
                     let dns_source_for_fail = dns_source.clone();
-                    futures.push(tokio::spawn(async move {
-                        match test_http3_connectivity(&task_clone, ip, dns_source).await {
-                            Ok(result) => result,
-                            Err(e) => TestResult::fail(
-                                &task_for_fail,
-                                &ip_str,
-                                ip_ver,
-                                format!("测试失败: {}", e),
-                                dns_source_for_fail,
-                            ),
-                        }
-                    }));
+                    futures.push(
+                        tokio::spawn(async move {
+                            match test_http3_connectivity(&task_clone, ip, dns_source).await {
+                                Ok(result) => result,
+                                Err(e) =>
+                                    TestResult::fail(
+                                        &task_for_fail,
+                                        &ip_str,
+                                        ip_ver,
+                                        format!("测试失败: {}", e),
+                                        dns_source_for_fail
+                                    ),
+                            }
+                        })
+                    );
                 }
             }
             Err(e) => {
@@ -554,13 +536,12 @@ async fn test_http3_network_requests() -> Result<()> {
     println!("\n=== HTTP/3 測試結果 ===");
 
     // 按域名分組顯示結果
-    let mut grouped_results: std::collections::HashMap<String, Vec<&TestResult>> =
-        std::collections::HashMap::new();
+    let mut grouped_results: std::collections::HashMap<
+        String,
+        Vec<&TestResult>
+    > = std::collections::HashMap::new();
     for result in &results {
-        grouped_results
-            .entry(result.domain_used.clone())
-            .or_default()
-            .push(result);
+        grouped_results.entry(result.domain_used.clone()).or_default().push(result);
     }
 
     for (domain, domain_results) in grouped_results {
@@ -592,13 +573,18 @@ async fn test_http3_network_requests() -> Result<()> {
 
     println!("\n📊 統計信息:");
     println!("總測試數: {}", results.len());
-    let successful = results.iter().filter(|r| r.success).count();
+    let successful = results
+        .iter()
+        .filter(|r| r.success)
+        .count();
     println!("成功: {}", successful);
     println!("失敗: {}", results.len() - successful);
 
     // 協議統計
-    let mut protocol_count: std::collections::HashMap<String, usize> =
-        std::collections::HashMap::new();
+    let mut protocol_count: std::collections::HashMap<
+        String,
+        usize
+    > = std::collections::HashMap::new();
     for result in &results {
         if result.success {
             *protocol_count.entry(result.protocol.clone()).or_insert(0) += 1;
@@ -611,10 +597,13 @@ async fn test_http3_network_requests() -> Result<()> {
     }
 
     // 延遲統計
-    let latencies: Vec<u64> = results.iter().filter_map(|r| r.latency_ms).collect();
+    let latencies: Vec<u64> = results
+        .iter()
+        .filter_map(|r| r.latency_ms)
+        .collect();
 
     if !latencies.is_empty() {
-        let avg_latency = latencies.iter().sum::<u64>() as f64 / latencies.len() as f64;
+        let avg_latency = (latencies.iter().sum::<u64>() as f64) / (latencies.len() as f64);
         let min_latency = latencies.iter().min().unwrap();
         let max_latency = latencies.iter().max().unwrap();
 

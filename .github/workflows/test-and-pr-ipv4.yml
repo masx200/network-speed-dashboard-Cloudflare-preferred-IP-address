@@ -51,7 +51,7 @@ jobs:
         run: npm run extract
 
       - name: Run check script
-        run: node ip-info.js && go run -v  host_connectivity_check.go -verbose  -dohip 104.21.95.9 --doh-url https://deno-dns-over-https-server.g18uibxgnb.de5.net/ -ip-version ipv4
+        run: node ip-info.js && go run -v  host_connectivity_check.go -verbose  -dohip 104.21.95.9 --doh-url https://61919494499.security.cloudflare-dns.com/dns-query -ip-version ipv4
 
       - name: Run start script
         run: |

@@ -245,16 +245,16 @@ src/
 
 ```json
 [
-  {
-    "doh_resolve_domain": "example.com",
-    "test_sni_host": "example.com",
-    "test_host_header": "example.com",
-    "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
-    "port": 443,
-    "prefer_ipv6": false,
-    "resolve_mode": "https", // "https", "a_aaaa", "direct"
-    "direct_ips": ["1.1.1.1", "2606:4700:4700::1"] // 仅用于direct模式
-  }
+   {
+      "doh_resolve_domain": "example.com",
+      "test_sni_host": "example.com",
+      "test_host_header": "example.com",
+      "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
+      "port": 443,
+      "prefer_ipv6": false,
+      "resolve_mode": "https", // "https", "a_aaaa", "direct"
+      "direct_ips": ["1.1.1.1", "2606:4700:4700::1"] // 仅用于direct模式
+   }
 ]
 ```
 

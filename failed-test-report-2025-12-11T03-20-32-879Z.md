@@ -40,13 +40,13 @@
 
 #### DNS解析错误: 其他DNS错误 (5 次测试)
 
-| 序号 | 主机/域名           | 目标IP  | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                                                                                           |
-| ---- | ------------------- | ------- | ------- | ---- | ------ | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 6    | stock.hostmonit.com | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 7    | palera.in           | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 8    | www.4chan.org       | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 9    | fbi.gov             | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 10   | www.ipchicken.com   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果                                                                                                                                                      |
+| 序号 | 主机/域名           | 目标IP  | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                                                                                              |
+| ---- | ------------------- | ------- | ------- | ---- | ------ | -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6    | stock.hostmonit.com | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 7    | palera.in           | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 8    | www.4chan.org       | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 9    | fbi.gov             | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 10   | www.ipchicken.com   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果                                                                                                                                                         |
 
 ### 📈 错误分析总结
 
@@ -133,17 +133,17 @@ cloudflare | | 314 | www.ipget.net | 2606:4700:3036::6815:fd4 | IPv6 | h2 | ✅
 成功 | 69 | cloudflare | | 325 | dylan.ns.cloudflare.com |
 2a06:98c1:50::ac40:23bb | IPv6 | h2 | ✅ 成功 | 69 | cloudflare | | 347 |
 julio.ns.cloudflare.com | 162.159.44.209 | IPv4 | h2 | ✅ 成功 | 69 | cloudflare
-| | 364 | www.4444.cloudflare.182682.xyz | 162.159.152.2 | IPv4 | h2 | ✅ 成功 | 69 | cloudflare |
-| 453 | cmcc.877774.xyz | 104.16.149.8 | IPv4 | h2 | ✅ 成功 | 69 | cloudflare |
-| 97 | www.visa.com.sg | 104.18.12.229 | IPv4 | h2 | ✅ 成功 | 70 | cloudflare |
-| 114 | 104.16.223.179 | 104.16.223.179 | IPv4 | h2 | ✅ 成功 | 70 | cloudflare
-| | 226 | cloudflare-ip.mofashi.ltd | 104.21.72.233 | IPv4 | h2 | ✅ 成功 | 70 |
-cloudflare | | 230 | time.is | 172.67.68.157 | IPv4 | h2 | ✅ 成功 | 70 |
-cloudflare | | 231 | time.is | 104.26.12.54 | IPv4 | h2 | ✅ 成功 | 70 |
-cloudflare | | 253 | 456.cloudflare.182682.xyz | 104.26.9.160 | IPv4 | h2 | ✅
-成功 | 70 | cloudflare | | 272 | ip.gs | 2606:4700:3035::ac43:a01c | IPv6 | h2 |
-✅ 成功 | 70 | cloudflare | | 273 | ip.gs | 2606:4700:3036::6815:eb0 | IPv6 | h2
-| ✅ 成功 | 70 | cloudflare | | 129 | cf.zhetengsha.eu.org |
+| | 364 | www.4444.cloudflare.182682.xyz | 162.159.152.2 | IPv4 | h2 | ✅ 成功 |
+69 | cloudflare | | 453 | cmcc.877774.xyz | 104.16.149.8 | IPv4 | h2 | ✅ 成功 |
+69 | cloudflare | | 97 | www.visa.com.sg | 104.18.12.229 | IPv4 | h2 | ✅ 成功 |
+70 | cloudflare | | 114 | 104.16.223.179 | 104.16.223.179 | IPv4 | h2 | ✅ 成功
+| 70 | cloudflare | | 226 | cloudflare-ip.mofashi.ltd | 104.21.72.233 | IPv4 |
+h2 | ✅ 成功 | 70 | cloudflare | | 230 | time.is | 172.67.68.157 | IPv4 | h2 |
+✅ 成功 | 70 | cloudflare | | 231 | time.is | 104.26.12.54 | IPv4 | h2 | ✅ 成功
+| 70 | cloudflare | | 253 | 456.cloudflare.182682.xyz | 104.26.9.160 | IPv4 | h2
+| ✅ 成功 | 70 | cloudflare | | 272 | ip.gs | 2606:4700:3035::ac43:a01c | IPv6 |
+h2 | ✅ 成功 | 70 | cloudflare | | 273 | ip.gs | 2606:4700:3036::6815:eb0 | IPv6
+| h2 | ✅ 成功 | 70 | cloudflare | | 129 | cf.zhetengsha.eu.org |
 2606:4700:310c::ac42:2fb3 | IPv6 | h2 | ✅ 成功 | 71 | cloudflare | | 161 |
 www.csgo.com | 195.85.59.95 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 211 |
 cu.877774.xyz | 104.26.4.119 | IPv4 | h2 | ✅ 成功 | 71 | cloudflare | | 295 |
@@ -172,24 +172,24 @@ cloudflare | | 302 | ifconfig.co | 2606:4700:3030::ac43:a86a | IPv6 | h2 | ✅
 成功 | 73 | cloudflare | | 337 | dnschecker.org | 2606:4700:20::681a:659 | IPv6
 | h2 | ✅ 成功 | 73 | cloudflare | | 351 | julio.ns.cloudflare.com |
 2a06:98c1:50::ac40:23d1 | IPv6 | h2 | ✅ 成功 | 73 | cloudflare | | 365 |
-www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h2 | ✅ 成功 | 73 | cloudflare | | 40 |
-www.whatismyip.com | 104.26.13.23 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 62
-| damien.ns.cloudflare.com | 2606:4700:58::a29f:2ca8 | IPv6 | h2 | ✅ 成功 | 74
-| cloudflare | | 106 | singapore.com | 2606:4700:20::ac43:4bc2 | IPv6 | h2 | ✅
-成功 | 74 | cloudflare | | 112 | 172.64.154.18 | 172.64.154.18 | IPv4 | h2 | ✅
-成功 | 74 | cloudflare | | 139 | 172.64.148.15 | 172.64.148.15 | IPv4 | h2 | ✅
-成功 | 74 | cloudflare | | 140 | 104.26.13.31 | 104.26.13.31 | IPv4 | h2 | ✅
-成功 | 74 | cloudflare | | 191 | www.okcupid.com | 104.16.223.254 | IPv4 | h2 |
-✅ 成功 | 74 | cloudflare | | 201 | zread.ai | 2606:4700:3033::6815:4cf0 | IPv6
-| h2 | ✅ 成功 | 74 | cloudflare | | 202 | zread.ai | 2606:4700:3032::ac43:ca4e
-| IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 205 | cf.0sm.com |
-2606:4700:3032::6815:785 | IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 212 |
-cu.877774.xyz | 104.26.4.111 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 234 |
-time.is | 2606:4700:20::681a:d36 | IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 281
-| www.wto.org | 2a06:98c1:3102::6812:29be | IPv6 | h2 | ✅ 成功 | 74 |
-cloudflare | | 284 | yx-auto.pages.dev | 104.21.73.250 | IPv4 | h2 | ✅ 成功 |
-74 | cloudflare | | 437 | cmcc.877774.xyz | 104.16.148.5 | IPv4 | h2 | ✅ 成功 |
-74 | cloudflare |
+www.4444.cloudflare.182682.xyz | 162.159.153.2 | IPv4 | h2 | ✅ 成功 | 73 |
+cloudflare | | 40 | www.whatismyip.com | 104.26.13.23 | IPv4 | h2 | ✅ 成功 | 74
+| cloudflare | | 62 | damien.ns.cloudflare.com | 2606:4700:58::a29f:2ca8 | IPv6
+| h2 | ✅ 成功 | 74 | cloudflare | | 106 | singapore.com |
+2606:4700:20::ac43:4bc2 | IPv6 | h2 | ✅ 成功 | 74 | cloudflare | | 112 |
+172.64.154.18 | 172.64.154.18 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 139 |
+172.64.148.15 | 172.64.148.15 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 140 |
+104.26.13.31 | 104.26.13.31 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 191 |
+www.okcupid.com | 104.16.223.254 | IPv4 | h2 | ✅ 成功 | 74 | cloudflare | | 201
+| zread.ai | 2606:4700:3033::6815:4cf0 | IPv6 | h2 | ✅ 成功 | 74 | cloudflare |
+| 202 | zread.ai | 2606:4700:3032::ac43:ca4e | IPv6 | h2 | ✅ 成功 | 74 |
+cloudflare | | 205 | cf.0sm.com | 2606:4700:3032::6815:785 | IPv6 | h2 | ✅ 成功
+| 74 | cloudflare | | 212 | cu.877774.xyz | 104.26.4.111 | IPv4 | h2 | ✅ 成功 |
+74 | cloudflare | | 234 | time.is | 2606:4700:20::681a:d36 | IPv6 | h2 | ✅ 成功
+| 74 | cloudflare | | 281 | www.wto.org | 2a06:98c1:3102::6812:29be | IPv6 | h2
+| ✅ 成功 | 74 | cloudflare | | 284 | yx-auto.pages.dev | 104.21.73.250 | IPv4 |
+h2 | ✅ 成功 | 74 | cloudflare | | 437 | cmcc.877774.xyz | 104.16.148.5 | IPv4 |
+h2 | ✅ 成功 | 74 | cloudflare |
 
 ### 延迟分布分析
 

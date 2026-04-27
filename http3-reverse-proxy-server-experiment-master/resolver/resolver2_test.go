@@ -58,14 +58,14 @@ func TestResolver37(t *testing.T) {
 	}
 }
 func GetQueryCallbacks14() generic.MapInterface[string, func(m *dns.Msg) (r *dns.Msg, err error)] {
-	return generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DoHTTP3Client(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DoHTTP3Client(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+	return generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DoHTTP3Client(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DoHTTP3Client(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 	}, "quic://dns.alidns.com": func(m *dns.Msg) (r *dns.Msg, err error) {
 		return DoQClient(m, "quic://dns.alidns.com")
 	}, "quic://family.adguard-dns.com": func(m *dns.Msg) (r *dns.Msg, err error) {

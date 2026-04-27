@@ -227,7 +227,7 @@ to create DoH client");
             "doh\_resolve\_domain": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test\_sni\_host": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test\_host\_header": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
-            "doh\_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh\_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer\_ipv6": null
         }
@@ -237,7 +237,7 @@ to create DoH client");
             "doh\_resolve\_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test\_sni\_host": "some-other-domain.com",
             "test\_host\_header": "some-other-domain.com",
-            "doh\_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh\_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer\_ipv6": false
         }

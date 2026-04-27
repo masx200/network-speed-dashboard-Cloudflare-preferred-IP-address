@@ -50,7 +50,7 @@ var (
 	timeout     = flag.Int("timeout", 10, "超时时间(秒)")
 	inputFile   = flag.String("input", "hosts.json", "输入文件路径")
 	SERVERSNI   = flag.String("sni", "local-aria2-webui.masx200.ddns-ip.net", "SNI名称")
-	DOHURL      = flag.String("doh-url", "https://deno-dns-over-https-server.g18uibxgnb.de5.net/", "DoH查询URL")
+	DOHURL      = flag.String("doh-url", "https://61919494499.security.cloudflare-dns.com/dns-query", "DoH查询URL")
 	PORT        = flag.Int("port", 443, "目标端口")
 	DOHIP       = flag.String("dohip", "", "强制解析 ykxkqhbc8x.apuk83ea3z.de5.net 到指定IP")
 	ipVersion   = flag.String("ip-version", string(IPVersionAll), "IP版本过滤 (ipv4/ipv6/all), 默认为all")

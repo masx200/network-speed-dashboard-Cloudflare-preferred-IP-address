@@ -52,7 +52,7 @@ type TestResult struct {
 var (
 	configFile  = flag.String("config", "", "配置文件路径")
 	domain      = flag.String("domain", "", "测试域名")
-	dohURL      = flag.String("doh-url", "https://deno-dns-over-https-server.g18uibxgnb.de5.net/", "DoH服务URL")
+	dohURL      = flag.String("doh-url", "https://61919494499.security.cloudflare-dns.com/dns-query", "DoH服务URL")
 	resolveMode = flag.String("resolve-mode", "https", "解析模式: https, a_aaaa, direct")
 	testURL     = flag.String("test-url", "https://hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io", "测试URL")
 	port        = flag.Int("port", 443, "目标端口")
@@ -132,7 +132,7 @@ func getDefaultTasks() []InputTask {
 			DohResolveDomain: "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
 			TestSniHost:      "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
 			TestHostHeader:   "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
-			DohURL:           "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+			DohURL:           "https://61919494499.security.cloudflare-dns.com/dns-query",
 			Port:             443,
 			PreferIPv6:       getBoolPtr(true),
 			ResolveMode:      "https",
@@ -141,7 +141,7 @@ func getDefaultTasks() []InputTask {
 			DohResolveDomain: "local-aria2-webui.masx200.ddns-ip.net",
 			TestSniHost:      "local-aria2-webui.masx200.ddns-ip.net",
 			TestHostHeader:   "local-aria2-webui.masx200.ddns-ip.net",
-			DohURL:           "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+			DohURL:           "https://61919494499.security.cloudflare-dns.com/dns-query",
 			Port:             443,
 			PreferIPv6:       getBoolPtr(true),
 			ResolveMode:      "https",
@@ -150,7 +150,7 @@ func getDefaultTasks() []InputTask {
 			DohResolveDomain: "local-aria2-webui.masx200.ddns-ip.net",
 			TestSniHost:      "local-aria2-webui.masx200.ddns-ip.net",
 			TestHostHeader:   "local-aria2-webui.masx200.ddns-ip.net",
-			DohURL:           "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+			DohURL:           "https://61919494499.security.cloudflare-dns.com/dns-query",
 			Port:             443,
 			PreferIPv6:       getBoolPtr(true),
 			DirectIPs:        []string{"162.159.140.220", "172.67.214.232", "2606:4700:7::da", "2a06:98c1:58::da"},

@@ -1,17 +1,19 @@
 #[cfg(test)]
 mod doh_docs_integration_tests {
-    use anyhow::{anyhow, Result};
+    use anyhow::{ anyhow, Result };
     use reqwest::Client;
-    use serde::{Deserialize, Serialize};
-    use std::time::{Duration, SystemTime};
+    use serde::{ Deserialize, Serialize };
+    use std::time::{ Duration, SystemTime };
     use tokio::time::sleep;
 
     const TARGET_DOMAIN: &str = "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io";
     const TAVILY_API_KEY: &str = "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"; // 需要配置实际的API密钥
 
     // 预期的IP地址（来自用户提供的数据）
-    const EXPECTED_IPV6_ADDRS: &[&str] =
-        &["2606:4700:3030::ac43:a256", "2606:4700:3031::6815:2176"];
+    const EXPECTED_IPV6_ADDRS: &[&str] = &[
+        "2606:4700:3030::ac43:a256",
+        "2606:4700:3031::6815:2176",
+    ];
 
     const EXPECTED_IPV4_ADDRS: &[&str] = &["104.21.33.118", "172.67.162.86"];
 
@@ -78,23 +80,21 @@ mod doh_docs_integration_tests {
 
         // 使用Cloudflare DoH JSON API (可靠且稳定)
         let doh_url = format!(
-            "https://deno-dns-over-https-server.g18uibxgnb.de5.net/?name={}&type={}",
+            "https://61919494499.security.cloudflare-dns.com/dns-query?name={}&type={}",
             urlencoding::encode(domain),
             qtype
         );
 
-        let response = client
-            .get(&doh_url)
-            .header("Accept", "application/dns-json")
-            .send()
-            .await?;
+        let response = client.get(&doh_url).header("Accept", "application/dns-json").send().await?;
 
         if !response.status().is_success() {
-            return Err(anyhow!(
-                "DoH query failed with status: {} for domain: {}",
-                response.status(),
-                domain
-            ));
+            return Err(
+                anyhow!(
+                    "DoH query failed with status: {} for domain: {}",
+                    response.status(),
+                    domain
+                )
+            );
         }
 
         let dns_response: DNSQuery = response.json().await?;
@@ -128,10 +128,7 @@ mod doh_docs_integration_tests {
         }
 
         let total_expected = expected_ips.len();
-        println!(
-            "✅ Matched {}/{} {} addresses",
-            matches, total_expected, ip_type
-        );
+        println!("✅ Matched {}/{} {} addresses", matches, total_expected, ip_type);
 
         matches >= total_expected / 2 // 至少匹配一半预期地址
     }
@@ -140,7 +137,8 @@ mod doh_docs_integration_tests {
     async fn search_rust_crates_with_tavily(query: &str) -> Result<Vec<TavilySearchResult>> {
         let client = Client::new();
 
-        let request_body = serde_json::json!({
+        let request_body =
+            serde_json::json!({
             "api_key": TAVILY_API_KEY,
             "query": query,
             "search_depth": "basic",
@@ -151,14 +149,10 @@ mod doh_docs_integration_tests {
         let response = client
             .post("https://api.tavily.com/search")
             .json(&request_body)
-            .send()
-            .await?;
+            .send().await?;
 
         if !response.status().is_success() {
-            return Err(anyhow!(
-                "Tavily search failed with status: {}",
-                response.status()
-            ));
+            return Err(anyhow!("Tavily search failed with status: {}", response.status()));
         }
 
         let tavily_response: TavilyResponse = response.json().await?;
@@ -176,22 +170,13 @@ mod doh_docs_integration_tests {
     #[tokio::test]
     /// 测试DoH协议域名解析 - 验证目标域名的IP地址
     async fn test_doh_domain_resolution() -> Result<()> {
-        println!(
-            "🚀 Starting DoH domain resolution test for: {}",
-            TARGET_DOMAIN
-        );
+        println!("🚀 Starting DoH domain resolution test for: {}", TARGET_DOMAIN);
 
         // 首先测试一个已知的域名来验证DoH API是否工作
         let test_domains = vec![
-            (
-                "local-aria2-webui.masx200.ddns-ip.net",
-                "known working domain",
-            ),
-            (
-                "local-aria2-webui.masx200.ddns-ip.net",
-                "known working domain",
-            ),
-            (TARGET_DOMAIN, "target domain"),
+            ("local-aria2-webui.masx200.ddns-ip.net", "known working domain"),
+            ("local-aria2-webui.masx200.ddns-ip.net", "known working domain"),
+            (TARGET_DOMAIN, "target domain")
         ];
 
         for (domain, description) in test_domains {
@@ -205,8 +190,11 @@ mod doh_docs_integration_tests {
 
                     if domain == TARGET_DOMAIN {
                         // 验证IPv4地址
-                        let ipv4_valid =
-                            verify_ip_addresses(&ipv4_addresses, EXPECTED_IPV4_ADDRS, "IPv4");
+                        let ipv4_valid = verify_ip_addresses(
+                            &ipv4_addresses,
+                            EXPECTED_IPV4_ADDRS,
+                            "IPv4"
+                        );
                         if ipv4_valid {
                             println!("✅ {} IPv4 validation PASSED", domain);
                         } else {
@@ -221,8 +209,11 @@ mod doh_docs_integration_tests {
 
                         if domain == TARGET_DOMAIN {
                             // 验证IPv6地址
-                            let ipv6_valid =
-                                verify_ip_addresses(&ipv6_addresses, EXPECTED_IPV6_ADDRS, "IPv6");
+                            let ipv6_valid = verify_ip_addresses(
+                                &ipv6_addresses,
+                                EXPECTED_IPV6_ADDRS,
+                                "IPv6"
+                            );
                             if ipv6_valid {
                                 println!("✅ {} IPv6 validation PASSED", domain);
                             } else {
@@ -333,7 +324,7 @@ mod doh_docs_integration_tests {
             ("reqwest", Some("0.12")),
             ("tokio", None),
             ("serde", Some("1.0")),
-            ("clap", Some("4.0")),
+            ("clap", Some("4.0"))
         ];
 
         for (crate_name, version) in test_crates {
@@ -435,10 +426,7 @@ mod doh_docs_integration_tests {
             Ok(query) => {
                 // 查询可能成功但没有答案
                 if let Some(answers) = &query.answer {
-                    assert!(
-                        answers.is_empty(),
-                        "Invalid domain should return no answers"
-                    );
+                    assert!(answers.is_empty(), "Invalid domain should return no answers");
                 }
                 println!("✅ Invalid domain handled correctly - no answers returned");
             }

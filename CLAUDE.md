@@ -45,7 +45,7 @@ pnpm extract
 go build -o http3-test-tool main.go
 
 # Run connectivity tests with verbose output
-go run host_connectivity_check.go -verbose -dohip 104.21.95.9 --doh-url https://deno-dns-over-https-server.g18uibxgnb.de5.net/
+go run host_connectivity_check.go -verbose -dohip 104.21.95.9 --doh-url https://61919494499.security.cloudflare-dns.com/dns-query
 
 # Extract hosts from results
 go run extract_hosts.go

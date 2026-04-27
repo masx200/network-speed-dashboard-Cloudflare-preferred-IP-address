@@ -81,7 +81,7 @@ Usage of doh_debugger.exe:
 ```
 
 ```
-go run doh_debugger\doh_debugger.go  -domain www.example.com,h5.sinaimg.cn  -dnstype A,AAAA  -dohurl https://deno-dns-over-https-server.g18uibxgnb.de5.net/
+go run doh_debugger\doh_debugger.go  -domain www.example.com,h5.sinaimg.cn  -dnstype A,AAAA  -dohurl https://61919494499.security.cloudflare-dns.com/dns-query
 ```
 
 ```
@@ -97,5 +97,5 @@ Usage of doh3_debugger.exe:
 ```
 
 ```
-go run doh3_debugger\doh3_debugger.go  -domain www.example.com,h5.sinaimg.cn -dnstype A,AAAA -dohurl https://deno-dns-over-https-server.g18uibxgnb.de5.net/
+go run doh3_debugger\doh3_debugger.go  -domain www.example.com,h5.sinaimg.cn -dnstype A,AAAA -dohurl https://61919494499.security.cloudflare-dns.com/dns-query
 ```

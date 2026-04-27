@@ -1,15 +1,14 @@
 #[cfg(test)]
 mod tests {
-    use base64::{engine::general_purpose, Engine as _};
+    use base64::{ engine::general_purpose, Engine as _ };
     use reqwest;
     use std::net::IpAddr;
-    use trust_dns_proto::op::{Message, Query};
-    use trust_dns_proto::rr::{Name, RecordType};
+    use trust_dns_proto::op::{ Message, Query };
+    use trust_dns_proto::rr::{ Name, RecordType };
     use trust_dns_proto::serialize::binary::BinEncodable;
 
     // DoH 服务器 URL
-    const DOH_SERVER: &str =
-        "https://deno-dns-over-https-server.g18uibxgnb.de5.net/";
+    const DOH_SERVER: &str = "https://61919494499.security.cloudflare-dns.com/dns-query";
 
     // 要查询的域名
     const DOMAIN_TO_QUERY: &str = "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io";
@@ -23,7 +22,8 @@ mod tests {
     #[tokio::test]
     async fn test_doh_domain_resolution() {
         // 创建 HTTP 客户端
-        let client = reqwest::Client::builder()
+        let client = reqwest::Client
+            ::builder()
             .user_agent("rust-doh-test/1.0")
             .build()
             .expect("Failed to build HTTP client");
@@ -71,7 +71,7 @@ mod tests {
     async fn query_dns_record(
         client: &reqwest::Client,
         domain: &str,
-        record_type: RecordType,
+        record_type: RecordType
     ) -> Vec<IpAddr> {
         // 创建 DNS 查询
         let name = Name::from_ascii(domain).expect("Invalid domain name");
@@ -86,11 +86,10 @@ mod tests {
         // 序列化 DNS 查询
         let mut request_bytes = Vec::new();
         {
-            let mut encoder =
-                trust_dns_proto::serialize::binary::BinEncoder::new(&mut request_bytes);
-            message
-                .emit(&mut encoder)
-                .expect("Failed to serialize DNS query");
+            let mut encoder = trust_dns_proto::serialize::binary::BinEncoder::new(
+                &mut request_bytes
+            );
+            message.emit(&mut encoder).expect("Failed to serialize DNS query");
         }
 
         // 使用 base64url 编码（不包含填充）
@@ -103,8 +102,7 @@ mod tests {
         let response = client
             .get(&url)
             .header("Accept", "application/dns-message")
-            .send()
-            .await
+            .send().await
             .expect("Failed to send DoH request");
 
         // 检查响应状态
@@ -116,14 +114,12 @@ mod tests {
         );
 
         // 获取响应体
-        let response_bytes = response
-            .bytes()
-            .await
-            .expect("Failed to read response body");
+        let response_bytes = response.bytes().await.expect("Failed to read response body");
 
         // 解析 DNS 响应
-        let dns_response =
-            Message::from_vec(&response_bytes).expect("Failed to parse DNS response");
+        let dns_response = Message::from_vec(&response_bytes).expect(
+            "Failed to parse DNS response"
+        );
 
         // 提取 IP 地址
         let mut ip_addresses = Vec::new();

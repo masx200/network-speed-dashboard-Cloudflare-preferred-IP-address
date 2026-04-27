@@ -55,13 +55,13 @@
 
 #### DNS解析错误: 其他DNS错误 (5 次测试)
 
-| 序号 | 主机/域名           | 目标IP  | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                                                                                           |
-| ---- | ------------------- | ------- | ------- | ---- | ------ | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 6    | stock.hostmonit.com | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 7    | palera.in           | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 8    | www.4chan.org       | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 9    | fbi.gov             | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
-| 10   | www.ipchicken.com   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果                                                                                                                                                      |
+| 序号 | 主机/域名           | 目标IP  | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                                                                                              |
+| ---- | ------------------- | ------- | ------- | ---- | ------ | -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6    | stock.hostmonit.com | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 7    | palera.in           | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 8    | www.4chan.org       | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 9    | fbi.gov             | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": dial tcp: lookup xget.a1u06h9fe9y5bozbmgz3.qzz.io on 127.0.0.53:53: server misbehaving |
+| 10   | www.ipchicken.com   | Unknown | Unknown | none | N/A    | 0        | N/A    | DNS解析无结果                                                                                                                                                         |
 
 ### 📈 错误分析总结
 
@@ -142,7 +142,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 314  | www.ipget.net                         | 2606:4700:3036::6815:fd4  | IPv6   | h2   | ✅ 成功 | 69       | cloudflare |
 | 325  | dylan.ns.cloudflare.com               | 2a06:98c1:50::ac40:23bb   | IPv6   | h2   | ✅ 成功 | 69       | cloudflare |
 | 347  | julio.ns.cloudflare.com               | 162.159.44.209            | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
-| 364  | www.4444.cloudflare.182682.xyz                           | 162.159.152.2             | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
+| 364  | www.4444.cloudflare.182682.xyz        | 162.159.152.2             | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
 | 453  | cmcc.877774.xyz                       | 104.16.149.8              | IPv4   | h2   | ✅ 成功 | 69       | cloudflare |
 | 97   | www.visa.com.sg                       | 104.18.12.229             | IPv4   | h2   | ✅ 成功 | 70       | cloudflare |
 | 114  | 104.16.223.179                        | 104.16.223.179            | IPv4   | h2   | ✅ 成功 | 70       | cloudflare |
@@ -176,7 +176,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 302  | ifconfig.co                           | 2606:4700:3030::ac43:a86a | IPv6   | h2   | ✅ 成功 | 73       | cloudflare |
 | 337  | dnschecker.org                        | 2606:4700:20::681a:659    | IPv6   | h2   | ✅ 成功 | 73       | cloudflare |
 | 351  | julio.ns.cloudflare.com               | 2a06:98c1:50::ac40:23d1   | IPv6   | h2   | ✅ 成功 | 73       | cloudflare |
-| 365  | www.4444.cloudflare.182682.xyz                           | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 73       | cloudflare |
+| 365  | www.4444.cloudflare.182682.xyz        | 162.159.153.2             | IPv4   | h2   | ✅ 成功 | 73       | cloudflare |
 | 40   | www.whatismyip.com                    | 104.26.13.23              | IPv4   | h2   | ✅ 成功 | 74       | cloudflare |
 | 62   | damien.ns.cloudflare.com              | 2606:4700:58::a29f:2ca8   | IPv6   | h2   | ✅ 成功 | 74       | cloudflare |
 | 106  | singapore.com                         | 2606:4700:20::ac43:4bc2   | IPv6   | h2   | ✅ 成功 | 74       | cloudflare |

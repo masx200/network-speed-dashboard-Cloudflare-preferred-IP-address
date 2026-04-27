@@ -40,28 +40,28 @@
 
 #### 连接超时: 上下文超时 (9 次测试)
 
-| 序号 | 主机/域名                  | 目标IP        | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                              |
-| ---- | -------------------------- | ------------- | ------- | ---- | ------ | -------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| 105  | www.hugedomains.com        | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 106  | www.ipget.net              | 172.67.207.26 | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                   |
-| 156  | decker.ns.cloudflare.com   | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 217  | shopify.com                | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 281  | stock.hostmonit.com        | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 286  | abdullah.ns.cloudflare.com | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 358  | ip.sb                      | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 409  | www.visa.com.hk            | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
-| 412  | www.udemy.com              | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": context deadline exceeded |
+| 序号 | 主机/域名                  | 目标IP        | IP版本  | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                                                                                 |
+| ---- | -------------------------- | ------------- | ------- | ---- | ------ | -------- | ------ | -------------------------------------------------------------------------------------------------------- |
+| 105  | www.hugedomains.com        | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 106  | www.ipget.net              | 172.67.207.26 | IPv4    | h2   | N/A    | 0        | N/A    | Get "https://local-aria2-webui.masx200.ddns-ip.net:443/": context deadline exceeded                      |
+| 156  | decker.ns.cloudflare.com   | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 217  | shopify.com                | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 281  | stock.hostmonit.com        | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 286  | abdullah.ns.cloudflare.com | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 358  | ip.sb                      | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 409  | www.visa.com.hk            | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
+| 412  | www.udemy.com              | Unknown       | Unknown | none | N/A    | 0        | N/A    | DNS解析失败: Post "https://61919494499.security.cloudflare-dns.com/dns-query": context deadline exceeded |
 
 #### 连接超时: I/O超时 (6 次测试)
 
-| 序号 | 主机/域名             | 目标IP                  | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                            |
-| ---- | --------------------- | ----------------------- | ------ | ---- | ------ | -------- | ------ | --------------------------------------------------- |
-| 69   | cfip.xxxxxxxx.tk      | 198.41.212.130          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout            |
-| 95   | cf.877774.xyz         | cf.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout             |
+| 序号 | 主机/域名             | 目标IP                     | IP版本 | 协议 | 状态码 | 延迟(ms) | 服务器 | 错误信息                                             |
+| ---- | --------------------- | -------------------------- | ------ | ---- | ------ | -------- | ------ | ---------------------------------------------------- |
+| 69   | cfip.xxxxxxxx.tk      | 198.41.212.130             | IPv4   | none | N/A    | 0        | N/A    | dial tcp 198.41.212.130:443: i/o timeout             |
+| 95   | cf.877774.xyz         | cf.877774.xyz              | IPv4   | none | N/A    | 0        | N/A    | dial tcp cf.877774.xyz:443: i/o timeout              |
 | 122  | cloudflare.182682.xyz | 6666.cloudflare.182682.xyz | IPv6   | none | N/A    | 0        | N/A    | dial tcp 6666.cloudflare.182682.xyz:443: i/o timeout |
-| 280  | 3.0.50.69             | 3.0.50.69               | IPv4   | none | N/A    | 0        | N/A    | dial tcp 3.0.50.69:443: i/o timeout                 |
-| 320  | 141.147.185.63        | 141.147.185.63          | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout            |
-| 408  | ct.877774.xyz         | ct.877774.xyz           | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout             |
+| 280  | 3.0.50.69             | 3.0.50.69                  | IPv4   | none | N/A    | 0        | N/A    | dial tcp 3.0.50.69:443: i/o timeout                  |
+| 320  | 141.147.185.63        | 141.147.185.63             | IPv4   | none | N/A    | 0        | N/A    | dial tcp 141.147.185.63:443: i/o timeout             |
+| 408  | ct.877774.xyz         | ct.877774.xyz              | IPv4   | none | N/A    | 0        | N/A    | dial tcp ct.877774.xyz:443: i/o timeout              |
 
 ### 📈 错误分析总结
 
@@ -173,7 +173,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 359  | singapore.com                           | 104.26.12.140                           | IPv4   | h3   | ✅ 成功 | 533      | cloudflare |
 | 180  | bestcf.030101.xyz                       | 2606:4700:0:c5:4803:8845:8bde:1897      | IPv6   | h3   | ✅ 成功 | 534      | cloudflare |
 | 332  | 104.16.65.1                             | 104.16.65.1                             | IPv4   | h3   | ✅ 成功 | 534      | cloudflare |
-| 94   | www.4444.cloudflare.182682.xyz                             | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 535      | cloudflare |
+| 94   | www.4444.cloudflare.182682.xyz          | 162.159.153.2                           | IPv4   | h3   | ✅ 成功 | 535      | cloudflare |
 | 214  | www.digitalocean.com                    | 2606:4700::6813:ad44                    | IPv6   | h3   | ✅ 成功 | 536      | cloudflare |
 | 78   | cu.877774.xyz                           | 172.64.145.202                          | IPv4   | h3   | ✅ 成功 | 538      | cloudflare |
 | 221  | otto.ns.cloudflare.com                  | 2606:4700:58::a29f:2c87                 | IPv6   | h3   | ✅ 成功 | 538      | cloudflare |
@@ -206,7 +206,7 @@ none），说明无法与目标建立HTTP/3或其他现代协议连接
 | 324  | benedict.ns.cloudflare.com              | 108.162.195.205                         | IPv4   | h3   | ✅ 成功 | 552      | cloudflare |
 | 41   | 103.160.204.59                          | 103.160.204.59                          | IPv4   | h3   | ✅ 成功 | 554      | cloudflare |
 | 191  | braden.ns.cloudflare.com                | 2803:f800:50::6ca2:c3a9                 | IPv6   | h3   | ✅ 成功 | 554      | cloudflare |
-| 93   | www.4444.cloudflare.182682.xyz                             | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 555      | cloudflare |
+| 93   | www.4444.cloudflare.182682.xyz          | 162.159.152.2                           | IPv4   | h3   | ✅ 成功 | 555      | cloudflare |
 | 100  | craig.ns.cloudflare.com                 | 2a06:98c1:50::ac40:23c0                 | IPv6   | h3   | ✅ 成功 | 555      | cloudflare |
 | 329  | benedict.ns.cloudflare.com              | 2a06:98c1:50::ac40:23cd                 | IPv6   | h3   | ✅ 成功 | 556      | cloudflare |
 | 192  | braden.ns.cloudflare.com                | 2606:4700:58::a29f:2ca9                 | IPv6   | h3   | ✅ 成功 | 557      | cloudflare |

@@ -1,15 +1,15 @@
 // # 临时测试版本 - 简化DNS解析逻辑
-use anyhow::{Context, Result};
-use reqwest::{Client, Version};
-use serde::{Deserialize, Serialize};
+use anyhow::{ Context, Result };
+use reqwest::{ Client, Version };
+use serde::{ Deserialize, Serialize };
 use std::collections::HashSet;
-use std::net::{IpAddr, SocketAddr};
+use std::net::{ IpAddr, SocketAddr };
 use std::str::FromStr;
 use std::time::Instant;
 
 // 引入 trust-dns 协议相关模块用于 RFC 8484 二进制 DNS 消息
-use trust_dns_resolver::proto::op::{Message, Query};
-use trust_dns_resolver::proto::rr::{Name, RecordType};
+use trust_dns_resolver::proto::op::{ Message, Query };
+use trust_dns_resolver::proto::rr::{ Name, RecordType };
 
 // --- 1. 输入配置 ---
 #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -44,7 +44,7 @@ struct TestResult {
 // --- Helper: 提取 A/AAAA 记录的 IP ---
 fn extract_a_aaaa_ips(
     records: &[trust_dns_resolver::proto::rr::Record],
-    ips: &mut HashSet<IpAddr>,
+    ips: &mut HashSet<IpAddr>
 ) {
     for record in records {
         if let Some(ip) = record.data().and_then(|rdata| rdata.ip_addr()) {
@@ -58,7 +58,7 @@ async fn doh_query_manual(
     client: &Client,
     doh_url: &str,
     domain: &str,
-    record_type: RecordType,
+    record_type: RecordType
 ) -> Result<Message> {
     let mut message = Message::new();
     let name = Name::from_str(domain).context("Invalid domain name for DNS query")?;
@@ -71,30 +71,23 @@ async fn doh_query_manual(
         .header("Content-Type", "application/dns-message")
         .header("Accept", "application/dns-message")
         .body(request_buffer)
-        .send()
-        .await
+        .send().await
         .context(format!("Failed to send DoH request to {}", doh_url))?;
 
     if !response.status().is_success() {
-        return Err(anyhow::anyhow!(
-            "DoH server returned HTTP error status: {}",
-            response.status()
-        ));
+        return Err(anyhow::anyhow!("DoH server returned HTTP error status: {}", response.status()));
     }
 
-    let response_body = response
-        .bytes()
-        .await
-        .context("Failed to read DoH response body")?;
+    let response_body = response.bytes().await.context("Failed to read DoH response body")?;
 
-    let dns_response = Message::from_vec(&response_body)
-        .context("Failed to decode DNS binary message (invalid data)")?;
+    let dns_response = Message::from_vec(&response_body).context(
+        "Failed to decode DNS binary message (invalid data)"
+    )?;
 
     if dns_response.response_code() != trust_dns_resolver::proto::op::ResponseCode::NoError {
-        return Err(anyhow::anyhow!(
-            "DNS server returned error code: {:?}",
-            dns_response.response_code()
-        ));
+        return Err(
+            anyhow::anyhow!("DNS server returned error code: {:?}", dns_response.response_code())
+        );
     }
 
     Ok(dns_response)
@@ -105,7 +98,7 @@ async fn resolve_a_aaaa_record(
     client: &Client,
     doh_url: &str,
     domain: &str,
-    _ipv6: bool,
+    _ipv6: bool
 ) -> Result<Vec<IpAddr>> {
     let mut ips = HashSet::new();
 
@@ -115,7 +108,10 @@ async fn resolve_a_aaaa_record(
         if !ips.is_empty() {
             println!(
                 "    -> 从A记录提取到 {} 个IPv4地址",
-                ips.iter().filter(|ip| ip.is_ipv4()).count()
+                ips
+                    .iter()
+                    .filter(|ip| ip.is_ipv4())
+                    .count()
             );
         }
     } else {
@@ -129,7 +125,10 @@ async fn resolve_a_aaaa_record(
             if !ips.is_empty() {
                 println!(
                     "    -> 从AAAA记录提取到 {} 个IPv6地址",
-                    ips.iter().filter(|ip| ip.is_ipv6()).count()
+                    ips
+                        .iter()
+                        .filter(|ip| ip.is_ipv6())
+                        .count()
                 );
             }
         } else {
@@ -159,7 +158,7 @@ async fn test_connectivity(task: InputTask, ip: IpAddr, dns_source: String) -> T
     let client = match client_build {
         Ok(c) => c,
         Err(e) => {
-            return TestResult::fail(&task, &ip.to_string(), ip_ver, e.to_string(), dns_source)
+            return TestResult::fail(&task, &ip.to_string(), ip_ver, e.to_string(), dns_source);
         }
     };
 
@@ -235,13 +234,14 @@ async fn main() -> Result<()> {
         .build()
         .expect("Failed to create DNS client");
 
-    let input_json = r#"
+    let input_json =
+        r#"
     [
         {
             "doh_resolve_domain": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test_sni_host": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test_host_header": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "resolve_mode": "https"
@@ -250,7 +250,7 @@ async fn main() -> Result<()> {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "resolve_mode": "a_aaaa"
@@ -259,7 +259,7 @@ async fn main() -> Result<()> {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "direct_ips": ["162.159.140.220", "172.67.214.232"],
@@ -268,15 +268,18 @@ async fn main() -> Result<()> {
     ]
     "#;
 
-    let tasks: Vec<InputTask> =
-        serde_json::from_str(input_json).context("Invalid JSON format in input")?;
+    let tasks: Vec<InputTask> = serde_json
+        ::from_str(input_json)
+        .context("Invalid JSON format in input")?;
 
     let mut futures = Vec::new();
 
     for task in tasks {
         println!(
             ">>> 正在通过 {} 解析 {} 的记录 (模式: {})...",
-            task.doh_url, task.doh_resolve_domain, task.resolve_mode
+            task.doh_url,
+            task.doh_resolve_domain,
+            task.resolve_mode
         );
 
         if let Some(direct_ips) = &task.direct_ips {
@@ -293,9 +296,11 @@ async fn main() -> Result<()> {
                     }
 
                     let task_clone = task.clone();
-                    futures.push(tokio::spawn(async move {
-                        test_connectivity(task_clone, ip_addr, "Direct Input".to_string()).await
-                    }));
+                    futures.push(
+                        tokio::spawn(async move {
+                            test_connectivity(task_clone, ip_addr, "Direct Input".to_string()).await
+                        })
+                    );
                 }
             }
             continue;
@@ -303,13 +308,13 @@ async fn main() -> Result<()> {
 
         match task.resolve_mode.as_str() {
             "a_aaaa" => {
-                match resolve_a_aaaa_record(
-                    &dns_client,
-                    &task.doh_url,
-                    &task.doh_resolve_domain,
-                    task.prefer_ipv6.unwrap_or(false),
-                )
-                .await
+                match
+                    resolve_a_aaaa_record(
+                        &dns_client,
+                        &task.doh_url,
+                        &task.doh_resolve_domain,
+                        task.prefer_ipv6.unwrap_or(false)
+                    ).await
                 {
                     Ok(ips) => {
                         if ips.is_empty() {
@@ -320,10 +325,15 @@ async fn main() -> Result<()> {
 
                         for ip in ips {
                             let task_clone = task.clone();
-                            futures.push(tokio::spawn(async move {
-                                test_connectivity(task_clone, ip, "A/AAAA DoH (Binary)".to_string())
-                                    .await
-                            }));
+                            futures.push(
+                                tokio::spawn(async move {
+                                    test_connectivity(
+                                        task_clone,
+                                        ip,
+                                        "A/AAAA DoH (Binary)".to_string()
+                                    ).await
+                                })
+                            );
                         }
                     }
                     Err(e) => {

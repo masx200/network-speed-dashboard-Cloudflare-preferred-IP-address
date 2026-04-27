@@ -9,7 +9,7 @@ import (
 )
 
 func TestDOHTTP3(t *testing.T) {
-	dohServer := []string{"https://deno-dns-over-https-server.g18uibxgnb.de5.net/"}
+	dohServer := []string{"https://61919494499.security.cloudflare-dns.com/dns-query"}
 	// dohServer := []string{"9.9.9.9:853", "1.1.1.1:853", "8.8.4.4:853", "dot.sb:853"}
 	domain := "production.hello-word-worker-cloudflare.masx200.workers.dev"
 

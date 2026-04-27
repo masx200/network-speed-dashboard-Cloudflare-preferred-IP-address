@@ -1,6 +1,6 @@
 // HTTP/3 集成测试模块 - 整合 DNS 解析和 HTTP/3 连接测试
-use anyhow::{Context, Result};
-use serde::{Deserialize, Serialize};
+use anyhow::{ Context, Result };
+use serde::{ Deserialize, Serialize };
 use std::collections::HashMap;
 use std::net::IpAddr;
 use std::time::Instant;
@@ -55,8 +55,7 @@ impl Default for H3IntegrationTest {
                 doh_resolve_domain: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_sni_host: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_host_header: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -97,7 +96,7 @@ impl H3IntegrationResult {
         ip: &str,
         version: &str,
         method: &str,
-        dns_source: String,
+        dns_source: String
     ) -> Self {
         Self {
             input_task: task.clone(),
@@ -124,7 +123,7 @@ impl H3IntegrationResult {
         version: &str,
         method: &str,
         dns_source: String,
-        error: String,
+        error: String
     ) -> Self {
         Self {
             input_task: task.clone(),
@@ -151,7 +150,7 @@ pub async fn test_http3_with_fallback(
     client: &reqwest::Client,
     task: &InputTask,
     ip: IpAddr,
-    dns_source: String,
+    dns_source: String
 ) -> Result<H3IntegrationResult> {
     let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
     let test_path = task.test_path.as_deref().unwrap_or("/");
@@ -184,14 +183,16 @@ pub async fn test_http3_with_fallback(
                 }
                 Err(e2) => {
                     println!("    -> HTTP/2 回退失败: {}", e2);
-                    Ok(H3IntegrationResult::failure(
-                        task,
-                        &ip.to_string(),
-                        ip_ver,
-                        "reqwest",
-                        dns_source,
-                        format!("All protocols failed: HTTP/3({}), HTTP/2({})", e, e2),
-                    ))
+                    Ok(
+                        H3IntegrationResult::failure(
+                            task,
+                            &ip.to_string(),
+                            ip_ver,
+                            "reqwest",
+                            dns_source,
+                            format!("All protocols failed: HTTP/3({}), HTTP/2({})", e, e2)
+                        )
+                    )
                 }
             }
         }
@@ -203,7 +204,7 @@ async fn test_http3_negotiation(
     client: &reqwest::Client,
     task: &InputTask,
     ip: &IpAddr,
-    url: &str,
+    url: &str
 ) -> Result<H3IntegrationResult> {
     let ip_str = ip.to_string();
     let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
@@ -218,8 +219,7 @@ async fn test_http3_negotiation(
         .header("User-Agent", "rust-http3-test-tool/1.0")
         .header("Alt-Svc", "h3=\":443\"")
         .header("Connection", "keep-alive")
-        .send()
-        .await
+        .send().await
         .context("HTTP/3 negotiation request failed")?;
 
     let latency = start_time.elapsed().as_millis() as u64;
@@ -251,10 +251,7 @@ async fn test_http3_negotiation(
     let h3_indicators = vec![
         ("alt-svc", response.headers().get("alt-svc").is_some()),
         ("h3", response.headers().get("h3").is_some()),
-        (
-            "x-http3-connection",
-            response.headers().get("x-http3-connection").is_some(),
-        ),
+        ("x-http3-connection", response.headers().get("x-http3-connection").is_some())
     ];
 
     println!("    -> HTTP/3 协商结果: {} - 延迟: {}ms", protocol, latency);
@@ -308,7 +305,7 @@ async fn test_http2_fallback(
     client: &reqwest::Client,
     task: &InputTask,
     ip: &IpAddr,
-    url: &str,
+    url: &str
 ) -> Result<H3IntegrationResult> {
     let ip_str = ip.to_string();
     let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
@@ -323,8 +320,7 @@ async fn test_http2_fallback(
         .header("User-Agent", "rust-http3-test-tool/1.0")
         .header("Connection", "keep-alive")
         .version(reqwest::Version::HTTP_2)
-        .send()
-        .await
+        .send().await
         .context("HTTP/2 fallback request failed")?;
 
     let latency = start_time.elapsed().as_millis() as u64;
@@ -337,14 +333,20 @@ async fn test_http2_fallback(
 
     let response_size = match response.content_length() {
         Some(len) => len as usize,
-        None => match response.bytes().await {
-            Ok(bytes) => bytes.len(),
-            Err(_) => 0,
-        },
+        None =>
+            match response.bytes().await {
+                Ok(bytes) => bytes.len(),
+                Err(_) => 0,
+            }
     };
 
-    let mut result =
-        H3IntegrationResult::success(task, &ip_str, ip_ver, "reqwest-fallback", dns_source);
+    let mut result = H3IntegrationResult::success(
+        task,
+        &ip_str,
+        ip_ver,
+        "reqwest-fallback",
+        dns_source
+    );
     result.status_code = Some(status.as_u16());
     result.protocol_detected = "h2".to_string();
     result.latency_ms = Some(latency);
@@ -366,7 +368,8 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     println!("🚀 HTTP/3 集成测试开始");
     println!("================================");
 
-    let client = reqwest::Client::builder()
+    let client = reqwest::Client
+        ::builder()
         .timeout(std::time::Duration::from_secs(15))
         .user_agent("rust-http3-test-tool/1.0")
         .default_headers({
@@ -385,8 +388,7 @@ pub async fn run_http3_integration_tests() -> Result<()> {
                 doh_resolve_domain: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_sni_host: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_host_header: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -403,8 +405,7 @@ pub async fn run_http3_integration_tests() -> Result<()> {
                 doh_resolve_domain: "google.com".to_string(),
                 test_sni_host: "google.com".to_string(),
                 test_host_header: "google.com".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -415,7 +416,7 @@ pub async fn run_http3_integration_tests() -> Result<()> {
             enable_fallback: true,
             timeout_seconds: 15,
             max_field_section_size: Some(8192),
-        },
+        }
     ];
 
     let mut all_results = Vec::new();
@@ -424,7 +425,8 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     for test_config in test_configs {
         println!(
             "\n>> 正在测试 {} (模式: {})...",
-            test_config.input_task.doh_resolve_domain, test_config.input_task.resolve_mode
+            test_config.input_task.doh_resolve_domain,
+            test_config.input_task.resolve_mode
         );
 
         match resolve_domain_with_rfc8484(&client, &test_config.input_task).await {
@@ -450,25 +452,32 @@ pub async fn run_http3_integration_tests() -> Result<()> {
                         format!("DoH ({})", test_config.input_task.doh_url)
                     };
 
-                    futures.push(tokio::spawn(async move {
-                        match test_http3_with_fallback(&client_clone, &task_clone, ip, dns_source)
-                            .await
-                        {
-                            Ok(result) => result,
-                            Err(e) => {
-                                let ip_str = ip.to_string();
-                                let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
-                                H3IntegrationResult::failure(
+                    futures.push(
+                        tokio::spawn(async move {
+                            match
+                                test_http3_with_fallback(
+                                    &client_clone,
                                     &task_clone,
-                                    &ip_str,
-                                    ip_ver,
-                                    "reqwest",
-                                    dns_source,
-                                    format!("Test failed: {}", e),
-                                )
+                                    ip,
+                                    dns_source
+                                ).await
+                            {
+                                Ok(result) => result,
+                                Err(e) => {
+                                    let ip_str = ip.to_string();
+                                    let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
+                                    H3IntegrationResult::failure(
+                                        &task_clone,
+                                        &ip_str,
+                                        ip_ver,
+                                        "reqwest",
+                                        dns_source,
+                                        format!("Test failed: {}", e)
+                                    )
+                                }
                             }
-                        }
-                    }));
+                        })
+                    );
                 }
             }
             Err(e) => {
@@ -523,7 +532,10 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     // 统计信息
     println!("\n📊 统计信息:");
     println!("总测试数: {}", all_results.len());
-    let successful = all_results.iter().filter(|r| r.success).count();
+    let successful = all_results
+        .iter()
+        .filter(|r| r.success)
+        .count();
     println!("成功: {}", successful);
     println!("失败: {}", all_results.len() - successful);
 
@@ -531,9 +543,7 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     let mut protocol_count: HashMap<String, usize> = HashMap::new();
     for result in &all_results {
         if result.success {
-            *protocol_count
-                .entry(result.protocol_detected.clone())
-                .or_insert(0) += 1;
+            *protocol_count.entry(result.protocol_detected.clone()).or_insert(0) += 1;
         }
     }
 
@@ -543,10 +553,13 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     }
 
     // 延迟统计
-    let latencies: Vec<u64> = all_results.iter().filter_map(|r| r.latency_ms).collect();
+    let latencies: Vec<u64> = all_results
+        .iter()
+        .filter_map(|r| r.latency_ms)
+        .collect();
 
     if !latencies.is_empty() {
-        let avg_latency = latencies.iter().sum::<u64>() as f64 / latencies.len() as f64;
+        let avg_latency = (latencies.iter().sum::<u64>() as f64) / (latencies.len() as f64);
         let min_latency = latencies.iter().min().unwrap();
         let max_latency = latencies.iter().max().unwrap();
 
@@ -572,7 +585,8 @@ pub async fn run_http3_integration_tests() -> Result<()> {
     }
 
     // JSON 输出
-    let json_output = serde_json::to_string_pretty(&all_results)
+    let json_output = serde_json
+        ::to_string_pretty(&all_results)
         .context("Failed to serialize results to JSON")?;
 
     println!("\n📄 JSON 输出:");
@@ -589,8 +603,7 @@ pub fn get_default_integration_test_configs() -> Vec<H3IntegrationTest> {
                 doh_resolve_domain: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_sni_host: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_host_header: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -607,8 +620,7 @@ pub fn get_default_integration_test_configs() -> Vec<H3IntegrationTest> {
                 doh_resolve_domain: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_sni_host: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
                 test_host_header: "local-aria2-webui.masx200.ddns-ip.net".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -625,8 +637,7 @@ pub fn get_default_integration_test_configs() -> Vec<H3IntegrationTest> {
                 doh_resolve_domain: "www.google.com".to_string(),
                 test_sni_host: "www.google.com".to_string(),
                 test_host_header: "www.google.com".to_string(),
-                doh_url: "https://deno-dns-over-https-server.g18uibxgnb.de5.net/"
-                    .to_string(),
+                doh_url: "https://61919494499.security.cloudflare-dns.com/dns-query".to_string(),
                 port: 443,
                 prefer_ipv6: Some(false),
                 resolve_mode: "https".to_string(),
@@ -637,6 +648,6 @@ pub fn get_default_integration_test_configs() -> Vec<H3IntegrationTest> {
             enable_fallback: true,
             timeout_seconds: 15,
             max_field_section_size: Some(8192),
-        },
+        }
     ]
 }

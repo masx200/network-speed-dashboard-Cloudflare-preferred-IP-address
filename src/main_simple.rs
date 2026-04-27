@@ -1,9 +1,9 @@
 // # 简化版本 - 专注于基本DNS解析和HTTP连接测试
-use anyhow::{Context, Result};
+use anyhow::{ Context, Result };
 use reqwest::Client;
-use serde::{Deserialize, Serialize};
+use serde::{ Deserialize, Serialize };
 use std::collections::HashSet;
-use std::net::{IpAddr, SocketAddr};
+use std::net::{ IpAddr, SocketAddr };
 use std::str::FromStr;
 use std::time::Instant;
 
@@ -75,11 +75,7 @@ async fn resolve_domain_simple(client: &Client, task: &InputTask) -> Result<Vec<
     }
 
     // 如果A记录查询失败，尝试一些知名的Cloudflare IP作为备用
-    if ips.is_empty()
-        && task
-            .doh_resolve_domain
-            .contains("local-aria2-webui.masx200.ddns-ip.net")
-    {
+    if ips.is_empty() && task.doh_resolve_domain.contains("local-aria2-webui.masx200.ddns-ip.net") {
         println!("    -> 使用备用的Cloudflare IP...");
         // 添加一些已知的Cloudflare IP
         if let Ok(ip1) = IpAddr::from_str("162.159.140.220") {
@@ -105,27 +101,28 @@ async fn test_connectivity(task: InputTask, ip: IpAddr, dns_source: String) -> T
     let socket_addr = SocketAddr::new(ip, task.port);
     let ip_ver = if ip.is_ipv6() { "IPv6" } else { "IPv4" };
 
-    let client = match Client::builder()
-        .resolve_to_addrs(&task.test_sni_host, &[socket_addr])
-        // .danger_accept_invalid_certs(true)
-        .timeout(std::time::Duration::from_secs(5))
-        .no_proxy()
-        .build()
+    let client = match
+        Client::builder()
+            .resolve_to_addrs(&task.test_sni_host, &[socket_addr])
+            // .danger_accept_invalid_certs(true)
+            .timeout(std::time::Duration::from_secs(5))
+            .no_proxy()
+            .build()
     {
         Ok(c) => c,
         Err(e) => {
-            return TestResult::fail(&task, &ip.to_string(), ip_ver, e.to_string(), dns_source)
+            return TestResult::fail(&task, &ip.to_string(), ip_ver, e.to_string(), dns_source);
         }
     };
 
     let start = Instant::now();
 
-    match client
-        .get(&url)
-        .header("Host", &task.test_host_header)
-        .header("User-Agent", "curl/8.12.1")
-        .send()
-        .await
+    match
+        client
+            .get(&url)
+            .header("Host", &task.test_host_header)
+            .header("User-Agent", "curl/8.12.1")
+            .send().await
     {
         Ok(res) => {
             let latency = start.elapsed().as_millis() as u64;
@@ -188,13 +185,14 @@ async fn main() -> Result<()> {
         .build()
         .expect("Failed to create HTTP client");
 
-    let input_json = r#"
+    let input_json =
+        r#"
     [
         {
             "doh_resolve_domain": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test_sni_host": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
             "test_host_header": "hello-world-deno-deploy.a1u06h9fe9y5bozbmgz3.qzz.io",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "resolve_mode": "https"
@@ -203,7 +201,7 @@ async fn main() -> Result<()> {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "resolve_mode": "https"
@@ -212,7 +210,7 @@ async fn main() -> Result<()> {
             "doh_resolve_domain": "local-aria2-webui.masx200.ddns-ip.net",
             "test_sni_host": "local-aria2-webui.masx200.ddns-ip.net",
             "test_host_header": "local-aria2-webui.masx200.ddns-ip.net",
-            "doh_url": "https://deno-dns-over-https-server.g18uibxgnb.de5.net/",
+            "doh_url": "https://61919494499.security.cloudflare-dns.com/dns-query",
             "port": 443,
             "prefer_ipv6": true,
             "direct_ips": ["162.159.140.220", "172.67.214.232"],
@@ -221,15 +219,18 @@ async fn main() -> Result<()> {
     ]
     "#;
 
-    let tasks: Vec<InputTask> =
-        serde_json::from_str(input_json).context("Invalid JSON format in input")?;
+    let tasks: Vec<InputTask> = serde_json
+        ::from_str(input_json)
+        .context("Invalid JSON format in input")?;
 
     let mut futures = Vec::new();
 
     for task in tasks {
         println!(
             ">>> 正在通过 {} 解析 {} 的记录 (模式: {})...",
-            task.doh_url, task.doh_resolve_domain, task.resolve_mode
+            task.doh_url,
+            task.doh_resolve_domain,
+            task.resolve_mode
         );
 
         match resolve_domain_simple(&client, &task).await {
@@ -254,9 +255,11 @@ async fn main() -> Result<()> {
                         format!("DoH ({})", task.doh_url)
                     };
 
-                    futures.push(tokio::spawn(async move {
-                        test_connectivity(task_clone, ip, dns_source).await
-                    }));
+                    futures.push(
+                        tokio::spawn(async move {
+                            test_connectivity(task_clone, ip, dns_source).await
+                        })
+                    );
                 }
             }
             Err(e) => {

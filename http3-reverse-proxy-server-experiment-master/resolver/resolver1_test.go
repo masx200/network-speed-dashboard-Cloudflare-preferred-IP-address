@@ -17,14 +17,14 @@ func DoHTTP3Client(m *dns.Msg, s string) (r *dns.Msg, err error) {
 	return h3_experiment.DoHTTP3Client(m, s)
 }
 func GetQueryCallbacks2() generic.MapInterface[string, func(m *dns.Msg) (r *dns.Msg, err error)] {
-	return generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DoHTTP3Client(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-	}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DoHTTP3Client(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+	return generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DoHTTP3Client(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+	}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DoHTTP3Client(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 	}})
 }
 
@@ -34,8 +34,8 @@ func DohClient(m *dns.Msg, s string) (r *dns.Msg, err error) {
 
 func TestResolver77(t *testing.T) {
 	x := "hello-word-worker-cloudflare.masx200.workers.dev"
-	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 	}}), func(dro *dns_experiment.DnsResolverOptions) {
 		dro.DnsCache = DnsCache
 	})
@@ -52,8 +52,8 @@ func TestResolver77(t *testing.T) {
 }
 func TestResolver2(t *testing.T) {
 	x := "nextjs-doh-reverse-proxy.onrender.com"
-	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 	}}), func(dro *dns_experiment.DnsResolverOptions) {
 		dro.DnsCache = DnsCache
 	})
@@ -70,8 +70,8 @@ func TestResolver2(t *testing.T) {
 }
 func TestResolver3(t *testing.T) {
 	x := "www.bilibili.com"
-	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-		return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+	results, err := dns_experiment.DnsResolverMultipleServers(x, generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+		return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 	}}), func(dro *dns_experiment.DnsResolverOptions) {
 		dro.DnsCache = DnsCache
 	})
@@ -89,10 +89,10 @@ func TestResolver3(t *testing.T) {
 func TestResolver4(t *testing.T) {
 	x := "www.bilibili.com"
 	results, err := dns_experiment.DnsResolverMultipleServers(x,
-		generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-			return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-		}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-			return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+		generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+			return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+		}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+			return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 		}}), func(dro *dns_experiment.DnsResolverOptions) {
 			dro.DnsCache = DnsCache
 		})
@@ -109,10 +109,10 @@ func TestResolver4(t *testing.T) {
 func TestResolverMultipleServers77(t *testing.T) {
 	x := "hello-word-worker-cloudflare.masx200.workers.dev"
 	results, err := dns_experiment.DnsResolverMultipleServers(x,
-		generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-			return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
-		}, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/": func(m *dns.Msg) (r *dns.Msg, err error) {
-			return DohClient(m, "https://deno-dns-over-https-server.g18uibxgnb.de5.net/")
+		generic.MapImplementFromMap(map[string]func(m *dns.Msg) (r *dns.Msg, err error){"https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+			return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
+		}, "https://61919494499.security.cloudflare-dns.com/dns-query": func(m *dns.Msg) (r *dns.Msg, err error) {
+			return DohClient(m, "https://61919494499.security.cloudflare-dns.com/dns-query")
 		}}), func(dro *dns_experiment.DnsResolverOptions) {
 			dro.DnsCache = DnsCache
 		})
