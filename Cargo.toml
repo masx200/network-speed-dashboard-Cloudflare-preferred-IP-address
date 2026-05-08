@@ -36,7 +36,7 @@ http = "1.1"
 rand = "0.9"
 
 # 其他 Hickory-DNS 相关依赖
-hickory-proto = {version = "0.25.2",features = ["dnssec-ring"] }
+hickory-proto = {version = "0.26.1",features = ["dnssec-ring"] }
 rustls = { version = "0.23.35", features = ["std", "ring"], default-features = false }
 webpki-roots = "1"
 ring = "0.17.14"
