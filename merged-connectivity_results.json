@@ -3862,6 +3862,17 @@
   },
   {
     "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.137",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 61,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "freeyx.cloudflare88.eu.org",
     "target_ip": "2606:4700:3009:aa59:4b67:cdf7:3783:cfe9",
     "ip_version": "IPv6",
     "success": true,
