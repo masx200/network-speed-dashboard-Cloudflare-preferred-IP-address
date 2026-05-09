@@ -40,5 +40,10 @@
     "vite-plugin-pwa": "^1.2.0",
     "vite-plugin-vuetify": "^2.1.2",
     "vue-tsc": "^3.2.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "fast-uri": ">=3.1.2"
+    }
   }
 }
