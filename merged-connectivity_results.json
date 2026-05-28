@@ -9306,6 +9306,17 @@
     "error_msg": null
   },
   {
+    "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.2",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 104,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "162.159.58.5",
     "target_ip": "162.159.58.5",
     "ip_version": "IPv4",
@@ -12773,6 +12784,17 @@
   {
     "host": "172.64.229.249",
     "target_ip": "172.64.229.249",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h3",
+    "latency_ms": 185,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
+    "host": "www.7749tv.com",
+    "target_ip": "104.21.124.150",
     "ip_version": "IPv4",
     "success": true,
     "status_code": 200,
