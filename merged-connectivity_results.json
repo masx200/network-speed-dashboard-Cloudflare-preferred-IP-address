@@ -1661,6 +1661,17 @@
     "error_msg": null
   },
   {
+    "host": "freeyx.cloudflare88.eu.org",
+    "target_ip": "172.64.147.252",
+    "ip_version": "IPv4",
+    "success": true,
+    "status_code": 200,
+    "protocol": "h2",
+    "latency_ms": 48,
+    "server_header": "cloudflare",
+    "error_msg": null
+  },
+  {
     "host": "bestcf.030101.xyz",
     "target_ip": "104.19.33.117",
     "ip_version": "IPv4",
